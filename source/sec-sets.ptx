@@ -88,6 +88,7 @@ we say that <m>J</m> is a subset of <m>Y</m>, denoted <m>J \subseteq Y</m> or <m
   <statement>
   <p>
     Is <m>Y \cap K</m> a subset of <m>Y</m>?
+  </p>
   </statement>
 </question>
 
@@ -105,6 +106,7 @@ known as the "union of K and M", <m>K \cup M </m>. </p>
   <statement>
   <p>
     What is <m>K \cup M</m>?
+  </p>
   </statement>
 </question>
 
@@ -113,6 +115,7 @@ known as the "union of K and M", <m>K \cup M </m>. </p>
   <statement>
   <p>
     What is <m>Y \cup J</m>?
+  </p>
   </statement>
 </question>
 
@@ -121,6 +124,7 @@ known as the "union of K and M", <m>K \cup M </m>. </p>
   <statement>
   <p>
     What about <m>(Y \cap K) \cup M</m>?
+  </p>
   </statement>
 </question>
 
@@ -147,11 +151,31 @@ known as the "union of K and M", <m>K \cup M </m>. </p>
 </subsection>
 
   <subsection xml:id="subsec-setact1">
-    <title>Activity 1</title>
+    <title>Human Venn Diagrams</title>
+
+    <p>
+      You will now be human Venn diagrams (This works best in an open area).
+    </p>
     
   </subsection>
 
+
+
+</subsection>
+
+<subsection xml:id="subsec-setact2">
+  <title>Team Challenge</title>
+
+  <p>
+    Teams give an elt in called out sets like A UNION B INTERSECT C, etc.
+  </p>
+  
+</subsection>
  
+<remark>
+  Remember that our goal is to introduce you to topics you'll cover in more detail later. There are other set operations that we won't cover here. 
+  You'll see these in classes like Discrete Mathematics, Modern Algebra, and many others.
+</remark>
 
  
 
