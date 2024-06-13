@@ -22,49 +22,466 @@
     rich and immensely interesting.
  </p>
 
- <p>
-    We will breifly share one of these tales.
- </p>
-
- <subsection xml:id="subsec-thales">
-    <title>Thales and the Pyramid</title>
-
-    <p>
-      Greek Mathematician, Thales of Miletus, was challenged to determine the
-      height of the great pyramids of Egypt circa 600 BC. The mathematician did so using
-      laws of similar triangles, a shadow, and a staff.
-    </p>
-
-    <p>
-      PIC OF PYRAMIDS
-    </p>
-
-    <p>
-      With his staff standing upright from the ground, Thales spotted similar triangles. The first triangle came
-      from his staff, its shadow, and the hypotenuse between their two endpoints (just a ray of sunshine), and the second triangle required
-      an extra level of insight: the pyramid's height, the pyramid's shadow plus hlaf the length of its base, and the sun ray that connects their endpoints.
-    </p>
-
-    <question xml:id="ques-thales1">
-      <title>Finding  </title>
-    </question>
-    
- </subsection>
-
  <subsection xml:id="subsec-advancements">
    <title>What we take for granted</title>
 
    <p>
       We learn about rationals, primes, and equations by the time we get to 
-      middle school, but so many of these ideas were unknown for generatoins. We take
-      so much of our foundational mathematics for granted. Behind a lot of these concepts
+      middle school, but so many of these ideas were unknown for generations. We take
+      so much of our foundational mathematics for granted, but behind a lot of these concepts
       are moments of ingenious insight.
    </p>
 
    <p>
       For example, 
+      <ul>
+        <li>
+          <p>
+            Our numerals are referred as "Hindu-Arabic numerals" invented by Indian mathematicians between the first
+            and fourth centuries. <!-- Source: https://en.wikipedia.org/wiki/Hindu%E2%80%93Arabic_numeral_system-->
+          </p>
+        </li>
+        <li>
+          <p>
+            The discovery of irrational numbers threw the Pythagoreans into an existential crisis in the 4th century.
+          </p>
+        </li>
+        <li>
+          <p>
+            In the 17th century, mathematicians and philosophers Rene Descarte and Piere de Fermat independently connected
+            geometry and algebra with a coordinate system we use in basic algebra today. This system is called
+            "Cartesian coordiantes" after Descartes.
+          </p>
+        </li>
+      </ul>
    </p>
    
+ </subsection>
+
+ <subsection xml:id="subsec-egyptian">
+  <title>Thinking Differently</title>
+
+  <p>
+    Studying math history also helps us see how culture impacts the way we think about things... even objective ideas such as mathematics.  
+    We can see that ancient cultures sometimes approached their problems from a perspective we might find unusual.
+  </p>
+
+  <subsubsection xml:id="subsubsec-egyptian">
+    <title>Egyptian Multiplication</title>
+
+    <p>
+      <figure> <!-- source: https://math.fandom.com/wiki/Egyptian_mathematics -->
+        <image xml:id="fig-rhindpapyrus" source="rhindpapyrus.jpg" width="80%" />
+        <caption>One of two surviving Egyptian mathematical papyri: The Rhind Papyrus</caption>
+      </figure>
+      
+    </p>
+      <p>
+        Ancient Egyptians were excellent at calculations, with applications in areas of economics, land area, and volumes of solids. They
+        developed algorithms to help perform complicated calculations with high accuracy. We will look at their alogrithm for multiplying
+        two integers.
+      </p>
+      
+  
+    <p>
+      For example, How would the Egyptians multiply 23 and 12? Their work all depends up powers of two.
+    </p>  
+
+    <question xml:id="ques-powersoftwo">
+      <title>Writing out Powers of 2</title>
+      <statement>
+        <p>
+          Fill out the following tables with powers of two.
+        </p>
+        <p>
+          
+        </p>
+
+        <p>   <table>
+          <title>Powers of 2</title>
+          <tabular halign="center">
+            <row header="yes" bottom="minor" >
+              <cell><m>2^x</m> </cell>
+              <cell>value </cell>
+              
+            </row>
+            <row>
+              <cell><m>2^0</m></cell>
+              <cell> </cell>
+             
+            </row>
+            <row>
+              <cell><m>2^1</m></cell>
+              <cell> </cell>
+              
+            </row>
+            <row>
+              <cell><m>2^2</m></cell>
+              <cell> </cell>
+              
+            </row>
+            <row>
+              <cell><m>2^3</m></cell>
+              <cell> </cell>
+             
+            </row>
+            <row>
+              <cell><m>2^4</m></cell>
+              <cell></cell>
+             
+            </row>
+          </tabular>
+        
+        </table>
+          </p>
+
+
+      </statement>
+
+      <solution>
+        <p><table>
+          <tabular halign="center">
+            <row header="yes" bottom="minor" >
+              <cell><m>2^x</m> </cell>
+              <cell>value </cell>
+              
+            </row>
+            <row>
+              <cell><m>2^0</m></cell>
+              <cell> 1</cell>
+             
+            </row>
+            <row>
+              <cell><m>2^1</m></cell>
+              <cell> 2</cell>
+              
+            </row>
+            <row>
+              <cell><m>2^2</m></cell>
+              <cell> 4</cell>
+              
+            </row>
+            <row>
+              <cell><m>2^3</m></cell>
+              <cell> 8</cell>
+             
+            </row>
+            <row>
+              <cell><m>2^4</m></cell>
+              <cell> 16 </cell>
+             
+            </row>
+          </tabular>
+        
+        </table>
+          </p>
+          
+        
+      </solution>
+      
+      
+    </question>
+
+    <p>
+      This method is sometimes referred to as the "double method", because the algorithm involves
+      doubling one of the factors repeatedly. Let's do this with the first factor, 23.
+
+    </p>
+
+    <question xml:id="ques-twos1">
+      <title>Double 23</title>
+      <statement>
+        <p>
+          Fill out the third column of the table by repeatedly doubling 23.
+        </p>
+        <p><table xml:id="table23">
+          <tabular halign="center">
+            <row header="yes" bottom="minor" >
+              <cell> </cell>
+              <cell> <m>2^x</m>  </cell>
+              <cell> <m>23(2^x)</m></cell>
+              
+            </row>
+            <row>
+              <cell><m>2^0</m></cell>
+              <cell> 1</cell>
+              <cell> 23 </cell>
+             
+            </row>
+            <row>
+              <cell><m>2^1</m></cell>
+              <cell> 2</cell>
+              <cell> </cell>
+              
+            </row>
+            <row>
+              <cell><m>2^2</m></cell>
+              <cell> 4</cell>
+              <cell> </cell>
+              
+            </row>
+            <row>
+              <cell><m>2^3</m></cell>
+              <cell> 8</cell>
+              <cell> </cell>
+             
+            </row>
+            <row>
+              <cell><m>2^4</m></cell>
+              <cell> 16 </cell>
+              <cell> </cell>
+             
+            </row>
+          </tabular>
+        
+        </table>
+          </p>
+      </statement>
+      <solution>
+        <p><table>
+          <tabular halign="center">
+            <row header="yes" bottom="minor" >
+              <cell> </cell>
+              <cell> <m>2^x</m>  </cell>
+              <cell> <m>23(2^x)</m></cell>
+              
+            </row>
+            <row>
+              <cell><m>2^0</m></cell>
+              <cell> 1</cell>
+              <cell> 23 </cell>
+             
+            </row>
+            <row>
+              <cell><m>2^1</m></cell>
+              <cell> 2</cell>
+              <cell> 46 </cell>
+              
+            </row>
+            <row>
+              <cell><m>2^2</m></cell>
+              <cell> 4</cell>
+              <cell> 92 </cell>
+              
+            </row>
+            <row>
+              <cell><m>2^3</m></cell>
+              <cell> 8</cell>
+              <cell> 184 </cell>
+             
+            </row>
+            <row>
+              <cell><m>2^4</m></cell>
+              <cell> 16 </cell>
+              <cell> 368</cell>
+             
+            </row>
+          </tabular>
+        
+        </table>
+          
+        </p>
+      </solution>
+      
+
+      
+    </question>
+
+    <p> Now we need to write our other factor as a sum of powers of two. For example,
+      <m> 7 = 1 + 2 + 4 = 2^0 + 2^1 + 2^2</m>.
+    </p>
+
+    <question xml:id="ques-twos2">
+      <title>Powers of 2 to get 12</title>
+      <statement>
+        <p>
+          Write 12 as a sum of powers of 2.
+        </p>
+      </statement>
+      <solution>
+        <p>
+          <m>12 = 4 + 8 = 2^2 + 2^3 </m>
+        </p>
+      </solution>      
+      
+    </question>
+
+    <p>
+      We determined earlier that <m>12 = 2^2 + 2^3</m>, and we just need to add
+      the corresponding rows from <xref ref="table23arrows"/>.
+    </p>
+
+    <p><table xml:id="table23arrows">
+      <tabular halign="center">
+        <row header="yes" bottom="minor" >
+          <cell> </cell>
+          <cell> <m>2^x</m>  </cell>
+          <cell> <m>23(2^x)</m></cell>
+          <cell> </cell>
+          
+        </row>
+        <row>
+          <cell><m>2^0</m></cell>
+          <cell> 1</cell>
+          <cell> 23 </cell>
+          <cell> </cell>
+         
+        </row>
+        <row>
+          <cell><m>2^1</m></cell>
+          <cell> 2</cell>
+          <cell> 46 </cell>
+          <cell> </cell>
+          
+        </row>
+        <row>
+          <cell><m>2^2</m></cell>
+          <cell> 4</cell>
+          <cell> 92 </cell>
+          <cell> <m>\longleftarrow </m></cell>
+          
+        </row>
+        <row>
+          <cell><m>2^3</m></cell>
+          <cell> 8</cell>
+          <cell> 184 </cell>
+          <cell> <m>\longleftarrow</m> </cell>
+         
+        </row>
+        <row>
+          <cell><m>2^4</m></cell>
+          <cell> 16 </cell>
+          <cell> 368</cell>
+          <cell> </cell>
+         
+        </row>
+      </tabular>
+    
+    </table>
+      
+    </p>
+
+    <p>
+      
+    </p>
+
+    <question xml:id="ques-twos3">
+      <title>Our Final Calculation</title>
+      <statement>
+        <p>
+          Add up the appropriate multiples of <m>23</m> to calculate <m>12 \times 23</m>.
+        </p>
+      </statement>
+      <solution>
+        <p>
+          From<xref ref="table23arrows"/>, we see the entries in rows corredsponding to <m>2^2</m> 
+          and <m>2^3</m> are <m>92</m> and <m>184</m>. So we conclude that <m>12 \times 23  = 92 + 184 = 276</m>.
+        </p>
+      </solution>
+      
+      
+      
+    </question>
+
+    <p>
+      
+    </p>
+
+    <question xml:id="ques-egyptmult2">
+      <title>Another Multiplication Question</title>
+      <statement>
+        <p>
+          Multiply <m> 15 \times 11 </m> as would the Egyptians.
+        </p>
+      </statement>     
+    </question>
+  
+      
+  </subsubsection>
+
+  <subsubsection xml:id="subsubsec-babylon">
+    <title>Mathematics of Babylon</title>
+    <p>
+      Unfortunately, due to the again of papyrus, we have few resources to pull from regarding Egyptian mathematics. However,
+      the Babylonians baked their writings in cuneiform on clay tablets. This more durable writing system has provided us with a lot of 
+      information regarding Babylonian mathematics dating back to 1700 BC.
+    </p>
+
+    <p>
+      <figure> <!-- source: https://isaw.nyu.edu/exhibitions/before-pythagoras/items/plimpton-322/ -->
+        <image xml:id="fig-plimpton322" source="P322obv.png" width="80%" />
+        <caption>The Babylonian cuneiform tablet: Plimpton 322</caption>
+      </figure>
+      
+    </p>
+
+    <p>
+      Babylon made a lot of advancement in mathematics with knowledge of cubic equations and Pythagoras' namesake, the Pythagorean 
+      Theorem (about 1000 years before Pythagoras), but we will just focus on the Babylonian number system. 
+    </p>
+
+    <p>
+      Babylonians tracked numbers in base-60 (sexigesimal). Though that may sound odd, we still
+      use sexigesimal systems when thinking about time (60 seconds to a minute) and angle measure (<m>360^{\circ}</m> in a circle).
+    </p>
+    
+    <p>
+      So what does sexigesimal notation look like? Think about typing <m>100</m> on a microwave. After a second, what
+      does that microwave read? Not <m>99</m>, right? The microwave knows that <m>1</m> minute means <m>60</m> seconds, and
+      so after a second, we see <m>59</m>.  
+    </p>
+
+    <p>
+      Similarly, the Babylonian would write <m>1,00 </m> for what we mean by <m>60</m>. We would read a number like <m>11,32,54</m> base-60 as
+      <m>11 \cdot 60^2 + 32 \cdot 60^1 + 54 \cdot 60^0 = 41,574</m> base-10.
+    </p>
+
+    <question xml:id="ques-baby1">
+      <title>Sexigesimal Practice</title>
+      <statement>
+        <p>
+          Convert <m>23,10,11</m> into base-10.
+        </p>
+      </statement>
+      <solution>
+        <p>
+          <m>23,10,11 = 23\cdot 60^2 + 10 \cdot 60^1 + 11 \cdot 60^0 = 83,411.</m>
+        </p>
+      </solution>
+    </question>
+
+    <p>
+      Sexigesimal notation is particularly useful when dealing with fractions. For example, <m>1;30</m>
+      is <m>1\cdot 60^0 + 30 \cdot 60^{-1} = 1 + \frac{1}{2}</m>, and by <m>0;30;24</m>, the Babylonians
+      mean <m>\frac{30}{60^1} + \frac{24}{60^2}</m>.
+    </p>
+
+    <p>
+      To calculate <m> \frac{a}{b} </m>, Babylonians would first find <m>\frac{1}{b}</m> and then 
+      multiply it by <m>a </m>. For example, <m>\frac{7}{2} </m> is found first by finding <m>\frac{1}{2} = 0;30 </m> and then
+      multiply the result by <m>7 </m> to get
+    </p>
+
+    <p>
+      <me>
+        \dfrac{7}{2} = 7 \cdot \dfrac{1}{2} = 7 \cdot (0;30) = 0;210 = 3;30.
+      </me>
+    </p>
+
+    <p>
+      We finish our calculation by recognizing <m>210 = 60\cdot 3 + 30 </m>.
+    </p>
+
+    <question xml:id="ques-baby2">
+      <title>Practicing with Sexigesimal Fractions</title>
+      <statement>
+        Represent <m>\dfrac{11}{4}</m> as a sexigesimal fraction.
+      </statement>
+      
+    </question>
+  </subsubsection>
+  
+  
  </subsection>
 
  <subsection xml:id="subsec-timeline">

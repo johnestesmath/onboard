@@ -20,6 +20,12 @@
     <!-- Include chapters -->
     <xi:include href="./ch-worldsofalgebra.ptx" />
 
+    <!-- Include chapters -->
+    <xi:include href="./ch-discovery.ptx" />
+
+    <!-- Include chapters -->
+    <xi:include href="./ch-chance.ptx" />
+
 
     <!-- Include backmatter -->
     <xi:include href="./backmatter.ptx" />

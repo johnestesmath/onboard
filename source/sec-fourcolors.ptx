@@ -1,8 +1,209 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <section xml:id="sec-fourcolors" xmlns:xi="http://www.w3.org/2001/XInclude">
-  <title>Coloring Maps </title>
+  <title>Coloring Graphs </title>
 
-  <p> Text of section. </p>
+  <p> Consider the map  of the United States in figure \ref{map}. You are challenged to color the map with the rule that bordering states cannot have the same color. Overall this is pretty easy, BUT we also want to use the fewest colors possible. How many colors do you need to do this? </p>
+
+  <question xml:id="ques-fourcolor1">
+    <title>Color the map</title>
+    
+    
+    <statement>
+      <p>
+        Color the map in the fewest colors possible, where neighboring states do not share a color.
+      </p>
+    </statement>
+  </question>
+
+  <p>
+    <figure> <!-- source: https://math.fandom.com/wiki/Egyptian_mathematics -->
+      <image xml:id="fig-usmap" source="US_map.PNG" width="80%" />
+      
+    </figure>
+  </p>
+
+  
+  <p>
+    
+  </p>
+
+  <question xml:id="ques-fourcolor2">
+    <title>How many colors?</title>
+    <statement>
+      <p>
+        So how many colors did it take to color your map?
+      </p>
+    </statement>
+    <solution>
+      <p>
+        The minimum number of colors is <m> 4</m>.
+      </p>
+    </solution> 
+    
+    
+  </question>
+
+  <p>
+    In this context, if we treat each state as a vertex and shared borders
+    as edges, then this map is just a graph. The challenge we gave to color the map
+    then is really a challenge to color a graph with this rule: if two vertices share an
+    edge, those vertices must be different colors.
+  </p>
+  <p>
+    Finding the minimum colors to color a graph is a common graph theory question.
+  </p>
+
+  <subsection xml:id="subsec-colortrees">
+    <title>Coloring Trees</title>
+    
+    <p>
+      A graph is called a tree if it is connected and has no cycles. More precisely, there is a path
+      between any two vertices... but only one path.
+        </p>
+
+    <p>
+      TIKZ PIC OF A TREE
+    </p>
+
+    <p>
+      
+    </p>
+
+    <question xml:id="ques-trees1">
+      <statement>
+        <p>
+          How many colors does the tree in TIKZ PIC require?
+        </p>
+      </statement>
+
+      <solution>
+        <p>
+          Only two!
+        </p>
+      </solution>
+      
+    </question>
+
+    <p>
+      
+    </p>
+
+    <question>
+      <statement>
+        <p>
+          Draw your own tree on at least <m>10 </m> vertices. How many colors does your require?
+        </p>
+      </statement>
+    </question>
+  </subsection>
+
+  <p>
+    LET"S MAKE AN ARGUMENT ABOUT COLORING TREES WITH 2 COLORS.
+  </p>
+
+  <subsection xml:id="subsec-fourcolor2">
+    <title>Graphs with two colors</title>
+    <p>
+      We found a graph that requires four colors. Do all graphs require four? Absolutely not. 
+    </p>
+    <p>
+      
+    </p>
+
+    <question xml:id="ques-fourcolor3">
+      <title>Graphs with two colors</title>
+      <p>
+        Draw a graph where the vertices can be colored in 2 colors.
+      </p>
+      
+    </question>
+
+    <p>
+      
+    </p>
+
+    <question xml:id="ques-fourcolor4">
+      <title>Graphs with two colors</title>
+      <p>
+        Draw a graph where the vertices can be colored in 2 colors.
+      </p>
+      
+    </question>
+
+  </subsection>
+
+  <subsection xml:id="subsec-fourcolors">
+    <title>Appel and Haken shook things up</title>
+
+    <p>
+      We'll now turn our attention to something similar to coloring the map of the US.
+      Is it possible to draw a country with states that would require more than four colors? The answer is
+      actually no!
+    </p>
+    
+    <p>
+      In 1976, Appel and Haken proved their famous Four Color Theorem, but this result
+      brought a good bit of controversy. Numberphile's fantastic video belows covers the controversy surrounding
+       the Four Color Theorem.
+    </p>
+
+    <p>
+      Use the following video to answer the following questions.
+    </p>
+
+    <p>
+      IMBED VIDEO https://www.youtube.com/watch?v=NgbK43jB4rQ
+    </p>
+
+    <p>
+      
+    </p>
+
+    <question>
+      <statement>
+        <p>
+          When phrasing the question in terms of graph theory. How do we represent countries? 
+        </p>
+      </statement>
+    </question>
+
+    <p>
+      
+    </p>
+
+    <question>
+      <statement>
+        <p>
+          What is the benefit of phrasing the Four Color Theorem as a graph theory problem?
+        </p>
+      </statement>
+    </question>
+
+
+    <p>
+      
+    </p>
+
+    <question>
+      <statement>
+        <p>
+          Give a brief explanation of the argument that map needs no more than seven colors.
+        </p>
+      </statement>
+    </question>
+
+    <p>
+      
+    </p>
+
+    <question>
+      <statement>
+        <p>
+          Why was Appel and Haken’s proof controversial?
+        </p>
+      </statement>
+    </question>
+  </subsection>
 
 </section>
