@@ -9,8 +9,11 @@
         <em>Onboarding to Mathematics</em> will look at a variety of topics.
       </p>
 
-      <subsubsection xml:id="subsec-prelimwho">
-        <title>Who is this book for?</title>
+      <p>
+       <term> Who is this book for? </term>
+      </p>
+
+      
         
         <p>
             Most in-coming mathematics majors probably choose their major because of the success they had in high school
@@ -25,20 +28,22 @@
     
         </p>
     
-      </subsubsection>
+      <p>
+       <term> What this book is not </term>
+      </p>
 
-      <subsubsection xml:id="subsec-whatitsnot">
-        <title>What This Book is Not</title>
+      
         <p>
             We should mention that this book is not exhaustive in any sense. We will not turn over every stone on any given subject and 
             will look at these subjects at a somewhat surface level. We also admit that certain things will be left out, but we are confident
             those topics will be addressed at a sophisticated level in separate courses.
         </p>
 
-      </subsubsection>
+      <p>
+       <term> So what is the point of this book?</term>
+      </p>
 
-      <subsubsection xml:id="subsec-whatsthepoint">
-        <title>So what is the point of this book?</title>
+      
 
         <p> 
        
@@ -68,9 +73,7 @@
           <p>
             Let's get started!
           </p>
-        
-      </subsubsection>
-      
+              
       
 
       
