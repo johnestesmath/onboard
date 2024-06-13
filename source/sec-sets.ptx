@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <section xml:id="sec-sets" xmlns:xi="http://www.w3.org/2001/XInclude">
-  <title>Sets</title>
+  <title>Sets and Shopping Carts</title>
 
   <p> Sunday afternoon at the local supermarket is a bustling place. Shoppers cut each other off for the last jar of salsa with a smile and a 'pardon me'. 
-    Amid the somewhat friendly and mostly competitive crowd, long-time friends YURI and KALO bump into each other in front of the caulifluer. 
-    It's always a bit awkward looking into someone else's shopping cart (feels like a violation of privacy, right?), but YURI couldn't help but notice
+    Amid the somewhat friendly and mostly competitive crowd, long-time friends Yuri and Kalo bump into each other in front of the caulifluer. 
+    It's always a bit awkward looking into someone else's shopping cart (feels like a violation of privacy, right?), but Yuri couldn't help but notice
     that there was some overlap. </p>
 
     <p>
@@ -13,37 +13,138 @@
     </p>
 
   <p>
-    "Hey, I like rice cakes, too. Look!" exclaimed YURI holding up a bag of rice cakes from his cart.
+    "Hey, I like rice cakes, too. Look!" exclaimed Yuri holding up a bag of rice cakes from his cart.
   </p>
 
   <p>
-    "Oh, I hate them! Those are for my mom," replied KALO. YURI frowned.
+    "Oh, I hate them! Those are for my mom," replied Kalo. Yuri frowned.
   </p>
 
   <p>
     Anyway... the two carts looked like this:
   </p>
 
-  <p>
-    TABLE: YURI's cart {rice cakes, caulifluer, halibut, coffee creamer, spicy ramen, cilantro, yellow onion, corn chips, salami, and eggs}
-		KALO's cart {rice cakes, caulifluer, tuna, crab legs, spicy ramen, parsley, red onion, cookies, bagels, salami, and cream cheese} </p>
-		
+    <table>
+      <tabular>
+        <row bottom = "medium">
+          <cell right = "medium">
+            Yuri's cart
+          </cell>
+          <cell>
+            Kalo's cart
+          </cell>
+        </row>
+        <row>
+          <cell right = "medium">
+            rice cakes
+          </cell>
+          <cell>
+            rice cakes
+          </cell>
+        </row>
+        <row>
+          <cell right = "medium">
+            caulifleur
+          </cell>
+          <cell>
+            caulifleur
+          </cell>
+        </row>
+        <row>
+          <cell right = "medium">
+            halibut
+          </cell>
+          <cell>
+            tuna
+          </cell>
+        </row>
+        <row>
+          <cell right = "medium">
+            coffee creamer
+          </cell>
+          <cell>
+            crab legs
+          </cell>
+        </row>
+        <row>
+          <cell right = "medium">
+            spicy ramen
+          </cell>
+          <cell>
+            spicy ramen
+          </cell>
+        </row>
+        <row>
+          <cell right = "medium">
+            cilantro
+          </cell>
+          <cell>
+            parsley
+          </cell>
+        </row>
+        <row>
+          <cell right = "medium">
+            yellow onion
+          </cell>
+          <cell>
+            red onion
+          </cell>
+        </row>
+        <row>
+          <cell right = "medium">
+            corn chips
+          </cell>
+          <cell>
+            cookies
+          </cell>
+        </row>
+        <row>
+          <cell right = "medium">
+            salami
+          </cell>
+          <cell>
+            bagels
+          </cell>
+        </row>
+        <row>
+          <cell right = "medium">
+            eggs
+          </cell>
+          <cell>
+            salami
+          </cell>
+        </row>
+        <row>
+          <cell right = "medium">
+            
+          </cell>
+          <cell>
+            cream cheese
+          </cell>
+        </row>
+     
+     
+      </tabular>
+    </table>
 <subsection xml:id="subsec-sets">
   <title>Collections of Things</title>
   
     
   <p> There's some mathematics going on here. Anytime we have find a collection of items (like a shopping cart) we have a mathematical object called a set. </p>
-  <p> A set is simply a collection
-of objects referred to as "elements".</p> 
-<p> Let's call the set of YURI's cart <m>Y</m>, written as 
-<m> Y  = </m> { rice cakes, caulifluer, halibut, coffee creamer, spicy ramen, cilantro, yellow onion, corn chips, salami, eggs } . Similarly <m> K = </m> {rice cakes, caulifluer, tuna, crab legs, spicy ramen, parsley, red onion, cookies, bagels, salami, and cream cheese} is the set representing KALO's cart. So halibut
+  <definition> A <term>set</term> is simply a collection
+of objects referred to as <term>elements</term>.</definition> 
+
+<p> Let's call the set of Yuri's cart <m>Y</m>, written as 
+<m> Y  = </m> { rice cakes, caulifluer, halibut, coffee creamer, spicy ramen, cilantro, yellow onion, corn chips, salami, eggs } . Similarly <m> K = </m> {rice cakes, caulifluer, tuna, crab legs, spicy ramen, parsley, red onion, cookies, bagels, salami, and cream cheese} is the set representing Kalo's cart. So halibut
 is an element of <m>Y</m> (written as halibet <m>\in Y</m>), and tuna <m> \in K</m>.
 
   </p>
 
   <p>
-    The overlap between their two carts represents the "intersection of Y and K", <m> Y \cap K</m>. In general for sets <m>A</m> and <m>B</m>, <m>A \cap B</m> is the set of elements in both sets.
-  </p>
+    The overlap between their two carts represents the "intersection of Y and K", <m> Y \cap K</m>.</p>
+    
+  <definition>  In general for sets <m>A</m> and <m>B</m>, the <term> intersection of <m>A</m> and <m>B</m> </term>, <m>A \cap B</m>, is the set of elements in both sets.
+  </definition>
 
   <p>
     PUT A FIGURE HERE
@@ -60,11 +161,11 @@ is an element of <m>Y</m> (written as halibet <m>\in Y</m>), and tuna <m> \in K<
 </question>
 
 <p>
-  Another friend interrupts YURI and KALO's meeting. JACOBI greets them both as they unapologetically rifle through his cart.
+  Another friend interrupts Yuri and Kalo's meeting. JACOBI greets them both as they unapologetically rifle through his cart.
 </p>
 
 <p>
-  JACOBI's cart is represented by the set <m>J = </m>  {spicy ramen, cilantro, corn chips, and eggs}. YURI can't help notice that everything in <m>J</m> is also in <m>Y</m>. In this case,
+  JACOBI's cart is represented by the set <m>J = </m>  {spicy ramen, cilantro, corn chips, and eggs}. Yuri can't help notice that everything in <m>J</m> is also in <m>Y</m>. In this case,
 we say that <m>J</m> is a subset of <m>Y</m>, denoted <m>J \subseteq Y</m> or <m>Y \supseteq J</m>. </p>
 
 <p>
@@ -93,8 +194,8 @@ we say that <m>J</m> is a subset of <m>Y</m>, denoted <m>J \subseteq Y</m> or <m
 </question>
 
 <p>
-  Unbeknownst to KALO, KALO's wife MARNIE is also in the grocery store with <m>M = </m> {caulifluer, macaroni, red onion, water, bacon}. When KALO and MARNIE bump into each other, they decide
-to finish their shopping and to consolidate their items to one cart. KALO reshelves the caulifluer and red onion, though, since MARNIE already has those items in her cart. This new cart is 
+  Unbeknownst to Kalo, Kalo's wife MARNIE is also in the grocery store with <m>M = </m> {caulifluer, macaroni, red onion, water, bacon}. When Kalo and MARNIE bump into each other, they decide
+to finish their shopping and to consolidate their items to one cart. Kalo reshelves the caulifluer and red onion, though, since MARNIE already has those items in her cart. This new cart is 
 known as the "union of K and M", <m>K \cup M </m>. </p>
 
 <p> 

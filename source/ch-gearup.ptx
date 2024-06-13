@@ -1,15 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <chapter xml:id="ch-gearup" xmlns:xi="http://www.w3.org/2001/XInclude">
-  <title>Gearing Up for our Voyage</title>
+  <title>Gearing up</title>
 
   <introduction>
-    <p> TO-DO: Write an intro. </p>
+    <p> We're going to look at calculus, linear algebra, statistics, and proof writing in later chapters, but
+      first let's look at few topics that help us start asking the right questions. This chapter is the introduction to our introduction
+    into the world of mathematics. Here we'll look at some things that (1) we think are interesting, (2) introduce us to the math community, and
+  (3) provide some context that we'll find helpful later. </p>
+
+    <p> INCLUDE FIGURE HERE </p>
+
   </introduction>
 
   <!-- include sections -->
   <xi:include href="sec-sets.ptx" />
   <xi:include href="sec-pascaltriangle.ptx" />
+  <xi:include href="sec-belhavenmcs.ptx" />
+  <xi:include href="sec-successfuls.ptx" />
+  <xi:include href="sec-careers.ptx" />
+  <xi:include href="sec-logicpuzzle.ptx" />
+ <xi:include href="sec-graphtheory.ptx" /> 
+  <xi:include href="sec-fourcolors.ptx" /> 
+ <xi:include href="sec-history.ptx" /> 
 
 
 

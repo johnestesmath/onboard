@@ -28,5 +28,11 @@
       </shortlicense>
     </copyright>
   </colophon>
+
+<!-- include sections -->
+<xi:include href="sec-preliminary.ptx" />
+
+
 </frontmatter>
+
 

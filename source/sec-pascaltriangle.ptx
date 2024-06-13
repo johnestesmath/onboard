@@ -1,8 +1,43 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <section xml:id="sec-pascaltriangle" xmlns:xi="http://www.w3.org/2001/XInclude">
-  <title>Section Title</title>
+  <title>A Special Triangle</title>
+
+  <p>
+    You can find all sorts of interesting examples of surprising structures in the universe of mathematics. One such example is
+   a very special triangle that's easy to construct and borderline ubiquitous in its applications.
+  </p>
+
+  <p> This triangle goes by many names and was discovered by several cultures in history. In 450 BC, Indian mathematician, Pingata, called
+    this new construction the "Staircase of Mount Meru". Persian mathematician, Omar Khayyam, discovered "Khauuam's Triangle" in the 11th century,
+     and close to the same time, Chinese mathematician, Jin Xian, discovered "Yang Hui's Triangle".
+      In the western world, this triangle is most commonly refered to as Pascal's Triangle, named after
+      french mathematician, Blaise Pascal, who discovered this triangle in the 17th century.
+     <!--REFERENCE: MATHIGON https://mathigon.org/course/sequences/pascals-triangle -->
+  </p>
+ 
+  <figure> <!-- source: mathigon -->
+    <image xml:id="fig-pascaltriangle1" source="pascaltriangle.jpg" width="80%" />
+  </figure>
+
+  <subsection xml:id="subsec-pascalconstruct">
+    <title>Constructing Pascal's Triangle</title>
+    
+    <p> Now we're going to construct  </p>
+
+  </subsection>
+  
+
+  
 
   <p> Text of section. </p>
+
+  <figure xml:id="vid-khanpascal">
+    <video youtube= "https://www.youtube.com/embed/XMriWTvPXHI?si=b9XuOoc06eBKnuFd"/>
+     <caption></caption>
+  </figure>
+
+  
+
 
 </section>

@@ -1,8 +1,307 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<section xml:id="sec-belhavenmcs" xmlns:xi="http://www.w3.org/2001/XInclude">
-  <title>Section Title</title>
+<section xml:id="sec-belhaven-math-intro">
+  <title> Introduction to Belhaven Mathematics </title>
 
-  <p> Text of section. </p>
+  
+
+  <p>
+   Welcome to the Mathematics and Computer Science Department (MCS) at Belhaven University, one department under Belhaven's 
+   School of Science &amp; Mathematics. We work hard to provide unique
+   learning opportunities, to do a lot of math, and to have fun while we grow. Maybe we can best summarize what Belhaven MCS
+   is about with the three crucial pillars of our identity:
+   <ol>
+     <li>
+       Community, 
+     </li>
+     <li>Academic experiences,  </li>
+     <li> Service. </li>
+   </ol>
+   
+ </p>
+
+ <remark>
+   <title>Keep these pillars in mind</title>
+   Community. Academic experiences. Service.
+ </remark>
+
+ <p>
+  We believe that our students reach their greatest potential by
+  following these pillars, and we strive to incorporate these values
+  throughout our curriculum. 
+ </p>
+
+ <subsection xml:id="subsec-community">
+  <title>Community</title>
+
+ <figure> <!-- source: mathigon -->
+  <image xml:id="fig-maa24" source="maa24.jpg" width="80%" />
+</figure>
+
+<p>
+  Do you want to get the most out of your college experience? We picked community as our first pillar for a reason. 
+We want you to be a part of something special! While we provide opportunities for you, it's up to you to
+    take advantage of them. 
+    
+</p>   
+
+<p>
+  But we have a lot of opportunities for you to get involved quickly!
+</p>
+
+<subsubsection xml:id="subsubsec-mcsclub">
+  <title>MCS Club</title>
+  <p>
+    The student-led MCS Club. 
+    </p>
+  
+</subsubsection>
+
+<subsubsection xml:id="subsubsec-social">
+  <title>STEM Events</title>
+  <p>
+    The MCS Department and the School of Science and Mathematics  
+    <ul>
+      <li> Homecoming </li>
+      <li>Instagram, Facebook </li>
+      <li> picnics and more things      </li>
+      <li> STEM Seminar      </li>
+    </ul>
+  </p>
+  
+</subsubsection>
+
+<subsubsection xml:id="subsubsec-communicate">
+  <title>Good Communication</title>
+  <p>
+    Good communication is so undervalued. Go talk to your professors. At Belhaven,
+    we want to know our students. Meet your classmates. They're going to help you through
+    this next assignmnent.
+  </p>
+
+  <p>
+    Join the BelhavenSTEM Team. We post about upcoming events and have a channel
+    specific to internships, scholarships, and research opportunities.
+  </p>
+  
+</subsubsection>
+ 
+ </subsection>
+
+
+ <subsection xml:id="subsec-makercampus">
+ <title>Belhaven Maker Campus</title>
+ <p> 
+ </p>
+
+ <figure>
+   <image source="MakerCampus_Logo.jpg" width="50%" />
+ </figure>
+
+ 
+
+ </subsection>
+
+ <p>Your degree is measured in credit hours. You're taking classes ultimately to earn a degree. 
+  You'll also expect some grades in those classes. BUT let's be careful not to mistake grades and
+  credit hours with actual learning. Our goal in the MCS Department is provide an environment of
+  true learning. We want you to adapt a mentality of a continual learning: one who learns inside
+  and outside of the classroom.
+  </p>
+
+  <p>
+  In addition to core classes such as Calculus, Linear Algebra, Discrete Mathematics, 
+  and Differential Equations, Belhaven's MCS department delivers a number curriculum add-ons. 
+  Let's take a look at what additional academic experiences we offer.
+  </p>
+
+   <subsection> 
+      <title>Mathematical Research</title>
+  
+  <p>In MAT 391, 392, 491 and 492, students participate in the mathematical research process 
+  reviewing recent results of a select topic and attempting to further it. These students will
+   present their findings as a poster and presentation at the Belhaven University Undergraduate 
+   Research Symposium (BUURS) and our sectional meetings of the MAA.</p>        
+  </subsection>
+
+  <subsection> 
+      <title>The Eyes of Faith Portfolio</title>
+  
+  <p>What does the Bible say about mathematics? What does life as a Christian mathematician entail? 
+  What role does change and randomness play in God's creation? These are deep questions that we will 
+  ask ourselves during throughout our mathematics coursework at Belhaven.
+  </p>
+
+  <p> The book <term>Mathematics through the Eyes of Faith</term> by Russell Howell and James Bradley 
+  approaches these questions in an intellectually honest manner <xref ref="biblio-eyes"/>. Students will 
+  use this text as a reference to write their own thoughts in their <term>Eyes of Faith Portfolio</term>,
+  a collaboration of Eyes of Faith papers written over several courses covering chapter of our reference text.
+  </p>
+
+  <p> The chapter breakdown follows curiously close to our major requirements and 
+  is summarized in the following table. (You might want to hang on to this one.)
+     <table xml:id="table-eyes">
+       <title>Eyes of Faith Portfolio</title>
+      <tabular top="major">
+      <col />
+      <col />
+      <col width="40%" />
+      <col width="25%" />
+      <row valign="top" bottom="medium">
+        <cell>Course</cell>
+        <cell>Course Name</cell>
+        <cell>Eyes Chapter</cell>              
+      </row>
+      <row valign="top" bottom="minor">
+        <cell>MAT 207</cell>
+        <cell>Calculus I</cell>
+        <cell>
+        <p>
+        1. The Big Questions
+        </p>
+        </cell>
+      </row>
+      <row valign="top" bottom="minor">
+        <cell>MAT 208</cell>
+        <cell>Calculus II</cell>
+        <cell>
+        <p>
+        2. The Historical Context
+        </p>
+        </cell>
+      </row>
+      <row valign="top" bottom="minor">
+        <cell>MAT 209</cell>
+        <cell>Calculus III</cell>
+        <cell>
+        <p>
+        3. Infinity
+        </p>
+        </cell>
+      </row>
+      <row valign="top" bottom="minor">
+        <cell>MAT 210</cell>
+        <cell>Calculus IV</cell>
+        <cell>
+        <p>
+        7. Beauty
+        </p>
+        </cell>
+      </row>
+      <row valign="top" bottom="minor">
+        <cell>MAT 303</cell>
+        <cell>Discrete Mathematics</cell>
+        <cell>
+        <p>
+        6. Proof and Truth
+        </p>
+        </cell>
+      </row>
+      <row valign="top" bottom="minor">
+        <cell>MAT 304</cell>
+        <cell>Differential Equations</cell>
+        <cell>
+        <p>
+        8. Effectiveness
+        </p>
+        </cell>
+      </row>
+      <row valign="top" bottom="minor">
+        <cell>MAT 305</cell>
+        <cell>Statistics and Probability</cell>
+        <cell>
+        <p>
+        5. Chance
+        </p>
+        </cell>
+      </row>
+      <row valign="top" bottom="minor">
+        <cell>MAT 311</cell>
+        <cell>Linear Algebra</cell>
+        <cell>
+        <p>
+        4. Dimension
+        </p>
+        </cell>
+      </row>
+      <row valign="top" bottom="minor">
+        <cell>MAT 410</cell>
+        <cell>Advanced Calculus</cell>
+        <cell>
+        <p>
+        9. Epistemology
+        </p>
+        </cell>
+      </row>
+      <row valign="top" bottom="minor">
+        <cell>MAT 491</cell>
+        <cell>Intro to Math Research I</cell>
+        <cell>
+        <p>
+        10. Ontology
+        </p>
+        </cell>
+      </row>
+      <row valign="top" bottom="minor">
+        <cell>MAT 492</cell>
+        <cell>Intro to Math Research II</cell>
+        <cell>
+        <p>
+        11. An Apology
+        </p>
+        </cell>
+      </row>            
+    </tabular>
+   </table>
+  </p>
+</subsection>
+
+<subsection> 
+      <title>For Engineering Majors</title>
+  
+  <p> In addition to academic experiences math majors experience, students in Belhaven's engineering partnership 
+    <ui>
+      <li>learn AutoCAD in PHY 119 Intro to Engineering</li>
+      <li>interact with professional engineers from places like Yates construction, Raytheon, and Asset Engineering.</li>
+      <li>take site visits to Ole Miss, Mississippi State, and places like Nissan and the U.S.
+       Army Corps of Engineers Research and Development Center (ERDC).</li>
+    </ui>
+  </p>        
+</subsection>
+
+<subsection> 
+      <title>For Actuarial Science Majors</title>
+  
+  <p>For those majoring in Actuarial Sciences (ASM), students will
+    <ui>
+      <li>learn statistical software such as R,</li>
+      <li> sit for the first actuarial exam, the Probability Exam (SOA Exam P).</li>
+    </ui>
+  </p>        
+</subsection>
+
+<subsection> 
+      <title>Seminars</title>
+  
+  <p> Several times a year, we bring in speakers to present topics not typically covered in a standard course. 
+  Attending these talks is a fantastic way to meet professionals who are doing what you hope to do one day and reinforces
+  our pillars of community and academic experiences. 
+  </p>
+  <p> Just a few examples: 
+    <ui>
+      <li>professors from other universities sharing their research</li>
+      <li>professional actuaries looking for interns</li>
+      <li>scientists from NASA, the Department of Wildlife and Fisheries, and the US Corps of Engineers</li>
+      <li>industry professionals in the fields of engineerng and computer science.</li>
+    </ui>
+  </p>        
+</subsection>
+
+<p> Young students often underestimate the power of good communication. The quicker you get comfortable with
+  communicating with peers, professors, and advisors the better. In addition to email, most courses in the MCS
+   utilize Microsoft Teams, a professional, team-building messaging app. The quickest and easiest way to support
+   the Community pillar of the MCS Mission Statement is to simply download Teams, join our course's team (listed in the syllabus), 
+   join the BelhavenSTEM team, and turn on notifications in both!
+  </p>
 
 </section>

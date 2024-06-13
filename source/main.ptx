@@ -9,32 +9,16 @@
     <subtitle>A Quick Voyage through Undergrad Math</subtitle>
 
     <!-- Include frontmatter -->
-    <xi:include href="./frontmatter.ptx" />
-
-   <!-- <section> 
-      <title>Our Goals</title>
-
-      <p>
-        Welcome to Overview of Mathematics, a quick look at what you can expect from your studies as a mathematics student.
-        In particular, we hope to show
-        <ol>
-          <li>
-            the culture of the Mathematics and Computer Science Department (MCS) at Belhaven, 
-            along with the broader community of mathematicians and shared culture,
-          </li>
-          <li>various interesting topics of mathematics that we can explore with very little
-            background experiences,  </li>
-          <li> and interesting technology that pairs well with mathematical studies. </li>
-        </ol> 
-        And we hope to have some fun while doing it. Best practices for this course are just showing up with a good attitude and
-        having a curiosity about math topics.
-      </p> 
-
-      
-    </section> -->
+    <xi:include href="./frontmatter.ptx" />   
 
     <!-- Include chapters -->
     <xi:include href="./ch-gearup.ptx" />
+
+    <!-- Include chapters -->
+    <xi:include href="./ch-worldofcalculus.ptx" />
+
+    <!-- Include chapters -->
+    <xi:include href="./ch-worldsofalgebra.ptx" />
 
 
     <!-- Include backmatter -->

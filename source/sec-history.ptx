@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-history" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>A Little History</title>
+
+  <p> Mathematics is a permanent fixture in human development. We find evidence of mathematical thinking in
+    our most ancient of civilizations, and yet all modern technological advancements rely of good mathematics.
+    Mathematics is the foundational tool we use to turn creative ideas into reality. But the human stories of
+    mathematics is an area worth studying as well.
+ </p>
+
+ <p>
+   INSERT PIC HERE
+ </p>
+
+
+ <p>
+    Throughout your coursework, you will learn about the interesting figures of math history and some of the
+    incredible (and sometimes unbelievable) tales they are a part of. There are stories of young genius, incredible
+    risks, underdogs, and duels. You will hear about mathematical giants from all over the world and how their contributions
+    are still valuable to us today. Math history is
+    rich and immensely interesting.
+ </p>
+
+ <p>
+    We will breifly share one of these tales.
+ </p>
+
+ <subsection xml:id="subsec-thales">
+    <title>Thales and the Pyramid</title>
+
+    <p>
+      Greek Mathematician, Thales of Miletus, was challenged to determine the
+      height of the great pyramids of Egypt circa 600 BC. The mathematician did so using
+      laws of similar triangles, a shadow, and a staff.
+    </p>
+
+    <p>
+      PIC OF PYRAMIDS
+    </p>
+
+    <p>
+      With his staff standing upright from the ground, Thales spotted similar triangles. The first triangle came
+      from his staff, its shadow, and the hypotenuse between their two endpoints (just a ray of sunshine), and the second triangle required
+      an extra level of insight: the pyramid's height, the pyramid's shadow plus hlaf the length of its base, and the sun ray that connects their endpoints.
+    </p>
+
+    <question xml:id="ques-thales1">
+      <title>Finding  </title>
+    </question>
+    
+ </subsection>
+
+ <subsection xml:id="subsec-advancements">
+   <title>What we take for granted</title>
+
+   <p>
+      We learn about rationals, primes, and equations by the time we get to 
+      middle school, but so many of these ideas were unknown for generatoins. We take
+      so much of our foundational mathematics for granted. Behind a lot of these concepts
+      are moments of ingenious insight.
+   </p>
+
+   <p>
+      For example, 
+   </p>
+   
+ </subsection>
+
+ <subsection xml:id="subsec-timeline">
+   <title>Mathigon's Timeline of Mathematics</title>
+
+   <figure> <!-- source: mathigon -->
+    <image xml:id="fig-timeline" source="timeline.png" width="80%" />
+  </figure>
+
+   <p>
+      <url href="https://mathigon.org/">Mathigon</url> has currated an interactive
+      map of significant mathematical moments. We will now reference their timeline to answer
+      the following questions.
+   </p>
+
+   <p>
+    Visit <url href="https://mathigon.org/timeline">Mathigon's Timeline of Mathematics </url>.
+   </p>
+   
+   <question xml:id="ques-timeline1">
+    <statement>
+      <p>
+        Find a mathematician from Asia. What contribution did he or she make?
+      </p>
+    </statement>    
+   </question>
+
+   <p>
+  
+   </p>
+
+   <question xml:id="ques-timeline2">
+    <statement>
+      <p>
+        Find a mathematician listed between 1600 and 1800 Asia. What contribution did he or she make?
+      </p>
+    </statement>
+   </question>
+
+   <p>
+    
+   </p>
+
+   <question xml:id="ques-timeline3">
+    <statement>
+      <p>
+        Find a mathematician listed between te 20th and 21st. What contribution did he or she make?
+      </p>
+    </statement>
+   </question>
+
+
+ </subsection>
+
+</section>

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section> 
+      <title>The Goal of OnBoarding to Mathematics</title>
+
+      <p>
+        Welcome to Overview of Mathematics! This book is different in its aim from most mathematics texts that you'll encounter. 
+        Whereas most textbooks will dig into the details of a particular topic (one topic, no doubt, worth the effort it takes to dig into it), 
+        <em>Onboarding to Mathematics</em> will look at a variety of topics.
+      </p>
+
+      <subsubsection xml:id="subsec-prelimwho">
+        <title>Who is this book for?</title>
+        
+        <p>
+            Most in-coming mathematics majors probably choose their major because of the success they had in high school
+            I chose to study mathematics in college just because I enjoyed my
+            high school courses and wanted to do some more math. But what do math majors do? What is in store for the
+            freshman math major? 
+          </p>
+
+        <p>
+            This text is for the young math major (and anyone interested in what undergraduate mathematics thinks abouts), so that they
+            know 
+    
+        </p>
+    
+      </subsubsection>
+
+      <subsubsection xml:id="subsec-whatitsnot">
+        <title>What This Book is Not</title>
+        <p>
+            We should mention that this book is not exhaustive in any sense. We will not turn over every stone on any given subject and 
+            will look at these subjects at a somewhat surface level. We also admit that certain things will be left out, but we are confident
+            those topics will be addressed at a sophisticated level in separate courses.
+        </p>
+
+      </subsubsection>
+
+      <subsubsection xml:id="subsec-whatsthepoint">
+        <title>So what is the point of this book?</title>
+
+        <p> 
+       
+            <term> "Onboarding" </term> is the process of introducing a new person into the culture and customs of an organization, and that is
+            exactly what this text is about. <em>Onboarding to Mathematics</em> seeks to introduce students to the 
+            wonderful world of mathematics and its vibrant community.
+        </p>
+            
+        <p>
+            In particular, we hope to introduce
+            <ol>
+              <li>
+                the culture of the mathematics community both locally at Belhaven 
+                along with the broader community of mathematicians across the world,
+              </li>
+              <li>snapshots of common math topics in interactive ways,  </li>
+              <li> and skills to maximize success as a student.. </li>
+            </ol> 
+            And we hope to have some fun while doing it. 
+          </p> 
+
+          <remark>
+            Best practices for this course are just showing up with a good attitude and
+            having a curiosity about math topics.
+          </remark>
+
+          <p>
+            Let's get started!
+          </p>
+        
+      </subsubsection>
+      
+      
+
+      
+    </section>
