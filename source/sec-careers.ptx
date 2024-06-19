@@ -37,28 +37,15 @@
     out yet. Here we are simply showing what's out here.
   </p>
 
-  <p>
-    So what careers are out there? We should first start with academics.
-  </p>
 
-  <question xml:id="ques-academics">
-    <title>How to Become a Professor</title>    
-    <statement>
-      <p>
-        Read indeed.com's <url href="https://www.indeed.com/career-advice/career-development/how-to-become-a-professor">"How to Become a Professor".</url>
-        
-      </p>
-    </statement>
-  </question>
-
-<question xml:id="ques-careers">
+<activity xml:id="act-careers">
   <title>What Careers are there?</title>
   <statement>
     <p>
       Northwestern University compiled a list of careers using mathematics. Read through the article <url href="https://graduate.northeastern.edu/resources/best-math-careers/">Best Math Careers.</url> 
     </p>
   </statement>  
-</question>
+</activity>
 
 <p>
   Do any of these careers seem interesting to you?

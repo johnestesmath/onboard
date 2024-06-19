@@ -65,6 +65,7 @@
     <p>
       TIKZ PIC OF A TREE
     </p>
+   
 
     <p>
       
@@ -92,43 +93,111 @@
     <question>
       <statement>
         <p>
-          Draw your own tree on at least <m>10 </m> vertices. How many colors does your require?
+          Draw three of your own trees on at least <m>10 </m> vertices. How many colors do your new trees require?
         </p>
       </statement>
     </question>
-  </subsection>
 
   <p>
-    LET"S MAKE AN ARGUMENT ABOUT COLORING TREES WITH 2 COLORS.
+    Do you we know how many colors any tree will require now? Is it possible that
+    all trees can be colored in two colors? Based on our examples, we want to say "yes",
+    but a few examples is not enough to say for sure in the world of mathematics.
   </p>
 
+  <p>
+    Maybe we can make a logical argument to show trees can be colored in two colors, though. Let's start
+    with a vertex (call it <m>x</m>) and color it <m>1</m>. Also, we say a vertex is a <term>neighbor</term> 
+    of <m>x</m> (or <term>adjacent</term> to <m>x</m>) if it shares an edges with <m>x</m>. 
+  </p>
+
+  <question xml:id="ques-trees2">
+    <statement>
+      <p>
+        What color can we color the neighbors of <m>x</m>?
+      </p>
+    </statement>
+  </question>
+
+  <question xml:id="ques-trees3">
+    <statement>
+      <p>
+        What color can we color the neighbors of the neighbors of <m>x</m>?
+      </p>
+    </statement>
+  </question>
+
+  <question xml:id="ques-trees4">
+    <statement>
+      <p>
+        What about the neighbors of the neighbors of the neighbors of <m>x</m>?
+      </p>
+    </statement>
+  </question>
+
+  <p>
+    Okay, maybe we have found a pattern. 
+  </p>
+
+  <question xml:id="ques-trees5">
+    <statement>
+      <p>
+        What color can we color a vertex that is an odd number of edges away from <m>x</m>? what 
+        about a vertex an even number of edges from <m>x</m>?
+      </p>
+    </statement>
+  </question>
+
+  <p>
+    This argument only works, though, because we're talking about trees. If there is a 
+    cycle in our graph, then a vertex <m>v </m> may an even number of edges from <m>x</m> coming
+    from one direction and an odd number of edges from another direction. That can't happen in a tree.
+  </p>
+
+  <p>
+    Awesome. So trees can be colored in two colors.
+  </p>
+
+</subsection>
+
   <subsection xml:id="subsec-fourcolor2">
-    <title>Graphs with two colors</title>
+    <title>What about Cycles?</title>
     <p>
-      We found a graph that requires four colors. Do all graphs require four? Absolutely not. 
+      So we know trees can be colored in two colors, and our argument really needed the
+      fact the trees do not have cycles. So what about cycles? Can a cycle be colored in two colors?
     </p>
+
     <p>
       
     </p>
 
-    <question xml:id="ques-fourcolor3">
-      <title>Graphs with two colors</title>
+    <activity xml:id="ques-cycles1">
+      <title>Coloring cycles</title>
+      <statement>
+        <p>
+          Draw four cycles on <m>n</m> vertices for different values of <m>n</m> (I recommend consecutive values of <m>n</m>) and color their 
+          vertices.
+
+        </p>
+      </statement>
+      
+    </activity>
+
+    <p>
+      
+    </p>
+
+    <question xml:id="ques-cycles2">
+     <statement>
       <p>
-        Draw a graph where the vertices can be colored in 2 colors.
+        Give a hypothesis on the number of colors a cycle on <m>n</m> vertices requires to be colored.
       </p>
-      
-    </question>
-
-    <p>
-      
-    </p>
-
-    <question xml:id="ques-fourcolor4">
-      <title>Graphs with two colors</title>
+     </statement> 
+     <answer>
       <p>
-        Draw a graph where the vertices can be colored in 2 colors.
+        After observing several cycles, we conclude that if <m>n</m> is even, the cycle requires two colors. 
+        However, if <m>n</m> is odd, the cycle requires three colors.
       </p>
-      
+     </answer>
     </question>
 
   </subsection>

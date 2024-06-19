@@ -1,8 +1,319 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <section xml:id="sec-logicpuzzle" xmlns:xi="http://www.w3.org/2001/XInclude">
-  <title>Logicaly Speaking</title>
+  <title>Logically Speaking</title>
 
-  <p> Text of section. </p>
+  
+  <p> Let's assume that if gordentockles borg the headenvorsh, then the dezapatos changs the wungwing.
+    Also, we all know that if the dezapatos changs the wungwing, then chimi dupas the mongo-gale. But does
+  that means that if gordentockles borg the headenvorsh, then chimi dupas the mongo-gale? </p>
+
+  <p>
+    What? What was that?
+  </p>
+
+  <p>
+    You have probably seen theorem statements in textbooks like the Mean Value Theorem below. If you are like
+    me, then you probably skipped all of the words and jumped to the big equation. Right?
+  </p>
+
+  <theorem xml:id="thm-mvt">
+    <title>Mean Value Theorem</title>
+    <statement>
+      <p>
+        If <m>f</m> is a function that is continuous on <m>[a,b]</m> and differentiable on <m>(a,b)</m>,
+        then there is a number <m>c</m> in <m>(a,b)</m> such that <me>f(b)-f(a) = m(b-a). </me>
+      </p>
+    </statement>
+  </theorem>
+
+  <p>
+    It's okay if you have no idea what any of that means. The Mean Value Theorem will have more
+    meaning in Calculus. For now, just notice that <xref ref="thm-mvt"/> has the form <term> if </term>
+    some stuff <term> then </term> some more stuff.
+  </p>
+
+  <p>
+    Actually, the nonsensical paragraph opening this session has several "<term> if </term>
+    some stuff <term> then </term> some more stuff" statements. These type of statements are called
+    <term>conditional </term> statements, and we can represent them symbolically like <m>p \rightarrow q</m>. We
+    we know logically that <m>p \rightarrow q </m> implies that if <m>p</m> occurs, then <m>q</m> will follow.
+  </p>
+
+  <subsection xml:id="subsec-nonsensical">
+    <title>Gordentockles and Chimi</title>
+    <p>
+      Earlier we were asked whether we know for sure that if gordentockles borg the headenvorsh, then chimi dupas the mongo-gale. Let's
+      represent the statement "gordentockles borg the headenvorsh" with <m>p</m>, the statement "the dezapatos changs the wungwing" with <m>q</m>, 
+      and the statement "chimi dupas the mongo-gale" with <m>r</m>.
+    </p>
+
+    <p>
+      
+    </p>
+
+    <question xml:id="ques-gordentockles1">
+      <statement>
+        <p>
+          How would we represent symbolically the statement "if gordentockles borg the headenvorsh, then the dezapatos changs the wungwing"?
+        </p>
+      </statement>
+      <solution>
+        <p>
+          This is a conditional statement: <m>p \rightarrow q </m>.
+        </p>
+      </solution>
+    </question>
+
+    <question xml:id="ques-gordentockles2">
+      <statement>
+        <p>
+          How would we represent symbolically the statement "if the dezapatos changs the wungwing, then the chimi dupas the mongo-gale"?
+        </p>
+      </statement>
+      <solution>
+        <p>
+          This is a conditional statement: <m>q \rightarrow r </m>.
+        </p>
+      </solution>
+    </question>
+
+    <p>
+      From <xref ref="ques-gordentockles1"/> and <xref ref="ques-gordentockles2"/>, we have two conditionals
+      <m> p \rightarrow q </m> and <m> q \rightarrow r </m>. So if <m>p</m> occurs, then <m>q</m> occurs, and if
+      <m>q</m> occurs, then so does <m>r</m>. So is it not true then, that if <m>p</m> occurs, then <m>r</m> occurs?
+    </p>
+
+    
+    <question xml:id="ques-gordentockles3">
+      <statement>
+        <p>
+          What does <m>p \rightarrow r</m> mean? And is it true based upon what we know?
+        </p>
+      </statement>
+      <solution>
+        <p>
+          The conditional statement <m>p \rightarrow r </m> reads as "if gordentockles borg the headenvorsh, 
+          then chimi dupas the mongo-gale", and it is true based upon what we know.
+        </p>
+      </solution>
+    </question>
+
+
+
+
+  </subsection>
+  
+
+  <subsection xml:id="subsec-useoflogic">
+    <title>The Usefulness of Logic</title>
+
+    <p>
+      Logic helps us safely traverse through mathematical statements. As we'll see later,
+      all proof writing depends on principles of logic, and having a good understanding of 
+      the basics of logic will help us make sense of things that are initially unintuitive.
+    </p>
+
+    <p>
+      The past few exercises showed a couple of things. Firstly, that we can follow the logic of an argument even
+      if we're not overly familiar with the contents of the article. Do we even know what a gordentockle is? Secondly, 
+      we arrived to some transitive form of conditionals. We decided that if <m>p \rightarrow q </m> and <m>q \rightarrow r </m>, then
+      <m>p \rightarrow r </m>. Logicians can string together simpler logic statements to arrive to
+      new, more complicated statements.
+    </p>
+
+    <p>
+      Take a look at the tree REF below, in which each edge is a conditional statement.
+    </p>
+
+    <p>
+    FIGURE HERE OF LOGIC TREE  
+    </p>
+
+    <p>
+      
+    </p>
+
+    <question xml:id="ques-logic1">
+      <statement>
+        <p>
+          If <m>e</m> is true, what else do we know for sure is true?
+        </p>
+      </statement>
+
+      <solution>
+        <p>
+          We know <m>e \rightarrow  i</m> and <m>e</m> is true, so <m>i</m> is true.
+        </p>
+      </solution>
+      
+    </question>
+
+    <p>
+      
+    </p>
+
+    <question xml:id="ques-logic2">
+      <statement>
+        <p>
+          Starting with <m>a</m>, what things must be true to guarantee that <m>h</m> is true?
+        </p>
+      </statement>
+
+      <solution>
+        <p>
+          To guarantee that <m>h</m> is true, we must have <m>a, b, d</m> to be true as well. Note that
+        we do not know if this is only reason <m>h</m> is true or not, but the way we can guarantee it.
+              </p>
+      </solution>
+      
+    </question>
+
+    <p>
+      
+    </p>
+
+    <question xml:id="ques-logic3">
+      <statement>
+        <p>
+          Suppose <m>c</m> is not true. What else do we know for sure is not true?
+        </p>
+      </statement>
+
+      <solution>
+        <p>
+          It is tempting to say that <m>e</m> and <m>f</m> are not true, but we don't know that actually! 
+          What we know is that <m>b \rightarrow c </m>. So if <m>b</m> is true and <m>c</m> is false, then
+          we have a contradiction. So if <m>c</m> is false, then <m>b</m> must be false.
+              </p>
+      </solution>
+      
+    </question>
+    
+  
+    
+
+    
+  </subsection>
+
+  <subsection xml:id="subsec-contrapositives">
+    <title>Contrapositives</title>
+
+    <p>
+      <xref ref="ques-logic3"/> gave us a new rule of logic. Supposing <m>p \rightarrow q </m> is true and <m>q</m> is false, we now know that
+      <m>p</m> must be false. We'll write <m>\sim p </m> to mean "not <m>p</m>", and so our new rule could be
+      stated as <m>\sim q \rightarrow \sim p </m>.
+    </p>
+
+    <p>
+      This new statement, <m>\sim q \rightarrow \sim p </m>, is called the <term>contrapositive</term>, and
+      the conditional and the contrapostive are logically equivalent statments. This means, that if one is true,
+      then they're both true, and if one is false, they're both false.
+    </p>
+
+    <p>
+      Contrapositives are very useful.
+    </p>
+
+    <question xml:id="ques-contrapositive1">
+      <statement>
+        <p>
+          What is the contrapostive of the statment "if the dezapatos changs the wungwing, then chimi dupas the mongo-gale"?
+        </p>
+      </statement>
+
+      <solution>
+        <p>
+        If chimi does not dupas the mongo-gale, then the dezapatos does not chang the wungwing. 
+        </p>
+      </solution>
+      
+    </question>
+
+    <activity xml:id="act-contrapositive1">
+      <statement>
+        <p>
+          Make up three conditional "if-then" statements and write them down. Trade your conditionals
+          with a classmate and write the contrapositive to your classmate's conditional statements.
+        </p>
+      </statement>
+      
+    </activity>
+    
+  </subsection>
+
+
+  <subsection xml:id="subsec-knights">
+    <title>Knights and Knaves</title>
+    <p>
+      Mathematician (and magician) Raymond Smullyan (1919-2017) famously wrote
+      several books of logic puzzles. The puzzles have entertained and challenged
+      people for decades. You can find a list of his works at the https://www.raymondsmullyan.com/bio/
+    </p>
+
+    <p>
+      PIC HERE SMULLYAN OR AN ISLAND
+    </p>
+
+    <p>
+      One set of his puzzles involve the reader (you) visiting an island in which there lives
+      two types of people. Knights ALWAYS tell the truth, and Knaves ALWAY lie. In many of these puzzles,
+      you engage in a brief discussion with two or more island inhabitants, and based upon their statements you
+      are challenged with identifying what type of people each person is.
+    </p>
+
+    <p>
+      Let's try a few.
+    </p>
+
+    <question xml:id="ques-smullyan1">
+      <title>Knight and Knaves I</title>
+      <statement>
+        <p>
+          You encounter two island residents, <m>A</m> and <m>B</m>, each
+          is either a knight or a knave. <m>A</m> makes the following statement:
+          "At least one of us is a knave."
+
+          What are <m>A</m> and <m>B</m>?
+        </p>
+      </statement>
+      
+    </question>
+
+    <question xml:id="ques-smullyan2">
+      <title>Knight and Knaves II</title>
+      <statement>
+        <p>
+          Suppose <m>A</m> says, "Either I am a knave or <m>B</m> is a knight."
+          What are <m>A</m> and <m>B</m>?
+        </p>
+      </statement>
+      
+    </question>
+
+    <question xml:id="ques-smullyan3">
+      <title>Knight and Knaves III</title>
+      <statement>
+        <p>
+          This time, you encounter three people <m>A, B, C</m>, each of whom is either
+          a knight or knave. <m>A</m> and <m>B</m> make the following statements:
+            <me>A: \text{ All of us are knaves.}</me>
+            <me>B: \text{ Exactly one of us is a knight.}</me> 
+        </p>
+        <p>
+          What are <m>A, B</m>, and <m>C</m>?
+        </p>
+      </statement>
+      
+    </question>
+
+    <p>
+      GITHUB LINK TO VIRTUAL QUESTIONS You can find more puzzles at 
+      https://dmackinnon1.github.io/logic.html.
+    </p>
+    
+
+  </subsection>
+
 
 </section>
