@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-harnessinf" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Harnessing <m>\infty</m></title>
+
+  <p> "What is the largest number you can think of?" Hopefully, you see that is a 
+    question with no real answer. Maybe the closest we can come to answering that 
+question is <m>\infty  \ldots</m> even though we know <m>\infty</m> is not a number. 
+  </p>
+<p> In fact, <m>\infty </m> is a weird creature. It breaks some of our number-intuition.
+    It feels like <m>\infty</m> just does not behave. For example, can we add an infinite
+    number of numbers and get something finite? We'll see that you can <m>\ldots</m> sometimes. Some of our normal addition rules act
+differently when <m>\infty</m> is involved. For example, can <m>\infty</m> help us
+show that <m>0 = 1 </m>? Let's start with <m>0</m>, and we know that  <m> 0 = 1 + -1 = 1 + -1 + 1 + -1.</m> 
+Can't we do this forever?</p>
+
+<p>
+    <md>
+      <mrow>0  \amp = (1 + -1) + (1 + -1) + 1 + \ldots </mrow>
+      <mrow>   \amp =  1 + (-1 + 1) + (-1 + 1) + \ldots </mrow>
+      <mrow> \amp = 1 + 0 + 0 + \ldots </mrow>
+      <mrow> \amp  = 1</mrow>
+    </md>
+  </p>
+<p>
+   This is a problem! Apparently, the associate law of addition
+   doesn't play well with <m>\infty</m>. You'll discuss this example in 
+   greater detail in a later course, but this is enough to show that <m>\infty</m>
+   can be very unusual.
+</p>
+
+<p>
+    HILBERT HOTEL VIDEO
+</p>
+
+<question xml:id ="hilberhotel1">
+    <statement>
+        <p>
+         In Hilbert's hotel, how do we accommodate a new customer if 
+         all rooms are booked?
+        </p>
+    </statement>
+    
+</question>
+
+<question xml:id ="hilberhotel2">
+    <statement>
+        <p>
+         In Hilbert's hotel, how do we accommodate <m>k</m> new customers if 
+         all rooms are booked?
+        </p>
+    </statement>
+    
+</question>
+
+<question xml:id ="hilberhotel3">
+    <statement>
+        <p>
+         In Hilbert's hotel, how do we accommodate an infinite new customers if 
+         all rooms are booked?
+        </p>
+    </statement>
+    
+</question>
+
+<p>
+    Rules like <m>a + 1 = a</m> sound impossible, until we consider the strange
+    creature we call <m>\infty</m>.
+</p>
+
+<subsection xml:id="subsec-infpredicatble">
+    <title>Not always unpredictable</title>
+
+    <p>
+        However, <m>\infty</m> is not completely unpredictable in all cases. Actually, we should
+        say that a pattern trending towards infinity is sometimes predictable.
+    </p>
+
+    <p>
+        For example, consider the function <m>f(x) = \dfrac{1}{x^2}</m>. What happens as the variable <m>x</m> 
+        gets larger and larger (trends towards <m>\infty</m>).
+    </p>
+
+    <activity xml:id="ac-limits1">
+        <statement>
+            <p>
+                Fill out the following table and make a decision about what
+                happens to <m>f(x) = \dfrac{1}{x^2}</m> as <m>x</m> trends towards <m>\infty</m>.
+            </p>
+            <p>
+            <table xml:id="table-limit1">
+               <tabular top="major">
+               <col />
+               <col />
+               <col width="40%" />
+               <col width="25%" />
+               <row  bottom="minor">
+                 <cell><m>x</m></cell>
+                 <cell><m>f(x) = \dfrac{1}{x^2}</m></cell>              
+               </row>
+               <row bottom="minor">
+                 <cell> <m>5</m> </cell>
+                 <cell> <m> </m></cell>
+               </row>
+               <row bottom="minor">
+                <cell> <m>10</m> </cell>
+                <cell> <m> </m></cell>
+              </row>
+              <row bottom="minor">
+                <cell> <m>100</m> </cell>
+                <cell> <m> </m></cell>
+              </row>
+              <row bottom="minor">
+                <cell> <m>1000</m> </cell>
+                <cell> <m> </m></cell>
+              </row>
+              <row bottom="minor">
+                <cell> <m>1000000</m> </cell>
+                <cell> <m> </m></cell>
+              </row>
+              <row bottom="minor">
+                <cell> <m>1000000000</m> </cell>
+                <cell> <m> </m></cell>
+              </row>
+                           
+             </tabular>
+            </table>
+        </p>
+        <p>
+            What's your decision?
+        </p>
+        </statement>
+        
+    </activity>
+
+    <p>
+        So it seems as <m>x</m> gets closer to <m>\infty</m>, <m>f(x) = \dfrac{1}{x^2}</m> gets closer to
+        0. Let's try something else. This time, let's let <m>x</m> get close to <m>0</m>.
+    </p>
+
+    <activity xml:id="ac-limits2">
+        <statement>
+            <p>
+                Fill out the following table and make a decision about what
+                happens to <m>f(x) = \dfrac{1}{x^2}</m> as <m>x</m> trends towards <m>0</m>.
+            </p>
+            <p>
+            <table xml:id="table-limit2">
+               <tabular top="major">
+               <col />
+               <col />
+               <col width="40%" />
+               <col width="25%" />
+               <row  bottom="minor">
+                 <cell><m>x</m></cell>
+                 <cell><m>f(x) = \dfrac{1}{x^2}</m></cell>              
+               </row>
+               <row bottom="minor">
+                 <cell> <m>5</m> </cell>
+                 <cell> <m> </m></cell>
+               </row>
+               <row bottom="minor">
+                <cell> <m>1</m> </cell>
+                <cell> <m> </m></cell>
+              </row>
+              <row bottom="minor">
+                <cell> <m>.01</m> </cell>
+                <cell> <m> </m></cell>
+              </row>
+              <row bottom="minor">
+                <cell> <m>.0001</m> </cell>
+                <cell> <m> </m></cell>
+              </row>
+              <row bottom="minor">
+                <cell> <m>.0000001</m> </cell>
+                <cell> <m> </m></cell>
+              </row>
+              <row bottom="minor">
+                <cell> <m>.0000000001</m> </cell>
+                <cell> <m> </m></cell>
+              </row>
+                           
+             </tabular>
+            </table>
+        </p>
+        <p>
+            What's your decision?
+        </p>
+        </statement>
+        
+    </activity>
+
+    <p>
+        This time, <m>f(x) = \dfrac{1}{x^2}</m> seems to get larger and larger. We could say that
+        as <m>x</m> trends towards <m>0</m> (at least from the positive side of the number line), 
+        <m>f(x)</m> trends towards <m>\infty</m>.
+    </p>
+
+    <p>
+        Actually, a graph would make these trends obvious.
+    </p>
+
+    <figure xml:id="fig-sage-cubic">
+        <caption>A cubic plotted by SageMath on
+        <m>[-3,2]</m></caption>
+        <image xml:id="sageplot-cubic" width="50%">
+          <description>A cubic function on the interval
+          [-3,2]</description>
+      
+      <sageplot>
+      f(x) = (x-1)*(x+1)*(x-2)
+      plot(f, (x, -3, 2), color='blue', thickness=3)
+      </sageplot>
+        </image>
+      
+      </figure>
+    
+</subsection>
+
+<subsection xml:id="subsec-">
+    <title></title>
+
+    
+</subsection>
+
+
+</section>

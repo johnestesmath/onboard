@@ -17,7 +17,7 @@
     <xi:include href="./ch-gearup.ptx" />
 
     <!-- Include chapters -->
-   <!-- <xi:include href="./ch-worldofcalculus.ptx" /> -->
+   <xi:include href="./ch-worldofcalculus.ptx" />
 
     <!-- Include chapters -->
    <!-- <xi:include href="./ch-worldsofalgebra.ptx" /> -->
