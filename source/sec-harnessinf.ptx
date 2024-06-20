@@ -217,11 +217,160 @@ Can't we do this forever?</p>
     
 </subsection>
 
-<subsection xml:id="subsec-">
-    <title></title>
+<subsection xml:id="subsec-movementonpaper">
+    <title>Movement On Paper</title>
 
+    <p>
+      Trends like the ones we looked at in <xref ref="ac-limits1"/> and <xref ref="ac-limits2"/> 
+      are examples of <term>limits</term>, a foundational tool in the study of Calculus. We 
+      would write the conclusions from the past activities like
+      <me> \lim_{x \rightarrow \infty} \dfrac{1}{x^2} = 0 \text{ and } \lim_{x \rightarrow 0^+} \dfrac{1}{x^2} = \infty.</me>
+      We'll
+      save defining limits clearly for your other coursework, but we can think about limits
+      intuitively.
+    </p>
+
+    <p>
+      Firstly, we can think of limits as a way to introduce motion
+      on paper. We "watched" the behavior of <m>f(x) = \dfrac{1}{x^2}</m> as <m>x</m> "moved" towards
+      <m>\infty</m>. There are other examples in which we allow the number rectangles or
+      the number of sides or the number terms and so on extend towards <m>\infty</m>. The limit
+      is similar to the play button on a YouTube video. When you see <m>\displaystyle \lim_{x \rightarrow a}</m>,
+      you can just imagine some sort of movement or change on your paper.
+    </p>
+
+    <p>
+      Secondly, the limit is the tool that allows us to tame <m>\infty</m>... Well, not "tame" <m>\infty</m>,
+      but we can utilize <m>\infty</m> with a limit to accomplish some incredible things. We don't tame the Mississippi River,
+      but it is an enormous resource! 
+    </p>
     
 </subsection>
 
+<subsection xml:id="subsec-whatiscalculus">
+  <title>So what is Calculus?</title>
+  <p>
+    So what is calculus exactly? Calculus is a multifaceted branch of mathematics that 
+    serves as the bedrock of an enormous number of applications in a 
+    a huge variety of fields. However, common to all of the underlying ideas of calculus is
+    harnessing <m>\infty</m> through limits to do something.
+  </p>
+
+  <p>
+    Let's look at some examples of how, in some cases, we can predict the infinite.
+    The first should be familiar to us.
+  </p>
+
+  <sage>
+    <input>
+    2+2
+    </input>
+    <output>
+    4
+    </output>
+    </sage>
+
+    <question xml:id="ques-limits1">
+      <title>Limit of Functions</title>
+      <p>
+        Use a table to evaluate <m>\displaystyle \lim_{x \rightarrow 3^-} \dfrac{1}{x-3}.</m>
+        (By <m>3^-</m>, we mean we approach <m>3</m> from the left side of the 
+        number line. Try using numbers like <m>2, 2.9, 2.99,</m> and so on.)
+      </p>
+      
+    </question>
+
+    <p>
+      Earlier, we added <m>1 + -1 + \ldots</m> an infinite number of times. Can we actually
+      add an infinite amount of numbers and get a finite answer? Calculus says, "Yes! It is
+      possible."
+    </p>
+
+    <p>
+      A <term>geometric series</term> is a summation of the powers of a number <m>r</m>. So it 
+      looks like 
+      <me>r^0 + r^1 + r^2 + \ldots + r^n + \ldots.</me>
+      For a lot of numbers, this sum gets larger and larger, but if <m> |r| \lt 1</m>, the sum
+      will equal <m>1/(1-r)</m>. This should surprise you in some way. We can add
+      up an infinite number of numbers and actually calculate the result with a nice, clean formula! 
+    </p>
+
+    <question xml:id="ques-limits2">
+      <title>Finding Geometric Series</title>
+      <statement>
+      <p>
+        Calculuate the geometric series corresponding to <m>\frac{1}{2}</m>:
+        <me> \left(\dfrac{1}{2}\right)^0 + \left(\dfrac{1}{2}\right)^1 + \left(\dfrac{1}{2}\right)^2 + \ldots </me>
+      </p>
+    </statement>
+    <solution>
+      <p>
+        The value of <m>r</m> in this case is <m>\frac{1}{2}</m>, which is less than <m>1</m>, so 
+        our formula applies.
+
+        <me>\left(\dfrac{1}{2}\right)^0 + \left(\dfrac{1}{2}\right)^1 + \left(\dfrac{1}{2}\right)^2 + \ldots = \dfrac{1}{1-1/2} = \dfrac{1}{1/2} = 2.</me>
+      </p>
+    </solution>
+      
+    </question>
+
+    <p>
+      All of that adds up to <m>2</m>? Wow. What about if we let <m>r = 2/3</m>?
+    </p>
+
+    <question xml:id="ques-limits3">
+      <title>Another Geometric Series</title>
+      <statement>
+        <p>
+          Calculuate the geometric series corresponding to <m>\frac{2}{3}</m>:
+          <me> \left(\dfrac{2}{3}\right)^0 + \left(\dfrac{2}{3}\right)^1 + \left(\dfrac{2}{3}\right)^2 + \ldots </me>
+        </p>
+      </statement>
+      <solution>
+        <p>
+          Like <xref ref="ques-limits2"/>, <m>|2/3| \lt 1</m>, so
+          <me>\dfrac{1}{1-2/3} = \dfrac{1}{1/3} = 3.</me>
+        </p>
+      </solution>
+    </question>
+
+    <p>
+      Let's look at one more example.
+    </p>
+  
+</subsection>
+
+<subsection xml:id="subsec-recursive">
+  <title>Recursive Sequences</title>
+
+  <p>
+    A <term>sequence</term>, <m>(a_n)</m>, is just an infinite list of terms. For example,
+    <m>1, 2, 3, 4, \ldots</m> is the familiar sequence of natural numbers. 
+    The terms in a sequence typically are defined by a rule. If <m>a_n = n^2 + 1</m>, then <m>(a_n) = (1^2 +1), (2^2 + 1), \ldots , (n^2 +1), \ldots</m>
+  </p>
+
+  <p>
+    A sequence is a <term>recursive sequence</term> if the rule for <m>a_n</m> involves earlier terms in the sequence. For example, suppose
+    <m>a_1 = 1</m> and after the first term <m>a_n = \dfrac{4a_{n-1}}{3a_{n-1}+3}</m>. Then <m>a_2 = 4(a_1)/(3a_1 + 3) = 4/(3 + 3) = 2/3.</m>
+
+  </p>
+
+  <question xml:id="ques-recursive1">
+    <title>Recursive Terms</title>
+    <statement>
+      <p>
+        What is <m>a_3</m> with our recursive sequence?
+      </p>
+    </statement>
+    
+  </question>
+
+  <p>
+    
+  </p>
+
+
+  
+</subsection>
 
 </section>
