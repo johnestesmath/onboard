@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<chapter xml:id="ch-worldofcalculus-title" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>The World of Calculus</title>
+
+  <introduction>
+    <p> Text before the first section. </p>
+  </introduction>
+  
+  <!-- include sections -->
+  <xi:include href="sec-harnessinf.ptx" />
+
+  <!-- include sections -->
+  <xi:include href="sec-archimedes.ptx" />
+
+</chapter>

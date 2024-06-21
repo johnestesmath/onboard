@@ -1,0 +1,462 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-harnessinf" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Harnessing <m>\infty</m></title>
+
+  <p> "What is the largest number you can think of?" Hopefully, you see that is a 
+    question with no real answer. Maybe the closest we can come to answering that 
+question is <m>\infty  \ldots</m> even though we know <m>\infty</m> is not a number. 
+  </p>
+<p> In fact, <m>\infty </m> is a weird creature. It breaks some of our number-intuition.
+    It feels like <m>\infty</m> just does not behave. For example, can we add an infinite
+    number of numbers and get something finite? We'll see that you can <m>\ldots</m> sometimes. Some of our normal addition rules act
+differently when <m>\infty</m> is involved. For example, can <m>\infty</m> help us
+show that <m>0 = 1 </m>? Let's start with <m>0</m>, and we know that  <m> 0 = 1 + -1 = 1 + -1 + 1 + -1.</m> 
+Can't we do this forever?</p>
+
+<p>
+    <md>
+      <mrow>0  \amp = (1 + -1) + (1 + -1) + 1 + \ldots </mrow>
+      <mrow>   \amp =  1 + (-1 + 1) + (-1 + 1) + \ldots </mrow>
+      <mrow> \amp = 1 + 0 + 0 + \ldots </mrow>
+      <mrow> \amp  = 1</mrow>
+    </md>
+  </p>
+<p>
+   This is a problem! Apparently, the associate law of addition
+   doesn't play well with <m>\infty</m>. You'll discuss this example in 
+   greater detail in a later course, but this is enough to show that <m>\infty</m>
+   can be very unusual.
+</p>
+
+<p>
+    HILBERT HOTEL VIDEO
+</p>
+
+<question xml:id ="hilberhotel1">
+    <statement>
+        <p>
+         In Hilbert's hotel, how do we accommodate a new customer if 
+         all rooms are booked?
+        </p>
+    </statement>
+    
+</question>
+
+<question xml:id ="hilberhotel2">
+    <statement>
+        <p>
+         In Hilbert's hotel, how do we accommodate <m>k</m> new customers if 
+         all rooms are booked?
+        </p>
+    </statement>
+    
+</question>
+
+<question xml:id ="hilberhotel3">
+    <statement>
+        <p>
+         In Hilbert's hotel, how do we accommodate an infinite new customers if 
+         all rooms are booked?
+        </p>
+    </statement>
+    
+</question>
+
+<p>
+    Rules like <m>a + 1 = a</m> sound impossible, until we consider the strange
+    creature we call <m>\infty</m>.
+</p>
+
+<subsection xml:id="subsec-infpredicatble">
+    <title>Not always unpredictable</title>
+
+    <p>
+        However, <m>\infty</m> is not completely unpredictable in all cases. Actually, we should
+        say that a pattern trending towards infinity is sometimes predictable.
+    </p>
+
+    <p>
+        For example, consider the function <m>f(x) = \dfrac{1}{x^2}</m>. What happens as the variable <m>x</m> 
+        gets larger and larger (trends towards <m>\infty</m>).
+    </p>
+
+    <activity xml:id="ac-limits1">
+        <statement>
+            <p>
+                Fill out the following table and make a decision about what
+                happens to <m>f(x) = \dfrac{1}{x^2}</m> as <m>x</m> trends towards <m>\infty</m>.
+            </p>
+            <p>
+            <table xml:id="table-limit1">
+               <tabular top="major">
+               <col />
+               <col />
+               <col width="40%" />
+               <col width="25%" />
+               <row  bottom="minor">
+                 <cell><m>x</m></cell>
+                 <cell><m>f(x) = \dfrac{1}{x^2}</m></cell>              
+               </row>
+               <row bottom="minor">
+                 <cell> <m>5</m> </cell>
+                 <cell> <m> </m></cell>
+               </row>
+               <row bottom="minor">
+                <cell> <m>10</m> </cell>
+                <cell> <m> </m></cell>
+              </row>
+              <row bottom="minor">
+                <cell> <m>100</m> </cell>
+                <cell> <m> </m></cell>
+              </row>
+              <row bottom="minor">
+                <cell> <m>1000</m> </cell>
+                <cell> <m> </m></cell>
+              </row>
+              <row bottom="minor">
+                <cell> <m>1000000</m> </cell>
+                <cell> <m> </m></cell>
+              </row>
+              <row bottom="minor">
+                <cell> <m>1000000000</m> </cell>
+                <cell> <m> </m></cell>
+              </row>
+                           
+             </tabular>
+            </table>
+        </p>
+        <p>
+            What's your decision?
+        </p>
+        </statement>
+        
+    </activity>
+
+    <p>
+        So it seems as <m>x</m> gets closer to <m>\infty</m>, <m>f(x) = \dfrac{1}{x^2}</m> gets closer to
+        0. Let's try something else. This time, let's let <m>x</m> get close to <m>0</m>.
+    </p>
+
+    <activity xml:id="ac-limits2">
+        <statement>
+            <p>
+                Fill out the following table and make a decision about what
+                happens to <m>f(x) = \dfrac{1}{x^2}</m> as <m>x</m> trends towards <m>0</m>.
+            </p>
+            <p>
+            <table xml:id="table-limit2">
+               <tabular top="major">
+               <col />
+               <col />
+               <col width="40%" />
+               <col width="25%" />
+               <row  bottom="minor">
+                 <cell><m>x</m></cell>
+                 <cell><m>f(x) = \dfrac{1}{x^2}</m></cell>              
+               </row>
+               <row bottom="minor">
+                 <cell> <m>5</m> </cell>
+                 <cell> <m> </m></cell>
+               </row>
+               <row bottom="minor">
+                <cell> <m>1</m> </cell>
+                <cell> <m> </m></cell>
+              </row>
+              <row bottom="minor">
+                <cell> <m>.01</m> </cell>
+                <cell> <m> </m></cell>
+              </row>
+              <row bottom="minor">
+                <cell> <m>.0001</m> </cell>
+                <cell> <m> </m></cell>
+              </row>
+              <row bottom="minor">
+                <cell> <m>.0000001</m> </cell>
+                <cell> <m> </m></cell>
+              </row>
+              <row bottom="minor">
+                <cell> <m>.0000000001</m> </cell>
+                <cell> <m> </m></cell>
+              </row>
+                           
+             </tabular>
+            </table>
+        </p>
+        <p>
+            What's your decision?
+        </p>
+        </statement>
+        
+    </activity>
+
+    <p>
+        This time, <m>f(x) = \dfrac{1}{x^2}</m> seems to get larger and larger. We could say that
+        as <m>x</m> trends towards <m>0</m> (at least from the positive side of the number line), 
+        <m>f(x)</m> trends towards <m>\infty</m>.
+    </p>
+
+    <p>
+        Actually, a graph would make these trends obvious.
+    </p>
+
+    <figure xml:id="fig-sage-cubic">
+        <caption>A cubic plotted by SageMath on
+        <m>[-3,2]</m></caption>
+        <image xml:id="sageplot-cubic" width="50%">
+          <description>A cubic function on the interval
+          [-3,2]</description>
+      
+      <sageplot>
+      f(x) = (x-1)*(x+1)*(x-2)
+      plot(f, (x, -3, 2), color='blue', thickness=3)
+      </sageplot>
+        </image>
+      
+      </figure>
+    
+</subsection>
+
+<subsection xml:id="subsec-movementonpaper">
+    <title>Movement On Paper</title>
+
+    <p>
+      Trends like the ones we looked at in <xref ref="ac-limits1"/> and <xref ref="ac-limits2"/> 
+      are examples of <term>limits</term>, a foundational tool in the study of Calculus. We 
+      would write the conclusions from the past activities like
+      <me> \lim_{x \rightarrow \infty} \dfrac{1}{x^2} = 0 \text{ and } \lim_{x \rightarrow 0^+} \dfrac{1}{x^2} = \infty.</me>
+      We'll
+      save defining limits clearly for your other coursework, but we can think about limits
+      intuitively.
+    </p>
+
+    <p>
+      Firstly, we can think of limits as a way to introduce motion
+      on paper. We "watched" the behavior of <m>f(x) = \dfrac{1}{x^2}</m> as <m>x</m> "moved" towards
+      <m>\infty</m>. There are other examples in which we allow the number rectangles or
+      the number of sides or the number terms and so on extend towards <m>\infty</m>. The limit
+      is similar to the play button on a YouTube video. When you see <m>\displaystyle \lim_{x \rightarrow a}</m>,
+      you can just imagine some sort of movement or change on your paper.
+    </p>
+
+    <p>
+      Secondly, the limit is the tool that allows us to tame <m>\infty</m>... Well, not "tame" <m>\infty</m>,
+      but we can utilize <m>\infty</m> with a limit to accomplish some incredible things. We don't tame the Mississippi River,
+      but it is an enormous resource! 
+    </p>
+    
+</subsection>
+
+<subsection xml:id="subsec-whatiscalculus">
+  <title>So what is Calculus?</title>
+  <p>
+    So what is calculus exactly? Calculus is a multifaceted branch of mathematics that 
+    serves as the bedrock of an enormous number of applications in a 
+    a huge variety of fields. However, common to all of the underlying ideas of calculus is
+    harnessing <m>\infty</m> through limits to do something.
+  </p>
+
+  <p>
+    Let's look at some examples of how, in some cases, we can predict the infinite.
+    The first should be familiar to us.
+  </p>
+
+  <sage>
+    <input>
+    2+2
+    </input>
+    <output>
+    4
+    </output>
+    </sage>
+
+    <question xml:id="ques-limits1">
+      <title>Limit of Functions</title>
+      <p>
+        Use a table to evaluate <m>\displaystyle \lim_{x \rightarrow 3^-} \dfrac{1}{x-3}.</m>
+        (By <m>3^-</m>, we mean we approach <m>3</m> from the left side of the 
+        number line. Try using numbers like <m>2, 2.9, 2.99,</m> and so on.)
+      </p>
+      
+    </question>
+
+    <p>
+      Earlier, we added <m>1 + -1 + \ldots</m> an infinite number of times. Can we actually
+      add an infinite amount of numbers and get a finite answer? Calculus says, "Yes! It is
+      possible."
+    </p>
+
+    <p>
+      A <term>geometric series</term> is a summation of the powers of a number <m>r</m>. So it 
+      looks like 
+      <me>r^0 + r^1 + r^2 + \ldots + r^n + \ldots.</me>
+      For a lot of numbers, this sum gets larger and larger, but if <m> |r| \lt 1</m>, the sum
+      will equal <m>1/(1-r)</m>. This should surprise you in some way. We can add
+      up an infinite number of numbers and actually calculate the result with a nice, clean formula! 
+    </p>
+
+    <question xml:id="ques-limits2">
+      <title>Finding Geometric Series</title>
+      <statement>
+      <p>
+        Calculuate the geometric series corresponding to <m>\frac{1}{2}</m>:
+        <me> \left(\dfrac{1}{2}\right)^0 + \left(\dfrac{1}{2}\right)^1 + \left(\dfrac{1}{2}\right)^2 + \ldots </me>
+      </p>
+    </statement>
+    <solution>
+      <p>
+        The value of <m>r</m> in this case is <m>\frac{1}{2}</m>, which is less than <m>1</m>, so 
+        our formula applies.
+
+        <me>\left(\dfrac{1}{2}\right)^0 + \left(\dfrac{1}{2}\right)^1 + \left(\dfrac{1}{2}\right)^2 + \ldots = \dfrac{1}{1-1/2} = \dfrac{1}{1/2} = 2.</me>
+      </p>
+    </solution>
+      
+    </question>
+
+    <p>
+      All of that adds up to <m>2</m>? Wow. What about if we let <m>r = 2/3</m>?
+    </p>
+
+    <question xml:id="ques-limits3">
+      <title>Another Geometric Series</title>
+      <statement>
+        <p>
+          Calculuate the geometric series corresponding to <m>\frac{2}{3}</m>:
+          <me> \left(\dfrac{2}{3}\right)^0 + \left(\dfrac{2}{3}\right)^1 + \left(\dfrac{2}{3}\right)^2 + \ldots </me>
+        </p>
+      </statement>
+      <solution>
+        <p>
+          Like <xref ref="ques-limits2"/>, <m>|2/3| \lt 1</m>, so
+          <me>\dfrac{1}{1-2/3} = \dfrac{1}{1/3} = 3.</me>
+        </p>
+      </solution>
+    </question>
+
+    <p>
+      Let's look at one more example.
+    </p>
+  
+</subsection>
+
+<subsection xml:id="subsec-recursive">
+  <title>Recursive Sequences</title>
+
+  <p>
+    A <term>sequence</term>, <m>(a_n)</m>, is just an infinite list of terms. A familiar example would
+    be <m>1, 2, 3, 4, \ldots</m>, the sequence of natural numbers. A sequence is different
+    than a set in that the order of the terms matters. So <m>a_i</m> is the <m>i^{th}</m> term
+    in the sequence <m>(a_n)</m>. Make sense? The terms in a sequence typically are defined by a rule. For example, if <m>a_n = n^2 + 1</m>, then <m>(a_n) = (1^2 +1), (2^2 + 1), \ldots , (n^2 +1), \ldots</m>
+  </p>
+
+  <p>
+    A sequence is a <term>recursive sequence</term> if the rule for <m>a_n</m> involves earlier terms in the sequence. For example, suppose
+    <m>a_1 = 1</m> and, after the first term, <m>a_n = \dfrac{4a_{n-1}}{3a_{n-1}+3}</m>. Then <m>a_2 = 4(a_1)/(3a_1 + 3) = 4/(3 + 3) = 2/3,</m> and
+    so on.
+
+  </p>
+
+  <question xml:id="ques-recursive1">
+    <title>Recursive Terms</title>
+    <statement>
+      <p>
+        What is <m>a_3</m> in our recursive sequence?
+      </p>
+    </statement>
+    
+  </question>
+
+
+  <p>
+    The big question is whether this recurvise sequence, like the 
+    function and the geometric series we saw earlier, has a limit? The answer
+    is "yes", but how would we find it?
+  </p>
+
+  <p>
+    If you take an analysis course (Maybe Advanced Calculus or Intro to Real Analysis), you will see questions like this, and to find
+    a limit of our recursive sequence you would have to <term>prove</term> two important pieces of information. First, the terms in our sequence either need
+    to get progessively smaller or larger with each sequential term, and secondly all of the terms must be smaller than some 
+    number <m>b</m> and larger than another number <m>c</m> (That is, <m>c \leq a_n \leq b</m> for each term <m>a_n</m>.).
+  </p>
+
+  <p>
+    If these two facts are true, then the <term>Monotone Convergence Theorem</term> guarantees the recursive sequence has
+    a limit. 
+  </p>
+
+  <question xml:id="ques-mct1">
+    <statement>
+      <p>
+        Does the recursive sequence defined by <m>a_1 = 1</m> and 
+        <m>a_n = 4a_{n-1}/(3a_{n-1}+3)</m> satisfy the conditions of the Monotone
+        Convergence Theorem? (See the solution.)
+      </p>
+    </statement>
+    <solution>
+      <p>
+        Yes, it does, but proving that is beyond the scope of what we're doing here. It can be
+        a little complicated.
+      </p>
+    </solution>
+    
+  </question>
+
+  <p>
+    In mathematics, it's not a good idea to take things for granted, but for the purpose of illustration,
+    suppose we have shown that <m>(a_n)</m> is decreasing (getting smaller with each term) and always
+    larger than <m>\frac{1}{3}</m>. That means that our sequence does have a limit. Let's call
+    this mysterious limit point <m>a</m>, and here's how we find what <m>a</m> is.
+  </p>
+
+  <p>
+    We know that <m>\displaystyle \lim_{n\rightarrow \infty}(a_n) = a</m>, and so that
+    also means that <m>\displaystyle \lim_{n\rightarrow \infty}(a_{n-1}) = a</m>. So
+    <md>
+      <mrow> a \amp = \displaystyle \lim_{n\rightarrow \infty}(a_n) </mrow>
+      <mrow> \amp = \displaystyle \lim_{n \rightarrow \infty} \dfrac{4a_{n-1}}{3a_{n-1}+3} </mrow>
+      <mrow> \amp = \dfrac{\displaystyle \lim_{n \rightarrow \infty}4a_{n-1}}{\displaystyle \lim_{n \rightarrow \infty}(3a_{n-1}+3)}</mrow>
+      <mrow> \amp = \dfrac{4a}{3a + 3}.</mrow>
+    </md>
+  
+  </p>
+
+  <p>
+    All of that to say that our limit <m>a</m> satisfies the equation <m>a = 4a/(3a + 3).</m>
+  </p>
+
+  <question xml:id="ques-mct2">
+    <statement>
+      <p>
+        Find the limit point of our sequence by solving the equation <m>a = 4a/(3a + 3).</m>
+      </p>
+    </statement>
+    <solution>
+      <p>
+        This is just algebra at this point.
+
+        <md>
+          <mrow>a \amp = \dfrac{4a}{3a + 3} </mrow>
+          <mrow> a(3a+3)\amp = 4a </mrow>
+          <mrow> 3a^2 - a \amp = 0 </mrow>
+          <mrow> a(3a-1) \amp = 0. </mrow>
+        </md>
+
+        So either <m>a = 0</m> or <m>a = 1/3</m>, but we already know that
+        <m>a \geq 1/3,</m> so <m>a = 1/3</m>.
+      </p>
+    </solution>
+    
+  </question>
+
+  <p>
+    This is a complicated example, but we are highlighting how even though 
+    <m>\infty</m> can act strangely, we can use it to answer complicated quesetions...
+    like how this sequence will trend towards <m>1/3</m>!
+  </p>
+
+  
+</subsection>
+
+</section>

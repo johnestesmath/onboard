@@ -4,15 +4,32 @@
   <!-- we first include a file which contains the docinfo element: -->
   <xi:include href="./docinfo.ptx" />
 
+  
+
   <book xml:id="my-great-book">
-    <title>My Great Book</title>
-    <subtitle>An example to get you started</subtitle>
+    <title>BETA: Onboarding to Mathematics</title>
+    <subtitle>A Quick Voyage through Undergrad Math</subtitle>
 
     <!-- Include frontmatter -->
-    <xi:include href="./frontmatter.ptx" />
+    <xi:include href="./frontmatter.ptx" />   
 
     <!-- Include chapters -->
-    <xi:include href="./ch-chapter-title.ptx" />
+    <xi:include href="./ch-gearup.ptx" />
+
+    <!-- Include chapters -->
+   <!-- <xi:include href="./ch-test.ptx" /> -->
+
+    <!-- Include chapters -->
+   <xi:include href="./ch-worldofcalculus.ptx" />
+
+    <!-- Include chapters -->
+   <!-- <xi:include href="./ch-worldsofalgebra.ptx" /> -->
+
+    <!-- Include chapters -->
+   <!--  <xi:include href="./ch-discovery.ptx" />-->
+
+    <!-- Include chapters -->
+    <!-- <xi:include href="./ch-chance.ptx" /> -->
 
 
     <!-- Include backmatter -->

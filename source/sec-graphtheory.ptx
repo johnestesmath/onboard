@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-graphtheory" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Connecting Dots</title>
+
+  <p>
+    PIC
+  </p>
+
+  <p>Jane and her friend Julia were invited to a small get together at their
+    friend Julio's place. When they arrive, they don't really know any of the other
+  four people (other than Julio) who seem to know each other EXCEPT one of the four coincidentally
+  is Jane's cousin, Elaine.  </p>
+
+  <p>
+    This type situations happen all of the time. If you're sitting in a classroom, you're in a
+    similar situation right now. When you are with a group of people, you are a part of a mathematical structure known as a <term>graph</term>.
+    Actually, any network (relationships, pipe systems, road maps, the internet, <m>\ldots</m>) can be represented as graphs.
+  </p>
+
+  <p>
+    GRAPH PICS
+  </p>
+
+  <p>
+    We see graphs anytime we have a collection of items (We call them <term>vertices </term> or <term>nodes</term>.) and relationships
+    between those items (We call the relationships <term>edges</term>.). 
+    In fact, it is by the vertices and edges that we define a graph.
+  </p>
+
+  <definition xml:id="def-graph">
+    <statement>
+      <p>
+      A graph <term>G</term> is a pair of two sets <m>V</m> and <m>E</m>, 
+      where <m>V</m> is the set of vertices and <m>E</m> is the set of edges on <m>G</m>.
+      </p>
+    </statement>
+  </definition>
+
+  <p>
+    
+  </p>
+
+  <question xml:id="ques-graphs1">
+    <term>Drawing a Graph</term> 
+    <statement>
+      <p>
+        Draw the graph with <m>V = \{a,b,c,d,e,f,g,h\}</m> and
+        edge set <m>E = \{ab, ac, ad, cd, de, eg, eh, fb, fc, hc\}</m>.
+      </p>
+    </statement>   
+  </question>
+
+  <subsection xml:id="subsec-konigsburg">
+    <title>Touring the City of Konigsburg</title>
+
+    <p>
+      KONIGSBUG PIC: By Bogdan Giuşcă - Public domain (PD),based on the image, CC BY-SA 3.0, https://commons.wikimedia.org/w/index.php?curid=112920
+    </p>
+
+    <p>
+      If we happen to find ourselves in Konigsburg Prussia in the 18th century, we would see a city layout similar to the one
+      in FIGURE. The Pregel river flowed through the middle of the city forming two
+      islands. The part we care about, though, is the seven bridges highlighted in FIGURE.
+    </p>
+
+    <p>
+      The incredibly brilliant mathematician, Leonhard Euler (1707-1783), proposed the now famous question:
+      Can someone take a tour of Konigsburg in which all seven bridges are crossed exactly one time, and
+      the tourist returns back to his or her starting position? If so, we'll call that a successful tour of Konigsburg.
+    </p>
+
+    <activity>
+      <statement>
+        <p>
+          Can you find a successful tour of Konigsburg?
+        </p>
+      </statement>
+    </activity>
+
+    <p>
+      
+    </p>
+
+
+    
+  </subsection>
+
+  <subsection xml:id="subsec-connectivity">
+    <title>Connectivity</title>
+    
+  </subsection>
+
+  <subsection xml:id="subsec-sixdegrees">
+    <title>Six Degrees of Separation</title>
+    
+  </subsection>
+
+</section>

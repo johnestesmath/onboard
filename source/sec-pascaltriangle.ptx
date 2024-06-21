@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-pascaltriangle" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>A Special Triangle</title>
+
+  <p>
+    You can find all sorts of interesting examples of surprising structures in the universe of mathematics. One such example is
+   a very special triangle of numbers that's easy to construct and borderline ubiquitous in its applications.
+  </p>
+
+  <p> This triangle goes by many names and was discovered by several cultures in history. In 450 BC, Indian mathematician, Pingata, called
+    this new construction the "Staircase of Mount Meru". Persian mathematician, Omar Khayyam, discovered "Khauuam's Triangle" in the 11th century,
+     and close to the same time, Chinese mathematician, Jin Xian, discovered "Yang Hui's Triangle".
+      In the western world, this triangle is most commonly refered to as Pascal's Triangle, named after
+      french mathematician, Blaise Pascal, who discovered this triangle in the 17th century.
+     <!--REFERENCE: MATHIGON https://mathigon.org/course/sequences/pascals-triangle -->
+  </p>
+ 
+  <figure> <!-- source: mathigon -->
+    <image xml:id="fig-pascaltriangle1" source="pascaltriangle.jpg" width="80%" />
+  </figure>
+
+  <subsection xml:id="subsec-pascalconstruct">
+    <title>Constructing Pascal's Triangle</title>
+    
+    <p> Now you're going to build Pascal's Triangle. The row is just a <m>1</m>, and the 
+    second row is composed of <m>1, 1</m>. The third row looks like <m>1, 2
+      , 1</m> like below. We'll call these rows row 0, row 1, and row 2.</p>
+
+      <table>
+      <tabular>
+        <row>
+          <cell> </cell>
+          <cell></cell>
+          <cell><m>1</m></cell>
+        </row>
+        <row>
+          <cell></cell>
+          <cell><m>1</m></cell>
+          <cell></cell>
+          <cell><m>1</m></cell>
+          <cell></cell>
+        </row>
+        <row>
+          <cell><m>1</m></cell>
+          <cell><m></m></cell>
+          <cell><m>2</m></cell>
+          <cell></cell>
+          <cell><m>1</m></cell>
+        </row>
+      </tabular>
+    </table>
+
+    <p>
+      Where did the <m>2</m> come from? We simply got it by
+      adding the two <m>1</m>'s above it in row 1. For the next row (row 3), we'd start with
+      <m>1</m>. Then we have the sum of the two numbers above our second number (<m>1 + 2</m>). Next is the sum (<m>2+1</m>),
+      and finally we end the row with 1. That is, row 3 is <m>1, 3, 3, 1</m>.
+    </p>
+
+    <p>
+      Then we just repeat this process.
+    </p>
+
+    <question xml:id = "ques-pascal1">
+      <title>Row 4</title>
+      <statement>
+        <p>
+          Fill out row 4 of Pascal's Triangle.
+        </p>
+      </statement>
+      <solution>
+        <p>
+          Following the same process, row 4 has entries
+          <m>1, (1+3), (3+3), (3+1), 1 </m> or <m>1, 4, 6, 4, 1</m>.
+        </p>
+      </solution>      
+    </question>
+
+    <p>
+      
+    </p>
+    
+    <activity xml:id="act-pascal1">
+      Fill out the first 8 rows of Pascal's Triangle.      
+    </activity>
+
+    <p>
+      Pascal's triangle has interested mathematicians for centuries, as it is filled
+      with interesting patterns. 
+    </p>
+
+    <question> 
+      <title>Adding along a row</title>
+      
+      
+      <statement>
+        <p>
+          Add entries of rows 0 through 4. What pattern do you notice?
+        </p>
+      </statement>
+
+      <solution>
+        <p>
+          The sume of entries of rows 0 through 4 are <m>1, 2, 4, 8, 16</m> respectively.
+          These looks like powers of <m>2</m>.
+        </p>
+      </solution>
+    </question>
+
+    <p> 
+      This is just one pattern of Pascal's triangle, but there are many more. TedEd hightlights
+      some of these patterns in this very visual video.
+    </p>
+
+
+  <figure xml:id="vid-khanpascal">
+    <video youtube= "https://www.youtube.com/embed/XMriWTvPXHI?si=b9XuOoc06eBKnuFd"/>
+     <caption></caption>
+  </figure>
+
+  <p>
+    Use TedEd's video and Pascal's Triangle to answer the following.
+  </p>
+
+  <question xml:id="ques-pascal2">
+    <title>Binomial Expansion</title>
+    
+    
+    <statement>
+      <p>
+        Use Pascal's Triangle to expand the binomial <m>(x+y)^4. </m>
+      </p>
+    </statement>
+    
+  </question>
+
+  <question xml:id="ques-pascal3">
+    <title>Powers of 11</title>
+    <statement>
+      <p>
+        Use Pascal's Triangle to find <m>11^7. </m>
+      </p>
+    </statement>
+    
+  </question>
+
+  <question xml:id="ques-pascal4">
+    <title>Counting Apples</title>
+    <statement>
+      <p>
+        There are <m>6</m> apples on a counter. In how many ways could we select
+        <m>4</m> of them? Use Pascal's Triangle to decide.
+      </p>
+    </statement>
+  </question>
+
+  <question xml:id="ques-pascal5">
+    <title>Triangular Numbers</title>
+    <statement>
+      <p>
+        List out of the first 6 triangular numbers.
+      </p>
+    </statement>
+    
+  </question>
+
+  <question xml:id="ques-pascal6">
+    <title>Tetrahedral Numbers</title>
+    <statement>
+      <p>
+        What is the 5th tetrahedral number?
+      </p>
+    </statement>
+    
+  </question>
+
+
+
+    
+  </subsection>
+  
+
+  
+  
+
+
+</section>
