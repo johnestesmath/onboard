@@ -10,4 +10,7 @@
   <!-- include sections -->
   <xi:include href="sec-harnessinf.ptx" />
 
+  <!-- include sections -->
+  <xi:include href="sec-archimedes.ptx" />
+
 </chapter>

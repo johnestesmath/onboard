@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-archimedes" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Archimedes' Great Idea</title>
+
+  <p> Modern Calculus was formulated by Sir Isaac Newton and Gotfriend Leibniz in 1687. But the great mathematician, Archimedes, was really close to developing Calculus in 300 B.C. 
+    (Almost 2000 years before Newton and Leibniz!) with the formation of the limit: the
+   starting point of well-defined calculus (though he never used the word ``limit" in his construction.).  </p>
+
+   <subsection xml:id="subsec-weirdnumber">
+    <title>What is this weird number?</title>
+
+    <p>
+        To illustrate how Archimedes was thinking in terms of calculus, we should think about circles. Ancient cultures were puzzled that every circle 
+        carried an unusual trait with it. 
+        That is, if the circle had diameter <m>d</m>, then it would take length <m>3d</m> 
+        plus a tiny bit more to wrap around the circumference. 
+    </p>
+
+    <p>
+        This fact was true with every circle, and each culture attempted 
+        to calculate the number that was the ratio of circumference to diameter. 
+        No one in the ancient world estimated it as well as Archimedes did.
+    </p>
+
+    <p>
+        So what is this number? We define
+         <m>\pi</m> as <m>\pi = \dfrac{c}{d}</m> for the circle with circumference <m>c</m> and 
+         diameter <m>d</m>. Computers can now calculate <m>\pi</m> to millions of digits, but <m>\pi</m> eluded the 
+         greatest of minds for centuries.
+    </p>
+
+    <p>
+        For reference, here are the first 30 digits of <m>\pi</m>.
+
+        <me>
+        \pi \approx 3.14159265358979323846264338327
+        </me>
+    </p>
+    
+   </subsection>
+
+   <subsection xml:id="subsec-archimedes">
+    <title>Archimedes' Estimate</title>
+
+    <p>
+        Archimedes was interested in figuring out the very mysterious number of <m>\pi</m>, and eventually 
+        estimated <m>\pi</m> to be between <m>21/7</m> and <m>210/71</m> (or between <m>3.1408 \text{ and } 3.1429</m>). 
+        That's really, really close for 300 BC.
+    </p>
+    <p>
+     
+    </p>
+    
+   </subsection>
+
+</section>
