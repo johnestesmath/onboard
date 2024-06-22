@@ -77,7 +77,7 @@ Can't we do this forever?</p>
     </p>
 
     <p>
-        For example, consider the function <m>f(x) = \dfrac{1}{x^2}</m>. What happens as the variable <m>x</m> 
+        For example, consider the function <m>f(x) = \dfrac{1}{x}</m>. What happens as the variable <m>x</m> 
         gets larger and larger (trends towards <m>\infty</m>).
     </p>
 
@@ -85,7 +85,7 @@ Can't we do this forever?</p>
         <statement>
             <p>
                 Fill out the following table and make a decision about what
-                happens to <m>f(x) = \dfrac{1}{x^2}</m> as <m>x</m> trends towards <m>\infty</m>.
+                happens to <m>f(x) = \dfrac{1}{x}</m> as <m>x</m> trends towards <m>\infty</m>.
             </p>
             <p>
             <table xml:id="table-limit1">
@@ -96,7 +96,7 @@ Can't we do this forever?</p>
                <col width="25%" />
                <row  bottom="minor">
                  <cell><m>x</m></cell>
-                 <cell><m>f(x) = \dfrac{1}{x^2}</m></cell>              
+                 <cell><m>f(x) = \dfrac{1}{x}</m></cell>              
                </row>
                <row bottom="minor">
                  <cell> <m>5</m> </cell>
@@ -134,7 +134,7 @@ Can't we do this forever?</p>
     </activity>
 
     <p>
-        So it seems as <m>x</m> gets closer to <m>\infty</m>, <m>f(x) = \dfrac{1}{x^2}</m> gets closer to
+        So it seems as <m>x</m> gets closer to <m>\infty</m>, <m>f(x) = \dfrac{1}{x}</m> gets closer to
         0. Let's try something else. This time, let's let <m>x</m> get close to <m>0</m>.
     </p>
 
@@ -142,7 +142,7 @@ Can't we do this forever?</p>
         <statement>
             <p>
                 Fill out the following table and make a decision about what
-                happens to <m>f(x) = \dfrac{1}{x^2}</m> as <m>x</m> trends towards <m>0</m>.
+                happens to <m>f(x) = \dfrac{1}{x}</m> as <m>x</m> trends towards <m>0</m>.
             </p>
             <p>
             <table xml:id="table-limit2">
@@ -153,7 +153,7 @@ Can't we do this forever?</p>
                <col width="25%" />
                <row  bottom="minor">
                  <cell><m>x</m></cell>
-                 <cell><m>f(x) = \dfrac{1}{x^2}</m></cell>              
+                 <cell><m>f(x) = \dfrac{1}{x}</m></cell>              
                </row>
                <row bottom="minor">
                  <cell> <m>5</m> </cell>
@@ -191,7 +191,7 @@ Can't we do this forever?</p>
     </activity>
 
     <p>
-        This time, <m>f(x) = \dfrac{1}{x^2}</m> seems to get larger and larger. We could say that
+        This time, <m>f(x) = \dfrac{1}{x}</m> seems to get larger and larger. We could say that
         as <m>x</m> trends towards <m>0</m> (at least from the positive side of the number line), 
         <m>f(x)</m> trends towards <m>\infty</m>.
     </p>
@@ -200,20 +200,17 @@ Can't we do this forever?</p>
         Actually, a graph would make these trends obvious.
     </p>
 
-    <figure xml:id="fig-sage-cubic">
-        <caption>A cubic plotted by SageMath on
-        <m>[-3,2]</m></caption>
-        <image xml:id="sageplot-cubic" width="50%">
-          <description>A cubic function on the interval
-          [-3,2]</description>
-      
-      <sageplot>
-      f(x) = (x-1)*(x+1)*(x-2)
-      plot(f, (x, -3, 2), color='blue', thickness=3)
-      </sageplot>
-        </image>
-      
-      </figure>
+    <figure xml:id="fig-plot1">
+      <caption></caption>
+      <image xml:id="sageplot-recsquare" width="50%">
+        <shortdescription>(for accessibility)</shortdescription>
+        <sageplot>
+          f(x) = 1/x
+          plot(f, (x, 0, 2), color='blue', thickness=3)
+          </sageplot>
+      </image>
+    </figure>
+
     
 </subsection>
 
@@ -224,7 +221,7 @@ Can't we do this forever?</p>
       Trends like the ones we looked at in <xref ref="ac-limits1"/> and <xref ref="ac-limits2"/> 
       are examples of <term>limits</term>, a foundational tool in the study of Calculus. We 
       would write the conclusions from the past activities like
-      <me> \lim_{x \rightarrow \infty} \dfrac{1}{x^2} = 0 \text{ and } \lim_{x \rightarrow 0^+} \dfrac{1}{x^2} = \infty.</me>
+      <me> \lim_{x \rightarrow \infty} \dfrac{1}{x} = 0 \text{ and } \lim_{x \rightarrow 0^+} \dfrac{1}{x} = \infty.</me>
       We'll
       save defining limits clearly for your other coursework, but we can think about limits
       intuitively.
@@ -232,7 +229,7 @@ Can't we do this forever?</p>
 
     <p>
       Firstly, we can think of limits as a way to introduce motion
-      on paper. We "watched" the behavior of <m>f(x) = \dfrac{1}{x^2}</m> as <m>x</m> "moved" towards
+      on paper. We "watched" the behavior of <m>f(x) = \dfrac{1}{x}</m> as <m>x</m> "moved" towards
       <m>\infty</m>. There are other examples in which we allow the number rectangles or
       the number of sides or the number terms and so on extend towards <m>\infty</m>. The limit
       is similar to the play button on a YouTube video. When you see <m>\displaystyle \lim_{x \rightarrow a}</m>,
@@ -260,15 +257,6 @@ Can't we do this forever?</p>
     Let's look at some examples of how, in some cases, we can predict the infinite.
     The first should be familiar to us.
   </p>
-
-  <sage>
-    <input>
-    2+2
-    </input>
-    <output>
-    4
-    </output>
-    </sage>
 
     <question xml:id="ques-limits1">
       <title>Limit of Functions</title>
@@ -386,7 +374,58 @@ Can't we do this forever?</p>
     a limit. 
   </p>
 
+  <sage>
+    <input>
+      def a(n):
+      if n==1:
+          return 1
+      else:
+          return 4*a(n-1)/(3*a(n-1)+3)
+      
+    for i in range(1,25):
+      print(a(i).n())
+    </input>
+    <output>
+      1.00000000000000
+      0.666666666666667
+      0.533333333333333
+      0.463768115942029
+      0.422442244224422
+      0.395978344934261
+      0.378208679593721
+      0.365893965786770
+      0.357171664323164
+      0.350898046491207
+      0.346335582617427
+      0.342990843282536
+      0.340524380091030
+      0.338697686913541
+      0.337340476718017
+      0.336329685761488
+      0.335575558781201
+      0.335012179156114
+      0.334590884274810
+    </output>
+    </sage>
+
   <question xml:id="ques-mct1">
+    <statement>
+      <p>
+        Use the Sage cell to make a hypothesis about if <m>a_n</m> either 
+        is (1) increasing or decreasing and (2) bound above or below by a number.
+      </p>
+    </statement>
+    <solution>
+      <p>
+        It looks like <m>a_n</m> is (1) decreasing and (2) bound above by 1 and below by 0. However,
+        this is just a hypothesis.
+      </p>
+    </solution>
+    
+  </question>
+
+
+  <question xml:id="ques-mct2">
     <statement>
       <p>
         Does the recursive sequence defined by <m>a_1 = 1</m> and 
@@ -426,7 +465,7 @@ Can't we do this forever?</p>
     All of that to say that our limit <m>a</m> satisfies the equation <m>a = 4a/(3a + 3).</m>
   </p>
 
-  <question xml:id="ques-mct2">
+  <question xml:id="ques-mct3">
     <statement>
       <p>
         Find the limit point of our sequence by solving the equation <m>a = 4a/(3a + 3).</m>
