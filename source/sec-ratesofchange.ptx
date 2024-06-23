@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-ratesofchange" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Rates of Change</title>
+
+  <p>Did you know crows give gifts? Some people
+    have found that if you routinely feed local crows or ravens, they 
+    will eventually return the favor by bringing trinkets. People have reported
+  that their crow friends have brought bottle caps, sticks, feathers, and miscelaneous
+    shiny objects. </p>
+
+  <!-- https://www.quora.com/Why-do-crows-sometimes-give-gifts-to-people-who-feed-them-Is-that-something-they-do-with-other-crows-If-so-why-->
+    <p>
+      Imagine your friend, Lucas, has a crow friend, and his crow brings him
+      two small gifts a day. So the shoebox where Lucas keeps these gifts grows by
+      two items a day. We can chart it like below.
+    </p>
+
+    <figure xml:id="fig-rates1">
+      <caption>Crow-friend presents</caption>
+      <sageplot>
+        f(x) = 2x
+        plot(f, (x, 0, 8), color='blue', thickness=3)
+      </sageplot>
+    </figure>
+    
+  <p>
+    We see here an example of linear data. That is, if we chart this information,
+    we can see a straight line with equation <m>y = mx + b</m>, where <m>b</m> is 
+    our initial amount (or <m>y</m>-intercept) and <m>m</m> is our slope.
+  </p>
+
+  <p>
+    What does <term>slope</term> mean exactly? The graph in <xref ref="fig-rates1"/> 
+    is <m>y = 2x</m>, and so the slope is <m>2</m>. But what does that mean? The
+    slope refers to how quickly our line is changing... a <term>rate of change</term>. 
+    In this case, <m>m = 2</m> gifts per day. 
+  </p>
+
+  <p>
+    This is exactly why the slope formula is 
+    <me>m = \dfrac{y_2-y_1}{x_2-x_1} \text{ with points } (x_1,y_1) \text{ and } (x_2,y_2).</me>
+    The rate of change is measured by "change in <m>y</m> over change in <m>x</m>".
+  </p>
+
+  <subsection xml:id="subsec-throwaball">
+    <title>Throwing a Ball</title>
+    <p>
+      A lot of situations aren't linear, though, right? For example, if we throw 
+      a ball straight up, thanks to gravity which accelerates over times, after
+      <m>t</m> seconds, the ball is at height <m>s = -16t^2 + vt + h</m> units. Here, <m>v</m>
+      is initial velocity and <m>h</m> is the initial height.
+    </p>
+
+    <p>
+      This obviously has a rate of change, but our slope formula doesn't seem
+      to make sense anymore. So how do we find how quickly a ball is moving in the air?
+    </p>
+
+
+    
+  </subsection>
+
+</section>

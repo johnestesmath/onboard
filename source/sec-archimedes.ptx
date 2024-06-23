@@ -18,22 +18,35 @@
     <title>What is this weird number?</title>
 
     <p>
-        To illustrate how Archimedes was thinking in terms of calculus, we should think about circles. Ancient cultures were puzzled that every circle 
-        carried an unusual trait with it. 
-        That is, if the circle had diameter <m>d</m>, then it would take length <m>3d</m> 
-        plus a tiny bit more to wrap around the circumference. 
+        To illustrate how Archimedes was thinking about calculus two thousand years before
+        calculus was a known thing, we should think about circles. Ancient cultures were puzzled that every circle 
+        carried an unusual trait. It seemed that for a circle with diameter <m>d</m>, its circumference
+        was predictable... kind of.
     </p>
+
+    <activity>
+        <title>Circumference and Diameter</title>       
+        
+        <p>
+            How many diameter lengths is the circumference of a circle? 
+            SETUP SOME ACTIVITY WITH THIS.
+            
+        </p>
+    </activity>
+
+    
 
     <p>
-        This fact was true with every circle, and each culture attempted 
-        to calculate the number that was the ratio of circumference to diameter. 
-        No one in the ancient world estimated it as well as Archimedes did.
+        It appears that a circle with diamer <m>d</m> has a circumference a bit more than 
+        <m>3d</m>. This fact was true with every circle, and each culture attempted by their
+        own estimates to calculate the myserious number that was the ratio of circumference to diameter <m>c/d</m>. 
     </p>
-
     <p>
         So what is this number? We define
-         <m>\pi</m> as <m>\pi = \dfrac{c}{d}</m> for the circle with circumference <m>c</m> and 
-         diameter <m>d</m>. Computers can now calculate <m>\pi</m> to millions of digits, but <m>\pi</m> eluded the 
+         <m>\pi</m> as <m>c/d</m> for the circle with circumference <m>c</m> and 
+         diameter <m>d</m>. The Babylonians found <m>3.125</m> to approximate <m>\pi</m>, and the Egyptians
+         used <m>3.1605</m> for their estimate. You probably learned something like <m>3.14</m>. Through modern techniques,
+         computers can now calculate <m>\pi</m> to millions of digits, but the true value of <m>\pi</m> eluded the 
          greatest of minds for centuries.
     </p>
 
@@ -52,13 +65,68 @@
 
     <p>
         Archimedes was interested in figuring out the very mysterious number of <m>\pi</m>, and eventually 
-        estimated <m>\pi</m> to be between <m>21/7</m> and <m>210/71</m> (or between <m>3.1408 \text{ and } 3.1429</m>). 
+        estimated <m>\pi</m> to be <m>21/7 \leq \pi \leq 210/71</m> (or between <m>3.1408 \text{ and } 3.1429</m>). 
         That's really, really close for 300 BC.
     </p>
+    <!-- https://www.scientificamerican.com/article/the-long-search-for-the-value-of-pi-->
     <p>
-     
+        How did he develop such a good estimate? Archimedes was exteremly good at
+        calculations, and he knew polygons very well.  
     </p>
+
+    <figure>
+        <image xml:id="fig-archim1" source="archi_pi.PNG" width="50%" />
+    </figure>
+
+    <p>
+        He first inscribed a hexagon in a circle with radius <m>1</m> like in 
+        <xref ref="fig-archim1"/>, and then he noticed that the hexagon's area is a rough estimate
+        of the area of the circle. Let's work that out for ourselves. We can find the hexagon's area by dividing it into six equilateral triangles and finding
+        their area. 
+    </p>
+
+    <question xml:id="ques-archim1">
+        <title>The Hexagon's Area</title>
+        <statement>
+            <p>
+                Find the area of one equilateral triangle using the formula <m>A = 1/2bh</m> for 
+                base <m>b</m> and height <m>h</m>.
+            </p>
+        </statement>
+        <solution>
+            <p>
+                The triangle is equilateral, so it has base length <m>1</m>. Using
+                pythagorean theorem, we find the height to be <m>\sqrt{3}/2</m>. So the
+                area of the triangle is <m>\dfrac{1}{2}\cdot 1 \cdot \left( \dfrac{\sqrt{3}}{2}\right) = \dfrac{\sqrt{3}}{4}.</m>
+                So the area of the hexagon is <m>6 \cdot \dfrac{\sqrt{3}}{4} \approx 2.5980762</m>.
+            </p>
+        </solution>      
+        
+        
+    </question>
+
+    <p>
+        Okay... that's not a great estimate for <m>\pi</m>, but Archimedes realized a
+        dodecagon's area would be a better estimate. Why stop there though? he calculated areas of <m>24</m>-gons, 
+        <m>48</m>-gons, and <m>96</m>-gons (all by hand and without modern trigonometry), all inscribed in a circle of radius 1. 
+        Archimedes knew that these areas trend towards some number really close to what we now call <m>\pi</m>.
+    </p>
+
+    <p>
+        In the illustration below, you can see how the areas of <m>n</m>-gons trend towards <m>\pi</m> as
+        <m>n</m> goes to <m>\infty</m>. Wait... that sounds like a limit! Archimedes build a limit that in 300 BC.
+    </p>
+
+    <figure xml:id="geo-act1">
+        <interactive geogebra="ycqecbcj"/> 
+      </figure>
     
    </subsection>
+
+
+
+   
+
+
 
 </section>

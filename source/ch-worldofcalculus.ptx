@@ -19,4 +19,13 @@
   <!-- include sections -->
   <xi:include href="sec-calcinmovies.ptx" />
 
+    <!-- include sections -->
+    <xi:include href="sec-ratesofchange.ptx" />
+
+  <!-- include sections -->
+  <xi:include href="sec-buildingareas.ptx" />
+
+  <!-- include sections -->
+  <xi:include href="sec-polarcoords.ptx" />
+
 </chapter>
