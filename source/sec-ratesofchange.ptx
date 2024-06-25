@@ -18,10 +18,14 @@
 
     <figure xml:id="fig-rates1">
       <caption>Crow-friend presents</caption>
-      <sageplot>
-        f(x) = 2x
-        plot(f, (x, 0, 8), color='blue', thickness=3)
-      </sageplot>
+      <image source="path (no extension)">
+        <shortdescription>(for accessibility)</shortdescription>
+        <sageplot>
+          f(x) = 2x
+          plot(f, (x, 0, 8), color='blue', thickness=3)
+        </sageplot>
+      </image>
+      
     </figure>
     
   <p>
@@ -46,18 +50,368 @@
   <subsection xml:id="subsec-throwaball">
     <title>Throwing a Ball</title>
     <p>
-      A lot of situations aren't linear, though, right? For example, if we throw 
-      a ball straight up, thanks to gravity which accelerates over times, after
-      <m>t</m> seconds, the ball is at height <m>s = -16t^2 + vt + h</m> units. Here, <m>v</m>
-      is initial velocity and <m>h</m> is the initial height.
+      A lot of situations aren't linear, though, right? For example, if our <m>6ft</m> tall friend throws 
+      a ball straight up at <m>30</m>mph (or <m>44</m> feet per second), thanks to gravity which accelerates over time, after
+      <m>t</m> seconds, the ball is at height <m>s = -16t^2 + 44t + 6</m> feet.
     </p>
+
+    <figure xml:id="fig-rates2">
+      <caption>Ball height over time</caption>
+      <image>
+        <shortdescription>(for accessibility)</shortdescription>
+        <sageplot>
+          plot(-16*x^2+44*x+6, (0, 3),
+          color='blue', linestyle='-',
+          aspect_ratio=.06, thickness = 3)
+        </sageplot>
+      </image>
+      
+    </figure>
 
     <p>
       This obviously has a rate of change, but our slope formula doesn't seem
-      to make sense anymore. So how do we find how quickly a ball is moving in the air?
+      to make sense anymore. So how do we find how quickly a ball is moving in the air at a given time? Unlike the
+      crow-friend graph earlier, we cannot talk about slope... or maybe we should consider the slope to be variable. So when
+      we talk about velocity, we have to talk about velocity <term>at a given time</term>, since velocity is not constant.
     </p>
 
+    <p>
+      Suppose we want to know how fast the ball is travelling after <m>2s</m>. This is a difficult question at first, but 
+      maybe we can take an average velocity over a short time interval and use this average velocity as an estimate for the
+      velocity at exactly <m>2s</m>. For example, let's find the average velocity from <m>1.5s</m> to <m>2s</m>. In other words,
+      we look for the slope of the line passing through the points <m>(1.5, s(1.5))</m> and <m>(2, s(2))</m>. We call such a line
+      a <term>secant line</term>.
+    </p>
 
+    <question xml:id="ques-der1">
+      <title>Our First Average</title>
+      <statement>
+        <p>
+          Use the slope formula to calculate the average velocity of te ball from <m>1.5s</m> to <m>2s</m>.
+        </p>
+      </statement>     
+      
+    </question>
+
+    <figure xml:id="fig-diff3">
+      <caption></caption>
+      <image>
+        <shortdescription></shortdescription>
+        f(x) = -16*x^2+44*x+6
+        sl(x) = (f(2)-f(x))/(2-x)
+        g2 = plot(f, (0, 3),
+            color='blue', linestyle='-',
+            aspect_ratio=.06); 
+        g2 += plot(sl(1)*(x-1)+f(1), (0, 3),
+            color='red', linestyle='-',
+            aspect_ratio=.06); g2
+      </image>
+    </figure>
+
+    <p>
+      We can see the graph of the function modelling the ball and the secant line in <xref ref="fig-diff3"/>. The idea is that
+      the slope of the secant line gives us an estimate for the rate the ball is travelling at <m>2s</m>. Is this a good estimate?
+    </p>
+
+    <p>
+      Probably not.
+    </p>
+
+    <question xml:id="ques-der2">
+      <statement>
+        <p>
+          How could we get a better estimate?
+        </p>
+      </statement>
+
+      <solution>
+        <p>
+          Maybe we should find secant line slopes that pass through points closer to <m>2s</m>,
+          like the secant line corresponding to times <m>1.9s</m> and <m>2s</m>.
+        </p>
+      </solution>
+      
+    </question>
+
+    <p>
+      If we take an average over a shorter distance, we can get a more accurate measurement for
+      the instantaneous rate of change at <m>2s</m>. The Geogebra applet below shows the trend of slopes of
+      the secant lines as our time interval gets smaller.
+      
+    </p>
+
+    <figure xml:id="geogebra-sec">
+      <interactive geogebra="atzsbtfv"/> 
+    </figure>
+
+    <p>
+      
+    </p>
+
+    <question xml:id="ques-sec1">
+      <title></title>
+      <statement>
+        <p>
+          Use the Geogebra applet to estimate how quickly the ball is
+          traveling at <m>2s</m>.
+        </p>
+      </statement>
+      <solution>
+        <p>
+          It appears to be trending towards <m>20 ft/s</m>.
+        </p>
+      </solution>
+      
+    </question>
+
+    <p>
+      Notice that the secant line disappears when the time interval is <m>0s</m>.
+      This is part of the problem, right? We can get a trend of slopes when the time
+      interval is close to <m>0</m>, but the slope formula is undefined once we have a
+      time interval length <m>0</m>.
+    </p>
+
+    <p>
+      There is, however, a special line we call the <term>tangent line</term> that intersects
+      our graph right at <m>2</m> and whose slope <m>m</m> is the number that the secant slopes
+      are trending towards. The tangent line's slope gives us the instantaneous rate of change
+      that we are looking for. Wouldn't it be nice to have a good way of finding the tangent
+      line's slope? 
+    </p>
+
+    <p>
+      PIC OF GRAPH WITH TANGENT LINE.
+    </p>
+
+    
+  </subsection>
+
+  <subsection xml:id="subsec-derivatives">
+    <title>Derivatives and Instantaneous Rate of Change</title>
+    
+    
+    <p>
+      Remember from <xref ref="sec-harnessinf"/> that when we talk about trends, we're actually talking about limits.
+      In this case, we're looking at slopes of secant lines as the time interval trends
+      towards 0. This limit gives us the <term>instantaneous rate of change</term> of a function at
+      a given time.
+    </p>
+
+    <p>
+      Mathematically, with help of the slope formula, we could say the instantaneous rate
+      of change is
+
+      <me>\lim_{x \rightarrow a} \dfrac{s(x)-s(a)}{x-a},</me>
+
+      and amazingly the simple slope formula we learned in algebra becomes the tool
+      to finding instantaneous rate of change! 
+    </p>
+
+    <p>
+      This limit is called the <term>derivative</term>, and it is the gateway to 
+      understanding movement and change in mathematical terms. Your first semester of Calculus 
+      will focus heavily on the derivative, including nice formulas for calculating
+      derivatives and a variety of derivative applications.
+    </p>
+
+    <p>
+      Typically, for function <m>f(x)</m>, we denote the derivative as <m>f'(x)</m>, and
+      with this new definition, we see that the tangent line at <m>x = a</m> has equation
+      <me>y = f'(a)(x-a) + f(a)</me> for any function. With the derivative in our arsenal,
+      we have a more sophisticated method to finding a rate of change than using secant line.
+    </p>
+    
+  </subsection>
+
+  <subsection xml:id="subsec-dapplications">
+    <title>Applications of Derivatives</title>
+
+    <p>
+      You encountere derivatives everywhere you go.... everytime you hit
+      your car breaks... everytime you take medicine... and everytime you launch a rocket
+      into space. The derivative is an extremely powerful tool. Let's look at a few applications
+      of derivatives.
+    </p>
+
+    <question xml:id="ques-der4">
+      <title>Applications of Derivatives</title>
+      <statement>
+        <p>
+          With a group of classmates, find four applications of derivatives either through a textbook or
+          the internet.
+        </p>
+      </statement>
+      </question>
+
+  
+
+      <subsubsection xml:id="subsubsec-appd1">
+        <title>More Rates of Change</title>
+        <p>
+          We were not kidding around when we said that derivates are all around us.
+          Any rate of change can be classified as a derivative. We can find examples from 
+          biology, chemistry, population dynamics, ecology, economy, and astronomy (among many
+          others).
+
+        </p>
+
+        <p>
+          Let's look at an example.
+        </p>
+        
+        <question xml:id="ques-appd11">
+          <statement>
+            <p>
+              Suppose you have a tank holds <m>1000</m> gallons of water, which drains from
+              the bottom in <m>60</m>min. By Torricelli's Law <!--https://www.britannica.com/science/Torricellis-law-->,
+              the volume <m>V</m> of water remaining in the tank after <m>t</m> minutes is
+              <me>V = 1000\left( 1 - \dfrac{1}{60}t\right)^2, \; 0 \leq t \leq 60.</me>
+            </p>
+
+            <p>
+              What does the derivative <m>V'</m> model?
+            </p>
+          </statement>
+          <solution>
+            <p>
+              Since <m>V</m> gives us the volume of water at time <m>t</m>, <m>V'</m> gives
+              us the rate of change in the water volume at time <m>t</m>. That is, <m>V'</m>
+              tells us how quickly the water is draining from the tank at time <m>t</m>.
+            </p>
+          </solution>
+        </question>
+
+        <question xml:id="ques-appd12">
+          <statement>
+            <p>
+              Suppose that <me>V' = -\dfrac{100}{3}\left(1-\dfrac{1}{60}t\right)</me>, where
+              <m>V</m> is the volume of water remaining in <xref ref="ques-appd11"/>.
+            </p>
+            <p>
+              How quickly is the water draining after <m>5s</m>.
+            </p>
+          </statement>          
+        </question>
+
+      </subsubsection>
+    
+              
+
+      <subsubsection xml:id="subsec-appd3">
+        <title>Highest and Lowest</title>
+
+        <p>
+          If the derivative of <m>f(x)</m> is <m>0</m> at the value <m>x = a</m>, the instaneous rate of change at <m>x = a</m> is <m>0</m> as well. 
+         That means the tangent line at <m>x = a</m> has slope <m>0</m> and thus is horizontal. What does this mean? When does a function
+         have no change? Or a horizontal tangent line? Many times, these are the places where <m>f(x)</m> has either reached a high point or a low point. For this 
+          reason, derivatives often help us find the highs and lows. 
+        </p>
+
+        <p>
+          Suppose we find <m>1600ft</m> 
+          of fencing at a local flea market (for a price we can't turn down), and we are wanting
+          to build an enclosed field with it. We have the perfect place along a local creek that will
+          serve as one border of our field.
+          The question calculus can help with is "How do we build a field with the most area possible?" Should
+          this field be long and then? Should it be square shaped? Somewhere in between? Let's 
+          figure that out.
+        </p>
+
+        <p>
+          ADD GEOGEBRA ANIMATION OF A FIELD?
+        </p>
+
+        <p>
+          We can label the rectangular sides as <m>x</m> and <m>y</m> (with <m>being the long side</m>), but
+          we need to also setup equations for area and perimeter. 
+        </p>
+
+        <question xml:id="ques-appd31">
+          <statement>
+            <p>
+              What's the area <m>A</m> of the field in terms of <m>x</m> and <m>y</m>?
+            </p>
+          </statement>
+          <solution>
+            <p>
+              <m>A = xy</m>
+            </p>
+          </solution>
+          
+        </question>
+
+        <p>
+          
+        </p>
+
+        <question  xml:id="ques-appd32">
+          <statement>
+            <p>
+              What's the perimeter <m>p</m> in terms of <m>x</m> and <m>y</m>? Don't 
+              forget that the total amount of fence is <m>1600ft</m>.
+            </p>
+          </statement>
+          <solution>
+            <p>
+              Since one side of the rectangle is the creek, we have perimeter <m>p = 2x + y</m>, and
+              so in total we have <m>1600 = 2x + y</m> as a representation of perimeter.
+            </p>
+          </solution>
+        </question>
+
+        <p>
+          We can use our perimeter equation to express <m>A</m> as a one variable function. From there,
+          the equation <m>A' = 0</m> will help us pinpoint exactly what dimension field has the maximum
+          area.
+        </p>
+
+        <question xml:id="ques-appd33">
+          <statement>
+            <p>
+              Express <m>A</m> as a function of <m>x</m>.
+            </p>
+          </statement>
+          <solution>
+            <p>
+              We solve <m>1600 = 2x + y</m> for <m>y</m> to get <m>y = 1600 - 2x,</m>
+              and so <m>A = x(1600-2x) = 1600x-2x^2.</m>
+            </p>
+          </solution>
+          
+        </question>
+
+        <p>
+          So now we know the area of a our field is <m>A(x) = 1600x - 2x^2</m>. After 
+          some simple derivative rules, we obtain <m>A'(x) = 1600 - 4x</m>.
+        </p>
+
+        <question xml:id="ques-appd34">
+          <statement>
+            <p>
+              Solve the equation <m>A' = 0</m>.
+            </p>
+          </statement>
+
+          <solution>
+            <p>
+              We solve <m>1600 - 4x = 0</m> to get <m>x = 400</m>.
+            </p>
+          </solution>
+          
+        </question>
+
+        <p>
+          So <m>x = 400</m> is a potential maximum or minimum of <m>A(x)</m>, and since
+          <m>A(x)</m> is a downward opening parabola, it makes sense that <m>x = 400</m> is in fact
+          the maximum. Putting it all together, the largest field we could possibly build has two sides length <m>x =400ft</m>
+          and one more side length <m>y = 800ft</m>. The area of this field is <m>A = 400(800) = 320,000ft^2</m>.
+        </p>
+
+        <p>
+          You can imagine there a lot of valuable applications similar to this.
+        </p>
+        
+      </subsubsection>
     
   </subsection>
 

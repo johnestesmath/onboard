@@ -20,7 +20,7 @@
    <!-- <xi:include href="./ch-test.ptx" /> -->
 
     <!-- Include chapters -->
-   <xi:include href="./ch-worldofcalculus.ptx" />
+   <xi:include href="./ch-worldofcalculus.ptx" /> 
 
     <!-- Include chapters -->
    <!-- <xi:include href="./ch-worldsofalgebra.ptx" /> -->
