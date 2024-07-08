@@ -1,0 +1,698 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-groups" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Algebra Shapes and Groups</title>
+
+  <p>
+    Imagine a game board with four squares (like a <m>1 \times 4</m> chessboard)
+    labelled <m>0</m> through <m>3</m>, and one token placed on a square. This is
+    a rather simple game, all we can do is move the token to the right, and if 
+    the token moves off the board, it goes back to spot <m>0</m>.
+  </p>
+
+  <p>
+   We can map out all possible moves of this game with a simple chart. We'll
+   write <m>a + b</m> to mean the token starts in slot <m>a</m> and travels
+   <m>b</m> moves to the right.
+  </p>
+
+  <activity xml:id="act-goups2">
+    <statement>
+      <p>
+        Fill out the chart of all possible moves of the token on a <m>1 \times 4</m>
+        chessboard.
+      </p>
+
+      <table xml:id="table-token1">
+        <tabular >
+            <col />
+            <col />
+            <col />
+            <col />
+            <col  />
+            <row  bottom="minor">
+              <cell right="minor"><m>a \backslash b</m></cell>
+              <cell><m>0</m></cell>
+              <cell><m>1</m></cell>
+              <cell><m>2</m></cell>
+              <cell><m>3</m></cell>             
+            </row>
+            <row bottom="minor">
+              <cell right="minor"> <m>0</m> </cell>
+              <cell> <m> </m></cell>
+              <cell> <m> </m></cell>
+              <cell> <m> </m></cell>
+              <cell> <m> </m></cell>
+            </row>
+            <row bottom="minor">
+             <cell right="minor"> <m>1</m> </cell>
+             <cell> <m> </m></cell>
+              <cell> <m> </m></cell>
+              <cell> <m> </m></cell>
+              <cell> <m> </m></cell>
+           </row>
+           <row bottom="minor">
+             <cell right="minor"> <m>2</m> </cell>
+             <cell> <m> </m></cell>
+              <cell> <m> </m></cell>
+              <cell> <m> </m></cell>
+              <cell> <m> </m></cell>
+           </row>
+           <row bottom="minor">
+             <cell right="minor"> <m>3</m> </cell>
+             <cell> <m> </m></cell>
+              <cell> <m> </m></cell>
+              <cell> <m> </m></cell>
+              <cell> <m> </m></cell>
+           </row>
+                        
+          </tabular>
+         </table>
+    </statement>
+    
+  </activity>
+
+  <p>
+    This game is rather boring... is it even a game? But it illustrates how we can
+    uncover the underlying structure mathematically of something.
+  </p>
+
+  <subsection xml:id="subsec-algebrapurpose">
+    <title>Algebra's Goal</title>
+    
+        <p>
+          If we ever make contact with an extraterrestrial society, how
+          could we ever hope to communicate with them? We think that mathematics
+          is our best chance of communicating with intelligent life. We are pretty
+          confident that if they have the means to send and receive messages, they
+          will have an understanding of mathematics.
+      </p> 
+
+      <p>
+        But what does their alien math look like? We would be very suprised to find
+        the Mean Value Theorem or the Four Color Theorem in their writings, right? At least with
+        the same phrasing we use, BUT we would not be surprised if they had their own
+        versions of these results.
+        </p>
+
+        <p>
+          Modern algebra seeks to explore "deeper" structures of mathematical systems,
+          so that we can recognize familiar math in unfamiliar environments. Can we find 
+          the big picture patterns of mathematics? That is our goal with higher algebra.
+      </p>
+  
+  </subsection>
+
+ 
+    
+
+    <subsection xml:id="subsec-modernalgebra">
+        <title>A Familiar Pattern</title>
+
+        <p>
+          Let's find another underlying structure. Define the set <m>A = \{1,i,-1,-i\}</m> where <m>i = \sqrt{-1}</m>,
+          and consider multiplication in this set. We should point out that if we multiply two things in <m>A</m>, the result
+          is also in <m>A</m>, and this property is called <term>closure</term>. As an example,
+          <m>i \cdot i = i^2 = (\sqrt{-1})^2 = -1 \in A. </m>
+        </p>
+        
+        <activity xml:id="act-groups1"> 
+          <statement>
+            <p>
+              Fill out the multiplication table for set <m>A = \{1,i,-1,-i\}.</m>
+
+              <table xml:id="table-groupsi">
+                <tabular >
+                <col />
+                <col />
+                <col />
+                <col />
+                <col  />
+                <row  bottom="minor">
+                  <cell right="minor"><m>\cdot</m></cell>
+                  <cell><m>1</m></cell>
+                  <cell><m>i</m></cell>
+                  <cell><m>-1</m></cell>
+                  <cell><m>-i</m></cell>             
+                </row>
+                <row bottom="minor">
+                  <cell right="minor"> <m>\; 1</m> </cell>
+                  <cell> <m> </m></cell>
+                  <cell> <m> </m></cell>
+                  <cell> <m> </m></cell>
+                  <cell> <m> </m></cell>
+                </row>
+                <row bottom="minor">
+                 <cell right="minor">  <m> \; i</m> </cell>
+                 <cell> <m> </m></cell>
+                  <cell> <m> -1</m></cell>
+                  <cell> <m> </m></cell>
+                  <cell> <m> </m></cell>
+               </row>
+               <row bottom="minor">
+                 <cell right="minor"> <m>-1</m> </cell>
+                 <cell> <m> </m></cell>
+                  <cell> <m> </m></cell>
+                  <cell> <m> </m></cell>
+                  <cell> <m> </m></cell>
+               </row>
+               <row bottom="minor">
+                 <cell right="minor"> <m>-i</m> </cell>
+                 <cell> <m> </m></cell>
+                  <cell> <m> </m></cell>
+                  <cell> <m> </m></cell>
+                  <cell> <m> </m></cell>
+               </row>
+                            
+              </tabular>
+             </table>
+            </p>
+          </statement>
+          
+        </activity>
+
+    <p>
+      Do you notice any similarities between <xref ref="table-token1"/> and ? 
+      Tables like these are called <term>Cayley Tables</term>, and one use of Cayley
+      Tables is highlighting patterns. Even though we have different contexts,
+      different sets, and even different operations, in some way they are the 
+      same thing.
+    </p>
+
+    <figure xml:id="fig-isomorphism">
+      <caption>Underlying Cayley Table</caption>
+      <image source="isomorphism1.png">
+      </image>
+
+    </figure>
+
+    <p>
+      Algebraists can show that the context of the token on the chessboard
+      and the multiplicative powers of <m>i</m> are, in fact, the same. What 
+      we mean, actually, is that they operate the same way. We say they are
+      <term>isomorphic </term> (meaning "same shape"), and in an 
+      algebra course we can prove these things are isomorphic.
+      
+    </p>
+
+
+
+    </subsection>
+
+    <subsection xml:id="subsec-groups">
+      <title>What is a Group?</title>
+      
+      <p>
+        Both of the previous examples are examles of one of the simplest 
+        algebraic structures: the <term>group</term>. We have found two groups,
+        so far, and highlighted that they are isomorphic, but what exactly
+        is a group?
+      </p>
+
+      <p>
+        The group <m>G</m> is a set paired with an operation (let's say <m>\ast</m>) that satisfies
+        a short list of properties. The first two are familar to us.
+        <ol>
+          <li>
+            <p>
+              the <term>closure property:</term> if <m>a, b \in G</m>, then <m>a \ast b \in G.</m>
+            </p>
+          </li>
+          <li>
+            <p>
+              the <term>associative property:</term> for any <m>a,b,c \in G</m>, <m>(a \ast b) \ast c = a \ast (b \ast c)</m>
+            </p>
+          </li>
+                    
+        </ol> 
+       
+      </p>
+
+      <p>
+        To show the last two properties, let's consider the two examples we discussed
+        earlier. Let <m>A</m> be paired with multiplication as earlier, and let <m>B = \{0,1,2,3\}</m> be paired with addition
+        defined by such: the token starting at square <m>a</m> moving <m>b</m> squares to the right will rest on 
+      square <m>a + b = c</m>.
+      </p>
+
+      <subsubsection xml:id="subsubsec-identity">
+        <title>Identity Elements </title>
+
+        <p>
+          How is a number affected when multiplied by <m>1</m>? What about when
+          summed with <m>0</m>? 
+        </p>
+
+        <p>
+         By using the Caylet Tables from earlier, we can see in set <m>A</m>, there is an element, <m>e</m>,
+          so that for any other element <m>a \in A</m>, <m>a \cdot e = e \cdot a = a</m>. In other words,
+          multiplying by <m>e</m> changes nothing. An element like <m>e</m> is known as the
+          <term>identity</term> of <m>G</m>.
+        </p>
+
+        <question xml:id="ques-identity1">
+          <statement>
+            <p>
+              What is the identity of the group <m>A</m> with operation <m>\cdot</m>?
+            </p>
+          </statement>
+          <solution>
+            <p>
+              The identity is <m>1</m>.
+            </p>
+          </solution>
+        </question>
+
+        <question xml:id="ques-identity2">
+          <statement>
+            <p>
+              What is the identity of the group <m>B</m> with operation <m>+</m>?
+            </p>
+          </statement>
+          <solution>
+            <p>
+              The identity is <m>0</m>.
+            </p>
+          </solution>
+        </question>
+
+        <p>
+          The third property of groups is that every group has an <term>identity</term>.
+          There is an element <m>e</m> such for any element <m>g \in G</m>, <m>g \ast e = e\ast g = g</m>.
+        </p>
+        
+      </subsubsection>
+
+      <subsubsection xml:id="subsubsec-inverse">
+        <title>Inverse Elements</title>
+
+        <p>
+          Consider the token game once again, and suppose we start on square <m>0</m> and move <m>3</m> spaces to right to end up on 
+          square <m>3</m>. Can we make another move to end up back on square <m>0</m>?
+          In general, if we start on square <m>0</m> and move <m>b</m> squares to the right. We can only move right, but is it possible
+          to keep moving right until we end up back on square <m>0</m>? 
+        </p>
+
+        <question xml:id="ques-inverse1">
+          <statement>
+            <p>
+              After moving <m>a</m> squares, starting at square <m>0</m>, determine how many squares you must traverse 
+              to get back to square <m>0</m> for <m>a \in \{0,1,2,3\}</m>. 
+            </p>
+          </statement>
+          <solution>
+            <p>
+              If <m>a = 0</m>, we must move <m>0</m> squares. If <m>a = 1</m>, we must traverse <m>3</m> squares to return to square <m>0</m>.
+              Similarly, we travel <m>2</m> squares and <m>1</m> square respectively for <m>a = 2, 3</m> respectively.
+                       </p>
+          </solution>
+          </question>
+
+          <p>
+            So for any square <m>a</m>, there is a number of squares <m>b</m> that results in landing on square <m>0</m>. In other words,
+            for any <m>a \in B</m>, there is a <m>b \in B</m> where <m>a + b = 0</m>. In this case, we say <m>b</m> is the <term>inverse</term>
+            of <m>a</m>. Remember that <m>0</m> serves a special role in <m>B</m>: the identity.
+          </p>
+
+          <p>
+            The last property of group is the <term>inverse property</term>. That is, for any <m>g \in G</m>, there is an element <m>h \in G</m>,
+            where <m>g \ast h = h \ast g = e</m>, where <m>e</m> is the identity of <m>G</m>. In other words, starting with 
+            any element, we can get back to the group's identity through the inverse. We often denote the inverse of
+            <m>g</m> as <m>g^{-1}</m>.
+          </p>
+
+          <question xml:id="ques-inverse2">
+            <statement>
+              <p>
+                Determine the inverses of the elements of <m>A</m>. 
+              </p>
+            </statement>
+            <solution>
+              <p>
+                We know <m>1 \cdot 1 = 1</m>, so <m>1</m> is its own inverse. Also <m>i \cdot -i = -i \cdot i = 1</m>, and
+                so <m>i</m> and <m>-i</m> are inverses of each other. Lastly, <m>-1 \cdot -1 = 1</m>, and so <m>-1</m> is
+                its own inverse.
+              </p>
+            </solution>
+            
+          </question>
+        
+      </subsubsection>
+
+
+    </subsection>
+
+    <subsection xml:id="subsec-why">
+      <title>Why do we think about groups?</title>
+
+      <p>
+        If we can prove a statement about a generic group <m>G</m>, then
+        we know that statement will apply to any group we find! Knowing things
+        about groups will help us find the familiar patterns in unfamiliar 
+        environments. 
+      </p>
+
+      <p>
+        So proving a statement about a group <m>G</m> proves statements in
+        an many different contexts (sometimes an infinite number of contexts). Thinking
+        in generalized terms is a powerful way to approach math, and mathematicians
+        like to generalize for that very reason.
+      </p>
+
+      <p>
+        For example, here are some things we know about groups.
+
+        <theorem xml:id="thm-identity">
+          
+          <statement>
+            <p>
+              Let <m>G</m> be a group. Then 
+              
+              <ol>
+                <li>
+                  <p>
+                    <m>G</m> has exactly
+              one identity.
+                  </p>
+                </li>
+                <li>
+                  <p>
+                    for any <m>a \in G</m>, <m>a</m> has exactly one inverse.
+                  </p>
+                </li>
+                <li>
+                  <p>
+                    for any <m>a \in G</m>, <m>(a^{-1})^{-1} = a</m>.
+                  </p>
+                </li>
+                <li>
+                  <p>
+                    for any <m>a, b \in G</m>, <m>(ab)^{-1} = b^{-1}a^{-1}.</m>
+                  </p>
+                </li>
+
+              </ol>
+                     
+            </p>
+          </statement>
+        </theorem>
+      </p>
+
+      <p>
+        You might know some groups already. Do you think the following sets are
+        groups with the given operation?
+      </p>
+
+      <question xml:id="ques-groups1">
+        <statement>
+          <p>
+            Is set <m>A</m> with operation <m>\ast</m> a group? If not, why?
+            For our purposes, just think about the identity and inverses.
+
+            <ol>
+              <li>
+                <p>
+                  <m>A:</m> all integers; <m>\ast:</m> addition
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>A:</m> all real numbers; <m>\ast:</m> addition
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>A:</m> all real numbers; <m>\ast:</m> multiplication
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>A:</m> all real numbers except <m>0</m>; <m>\ast:</m> multiplication
+                </p>
+              </li>
+            </ol>
+          </p>
+        </statement>
+
+        <solution>
+          <p>
+            <ol>
+              <li>
+                <p>
+                  <m>A:</m> all integers; <m>\ast:</m> addition
+                </p>
+                <p>
+                  Yes! The identity is <m>0</m>, and the inverse of <m>a</m>
+                is <m>-a</m>.
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>A:</m> all real numbers; <m>\ast:</m> addition
+                </p>
+                <p>
+                  Yes! The identity is <m>0</m>, and the inverse of <m>a</m>
+                is <m>-a</m>.
+                </p>
+                
+              </li>
+              <li>
+                <p>
+                  <m>A:</m> all real numbers; <m>\ast:</m> multiplication
+                </p>
+                <p>
+                  No! :( The identity is <m>1</m>, but <m>0 \cdot a \neq 1</m> for 
+                  any <m>a</m>. So <m>0</m> has no inverse.
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>A:</m> all real numbers except <m>0</m>; <m>\ast:</m> multiplication
+                </p>
+                <p>
+                  Yes! The identity is <m>1</m>, and the inverse of <m>a</m>
+                is <m>1/a</m>. If <m>0</m> is not in the picture, we can never obtain
+                <m>0</m> through multiplication.
+                </p>
+              </li>
+            </ol>
+            
+          </p>
+        </solution>
+        
+      </question>
+
+      
+      
+    </subsection>
+
+    <subsection xml:id="subsec-dihedral">
+      <title>A Group of Squares</title>
+
+      <p>
+        Let's look at one last example of a group. Take a square with corners
+        labelled <m>a, b, c,d</m> (We would recommend cutting one out of paper), and 
+        we will say a "symmetry" of the square is an action in which we 
+        pick up the square, do something to it, and put it down again so that
+        it takes up the same space it did before. For example, we can rotate the
+        square <m>90^{\circ}</m>, and it will rest on the exact same space where it started.
+      </p>
+
+      <p>
+        There are eight symmetries of the square. Can you find them?
+      </p>
+
+      <question xml:id="ques-dihedral1">
+        <statement>
+          <p>
+            What are the eight basic symmetries of the square?
+          </p>
+        </statement>
+
+        <solution>
+          <p>
+            There are four rotations: rotating <m>0^{\circ}</m>, <m>90^{\circ}</m>,
+            <m>180^{\circ}</m>, <m>270^{\circ}</m>.
+          </p>
+          <p>
+            There are also four flips: flip along a horizontal axis, along a vertical axis,
+            along a northwest diagonal, and along a northeast diagonal.
+          </p>
+        </solution>
+        
+      </question>
+
+      <p>
+        Let's call this set of symmetries <m>D = \{I, R_1, R_2, R_3, F_h, F_v, F_{NW}, F_{NE}\}</m>. Here,
+        we call a rotation of <m>0^{\circ}</m> <m>I</m>.
+      </p>
+
+      <p>
+        FIGURE
+      </p>
+
+      <p>
+        What if we did two of these symmetries? Do we get something new? For symmetries
+        <m>\alpha</m> and <m>\beta</m>, the composition <m>\alpha \circ \beta</m> is the result
+        of first applying <m>\beta</m> and then applying <m>\alpha</m>. 
+      </p>
+
+      <p>
+        For example, <m>R_1 \circ R_2</m> means we first rotate the square <m>180^{\circ}</m> 
+        and then another <m>90^{\circ}</m>. Is this a new symmetry? No... it's just <m>R_3</m>. Are 
+        any of them new?
+      </p>
+
+      <activity xml:id="act-dihedral1">
+        <statement>
+          <p>
+            In groups, fill out a Cayley table for <m>D</m>. Don't assumer that <m>\alpha \circ \beta =
+              \beta \circ \alpha.
+            </m> <xref ref="fig-dihedral1"/> shows a calculator for the symmetries of a squre. This may be
+            useful!
+
+            <table xml:id="table-groups4">
+              <tabular >
+              <col />
+              <col />
+              <col />
+              <col />
+              <col  />
+              <col />
+              <col />
+              <col />
+              <col  />
+              <row  bottom="minor">
+                <cell right="minor"><m>\circ</m></cell>
+                <cell><m>I</m></cell>
+                <cell><m>R_1</m></cell>
+                <cell><m>R_2</m></cell>
+                <cell><m>R_3</m></cell> 
+                <cell><m>F_h</m></cell>
+                <cell><m>F_v</m></cell>
+                <cell><m>F_{NW}</m></cell>
+                <cell><m>F_{NE}</m></cell>             
+              </row>
+              <row bottom="minor">
+                <cell right="minor"> <m>\; I</m> </cell>
+                <cell> <m> </m></cell>
+                <cell> <m> </m></cell>
+                <cell> <m> </m></cell>
+                <cell> <m> </m></cell>
+                <cell> <m> </m></cell>
+                <cell> <m> </m></cell>
+                <cell> <m> </m></cell>
+                <cell> <m> </m></cell>
+
+              </row>
+              <row bottom="minor">
+               <cell right="minor">  <m> R_1</m> </cell>
+               <cell> <m> </m></cell>
+                <cell> <m> </m></cell>
+                <cell> <m> </m></cell>
+                <cell> <m> </m></cell>
+                <cell> <m> </m></cell>
+                <cell> <m> </m></cell>
+                <cell> <m> </m></cell>
+                <cell> <m> </m></cell>
+             </row>
+             <row bottom="minor">
+               <cell right="minor"> <m>R_2</m> </cell>
+               <cell> <m> </m></cell>
+                <cell> <m> </m></cell>
+                <cell> <m> </m></cell>
+                <cell> <m> </m></cell>
+                <cell> <m> </m></cell>
+                <cell> <m> </m></cell>
+                <cell> <m> </m></cell>
+                <cell> <m> </m></cell>
+             </row>
+             <row bottom="minor">
+               <cell right="minor"> <m>R_3</m> </cell>
+               <cell> <m> </m></cell>
+                <cell> <m> </m></cell>
+                <cell> <m> </m></cell>
+                <cell> <m> </m></cell>
+                <cell> <m> </m></cell>
+                <cell> <m> </m></cell>
+                <cell> <m> </m></cell>
+                <cell> <m> </m></cell>
+             </row>
+             <row bottom="minor">
+              <cell right="minor"> <m>F_h</m> </cell>
+              <cell> <m> </m></cell>
+               <cell> <m> </m></cell>
+               <cell> <m> </m></cell>
+               <cell> <m> </m></cell>
+               <cell> <m> </m></cell>
+               <cell> <m> </m></cell>
+               <cell> <m> </m></cell>
+               <cell> <m> </m></cell>
+            </row>
+            <row bottom="minor">
+              <cell right="minor"> <m>F_v</m> </cell>
+              <cell> <m> </m></cell>
+               <cell> <m> </m></cell>
+               <cell> <m> </m></cell>
+               <cell> <m> </m></cell>
+               <cell> <m> </m></cell>
+               <cell> <m> </m></cell>
+               <cell> <m> </m></cell>
+               <cell> <m> </m></cell>
+            </row>
+            <row bottom="minor">
+              <cell right="minor"> <m>F_{NW}</m> </cell>
+              <cell> <m> </m></cell>
+               <cell> <m> </m></cell>
+               <cell> <m> </m></cell>
+               <cell> <m> </m></cell>
+               <cell> <m> </m></cell>
+               <cell> <m> </m></cell>
+               <cell> <m> </m></cell>
+               <cell> <m> </m></cell>
+            </row>
+            <row bottom="minor">
+              <cell right="minor"> <m>F_{NE}</m> </cell>
+              <cell> <m> </m></cell>
+               <cell> <m> </m></cell>
+               <cell> <m> </m></cell>
+               <cell> <m> </m></cell>
+               <cell> <m> </m></cell>
+               <cell> <m> </m></cell>
+               <cell> <m> </m></cell>
+               <cell> <m> </m></cell>
+            </row>
+                          
+            </tabular>
+           </table>
+          </p>
+
+          
+        </statement>
+        
+      </activity>
+
+      <figure xml:id="fig-dihedral1">
+        <caption>Symmetries of a Square Calculator</caption>
+        <interactive geogebra="cynjrcfv"/> 
+      </figure>
+
+      <p>
+        So does <m>D</m> with <m>\circ</m> form a group? You just showed
+        it is closed. We will tell you it is associative. Does <m>D</m> have
+        an identity? Yes, <m>I</m>. Does <m>D</m> have inverses?
+      </p>
+
+      <question xml:id="ques-dihedral2">
+        <statement>
+          <p>
+            What are the inverses for elements of <m>D</m>?
+          </p>
+        </statement>
+      </question>
+      
+      
+    </subsection>
+    
+
+</section>

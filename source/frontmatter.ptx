@@ -30,7 +30,7 @@
   </colophon>
 
 <!-- include sections -->
-<xi:include href="sec-test.ptx" />
+
 <xi:include href="sec-preliminary.ptx" />
 
 

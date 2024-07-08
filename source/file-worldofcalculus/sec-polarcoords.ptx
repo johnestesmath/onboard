@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-polarcoords" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Polar Coordinates</title>
+
+  <p>
+    The traveling fair is in town! You can see the rides at the fair grounds from
+    the highway as you pass by (and smell the funnel cake). Our friend, Tom, finally 
+    worked up the courage to ask out Amy, and so a trip to the fair is their first date. 
+  </p>
+
+  <p>
+    Their first ride is the bumper cars. Amy drives around the rectangular arena,
+    but Tom's cart is stuck in one of the corners. While he's sitting there, he starts thinking 
+    about locations of other carts. The arena is rectangular and can be broken
+    up into a grid of <m>1\times 1</m> ft<m>^2</m> sections, and each cart's 
+    location is classified by an <m>(x,y)</m> coordinate.  
+  </p>
+
+  <p>
+    PICTURE
+  </p>
+
+  
+  <p> Coordinates like we see at the bumper cars are called <term>rectangular coordinates</term> 
+    (because they fit nicely in a rectangular grid). For example, the point <m>P=\left(\frac{1}{\sqrt{2}},\frac{1}{\sqrt{2}}\right)</m> 
+    is written to show that <m>P</m> is found in the plane by going <m>1/\sqrt{2}</m> in 
+    the <m>x</m>-direction and <m>1/\sqrt{2}</m> in the <m>y</m>-direction. 
+   </p>
+
+    <p>
+      But are rectangular grids always the best way to think of things?
+      Tom and Amy move on to the tilt-o-whirl, and even though we could label
+      the coordinates of this round environment using a rectangular grid, 
+      there's probably a more efficient way. What if instead of thinking in terms of rectangles, we thought 
+      of things in terms of circles? Rectangular coordinates are awkward for
+      round and circular shapes, and so maybe
+      there's a better way. Meet polar coordinates.
+    </p>
+
+    <p> Polar coordinates redefine point <m>(x,y)</m> by <m>(r, \theta)</m>. 
+      That is, we label our coordinates with a radius and an angle of rotation. We can get to the same 
+      point <m>P=\left(\frac{1}{\sqrt{2}},\frac{1}{\sqrt{2}}\right)</m> by going out a distance 
+      of <m>1</m> and rotating <m>\pi/4</m> <m>(45^{\circ})</m> as pictured.
+    </p>
+
+    <sidebyside widths="50% 50%" margins="auto" valign="middle">
+
+      <figure>
+        <caption>rectangular coordinates</caption>
+        <image xml:id="fig-coords" source="coordianates_rect.png" width="50%" />
+    </figure>
+
+    <figure>
+      <caption>polar coordinates</caption>
+      <image xml:id="fig-coords1" source="coordianates_polar.png" width="50%" />
+  </figure>
+
+
+
+      </sidebyside>
+
+    <p>
+      So the rectangular point <m>\left(\frac{1}{\sqrt{2}},\frac{1}{\sqrt{2}}\right)</m> 
+      can be written in polar coordinates as <m>\left(1,\frac{\pi}{4} \right)</m>.
+    </p>
+
+    <subsection xml:id="subsec-convertingcoords">
+      <title>Converting Coordinates</title>
+
+      <p>
+        How can we go from rectangle world to circle world? Obviously, with triangles.
+      </p>
+
+      <figure>
+        <caption> converting to polar coordinates</caption>
+        <image xml:id="fig-coords2" source="polarcoords1.png" width="50%" />
+    </figure>
+      
+      <p>
+        Notice the values of <m>x,y,</m> and <m>r</m> form a right triangle, 
+        and so by Pythagorean theorem and a little trigonometry, <m>x^2 + y^2 = r^2</m> and <m>\tan(\theta) = y/x</m>
+        (or maybe more usefully said: <m>\theta = \tan^{-1}(y/x)</m>).
+
+      </p>
+
+      <question xml:id="ques-pcords1">
+        <statement>
+          <p>
+            Convert <m>(-3,4)</m> into polar coordinates.
+          </p>
+        </statement>
+        
+      </question>
+
+      <p>
+        Trigonometry can also help us go from polar to rectangular coordinates. 
+      </p>
+
+      <question xml:id="ques-pcoords2">
+        <statement>
+          <p>
+            Using the same triangle as before, determine
+            <m>\cos(\theta) </m> and <m>\sin(\theta)</m>.
+          </p>
+        </statement>
+        <solution>
+          <p>
+            <me>\cos(\theta) = \dfrac{x}{r} \text{ and } \sin(\theta) = \dfrac{y}{r}.</me>
+          </p>
+        </solution>
+      </question>
+  
+      <p>
+        There we have it! We use <m>x = r\cos(\theta)</m> and <m>y = r\sin(\theta)</m> to 
+        convert coordinates from polar to rectangular.
+      </p>
+
+      <question xml:id="ques-pcoords3">
+        <statement>
+          <p>
+            Conver polar coordinate <m>(9, \pi/6)</m> into rectangular coordinates.
+          </p>
+        </statement>
+
+        
+      </question>
+
+      
+      
+    </subsection>
+
+    
+    
+    <subsection xml:id="subsec-polarfunctions">
+      <title>Polar Functions</title>
+
+       <p>
+        Ancient cultures spent a lot of time watching the sky. They built calendars,
+        determined seasons, and even navigated across oceans with the help of positions
+        of stars. Some cultures crafted stories around constellations while others saw
+        their gods in the planets. 
+       </p>
+
+       <figure xml:id="fig-coords3">
+        <caption>Retrograde Motion of Planets</caption>
+        <!-- https://planetfacts.org/retrograde-motion/-->
+        <image source="Retrograde-Motion-400.jpg" width="50%" />
+       </figure>
+
+       <p>
+        Tracking the position of planets and stars was crucial to society, but planets 
+        behaved erratically by sometimes travelling backwards! This motion is called
+        retrograde motion, and it is an interesting phenomenon due to planets' elliptical
+        orbits. Retrograde motion led astologists to these amazing "dances of planets".
+       </p>
+
+       <figure xml:id="fig-planetdances">
+        <caption>The 8 year dance between Earth and Venus</caption>
+        <!-- https://www.techworm.net/2016/03/enjoy-geometrical-dance-planets-splendid-patterns-form.html -->
+         <image source="planetdance.png">
+         </image>
+       </figure>
+
+       
+       <iframe src="https://pastebin.com/embed_iframe/KUabEMS1?theme=dark" style="border:none;width:100%"></iframe>
+          <!-- https://blog.matthen.com/post/112212054651/8-earth-years-are-roughly-equal-to-13-venus-years-->
+       
+     
+      <p>
+        The vertical line test says amazing plots like these are not functions. What we really mean is that
+        they are not functions with independent variable <m>x</m> and <m>y</m> as a function of <m>x</m>, <m>y = f(x).</m> However,
+        in polar coordinates, plots like these would be right at home. We can treat <m>r</m> as a function of the independent
+        variable <m>\theta</m>. So typically <m>r = r(\theta)</m> represents a polar function.
+      </p>
+      
+    </subsection>
+
+    <subsection xml:id="subsec-polarcordsdesmos">
+      <title>Polar Coordinates in Desmos</title>
+
+      <p>
+        We can easily view polar functions in Desmos by simply typing an equation
+        <m>r = r(\theta)</m>. Let's see what kind of functions we can create.
+      </p>
+
+      <activity xml:id="act-polar1">
+        <title>Polar Function Intro</title>
+        
+        <p>
+          Try plotting <m>r = \theta</m>. You can type <m>\theta</m> by typing 
+          "theta".
+        </p>
+
+        <figure xml:id="desmos-polar1">
+          <interactive desmos="vnuod9as22"/> 
+        </figure>
+        
+      </activity>
+
+      <p>
+        The function <m>r = \theta</m> is known as the <term>Archimedean spiral</term> or
+        the <term>golden spiral</term> and is related to Fibonacci sequence. As for Desmos, notice 
+        bounds of <m>\theta</m> are automatically added, and you can
+        adjust that range as needed. Let's try a few more polar plots.
+      </p>
+
+      <p>
+        
+      </p>
+
+      <question xml:id="ques-polarplot1">
+        <statement>
+          <p>
+            Plot <m>r = 2\cos(\theta)</m>.
+          </p>
+        </statement>
+        
+      </question>
+
+      <figure xml:id="desmos-polar3">
+        <interactive desmos="vnuod9as22"/> 
+      </figure>
+
+      <question xml:id="ques-polarplot2">
+        <statement>
+          <p>
+            Plot <m>r = \sin(2\theta)</m>.
+          </p>
+        </statement>
+        
+      </question>
+
+      <activity xml:id="ques-polarplot3">
+        <statement>
+          <p>
+            Plot <m>r = \sin(a\theta)</m> and change the value of <m>a</m> with
+            a slider.
+          </p>
+
+          <figure xml:id="desmos-polar2">
+            <interactive desmos="7czspoli5o"/> 
+          </figure>
+
+          
+        </statement>
+        
+      </activity>
+
+      <question xml:id="ques-desmosplot4">
+        <statement>
+          <p>
+            Plot <m>r = \sin^2(a\theta) + \cos^4(a\theta)</m> and insert a slider <m>a</m>
+            when prompted. (Hint: Desmos cannot recognize <m>\cos^4(a\theta)</m>. Try typing <m>(\cos(a\theta))^4</m>.)
+          </p>
+        </statement>
+      </question>
+
+      <figure xml:id="desmos-polar5">
+        <interactive desmos="vnuod9as22"/> 
+      </figure>
+      
+    </subsection>
+
+    <activity xml:id="act-polarplots2">
+      <title>Showing Off Polar Plots</title>
+
+      <p>
+        In a small group, make a Desmos plot of polar plot (or plots) to share
+        with the class. The class will vote, and the winning group will be the 
+        "Polar Royals".
+      </p>
+
+      <figure xml:id="desmos-polar6">
+        <interactive desmos="vnuod9as22"/> 
+      </figure>
+      
+      
+      
+    </activity>
+
+</section>

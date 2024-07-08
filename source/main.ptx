@@ -7,7 +7,7 @@
   
 
   <book xml:id="my-great-book">
-    <title>BETA: Onboarding to Mathematics</title>
+    <title>Onboarding to Mathematics</title>
     <subtitle>A Quick Voyage through Undergrad Math</subtitle>
 
     <!-- Include frontmatter -->
@@ -23,7 +23,7 @@
    <xi:include href="./ch-worldofcalculus.ptx" /> 
 
     <!-- Include chapters -->
-   <!-- <xi:include href="./ch-worldsofalgebra.ptx" /> -->
+   <xi:include href="./ch-worldsofalgebra.ptx" /> 
 
     <!-- Include chapters -->
    <!--  <xi:include href="./ch-discovery.ptx" />-->

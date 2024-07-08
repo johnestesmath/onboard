@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-surfaces" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Surfaces</title>
+
+  <p> Most of our lives is not spent in a 2D world (is any of it?), so why
+    would we only look at mathematics in a 2D world? Most of our experiences
+  are three dimensional, so it only makes sense to think about mathematics in a 
+3D environment.  </p>
+
+<figure xml:id="fig-surface1">
+  <caption><m>f(x,y) = (x^2+3y^2)e^{-x^2-y^2}</m></caption>
+  <image source="surface1.png">
+  </image>
+</figure>
+
+<p>
+  There are two ways we can visualize a 3D surface. The first way you 
+  might consider is having two independent variables, <m>x \text{ and } y</m>,
+  and one dependent variable, <m>z</m>. So functions of this form are written
+  as 
+
+  <me>z = f(x,y).</me>
+</p>
+
+<p>
+  You can see the surface <m>f(x,y) = x^2 + y^2</m> below.
+</p>
+
+<figure xml:id="fig-surface2">
+  <caption><m>f(x,y) = x^2 + y^2</m></caption>
+  <image source="surface3.png">
+  </image>
+</figure>
+
+<subsection xml:id="subsec-contour">
+  <title>Contour Plots: Connecting 2D and 3D Shapes</title>
+  <p>
+    There's something familiar about <m>f(x,y)= x^2 + y^2</m>. Where have you 
+    seen something like that before? Well, we know <m>x^2 + y^2 = k^2</m> is a 2D object: a circle
+    with radius <m>k</m>. We so can think of these circles as a part of <m>f(x,y) = x^2 + y^2</m>. If you
+    sliced <m>f(x,y)</m> at height <m>k^2</m> and put that slice on a plate, the result would be the 
+    circle <m>x^2 + y^2 = k^2</m>.
+  </p>
+  <p>
+     These slices are called <term>contours</term> or <term><m>k</m>-curves</term> of <m>f(x,y)</m>, and
+     each <m>k</m>- curve of a 3D function results in a 2D object. Keep in mind that when you study <term>explicitly
+      defined functions </term> in the 2D sense, you are actually studying <m>k</m>-curves of a 3D function.
+     </p>
+  
+  <figure xml:id="fig-surface3">
+    <caption><m>f(x,y) = x^2 + y^2</m> along with several contours</caption>
+    <image source="surface2.png">
+    </image>
+  </figure>
+</subsection>
+
+<subsection xml:id="subsec-contour3d">
+  <title>Contour</title>
+
+  <p>
+    What if there's some type of mathematical object whose contour is a 3D surface itself? 
+    Can you think of how that would work? Yeah, we would need a 4D surface set equal to a constant. That is,
+    <me>f(x,y,z) = k.</me>
+  </p>
+
+  <figure xml:id="fig-surface4">
+    <caption><m>xy-xz+y^2=2</m> from several vantage points</caption>
+    <image source="surface4.png">
+    </image>
+  </figure>
+
+  
+
+  <figure xml:id="des-act1">
+    <interactive iframe="https://www.desmos.com/3d" width="100%" aspect = "1:1"/>
+
+  </figure>
+
+
+  
+</subsection>
+
+<subsection xml:id="subsec-quartic">
+  <title>Quartic Surfaces</title>
+  
+  
+</subsection>
+
+
+
+
+
+
+
+
+</section>
