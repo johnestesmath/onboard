@@ -4,12 +4,14 @@
   <title>Gearing up</title>
 
   <introduction>
-    <p> We're going to look at calculus, linear algebra, statistics, and proof writing in later chapters, but
-      first let's look at few topics that help us start asking the right questions. This chapter is the introduction to our introduction
+    <p> We are going to look at a variety of topics (calculus, linear algebra, statistics, and proof writing) in later chapters, but
+      first let's look at few topics that help us start asking the right questions. This chapter is the introduction ... to our introduction
     into the world of mathematics. Here we'll look at some things that (1) we think are interesting, (2) introduce us to the math community, and
   (3) provide some context that we'll find helpful later. </p>
 
-    <p> INCLUDE FIGURE HERE </p>
+  <figure>
+    <image xml:id="fig-venn" source="set-venn.png" width="80%" />
+  </figure>
 
 
   </introduction>

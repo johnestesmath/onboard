@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <section xml:id="sec-sets" xmlns:xi="http://www.w3.org/2001/XInclude">
-  <title>Sets and Shopping Carts</title>
+  <title>Shopping Carts and Sets</title>
 
   <p> Sunday afternoon at the local supermarket is a bustling place. Shoppers cut each other off for the last jar of salsa with a smile and a 'pardon me'. 
-    Amid the somewhat friendly and mostly competitive crowd, long-time friends Yuri and Kalo bump into each other in front of the caulifluer. 
+    Amid the somewhat friendly and mostly competitive crowd, long-time friends Yuri and Kalo bump into each other in front of the cauliflower. 
     It's always a bit awkward looking into someone else's shopping cart (feels like a violation of privacy, right?), but Yuri couldn't help but notice
     that there was some overlap. </p>
 
@@ -44,10 +44,10 @@
         </row>
         <row>
           <cell right = "medium">
-            caulifleur
+            cauliflower
           </cell>
           <cell>
-            caulifleur
+            cauliflower
           </cell>
         </row>
         <row>
@@ -87,7 +87,7 @@
             yellow onion
           </cell>
           <cell>
-            red onion
+            purple onion
           </cell>
         </row>
         <row>
@@ -130,25 +130,27 @@
   <title>Collections of Things</title>
   
     
-  <p> There's some mathematics going on here. Anytime we have find a collection of items (like a shopping cart) we have a mathematical object called a set. </p>
+  <p> There's some mathematics going on here. Anytime we find a collection of items (like a shopping cart) we have a mathematical object called a set. </p>
   <definition> A <term>set</term> is simply a collection
-of objects referred to as <term>elements</term>.</definition> 
+of objects that we refer to as <term>elements</term>.</definition> 
 
 <p> Let's call the set of Yuri's cart <m>Y</m>, written as 
-<m> Y  = </m> { rice cakes, caulifluer, halibut, coffee creamer, spicy ramen, cilantro, yellow onion, corn chips, salami, eggs } . Similarly <m> K = </m> {rice cakes, caulifluer, tuna, crab legs, spicy ramen, parsley, red onion, cookies, bagels, salami, and cream cheese} is the set representing Kalo's cart. So halibut
+<m> Y  = </m> { rice cakes, cauliflower, halibut, coffee creamer, spicy ramen, cilantro, yellow onion, corn chips, salami, eggs } . Similarly <m> K = </m> {rice cakes, cauliflower, tuna, crab legs, spicy ramen, parsley, purple onion, cookies, bagels, salami, and cream cheese} is the set representing Kalo's cart. So halibut
 is an element of <m>Y</m> (written as halibet <m>\in Y</m>), and tuna <m> \in K</m>.
 
   </p>
 
   <p>
-    The overlap between their two carts represents the "intersection of Y and K", <m> Y \cap K</m>.</p>
+    We could make a list of the items that both Yuri and Kalo have in their carts, and this
+     overlap between their two carts represents the "intersection of Y and K", denoted <m> Y \cap K</m>.</p>
     
   <definition>  In general for sets <m>A</m> and <m>B</m>, the <term> intersection of <m>A</m> and <m>B</m> </term>, <m>A \cap B</m>, is the set of elements in both sets.
   </definition>
 
-  <p>
-    PUT A FIGURE HERE
-  </p>
+  <figure>
+  <image xml:id="fig-setintersect" source="set-intersection.png" width="50%" />
+  <caption>Intesection of <m>A</m> and <m>B</m>, <m>A \cap B</m>.</caption>
+  </figure>
 
   <p><br> </br>  </p>
 
@@ -156,8 +158,13 @@ is an element of <m>Y</m> (written as halibet <m>\in Y</m>), and tuna <m> \in K<
     <title>Yuri and Kalo's intersection</title>
     <statement>
     <p>
-      What would <m> Y \cap K </m> contain?    </p>
+      What does <m> Y \cap K </m> contain?    </p>
     </statement>
+    <solution>
+      <p>
+        <m> Y \cap K </m> = {rice cakes, cauliflower, spicy ramen, salami}
+      </p>
+    </solution>
 </question>
 
 <p>
@@ -168,9 +175,18 @@ is an element of <m>Y</m> (written as halibet <m>\in Y</m>), and tuna <m> \in K<
   JACOBI's cart is represented by the set <m>J = </m>  {spicy ramen, cilantro, corn chips, and eggs}. Yuri can't help notice that everything in <m>J</m> is also in <m>Y</m>. In this case,
 we say that <m>J</m> is a subset of <m>Y</m>, denoted <m>J \subseteq Y</m> or <m>Y \supseteq J</m>. </p>
 
-<p>
-  So set <m>A \subseteq B</m> if for any element <m>x \in A</m>, we know also that  <m>x \in B</m>.
-</p>
+<definition xml:id="def-">
+  <statement>
+    <p>
+      A set <m>A</m> is a <term>subset</term> of <m>B</m> if for any element <m>x \in A</m>, we know also that  <m>x \in B</m>.
+    </p>
+  </statement>
+</definition>
+
+<figure>
+  <image xml:id="fig-subset" source="set-subset.png" width="50%" />
+  <caption>A subset <m>A</m> of <m>B</m>, <m>A \subseteq B</m>.</caption>
+  </figure>
 
 <p>
   
@@ -182,6 +198,14 @@ we say that <m>J</m> is a subset of <m>Y</m>, denoted <m>J \subseteq Y</m> or <m
   <p>
     Let <m>D</m> be the set of all dairy items. Find a subset of <m>K</m> that is also a subset of <m>D</m>.   </p>
   </statement>
+  <solution>
+    <p>
+      The subset we're looking for must be a set of dairy items in Kalo's cart: <m>D \cap K</m>, for example.
+    </p>
+    <p>
+      That is, <m>D \cap K = </m> {cream cheese}.
+    </p>
+  </solution>
 </question>
 
 <question xml:id="q-setsubsetintersect">
@@ -191,15 +215,34 @@ we say that <m>J</m> is a subset of <m>Y</m>, denoted <m>J \subseteq Y</m> or <m
     Is <m>Y \cap K</m> a subset of <m>Y</m>?
   </p>
   </statement>
+  <solution>
+    <p>
+      Yes! Any element in <m>Y \cap K</m> is also an element of <m>Y</m>.
+    </p>
+  </solution>
 </question>
 
+
 <p>
-  Unbeknownst to Kalo, Kalo's wife MARNIE is also in the grocery store with <m>M = </m> {caulifluer, macaroni, red onion, water, bacon}. When Kalo and MARNIE bump into each other, they decide
-to finish their shopping and to consolidate their items to one cart. Kalo reshelves the caulifluer and red onion, though, since MARNIE already has those items in her cart. This new cart is 
+  Unbeknownst to Kalo, Kalo's wife MARNIE is also in the grocery store with <m>M = </m> {cauliflower, macaroni, purple onion, water, bacon}. When Kalo and MARNIE bump into each other, they decide
+to finish their shopping and to consolidate their items to one cart. Kalo reshelves the cauliflower and purple onion, though, since MARNIE already has those items in her cart. This new cart is 
 known as the "union of K and M", <m>K \cup M </m>. </p>
 
-<p> 
-  In general, for sets <m>A</m> and <m>B</m>, <m>A \cup B</m> is the collection of elements that are in either set (or both).
+<definition xml:id="def-union">
+  <statement>
+    <p> 
+      In general, for sets <m>A</m> and <m>B</m>, the <term>union</term> of <m>A</m> and <m>B</m>, <m>A \cup B</m>, is the collection of elements that are in either set (or both).
+    </p>
+  </statement>
+</definition>
+
+<figure>
+  <image xml:id="fig-setunion" source="set-union.png" width="50%" />
+  <caption>Union of <m>A</m> and <m>B</m>, <m>A \cup B</m>.</caption>
+  </figure>
+
+<p>
+  
 </p>
 
 <question xml:id="q-union1">
@@ -231,60 +274,152 @@ known as the "union of K and M", <m>K \cup M </m>. </p>
 
 </subsection>
 
+<subsection xml:id="subsec-emptyset">
+  <title>An empty cart</title>
+  <p>
+    After Kalo and Marnie consolidate their carts, somebody snags Kalo's now empty cart. This 
+    makes Kalo consider how an empty cart relates to sets.
+  </p>
+
+  <p>
+    
+  </p>
+
+  <question xml:id="q-emptyset">
+    <statement>
+      <p>
+        Can a set have 0 elements?
+      </p>
+    </statement>
+    <solution>
+      <p>
+        Definitely!
+      </p>
+    </solution>
+  </question>
+
+  <p>
+    Actually, that empty cart is symbolic of a very important set. The <term>empty set</term>
+    is the set with no elements. We denote it as <m>\phi</m>.
+  </p>
+
+  <p>
+    
+  </p>
+
+  <question xml:id="q-emptyinter">
+    <statement>
+      <p>
+        Give an example of two sets, <m>A</m> and <m>B</m> for which
+        <m>A \cap B = \phi</m>.
+      </p>
+    </statement>
+    <solution>
+      <p>
+        There are millions of examples. For example, let <m>A</m> be the set of
+        all species of turtles and <m>B</m> be the set of flying creatures. Come up
+        with your on example.
+      </p>
+    </solution>
+    
+  </question>
+
+
+</subsection>
+
 <subsection xml:id="subsec-venn">
   <title>Venn Diagrams</title>
   
   <p>
-    We can visualize how sets interact with each using overlapping circles with diagrams known as Venn diagrams.
+    A common way to picture sets and how they interact is with overlapping circles. You have already seen a few such images in this section. We call these
+    figures Venn diagrams, named after mathematician John Venn (1834-1923), and they help us quickly recognize how given sets
+    are related.
   </p>
 
+  <p>
+    For example, consider the sets <m>A = \{\text{all primes}\}</m>, <m>B = \{\text{odds less than} 10\}</m>, and
+    <m>C = \{\text{divisors of }\}30</m>. Are sets such as <m>A \cap B</m> or <m>B \cup C</m> obvious? The Venn diagram
+    makes these relationships obvious.
+  </p>
+
+  <figure>
+    <image xml:id="fig-venn1" source="set-venn.png" width="80%" />
+    </figure>
     <p>
-      Some examples:
+    
     </p>
+
+  <question xml:id="q-venn1">
+    <statement>
+      <p>
+        Use the Venn diagram to provide <m>A \cap B \cap C</m>.
+      </p>
+    </statement>
+    <solution>
+      <p>
+        We can see <m>A \cap B \cap C =  \{3,5\}</m>.
+      </p>
+    </solution>
+  </question>
   
+  
+  <p>
+    It's also fairly common to find Venn diagram memes. You should do a quick
+    internet search to see for yourself.
+  </p>
 
 <figure>
-  <image xml:id="fig-setmeme1" source="setmeme1.jpg" width="50%" />
+  <image xml:id="fig-setmeme1" source="set-meme1.png" width="80%" />
 </figure>
 
   <p>
-    VENN DIAGRAM OF MCU, SW, LOTR actors.
+    
   </p>
 
+  <p>
+    How about we look at sets of actors from popular movie franchises?
+  </p>
+
+  <figure>
+    <image xml:id="fig-setmovies" source="sets-movies.png" width="80%" />
+  </figure>
+
+  <remark>
+    <title>More sets later</title>
+  
+    
+    Remember that our goal is to introduce you to topics you'll cover in more detail later. There are other set operations that we won't cover here. 
+    You'll see these in classes like Discrete Mathematics, Modern Algebra, and many others.
+  </remark>
 
 
 </subsection>
 
   <subsection xml:id="subsec-setact1">
-    <title>Human Venn Diagrams</title>
+    <title>Set Activities</title>
 
-    <p>
-      You will now be human Venn diagrams (This works best in an open area).
-    </p>
+    <activity xml:id="act-set1">
+      <p>
+        You will now be human Venn diagrams (This works best in an open area).
+      </p>
+      
+    </activity>
+
+    <activity xml:id="act-set2">
+      <p>
+        Teams give an elt in called out sets like A UNION B INTERSECT C, etc.
+      </p>
+    </activity>
+
+    
     
   </subsection>
 
 
-
-
-
-<subsection xml:id="subsec-setact2">
-  <title>Team Challenge</title>
-
-  <p>
-    Teams give an elt in called out sets like A UNION B INTERSECT C, etc.
-  </p>
-  
-</subsection>
- 
-<remark>
-  Remember that our goal is to introduce you to topics you'll cover in more detail later. There are other set operations that we won't cover here. 
-  You'll see these in classes like Discrete Mathematics, Modern Algebra, and many others.
-</remark>
-
  
 
 
+ 
 
   
 </section>
