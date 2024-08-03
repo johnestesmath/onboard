@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<!--********************************************-->
+<!--*       Generated from PreTeXt source      *-->
+<!--*                                          *-->
+<!--*         https://pretextbook.org          *-->
+<!--*                                          *-->
+<!--********************************************-->
+<html lang="en-US" dir="ltr">
+<head xmlns:og="http://ogp.me/ns#" xmlns:book="https://ogp.me/ns/book#">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Polar Coordinates</title>
+<meta name="Keywords" content="Authored in PreTeXt">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta property="og:type" content="book">
+<meta property="book:title" content="Onboarding to Mathematics">
+<meta property="book:author" content="John Estes">
+<script src="https://sagecell.sagemath.org/static/embedded_sagecell.js"></script><script>
+var runestoneMathReady = new Promise((resolve) => window.rsMathReady = resolve);
+window.MathJax = {
+  "tex": {
+    "inlineMath": [
+      [
+        "\\(",
+        "\\)"
+      ]
+    ],
+    "tags": "none",
+    "tagSide": "right",
+    "tagIndent": ".8em",
+    "packages": {
+      "[+]": [
+        "base",
+        "extpfeil",
+        "ams",
+        "amscd",
+        "color",
+        "newcommand",
+        "knowl"
+      ]
+    }
+  },
+  "options": {
+    "ignoreHtmlClass": "tex2jax_ignore|ignore-math",
+    "processHtmlClass": "process-math",
+    "renderActions": {
+      "findScript": [
+        10,
+        function (doc) {
+            document.querySelectorAll('script[type^="math/tex"]').forEach(function(node) {
+                var display = !!node.type.match(/; *mode=display/);
+                var math = new doc.options.MathItem(node.textContent, doc.inputJax[0], display);
+                var text = document.createTextNode('');
+                node.parentNode.replaceChild(text, node);
+                math.start = {node: text, delim: '', n: 0};
+                math.end = {node: text, delim: '', n: 0};
+                doc.math.push(math);
+            });
+        },
+        ""
+      ]
+    }
+  },
+  "chtml": {
+    "scale": 0.98,
+    "mtextInheritFont": true
+  },
+  "loader": {
+    "load": [
+      "input/asciimath",
+      "[tex]/extpfeil",
+      "[tex]/amscd",
+      "[tex]/color",
+      "[tex]/newcommand",
+      "[pretext]/mathjaxknowl3.js"
+    ],
+    "paths": {
+      "pretext": "_static/pretext/js/lib"
+    }
+  },
+  "startup": {
+    pageReady() {
+      return MathJax.startup.defaultPageReady().then(function () {
+      console.log("in ready function");
+      rsMathReady();
+      }
+    )}
+  }
+};
+</script><script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/lunr.js/2.3.9/lunr.min.js" integrity="sha512-4xUl/d6D6THrAnXAwGajXkoWaeMNwEKK4iNfq5DotEbLPAfk6FSxSP3ydNxqDgCw1c/0Z1Jg6L8h2j+++9BZmg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script><script src="lunr-pretext-search-index.js" async=""></script><script src="_static/pretext/js/pretext_search.js"></script><link href="_static/pretext/css/pretext_search.css" rel="stylesheet" type="text/css">
+<script src="_static/pretext/js/lib/jquery.min.js"></script><script src="_static/pretext/js/lib/jquery.sticky.js"></script><script src="_static/pretext/js/lib/jquery.espy.min.js"></script><script src="_static/pretext/js/pretext.js"></script><script src="_static/pretext/js/pretext_add_on.js?x=1"></script><script src="_static/pretext/js/user_preferences.js"></script><script src="_static/pretext/js/lib/knowl.js"></script><!--knowl.js code controls Sage Cells within knowls--><script>sagecellEvalName='Evaluate (Sage)';
+</script><link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+<link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@400;700&amp;family=Noto+Serif:ital,wght@0,400;0,700;1,400;1,700&amp;family=Tinos:ital,wght@0,400;0,700;1,400;1,700&amp;display=swap" rel="stylesheet">
+<link href="https://fonts.cdnfonts.com/css/dejavu-serif" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Serif:opsz,wdth,wght@8..144,50..150,100..900&amp;display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wdth,wght@75..100,300..800&amp;display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200">
+<link href="_static/pretext/css/pretext.css" rel="stylesheet" type="text/css">
+<link href="_static/pretext/css/pretext_add_on.css" rel="stylesheet" type="text/css">
+<link href="_static/pretext/css/shell_default.css" rel="stylesheet" type="text/css">
+<link href="_static/pretext/css/banner_default.css" rel="stylesheet" type="text/css">
+<link href="_static/pretext/css/navbar_default.css" rel="stylesheet" type="text/css">
+<link href="_static/pretext/css/toc_default.css" rel="stylesheet" type="text/css">
+<link href="_static/pretext/css/knowls_default.css" rel="stylesheet" type="text/css">
+<link href="_static/pretext/css/style_default.css" rel="stylesheet" type="text/css">
+<link href="_static/pretext/css/colors_pastel_blue_orange.css" rel="stylesheet" type="text/css">
+<link href="_static/pretext/css/setcolors.css" rel="stylesheet" type="text/css">
+</head>
+<body id="changeme" class="pretext book ignore-math">
+<a class="assistive" href="#ptx-content">Skip to main content</a><header id="ptx-masthead" class="ptx-masthead"><div class="ptx-banner">
+<a id="logo-link" class="logo-link" target="_blank" href=""></a><div class="title-container">
+<h1 class="heading"><a href="my-great-book.html"><span class="title">Onboarding to Mathematics:</span> <span class="subtitle">A Quick Voyage through Undergrad Math</span></a></h1>
+<p class="byline">John Estes</p>
+</div>
+</div></header><nav id="ptx-navbar" class="ptx-navbar navbar"><button class="toc-toggle button" title="Contents"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5d2;</span><span class="name">Contents</span></button><div class="searchbox">
+<div class="searchwidget"><button id="searchbutton" class="searchbutton button" type="button" title="Search book"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe8b6;</span><span class="name">Search Book</span></button></div>
+<div id="searchresultsplaceholder" class="searchresultsplaceholder" style="display: none">
+<div class="search-results-controls">
+<input aria-label="Search term" id="ptxsearch" class="ptxsearch" type="text" name="terms" placeholder="Search term"><button title="Close search" id="closesearchresults" class="closesearchresults"><span class="material-symbols-outlined">close</span></button>
+</div>
+<h2 class="search-results-heading">Search Results: </h2>
+<div id="searchempty" class="searchempty"><span>No results.</span></div>
+<ol id="searchresults" class="searchresults"></ol>
+</div>
+</div>
+<span class="nav-other-controls"></span><span class="treebuttons"><a class="previous-button button" href="sec-surfaces.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="up-button button" href="ch-worldofcalculus-title.html" title="Up"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Up</span></a><a class="next-button button" href="ch-worldsofalgebra-title.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a></span></nav><div id="latex-macros" class="hidden-content process-math" style="display:none"><span class="process-math">\(\newcommand{\N}{\mathbb N} \newcommand{\Z}{\mathbb Z} \newcommand{\Q}{\mathbb Q} \newcommand{\R}{\mathbb R}
+\newcommand{\lt}{&lt;}
+\newcommand{\gt}{&gt;}
+\newcommand{\amp}{&amp;}
+\definecolor{fillinmathshade}{gray}{0.9}
+\newcommand{\fillinmath}[1]{\mathchoice{\colorbox{fillinmathshade}{$\displaystyle     \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\textstyle        \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\scriptstyle      \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\scriptscriptstyle\phantom{\,#1\,}$}}}
+\)</span></div>
+<div class="ptx-page">
+<div id="ptx-sidebar" class="ptx-sidebar"><nav id="ptx-toc" class="ptx-toc depth2"><ul class="structural contains-active toc-item-list">
+<li class="toc-item toc-frontmatter">
+<div class="toc-title-box"><a href="frontmatter.html" class="internal"><span class="title">Front Matter</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-colophon"><div class="toc-title-box"><a href="frontmatter-2.html" class="internal"><span class="title">Colophon</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="frontmatter-3.html" class="internal"><span class="codenumber">1</span> <span class="title">The Goal of Onboarding to Mathematics</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="ch-gearup.html" class="internal"><span class="codenumber">1</span> <span class="title">Gearing up</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-sets.html" class="internal"><span class="codenumber">1.1</span> <span class="title">Shopping Carts and Sets</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-sets.html#subsec-sets" class="internal"><span class="codenumber">1.1.1</span> <span class="title">Collections of Things</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-sets.html#subsec-emptyset" class="internal"><span class="codenumber">1.1.2</span> <span class="title">An empty cart</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-sets.html#subsec-venn" class="internal"><span class="codenumber">1.1.3</span> <span class="title">Venn Diagrams</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-sets.html#subsec-setact1" class="internal"><span class="codenumber">1.1.4</span> <span class="title">Set Activities</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-pascaltriangle.html" class="internal"><span class="codenumber">1.2</span> <span class="title">A Special Triangle</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-pascaltriangle.html#subsec-pascalconstruct" class="internal"><span class="codenumber">1.2.1</span> <span class="title">Constructing Pascal’s Triangle</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-pascaltriangle.html#sec-patterns" class="internal"><span class="codenumber">1.2.2</span> <span class="title">Patterns of Pacal’s Triangle</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-belhaven-math-intro.html" class="internal"><span class="codenumber">1.3</span> <span class="title">Introduction to Belhaven Mathematics</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="sec-belhaven-math-intro.html#subsec-community" class="internal"><span class="codenumber">1.3.1</span> <span class="title">Community</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec-belhaven-math-intro.html#subsubsec-mcsclub" class="internal"><span class="codenumber">1.3.1.1</span> <span class="title">MCS Club</span></a></div></li>
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec-belhaven-math-intro.html#subsubsec-social" class="internal"><span class="codenumber">1.3.1.2</span> <span class="title">STEM Events</span></a></div></li>
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec-belhaven-math-intro.html#subsubsec-communicate" class="internal"><span class="codenumber">1.3.1.3</span> <span class="title">Good Communication</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-belhaven-math-intro.html#subsec-makercampus" class="internal"><span class="codenumber">1.3.2</span> <span class="title">Belhaven Maker Campus</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-belhaven-math-intro.html#sec-belhaven-math-intro-10" class="internal"><span class="codenumber">1.3.3</span> <span class="title">Mathematical Research</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-belhaven-math-intro.html#sec-belhaven-math-intro-11" class="internal"><span class="codenumber">1.3.4</span> <span class="title">The Eyes of Faith Portfolio</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-belhaven-math-intro.html#sec-belhaven-math-intro-12" class="internal"><span class="codenumber">1.3.5</span> <span class="title">For Engineering Majors</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-belhaven-math-intro.html#sec-belhaven-math-intro-13" class="internal"><span class="codenumber">1.3.6</span> <span class="title">For Actuarial Science Majors</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-belhaven-math-intro.html#sec-belhaven-math-intro-14" class="internal"><span class="codenumber">1.3.7</span> <span class="title">Seminars</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-successfuls.html" class="internal"><span class="codenumber">1.4</span> <span class="title">How to be a successful math major</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-career.html" class="internal"><span class="codenumber">1.5</span> <span class="title">Careers in Mathematics</span></a></div></li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-logicpuzzle.html" class="internal"><span class="codenumber">1.6</span> <span class="title">Logically Speaking</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-logicpuzzle.html#subsec-nonsensical" class="internal"><span class="codenumber">1.6.1</span> <span class="title">Gordentockles and Chimi</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-logicpuzzle.html#subsec-useoflogic" class="internal"><span class="codenumber">1.6.2</span> <span class="title">The Usefulness of Logic</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-logicpuzzle.html#subsec-contrapositives" class="internal"><span class="codenumber">1.6.3</span> <span class="title">Contrapositives</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-logicpuzzle.html#subsec-knights" class="internal"><span class="codenumber">1.6.4</span> <span class="title">Knights and Knaves</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-graphtheory.html" class="internal"><span class="codenumber">1.7</span> <span class="title">Connecting Dots</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-graphtheory.html#subsec-konigsburg" class="internal"><span class="codenumber">1.7.1</span> <span class="title">Touring the City of Konigsburg</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-graphtheory.html#subsec-connectivity" class="internal"><span class="codenumber">1.7.2</span> <span class="title">Connectivity</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-graphtheory.html#subsec-sixdegrees" class="internal"><span class="codenumber">1.7.3</span> <span class="title">Six Degrees of Separation</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-fourcolors.html" class="internal"><span class="codenumber">1.8</span> <span class="title">Coloring Graphs</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-fourcolors.html#subsec-colortrees" class="internal"><span class="codenumber">1.8.1</span> <span class="title">Coloring Trees</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-fourcolors.html#subsec-fourcolor2" class="internal"><span class="codenumber">1.8.2</span> <span class="title">What about Cycles?</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-fourcolors.html#subsec-fourcolors" class="internal"><span class="codenumber">1.8.3</span> <span class="title">Appel and Haken shook things up</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-history.html" class="internal"><span class="codenumber">1.9</span> <span class="title">A Little History</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-history.html#subsec-advancements" class="internal"><span class="codenumber">1.9.1</span> <span class="title">What we take for granted</span></a></div></li>
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="sec-history.html#subsec-egyptian" class="internal"><span class="codenumber">1.9.2</span> <span class="title">Thinking Differently</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec-history.html#subsubsec-egyptian" class="internal"><span class="codenumber">1.9.2.1</span> <span class="title">Egyptian Multiplication</span></a></div></li>
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec-history.html#subsubsec-babylon" class="internal"><span class="codenumber">1.9.2.2</span> <span class="title">Mathematics of Babylon</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-history.html#subsec-timeline" class="internal"><span class="codenumber">1.9.3</span> <span class="title">Mathigon’s Timeline of Mathematics</span></a></div></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toc-item toc-chapter contains-active">
+<div class="toc-title-box"><a href="ch-worldofcalculus-title.html" class="internal"><span class="codenumber">2</span> <span class="title">The World of Calculus</span></a></div>
+<ul class="structural toc-item-list contains-active">
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-harnessinf.html" class="internal"><span class="codenumber">2.1</span> <span class="title">Harnessing <span class="process-math">\(\infty\)</span></span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-harnessinf.html#subsec-infpredicatble" class="internal"><span class="codenumber">2.1.1</span> <span class="title">Not always unpredictable</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-harnessinf.html#subsec-movementonpaper" class="internal"><span class="codenumber">2.1.2</span> <span class="title">Movement On Paper</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-harnessinf.html#subsec-whatiscalculus" class="internal"><span class="codenumber">2.1.3</span> <span class="title">So what is Calculus?</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-harnessinf.html#subsec-recursive" class="internal"><span class="codenumber">2.1.4</span> <span class="title">Recursive Sequences</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-newtonleibniz.html" class="internal"><span class="codenumber">2.2</span> <span class="title">Newton vs Leibniz</span></a></div></li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-archimedes.html" class="internal"><span class="codenumber">2.3</span> <span class="title">Archimedes’ Great Idea</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-archimedes.html#subsec-archsyracuse" class="internal"><span class="codenumber">2.3.1</span> <span class="title">Archimedes of Syracuse</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-archimedes.html#subsec-weirdnumber" class="internal"><span class="codenumber">2.3.2</span> <span class="title">What is this weird number?</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-archimedes.html#subsec-archimedes" class="internal"><span class="codenumber">2.3.3</span> <span class="title">Archimedes’ Estimate</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-calcinmovies.html" class="internal"><span class="codenumber">2.4</span> <span class="title">Calculus in the Movies</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-calcinmovies.html#subsec-numberphileCal" class="internal"><span class="codenumber">2.4.1</span> <span class="title">Numberphile’s Math and Movies</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-ratesofchange.html" class="internal"><span class="codenumber">2.5</span> <span class="title">Rates of Change</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-ratesofchange.html#subsec-throwaball" class="internal"><span class="codenumber">2.5.1</span> <span class="title">Throwing a Ball</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-ratesofchange.html#subsec-derivatives" class="internal"><span class="codenumber">2.5.2</span> <span class="title">Derivatives and Instantaneous Rate of Change</span></a></div></li>
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="sec-ratesofchange.html#subsec-dapplications" class="internal"><span class="codenumber">2.5.3</span> <span class="title">Applications of Derivatives</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec-ratesofchange.html#subsubsec-appd1" class="internal"><span class="codenumber">2.5.3.1</span> <span class="title">More Rates of Change</span></a></div></li>
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec-ratesofchange.html#subsec-appd3" class="internal"><span class="codenumber">2.5.3.2</span> <span class="title">Highest and Lowest</span></a></div></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-surfaces.html" class="internal"><span class="codenumber">2.6</span> <span class="title">Surfaces</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-surfaces.html#subsec-contour" class="internal"><span class="codenumber">2.6.1</span> <span class="title">Contour Plots: Connecting 2D and 3D Shapes</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-surfaces.html#subsec-contour3d" class="internal"><span class="codenumber">2.6.2</span> <span class="title">Contour</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-surfaces.html#subsec-quartic" class="internal"><span class="codenumber">2.6.3</span> <span class="title">Quartic Surfaces</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section active">
+<div class="toc-title-box"><a href="sec-polarcoords.html" class="internal"><span class="codenumber">2.7</span> <span class="title">Polar Coordinates</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-polarcoords.html#subsec-convertingcoords" class="internal"><span class="codenumber">2.7.1</span> <span class="title">Converting Coordinates</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-polarcoords.html#subsec-polarfunctions" class="internal"><span class="codenumber">2.7.2</span> <span class="title">Polar Functions</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-polarcoords.html#subsec-polarcordsdesmos" class="internal"><span class="codenumber">2.7.3</span> <span class="title">Polar Coordinates in Desmos</span></a></div></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="ch-worldsofalgebra-title.html" class="internal"><span class="codenumber">3</span> <span class="title">Worlds of Algebra</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-groups.html" class="internal"><span class="codenumber">3.1</span> <span class="title">Algebra Shapes and Groups</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-groups.html#subsec-algebrapurpose" class="internal"><span class="codenumber">3.1.1</span> <span class="title">Algebra’s Goal</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-groups.html#subsec-modernalgebra" class="internal"><span class="codenumber">3.1.2</span> <span class="title">A Familiar Pattern</span></a></div></li>
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="sec-groups.html#subsec-groups" class="internal"><span class="codenumber">3.1.3</span> <span class="title">What is a Group?</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec-groups.html#subsubsec-identity" class="internal"><span class="codenumber">3.1.3.1</span> <span class="title">Identity Elements</span></a></div></li>
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec-groups.html#subsubsec-inverse" class="internal"><span class="codenumber">3.1.3.2</span> <span class="title">Inverse Elements</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-groups.html#subsec-why" class="internal"><span class="codenumber">3.1.4</span> <span class="title">Why do we think about groups?</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-groups.html#subsec-dihedral" class="internal"><span class="codenumber">3.1.5</span> <span class="title">A Group of Squares</span></a></div></li>
+</ul>
+</li></ul>
+</li>
+<li class="toc-item toc-backmatter"><div class="toc-title-box"><a href="backmatter.html" class="internal"><span class="title">Backmatter</span></a></div></li>
+</ul></nav></div>
+<main class="ptx-main"><div id="ptx-content" class="ptx-content"><section class="section" id="sec-polarcoords"><h2 class="heading hide-type">
+<span class="type">Section</span><span class="space"> </span><span class="codenumber">2.7</span><span class="space"> </span><span class="title">Polar Coordinates</span>
+</h2>
+<div class="para" id="sec-polarcoords-2">The traveling fair is in town! You can see the rides at the fair grounds from the highway as you pass by (and smell the funnel cake). Our friend, Tom, finally worked up the courage to ask out Amy, and so a trip to the fair is their first date.</div>
+<div class="para" id="sec-polarcoords-3">Their first ride is the bumper cars. Amy drives around the rectangular arena, but Tom’s cart is stuck in one of the corners. While he’s sitting there, he starts thinking about locations of other carts. The arena is rectangular and can be broken up into a grid of <span class="process-math">\(1\times 1\)</span> ft<span class="process-math">\(^2\)</span> sections, and each cart’s location is classified by an <span class="process-math">\((x,y)\)</span> coordinate.</div>
+<div class="para" id="sec-polarcoords-4">PICTURE</div>
+<div class="para" id="sec-polarcoords-5">Coordinates like we see at the bumper cars are called <dfn class="terminology">rectangular coordinates</dfn> (because they fit nicely in a rectangular grid). For example, the point <span class="process-math">\(P=\left(\frac{1}{\sqrt{2}},\frac{1}{\sqrt{2}}\right)\)</span> is written to show that <span class="process-math">\(P\)</span> is found in the plane by going <span class="process-math">\(1/\sqrt{2}\)</span> in the <span class="process-math">\(x\)</span>-direction and <span class="process-math">\(1/\sqrt{2}\)</span> in the <span class="process-math">\(y\)</span>-direction.</div>
+<div class="para" id="sec-polarcoords-6">But are rectangular grids always the best way to think of things? Tom and Amy move on to the tilt-o-whirl, and even though we could label the coordinates of this round environment using a rectangular grid, there’s probably a more efficient way. What if instead of thinking in terms of rectangles, we thought of things in terms of circles? Rectangular coordinates are awkward for round and circular shapes, and so maybe there’s a better way. Meet polar coordinates.</div>
+<div class="para" id="sec-polarcoords-7">Polar coordinates redefine point <span class="process-math">\((x,y)\)</span> by <span class="process-math">\((r, \theta)\text{.}\)</span> That is, we label our coordinates with a radius and an angle of rotation. We can get to the same point <span class="process-math">\(P=\left(\frac{1}{\sqrt{2}},\frac{1}{\sqrt{2}}\right)\)</span> by going out a distance of <span class="process-math">\(1\)</span> and rotating <span class="process-math">\(\pi/4\)</span> <span class="process-math">\((45^{\circ})\)</span> as pictured.</div>
+<div class="sidebyside"><div class="sbsrow" style="margin-left:0%;margin-right:0%;">
+<div class="sbspanel middle" style="width:50%;"><figure class="figure figure-like" id="sec-polarcoords-8-1"><img src="external/coordianates_rect.png" class="contained"><figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">2.7.1<span class="period">.</span></span><span class="space"> </span>rectangular coordinates</figcaption></figure></div>
+<div class="sbspanel middle" style="width:50%;"><figure class="figure figure-like" id="sec-polarcoords-8-2"><img src="external/coordianates_polar.png" class="contained"><figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">2.7.2<span class="period">.</span></span><span class="space"> </span>polar coordinates</figcaption></figure></div>
+</div></div>
+<div class="para" id="sec-polarcoords-9">So the rectangular point <span class="process-math">\(\left(\frac{1}{\sqrt{2}},\frac{1}{\sqrt{2}}\right)\)</span> can be written in polar coordinates as <span class="process-math">\(\left(1,\frac{\pi}{4} \right)\text{.}\)</span>
+</div>
+<section class="subsection" id="subsec-convertingcoords"><h3 class="heading hide-type">
+<span class="type">Subsection</span><span class="space"> </span><span class="codenumber">2.7.1</span><span class="space"> </span><span class="title">Converting Coordinates</span>
+</h3>
+<div class="para" id="subsec-convertingcoords-2">How can we go from rectangle world to circle world? Obviously, with triangles.</div>
+<figure class="figure figure-like" id="subsec-convertingcoords-3"><div class="image-box" style="width: 50%; margin-left: 25%; margin-right: 25%;"><img src="external/polarcoords1.png" class="contained"></div>
+<figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">2.7.3<span class="period">.</span></span><span class="space"> </span>converting to polar coordinates</figcaption></figure><div class="para" id="subsec-convertingcoords-4">Notice the values of <span class="process-math">\(x,y,\)</span> and <span class="process-math">\(r\)</span> form a right triangle, and so by Pythagorean theorem and a little trigonometry, <span class="process-math">\(x^2 + y^2 = r^2\)</span> and <span class="process-math">\(\tan(\theta) = y/x\)</span> (or maybe more usefully said: <span class="process-math">\(\theta = \tan^{-1}(y/x)\)</span>).</div>
+<details id="ques-pcords1" class="question example-like born-hidden-knowl"><summary class="knowl__link"><h4 class="heading">
+<span class="type">Question</span><span class="space"> </span><span class="codenumber">2.7.4</span><span class="period">.</span>
+</h4></summary><article class="question example-like knowl__content"><div class="para" id="ques-pcords1-1-1">Convert <span class="process-math">\((-3,4)\)</span> into polar coordinates.</div></article></details><div class="para" id="subsec-convertingcoords-6">Trigonometry can also help us go from polar to rectangular coordinates.</div>
+<details id="ques-pcoords2" class="question example-like born-hidden-knowl"><summary class="knowl__link"><h4 class="heading">
+<span class="type">Question</span><span class="space"> </span><span class="codenumber">2.7.5</span><span class="period">.</span>
+</h4></summary><article class="question example-like knowl__content"><div class="para" id="ques-pcoords2-1-1">Using the same triangle as before, determine <span class="process-math">\(\cos(\theta) \)</span> and <span class="process-math">\(\sin(\theta)\text{.}\)</span>
+</div>
+<div class="solutions"><details id="ques-pcoords2-2" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period">.</span></summary><div class="solution solution-like knowl__content"><div class="para logical" id="ques-pcoords2-2-1"><div class="displaymath process-math">
+\begin{equation*}
+\cos(\theta) = \dfrac{x}{r} \text{ and } \sin(\theta) = \dfrac{y}{r}.
+\end{equation*}
+</div></div></div></details></div></article></details><div class="para" id="subsec-convertingcoords-8">There we have it! We use <span class="process-math">\(x = r\cos(\theta)\)</span> and <span class="process-math">\(y = r\sin(\theta)\)</span> to convert coordinates from polar to rectangular.</div>
+<details id="ques-pcoords3" class="question example-like born-hidden-knowl"><summary class="knowl__link"><h4 class="heading">
+<span class="type">Question</span><span class="space"> </span><span class="codenumber">2.7.6</span><span class="period">.</span>
+</h4></summary><article class="question example-like knowl__content"><div class="para" id="ques-pcoords3-1-1">Conver polar coordinate <span class="process-math">\((9, \pi/6)\)</span> into rectangular coordinates.</div></article></details></section><section class="subsection" id="subsec-polarfunctions"><h3 class="heading hide-type">
+<span class="type">Subsection</span><span class="space"> </span><span class="codenumber">2.7.2</span><span class="space"> </span><span class="title">Polar Functions</span>
+</h3>
+<div class="para" id="subsec-polarfunctions-2">Ancient cultures spent a lot of time watching the sky. They built calendars, determined seasons, and even navigated across oceans with the help of positions of stars. Some cultures crafted stories around constellations while others saw their gods in the planets.</div>
+<figure class="figure figure-like" id="fig-coords3"><div class="image-box" style="width: 50%; margin-left: 25%; margin-right: 25%;"><img src="external/Retrograde-Motion-400.jpg" class="contained"></div>
+<figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">2.7.7<span class="period">.</span></span><span class="space"> </span>Retrograde Motion of Planets</figcaption></figure><div class="para" id="subsec-polarfunctions-4">Tracking the position of planets and stars was crucial to society, but planets behaved erratically by sometimes travelling backwards! This motion is called retrograde motion, and it is an interesting phenomenon due to planets’ elliptical orbits. Retrograde motion led astologists to these amazing "dances of planets".</div>
+<figure class="figure figure-like" id="fig-planetdances"><div class="image-box" style="width: 100%; margin-left: 0%; margin-right: 0%;"><img src="external/planetdance.png" class="contained"></div>
+<figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">2.7.8<span class="period">.</span></span><span class="space"> </span>The 8 year dance between Earth and Venus</figcaption></figure><div class="para" id="subsec-polarfunctions-7">The vertical line test says amazing plots like these are not functions. What we really mean is that they are not functions with independent variable <span class="process-math">\(x\)</span> and <span class="process-math">\(y\)</span> as a function of <span class="process-math">\(x\text{,}\)</span> <span class="process-math">\(y = f(x).\)</span> However, in polar coordinates, plots like these would be right at home. We can treat <span class="process-math">\(r\)</span> as a function of the independent variable <span class="process-math">\(\theta\text{.}\)</span> So typically <span class="process-math">\(r = r(\theta)\)</span> represents a polar function.</div></section><section class="subsection" id="subsec-polarcordsdesmos"><h3 class="heading hide-type">
+<span class="type">Subsection</span><span class="space"> </span><span class="codenumber">2.7.3</span><span class="space"> </span><span class="title">Polar Coordinates in Desmos</span>
+</h3>
+<div class="para" id="subsec-polarcordsdesmos-2">We can easily view polar functions in Desmos by simply typing an equation <span class="process-math">\(r = r(\theta)\text{.}\)</span> Let’s see what kind of functions we can create.</div>
+<article class="activity project-like" id="act-polar1"><h4 class="heading">
+<span class="type">Activity</span><span class="space"> </span><span class="codenumber">2.7.1</span><span class="period">.</span><span class="space"> </span><span class="title">Polar Function Intro.</span>
+</h4> <div class="para" id="act-polar1-2">Try plotting <span class="process-math">\(r = \theta\text{.}\)</span> You can type <span class="process-math">\(\theta\)</span> by typing "theta".</div> <figure class="figure figure-like" id="desmos-polar1"><iframe src="https://www.desmos.com/calculator/vnuod9as22" id="desmos-polar1-1" width="600" height="600"></iframe><figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">2.7.9<span class="period">.</span></span><span class="space"> </span></figcaption></figure></article><div class="para" id="subsec-polarcordsdesmos-4">The function <span class="process-math">\(r = \theta\)</span> is known as the <dfn class="terminology">Archimedean spiral</dfn> or the <dfn class="terminology">golden spiral</dfn> and is related to Fibonacci sequence. As for Desmos, notice bounds of <span class="process-math">\(\theta\)</span> are automatically added, and you can adjust that range as needed. Let’s try a few more polar plots.</div>
+<div class="para" id="subsec-polarcordsdesmos-5"></div>
+<details id="ques-polarplot1" class="question example-like born-hidden-knowl"><summary class="knowl__link"><h4 class="heading">
+<span class="type">Question</span><span class="space"> </span><span class="codenumber">2.7.10</span><span class="period">.</span>
+</h4></summary><article class="question example-like knowl__content"><div class="para" id="ques-polarplot1-1-1">Plot <span class="process-math">\(r = 2\cos(\theta)\text{.}\)</span>
+</div></article></details><figure class="figure figure-like" id="desmos-polar3"><iframe src="https://www.desmos.com/calculator/vnuod9as22" id="desmos-polar3-1" width="600" height="600"></iframe><figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">2.7.11<span class="period">.</span></span><span class="space"> </span></figcaption></figure><details id="ques-polarplot2" class="question example-like born-hidden-knowl"><summary class="knowl__link"><h4 class="heading">
+<span class="type">Question</span><span class="space"> </span><span class="codenumber">2.7.12</span><span class="period">.</span>
+</h4></summary><article class="question example-like knowl__content"><div class="para" id="ques-polarplot2-1-1">Plot <span class="process-math">\(r = \sin(2\theta)\text{.}\)</span>
+</div></article></details><article class="activity project-like" id="ques-polarplot3"><h4 class="heading">
+<span class="type">Activity</span><span class="space"> </span><span class="codenumber">2.7.2</span><span class="period">.</span>
+</h4>
+<div class="para" id="ques-polarplot3-1-1">Plot <span class="process-math">\(r = \sin(a\theta)\)</span> and change the value of <span class="process-math">\(a\)</span> with a slider.</div> <figure class="figure figure-like" id="desmos-polar2"><iframe src="https://www.desmos.com/calculator/7czspoli5o" id="desmos-polar2-1" width="600" height="600"></iframe><figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">2.7.13<span class="period">.</span></span><span class="space"> </span></figcaption></figure></article><details id="ques-desmosplot4" class="question example-like born-hidden-knowl"><summary class="knowl__link"><h4 class="heading">
+<span class="type">Question</span><span class="space"> </span><span class="codenumber">2.7.14</span><span class="period">.</span>
+</h4></summary><article class="question example-like knowl__content"><div class="para" id="ques-desmosplot4-1-1">Plot <span class="process-math">\(r = \sin^2(a\theta) + \cos^4(a\theta)\)</span> and insert a slider <span class="process-math">\(a\)</span> when prompted. (Hint: Desmos cannot recognize <span class="process-math">\(\cos^4(a\theta)\text{.}\)</span> Try typing <span class="process-math">\((\cos(a\theta))^4\text{.}\)</span>)</div></article></details><figure class="figure figure-like" id="desmos-polar5"><iframe src="https://www.desmos.com/calculator/vnuod9as22" id="desmos-polar5-1" width="600" height="600"></iframe><figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">2.7.15<span class="period">.</span></span><span class="space"> </span></figcaption></figure></section><article class="activity project-like" id="act-polarplots2"><h3 class="heading">
+<span class="type">Activity</span><span class="space"> </span><span class="codenumber">2.7.3</span><span class="period">.</span><span class="space"> </span><span class="title">Showing Off Polar Plots.</span>
+</h3> <div class="para" id="act-polarplots2-2">In a small group, make a Desmos plot of polar plot (or plots) to share with the class. The class will vote, and the winning group will be the "Polar Royals".</div> <figure class="figure figure-like" id="desmos-polar6"><iframe src="https://www.desmos.com/calculator/vnuod9as22" id="desmos-polar6-1" width="600" height="600"></iframe><figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">2.7.16<span class="period">.</span></span><span class="space"> </span></figcaption></figure></article></section></div>
+<div class="ptx-content-footer">
+<a class="previous-button button" href="sec-surfaces.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="top-button button" href="#" title="Top"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Top</span></a><a class="next-button button" href="ch-worldsofalgebra-title.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a>
+</div></main>
+</div>
+<div id="ptx-page-footer" class="ptx-page-footer">
+<a class="pretext-link" href="https://pretextbook.org" title="PreTeXt"><div class="logo"><svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="338 3000 8772 6866"><g style="stroke-width:.025in; stroke:black; fill:none"><polyline points="472,3590 472,9732 " style="stroke:#000000;stroke-width:174; stroke-linejoin:miter; stroke-linecap:round; "></polyline><path style="stroke:#000000;stroke-width:126;stroke-linecap:butt;" d="M 4724,9448 A 4660 4660  0  0  1  8598  9259"></path><path style="stroke:#000000;stroke-width:174;stroke-linecap:butt;" d="M 4488,9685 A 4228 4228  0  0  0   472  9732"></path><path style="stroke:#000000;stroke-width:126;stroke-linecap:butt;" d="M 4724,3590 A 4241 4241  0  0  1  8598  3496"></path><path style="stroke:#000000;stroke-width:126;stroke-linecap:round;" d="M 850,3496  A 4241 4241  0  0  1  4724  3590"></path><path style="stroke:#000000;stroke-width:126;stroke-linecap:round;" d="M 850,9259  A 4507 4507  0  0  1  4724  9448"></path><polyline points="5385,4299 4062,8125" style="stroke:#000000;stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="8598,3496 8598,9259" style="stroke:#000000;stroke-width:126; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="850,3496 850,9259" style="stroke:#000000;stroke-width:126; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="4960,9685 4488,9685" style="stroke:#000000;stroke-width:174; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="3070,4582 1889,6141 3070,7700" style="stroke:#000000;stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="6418,4582 7600,6141 6418,7700" style="stroke:#000000;stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="8976,3590 8976,9732" style="stroke:#000000;stroke-width:174; stroke-linejoin:miter; stroke-linecap:round;"></polyline><path style="stroke:#000000;stroke-width:174;stroke-linecap:butt;" d="M 4960,9685 A 4228 4228  0  0  1  8976  9732"></path></g></svg></div></a><a class="runestone-link" href="https://runestone.academy" title="Runestone Academy"><img class="logo" src="https://runestone.academy/runestone/static/images/RAIcon_cropped.png"></a><a class="mathjax-link" href="https://www.mathjax.org" title="MathJax"><img class="logo" src="https://www.mathjax.org/badge/badge-square-2.png"></a>
+</div>
+</body>
+</html>

@@ -1,0 +1,643 @@
+<!DOCTYPE html>
+<!--********************************************-->
+<!--*       Generated from PreTeXt source      *-->
+<!--*                                          *-->
+<!--*         https://pretextbook.org          *-->
+<!--*                                          *-->
+<!--********************************************-->
+<html lang="en-US" dir="ltr">
+<head xmlns:og="http://ogp.me/ns#" xmlns:book="https://ogp.me/ns/book#">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Algebra Shapes and Groups</title>
+<meta name="Keywords" content="Authored in PreTeXt">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta property="og:type" content="book">
+<meta property="book:title" content="Onboarding to Mathematics">
+<meta property="book:author" content="John Estes">
+<script src="https://sagecell.sagemath.org/static/embedded_sagecell.js"></script><script>
+var runestoneMathReady = new Promise((resolve) => window.rsMathReady = resolve);
+window.MathJax = {
+  "tex": {
+    "inlineMath": [
+      [
+        "\\(",
+        "\\)"
+      ]
+    ],
+    "tags": "none",
+    "tagSide": "right",
+    "tagIndent": ".8em",
+    "packages": {
+      "[+]": [
+        "base",
+        "extpfeil",
+        "ams",
+        "amscd",
+        "color",
+        "newcommand",
+        "knowl"
+      ]
+    }
+  },
+  "options": {
+    "ignoreHtmlClass": "tex2jax_ignore|ignore-math",
+    "processHtmlClass": "process-math",
+    "renderActions": {
+      "findScript": [
+        10,
+        function (doc) {
+            document.querySelectorAll('script[type^="math/tex"]').forEach(function(node) {
+                var display = !!node.type.match(/; *mode=display/);
+                var math = new doc.options.MathItem(node.textContent, doc.inputJax[0], display);
+                var text = document.createTextNode('');
+                node.parentNode.replaceChild(text, node);
+                math.start = {node: text, delim: '', n: 0};
+                math.end = {node: text, delim: '', n: 0};
+                doc.math.push(math);
+            });
+        },
+        ""
+      ]
+    }
+  },
+  "chtml": {
+    "scale": 0.98,
+    "mtextInheritFont": true
+  },
+  "loader": {
+    "load": [
+      "input/asciimath",
+      "[tex]/extpfeil",
+      "[tex]/amscd",
+      "[tex]/color",
+      "[tex]/newcommand",
+      "[pretext]/mathjaxknowl3.js"
+    ],
+    "paths": {
+      "pretext": "_static/pretext/js/lib"
+    }
+  },
+  "startup": {
+    pageReady() {
+      return MathJax.startup.defaultPageReady().then(function () {
+      console.log("in ready function");
+      rsMathReady();
+      }
+    )}
+  }
+};
+</script><script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/lunr.js/2.3.9/lunr.min.js" integrity="sha512-4xUl/d6D6THrAnXAwGajXkoWaeMNwEKK4iNfq5DotEbLPAfk6FSxSP3ydNxqDgCw1c/0Z1Jg6L8h2j+++9BZmg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script><script src="lunr-pretext-search-index.js" async=""></script><script src="_static/pretext/js/pretext_search.js"></script><link href="_static/pretext/css/pretext_search.css" rel="stylesheet" type="text/css">
+<script src="_static/pretext/js/lib/jquery.min.js"></script><script src="_static/pretext/js/lib/jquery.sticky.js"></script><script src="_static/pretext/js/lib/jquery.espy.min.js"></script><script src="_static/pretext/js/pretext.js"></script><script src="_static/pretext/js/pretext_add_on.js?x=1"></script><script src="_static/pretext/js/user_preferences.js"></script><script src="_static/pretext/js/lib/knowl.js"></script><!--knowl.js code controls Sage Cells within knowls--><script>sagecellEvalName='Evaluate (Sage)';
+</script><link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+<link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@400;700&amp;family=Noto+Serif:ital,wght@0,400;0,700;1,400;1,700&amp;family=Tinos:ital,wght@0,400;0,700;1,400;1,700&amp;display=swap" rel="stylesheet">
+<link href="https://fonts.cdnfonts.com/css/dejavu-serif" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Serif:opsz,wdth,wght@8..144,50..150,100..900&amp;display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wdth,wght@75..100,300..800&amp;display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200">
+<link href="_static/pretext/css/pretext.css" rel="stylesheet" type="text/css">
+<link href="_static/pretext/css/pretext_add_on.css" rel="stylesheet" type="text/css">
+<link href="_static/pretext/css/shell_default.css" rel="stylesheet" type="text/css">
+<link href="_static/pretext/css/banner_default.css" rel="stylesheet" type="text/css">
+<link href="_static/pretext/css/navbar_default.css" rel="stylesheet" type="text/css">
+<link href="_static/pretext/css/toc_default.css" rel="stylesheet" type="text/css">
+<link href="_static/pretext/css/knowls_default.css" rel="stylesheet" type="text/css">
+<link href="_static/pretext/css/style_default.css" rel="stylesheet" type="text/css">
+<link href="_static/pretext/css/colors_pastel_blue_orange.css" rel="stylesheet" type="text/css">
+<link href="_static/pretext/css/setcolors.css" rel="stylesheet" type="text/css">
+</head>
+<body id="changeme" class="pretext book ignore-math">
+<a class="assistive" href="#ptx-content">Skip to main content</a><header id="ptx-masthead" class="ptx-masthead"><div class="ptx-banner">
+<a id="logo-link" class="logo-link" target="_blank" href=""></a><div class="title-container">
+<h1 class="heading"><a href="my-great-book.html"><span class="title">Onboarding to Mathematics:</span> <span class="subtitle">A Quick Voyage through Undergrad Math</span></a></h1>
+<p class="byline">John Estes</p>
+</div>
+</div></header><nav id="ptx-navbar" class="ptx-navbar navbar"><button class="toc-toggle button" title="Contents"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5d2;</span><span class="name">Contents</span></button><div class="searchbox">
+<div class="searchwidget"><button id="searchbutton" class="searchbutton button" type="button" title="Search book"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe8b6;</span><span class="name">Search Book</span></button></div>
+<div id="searchresultsplaceholder" class="searchresultsplaceholder" style="display: none">
+<div class="search-results-controls">
+<input aria-label="Search term" id="ptxsearch" class="ptxsearch" type="text" name="terms" placeholder="Search term"><button title="Close search" id="closesearchresults" class="closesearchresults"><span class="material-symbols-outlined">close</span></button>
+</div>
+<h2 class="search-results-heading">Search Results: </h2>
+<div id="searchempty" class="searchempty"><span>No results.</span></div>
+<ol id="searchresults" class="searchresults"></ol>
+</div>
+</div>
+<span class="nav-other-controls"></span><span class="treebuttons"><a class="previous-button button" href="ch-worldsofalgebra-title.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="up-button button" href="ch-worldsofalgebra-title.html" title="Up"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Up</span></a><a class="next-button button" href="backmatter.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a></span></nav><div id="latex-macros" class="hidden-content process-math" style="display:none"><span class="process-math">\(\newcommand{\N}{\mathbb N} \newcommand{\Z}{\mathbb Z} \newcommand{\Q}{\mathbb Q} \newcommand{\R}{\mathbb R}
+\newcommand{\lt}{&lt;}
+\newcommand{\gt}{&gt;}
+\newcommand{\amp}{&amp;}
+\definecolor{fillinmathshade}{gray}{0.9}
+\newcommand{\fillinmath}[1]{\mathchoice{\colorbox{fillinmathshade}{$\displaystyle     \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\textstyle        \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\scriptstyle      \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\scriptscriptstyle\phantom{\,#1\,}$}}}
+\)</span></div>
+<div class="ptx-page">
+<div id="ptx-sidebar" class="ptx-sidebar"><nav id="ptx-toc" class="ptx-toc depth2"><ul class="structural contains-active toc-item-list">
+<li class="toc-item toc-frontmatter">
+<div class="toc-title-box"><a href="frontmatter.html" class="internal"><span class="title">Front Matter</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-colophon"><div class="toc-title-box"><a href="frontmatter-2.html" class="internal"><span class="title">Colophon</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="frontmatter-3.html" class="internal"><span class="codenumber">1</span> <span class="title">The Goal of Onboarding to Mathematics</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="ch-gearup.html" class="internal"><span class="codenumber">1</span> <span class="title">Gearing up</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-sets.html" class="internal"><span class="codenumber">1.1</span> <span class="title">Shopping Carts and Sets</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-sets.html#subsec-sets" class="internal"><span class="codenumber">1.1.1</span> <span class="title">Collections of Things</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-sets.html#subsec-emptyset" class="internal"><span class="codenumber">1.1.2</span> <span class="title">An empty cart</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-sets.html#subsec-venn" class="internal"><span class="codenumber">1.1.3</span> <span class="title">Venn Diagrams</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-sets.html#subsec-setact1" class="internal"><span class="codenumber">1.1.4</span> <span class="title">Set Activities</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-pascaltriangle.html" class="internal"><span class="codenumber">1.2</span> <span class="title">A Special Triangle</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-pascaltriangle.html#subsec-pascalconstruct" class="internal"><span class="codenumber">1.2.1</span> <span class="title">Constructing Pascal’s Triangle</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-pascaltriangle.html#sec-patterns" class="internal"><span class="codenumber">1.2.2</span> <span class="title">Patterns of Pacal’s Triangle</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-belhaven-math-intro.html" class="internal"><span class="codenumber">1.3</span> <span class="title">Introduction to Belhaven Mathematics</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="sec-belhaven-math-intro.html#subsec-community" class="internal"><span class="codenumber">1.3.1</span> <span class="title">Community</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec-belhaven-math-intro.html#subsubsec-mcsclub" class="internal"><span class="codenumber">1.3.1.1</span> <span class="title">MCS Club</span></a></div></li>
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec-belhaven-math-intro.html#subsubsec-social" class="internal"><span class="codenumber">1.3.1.2</span> <span class="title">STEM Events</span></a></div></li>
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec-belhaven-math-intro.html#subsubsec-communicate" class="internal"><span class="codenumber">1.3.1.3</span> <span class="title">Good Communication</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-belhaven-math-intro.html#subsec-makercampus" class="internal"><span class="codenumber">1.3.2</span> <span class="title">Belhaven Maker Campus</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-belhaven-math-intro.html#sec-belhaven-math-intro-10" class="internal"><span class="codenumber">1.3.3</span> <span class="title">Mathematical Research</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-belhaven-math-intro.html#sec-belhaven-math-intro-11" class="internal"><span class="codenumber">1.3.4</span> <span class="title">The Eyes of Faith Portfolio</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-belhaven-math-intro.html#sec-belhaven-math-intro-12" class="internal"><span class="codenumber">1.3.5</span> <span class="title">For Engineering Majors</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-belhaven-math-intro.html#sec-belhaven-math-intro-13" class="internal"><span class="codenumber">1.3.6</span> <span class="title">For Actuarial Science Majors</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-belhaven-math-intro.html#sec-belhaven-math-intro-14" class="internal"><span class="codenumber">1.3.7</span> <span class="title">Seminars</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-successfuls.html" class="internal"><span class="codenumber">1.4</span> <span class="title">How to be a successful math major</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-career.html" class="internal"><span class="codenumber">1.5</span> <span class="title">Careers in Mathematics</span></a></div></li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-logicpuzzle.html" class="internal"><span class="codenumber">1.6</span> <span class="title">Logically Speaking</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-logicpuzzle.html#subsec-nonsensical" class="internal"><span class="codenumber">1.6.1</span> <span class="title">Gordentockles and Chimi</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-logicpuzzle.html#subsec-useoflogic" class="internal"><span class="codenumber">1.6.2</span> <span class="title">The Usefulness of Logic</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-logicpuzzle.html#subsec-contrapositives" class="internal"><span class="codenumber">1.6.3</span> <span class="title">Contrapositives</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-logicpuzzle.html#subsec-knights" class="internal"><span class="codenumber">1.6.4</span> <span class="title">Knights and Knaves</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-graphtheory.html" class="internal"><span class="codenumber">1.7</span> <span class="title">Connecting Dots</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-graphtheory.html#subsec-konigsburg" class="internal"><span class="codenumber">1.7.1</span> <span class="title">Touring the City of Konigsburg</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-graphtheory.html#subsec-connectivity" class="internal"><span class="codenumber">1.7.2</span> <span class="title">Connectivity</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-graphtheory.html#subsec-sixdegrees" class="internal"><span class="codenumber">1.7.3</span> <span class="title">Six Degrees of Separation</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-fourcolors.html" class="internal"><span class="codenumber">1.8</span> <span class="title">Coloring Graphs</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-fourcolors.html#subsec-colortrees" class="internal"><span class="codenumber">1.8.1</span> <span class="title">Coloring Trees</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-fourcolors.html#subsec-fourcolor2" class="internal"><span class="codenumber">1.8.2</span> <span class="title">What about Cycles?</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-fourcolors.html#subsec-fourcolors" class="internal"><span class="codenumber">1.8.3</span> <span class="title">Appel and Haken shook things up</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-history.html" class="internal"><span class="codenumber">1.9</span> <span class="title">A Little History</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-history.html#subsec-advancements" class="internal"><span class="codenumber">1.9.1</span> <span class="title">What we take for granted</span></a></div></li>
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="sec-history.html#subsec-egyptian" class="internal"><span class="codenumber">1.9.2</span> <span class="title">Thinking Differently</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec-history.html#subsubsec-egyptian" class="internal"><span class="codenumber">1.9.2.1</span> <span class="title">Egyptian Multiplication</span></a></div></li>
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec-history.html#subsubsec-babylon" class="internal"><span class="codenumber">1.9.2.2</span> <span class="title">Mathematics of Babylon</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-history.html#subsec-timeline" class="internal"><span class="codenumber">1.9.3</span> <span class="title">Mathigon’s Timeline of Mathematics</span></a></div></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="ch-worldofcalculus-title.html" class="internal"><span class="codenumber">2</span> <span class="title">The World of Calculus</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-harnessinf.html" class="internal"><span class="codenumber">2.1</span> <span class="title">Harnessing <span class="process-math">\(\infty\)</span></span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-harnessinf.html#subsec-infpredicatble" class="internal"><span class="codenumber">2.1.1</span> <span class="title">Not always unpredictable</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-harnessinf.html#subsec-movementonpaper" class="internal"><span class="codenumber">2.1.2</span> <span class="title">Movement On Paper</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-harnessinf.html#subsec-whatiscalculus" class="internal"><span class="codenumber">2.1.3</span> <span class="title">So what is Calculus?</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-harnessinf.html#subsec-recursive" class="internal"><span class="codenumber">2.1.4</span> <span class="title">Recursive Sequences</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-newtonleibniz.html" class="internal"><span class="codenumber">2.2</span> <span class="title">Newton vs Leibniz</span></a></div></li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-archimedes.html" class="internal"><span class="codenumber">2.3</span> <span class="title">Archimedes’ Great Idea</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-archimedes.html#subsec-archsyracuse" class="internal"><span class="codenumber">2.3.1</span> <span class="title">Archimedes of Syracuse</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-archimedes.html#subsec-weirdnumber" class="internal"><span class="codenumber">2.3.2</span> <span class="title">What is this weird number?</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-archimedes.html#subsec-archimedes" class="internal"><span class="codenumber">2.3.3</span> <span class="title">Archimedes’ Estimate</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-calcinmovies.html" class="internal"><span class="codenumber">2.4</span> <span class="title">Calculus in the Movies</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-calcinmovies.html#subsec-numberphileCal" class="internal"><span class="codenumber">2.4.1</span> <span class="title">Numberphile’s Math and Movies</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-ratesofchange.html" class="internal"><span class="codenumber">2.5</span> <span class="title">Rates of Change</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-ratesofchange.html#subsec-throwaball" class="internal"><span class="codenumber">2.5.1</span> <span class="title">Throwing a Ball</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-ratesofchange.html#subsec-derivatives" class="internal"><span class="codenumber">2.5.2</span> <span class="title">Derivatives and Instantaneous Rate of Change</span></a></div></li>
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="sec-ratesofchange.html#subsec-dapplications" class="internal"><span class="codenumber">2.5.3</span> <span class="title">Applications of Derivatives</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec-ratesofchange.html#subsubsec-appd1" class="internal"><span class="codenumber">2.5.3.1</span> <span class="title">More Rates of Change</span></a></div></li>
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec-ratesofchange.html#subsec-appd3" class="internal"><span class="codenumber">2.5.3.2</span> <span class="title">Highest and Lowest</span></a></div></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-surfaces.html" class="internal"><span class="codenumber">2.6</span> <span class="title">Surfaces</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-surfaces.html#subsec-contour" class="internal"><span class="codenumber">2.6.1</span> <span class="title">Contour Plots: Connecting 2D and 3D Shapes</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-surfaces.html#subsec-contour3d" class="internal"><span class="codenumber">2.6.2</span> <span class="title">Contour</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-surfaces.html#subsec-quartic" class="internal"><span class="codenumber">2.6.3</span> <span class="title">Quartic Surfaces</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-polarcoords.html" class="internal"><span class="codenumber">2.7</span> <span class="title">Polar Coordinates</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-polarcoords.html#subsec-convertingcoords" class="internal"><span class="codenumber">2.7.1</span> <span class="title">Converting Coordinates</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-polarcoords.html#subsec-polarfunctions" class="internal"><span class="codenumber">2.7.2</span> <span class="title">Polar Functions</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-polarcoords.html#subsec-polarcordsdesmos" class="internal"><span class="codenumber">2.7.3</span> <span class="title">Polar Coordinates in Desmos</span></a></div></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toc-item toc-chapter contains-active">
+<div class="toc-title-box"><a href="ch-worldsofalgebra-title.html" class="internal"><span class="codenumber">3</span> <span class="title">Worlds of Algebra</span></a></div>
+<ul class="structural toc-item-list contains-active"><li class="toc-item toc-section active">
+<div class="toc-title-box"><a href="sec-groups.html" class="internal"><span class="codenumber">3.1</span> <span class="title">Algebra Shapes and Groups</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-groups.html#subsec-algebrapurpose" class="internal"><span class="codenumber">3.1.1</span> <span class="title">Algebra’s Goal</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-groups.html#subsec-modernalgebra" class="internal"><span class="codenumber">3.1.2</span> <span class="title">A Familiar Pattern</span></a></div></li>
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="sec-groups.html#subsec-groups" class="internal"><span class="codenumber">3.1.3</span> <span class="title">What is a Group?</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec-groups.html#subsubsec-identity" class="internal"><span class="codenumber">3.1.3.1</span> <span class="title">Identity Elements</span></a></div></li>
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec-groups.html#subsubsec-inverse" class="internal"><span class="codenumber">3.1.3.2</span> <span class="title">Inverse Elements</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-groups.html#subsec-why" class="internal"><span class="codenumber">3.1.4</span> <span class="title">Why do we think about groups?</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-groups.html#subsec-dihedral" class="internal"><span class="codenumber">3.1.5</span> <span class="title">A Group of Squares</span></a></div></li>
+</ul>
+</li></ul>
+</li>
+<li class="toc-item toc-backmatter"><div class="toc-title-box"><a href="backmatter.html" class="internal"><span class="title">Backmatter</span></a></div></li>
+</ul></nav></div>
+<main class="ptx-main"><div id="ptx-content" class="ptx-content"><section class="section" id="sec-groups"><h2 class="heading hide-type">
+<span class="type">Section</span><span class="space"> </span><span class="codenumber">3.1</span><span class="space"> </span><span class="title">Algebra Shapes and Groups</span>
+</h2>
+<div class="para" id="sec-groups-2">Imagine a game board with four squares (like a <span class="process-math">\(1 \times 4\)</span> chessboard) labelled <span class="process-math">\(0\)</span> through <span class="process-math">\(3\text{,}\)</span> and one token placed on a square. This is a rather simple game, all we can do is move the token to the right, and if the token moves off the board, it goes back to spot <span class="process-math">\(0\text{.}\)</span>
+</div>
+<div class="para" id="sec-groups-3">We can map out all possible moves of this game with a simple chart. We’ll write <span class="process-math">\(a + b\)</span> to mean the token starts in slot <span class="process-math">\(a\)</span> and travels <span class="process-math">\(b\)</span> moves to the right.</div>
+<article class="activity project-like" id="act-goups2"><h3 class="heading">
+<span class="type">Activity</span><span class="space"> </span><span class="codenumber">3.1.1</span><span class="period">.</span>
+</h3>
+<div class="para" id="act-goups2-1-1">Fill out the chart of all possible moves of the token on a <span class="process-math">\(1 \times 4\)</span> chessboard.</div> <figure class="table table-like" id="table-token1"><figcaption><span class="type">Table</span><span class="space"> </span><span class="codenumber">3.1.1<span class="period">.</span></span><span class="space"> </span></figcaption><div class="tabular-box natural-width"><table class="tabular">
+<tr>
+<td class="l m b1 r1 l0 t0 lines"><span class="process-math">\(a \backslash b\)</span></td>
+<td class="l m b1 r0 l0 t0 lines"><span class="process-math">\(0\)</span></td>
+<td class="l m b1 r0 l0 t0 lines"><span class="process-math">\(1\)</span></td>
+<td class="l m b1 r0 l0 t0 lines"><span class="process-math">\(2\)</span></td>
+<td class="l m b1 r0 l0 t0 lines"><span class="process-math">\(3\)</span></td>
+</tr>
+<tr>
+<td class="l m b1 r1 l0 t0 lines"><span class="process-math">\(0\)</span></td>
+<td class="l m b1 r0 l0 t0 lines"><span class="process-math">\(\)</span></td>
+<td class="l m b1 r0 l0 t0 lines"><span class="process-math">\(\)</span></td>
+<td class="l m b1 r0 l0 t0 lines"><span class="process-math">\(\)</span></td>
+<td class="l m b1 r0 l0 t0 lines"><span class="process-math">\(\)</span></td>
+</tr>
+<tr>
+<td class="l m b1 r1 l0 t0 lines"><span class="process-math">\(1\)</span></td>
+<td class="l m b1 r0 l0 t0 lines"><span class="process-math">\(\)</span></td>
+<td class="l m b1 r0 l0 t0 lines"><span class="process-math">\(\)</span></td>
+<td class="l m b1 r0 l0 t0 lines"><span class="process-math">\(\)</span></td>
+<td class="l m b1 r0 l0 t0 lines"><span class="process-math">\(\)</span></td>
+</tr>
+<tr>
+<td class="l m b1 r1 l0 t0 lines"><span class="process-math">\(2\)</span></td>
+<td class="l m b1 r0 l0 t0 lines"><span class="process-math">\(\)</span></td>
+<td class="l m b1 r0 l0 t0 lines"><span class="process-math">\(\)</span></td>
+<td class="l m b1 r0 l0 t0 lines"><span class="process-math">\(\)</span></td>
+<td class="l m b1 r0 l0 t0 lines"><span class="process-math">\(\)</span></td>
+</tr>
+<tr>
+<td class="l m b1 r1 l0 t0 lines"><span class="process-math">\(3\)</span></td>
+<td class="l m b1 r0 l0 t0 lines"><span class="process-math">\(\)</span></td>
+<td class="l m b1 r0 l0 t0 lines"><span class="process-math">\(\)</span></td>
+<td class="l m b1 r0 l0 t0 lines"><span class="process-math">\(\)</span></td>
+<td class="l m b1 r0 l0 t0 lines"><span class="process-math">\(\)</span></td>
+</tr>
+</table></div></figure></article><div class="para" id="sec-groups-5">This game is rather boring... is it even a game? But it illustrates how we can uncover the underlying structure mathematically of something.</div>
+<section class="subsection" id="subsec-algebrapurpose"><h3 class="heading hide-type">
+<span class="type">Subsection</span><span class="space"> </span><span class="codenumber">3.1.1</span><span class="space"> </span><span class="title">Algebra’s Goal</span>
+</h3>
+<div class="para" id="subsec-algebrapurpose-2">If we ever make contact with an extraterrestrial society, how could we ever hope to communicate with them? We think that mathematics is our best chance of communicating with intelligent life. We are pretty confident that if they have the means to send and receive messages, they will have an understanding of mathematics.</div>
+<div class="para" id="subsec-algebrapurpose-3">But what does their alien math look like? We would be very suprised to find the Mean Value Theorem or the Four Color Theorem in their writings, right? At least with the same phrasing we use, BUT we would not be surprised if they had their own versions of these results.</div>
+<div class="para" id="subsec-algebrapurpose-4">Modern algebra seeks to explore "deeper" structures of mathematical systems, so that we can recognize familiar math in unfamiliar environments. Can we find the big picture patterns of mathematics? That is our goal with higher algebra.</div></section><section class="subsection" id="subsec-modernalgebra"><h3 class="heading hide-type">
+<span class="type">Subsection</span><span class="space"> </span><span class="codenumber">3.1.2</span><span class="space"> </span><span class="title">A Familiar Pattern</span>
+</h3>
+<div class="para" id="subsec-modernalgebra-2">Let’s find another underlying structure. Define the set <span class="process-math">\(A = \{1,i,-1,-i\}\)</span> where <span class="process-math">\(i = \sqrt{-1}\text{,}\)</span> and consider multiplication in this set. We should point out that if we multiply two things in <span class="process-math">\(A\text{,}\)</span> the result is also in <span class="process-math">\(A\text{,}\)</span> and this property is called <dfn class="terminology">closure</dfn>. As an example, <span class="process-math">\(i \cdot i = i^2 = (\sqrt{-1})^2 = -1 \in A. \)</span>
+</div>
+<article class="activity project-like" id="act-groups1"><h4 class="heading">
+<span class="type">Activity</span><span class="space"> </span><span class="codenumber">3.1.2</span><span class="period">.</span>
+</h4>
+<div class="para" id="act-groups1-1-1">Fill out the multiplication table for set <span class="process-math">\(A = \{1,i,-1,-i\}.\)</span> <figure class="table table-like" id="table-groupsi"><figcaption><span class="type">Table</span><span class="space"> </span><span class="codenumber">3.1.2<span class="period">.</span></span><span class="space"> </span></figcaption><div class="tabular-box natural-width"><table class="tabular">
+<tr>
+<td class="l m b1 r1 l0 t0 lines"><span class="process-math">\(\cdot\)</span></td>
+<td class="l m b1 r0 l0 t0 lines"><span class="process-math">\(1\)</span></td>
+<td class="l m b1 r0 l0 t0 lines"><span class="process-math">\(i\)</span></td>
+<td class="l m b1 r0 l0 t0 lines"><span class="process-math">\(-1\)</span></td>
+<td class="l m b1 r0 l0 t0 lines"><span class="process-math">\(-i\)</span></td>
+</tr>
+<tr>
+<td class="l m b1 r1 l0 t0 lines"><span class="process-math">\(\; 1\)</span></td>
+<td class="l m b1 r0 l0 t0 lines"><span class="process-math">\(\)</span></td>
+<td class="l m b1 r0 l0 t0 lines"><span class="process-math">\(\)</span></td>
+<td class="l m b1 r0 l0 t0 lines"><span class="process-math">\(\)</span></td>
+<td class="l m b1 r0 l0 t0 lines"><span class="process-math">\(\)</span></td>
+</tr>
+<tr>
+<td class="l m b1 r1 l0 t0 lines"><span class="process-math">\(\; i\)</span></td>
+<td class="l m b1 r0 l0 t0 lines"><span class="process-math">\(\)</span></td>
+<td class="l m b1 r0 l0 t0 lines"><span class="process-math">\(-1\)</span></td>
+<td class="l m b1 r0 l0 t0 lines"><span class="process-math">\(\)</span></td>
+<td class="l m b1 r0 l0 t0 lines"><span class="process-math">\(\)</span></td>
+</tr>
+<tr>
+<td class="l m b1 r1 l0 t0 lines"><span class="process-math">\(-1\)</span></td>
+<td class="l m b1 r0 l0 t0 lines"><span class="process-math">\(\)</span></td>
+<td class="l m b1 r0 l0 t0 lines"><span class="process-math">\(\)</span></td>
+<td class="l m b1 r0 l0 t0 lines"><span class="process-math">\(\)</span></td>
+<td class="l m b1 r0 l0 t0 lines"><span class="process-math">\(\)</span></td>
+</tr>
+<tr>
+<td class="l m b1 r1 l0 t0 lines"><span class="process-math">\(-i\)</span></td>
+<td class="l m b1 r0 l0 t0 lines"><span class="process-math">\(\)</span></td>
+<td class="l m b1 r0 l0 t0 lines"><span class="process-math">\(\)</span></td>
+<td class="l m b1 r0 l0 t0 lines"><span class="process-math">\(\)</span></td>
+<td class="l m b1 r0 l0 t0 lines"><span class="process-math">\(\)</span></td>
+</tr>
+</table></div></figure>
+</div></article><div class="para" id="subsec-modernalgebra-4">Do you notice any similarities between <a href="sec-groups.html#table-token1" class="xref" data-knowl="./knowl/xref/table-token1.html" data-reveal-label="Reveal" data-close-label="Close" title="Table 3.1.1">Table 3.1.1</a> and ? Tables like these are called <dfn class="terminology">Cayley Tables</dfn>, and one use of Cayley Tables is highlighting patterns. Even though we have different contexts, different sets, and even different operations, in some way they are the same thing.</div>
+<figure class="figure figure-like" id="fig-isomorphism"><div class="image-box" style="width: 100%; margin-left: 0%; margin-right: 0%;"><img src="external/isomorphism1.png" class="contained"></div>
+<figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">3.1.3<span class="period">.</span></span><span class="space"> </span>Underlying Cayley Table</figcaption></figure><div class="para" id="subsec-modernalgebra-6">Algebraists can show that the context of the token on the chessboard and the multiplicative powers of <span class="process-math">\(i\)</span> are, in fact, the same. What we mean, actually, is that they operate the same way. We say they are <dfn class="terminology">isomorphic</dfn> (meaning "same shape"), and in an algebra course we can prove these things are isomorphic.</div></section><section class="subsection" id="subsec-groups"><h3 class="heading hide-type">
+<span class="type">Subsection</span><span class="space"> </span><span class="codenumber">3.1.3</span><span class="space"> </span><span class="title">What is a Group?</span>
+</h3>
+<div class="para" id="subsec-groups-2">Both of the previous examples are examles of one of the simplest algebraic structures: the <dfn class="terminology">group</dfn>. We have found two groups, so far, and highlighted that they are isomorphic, but what exactly is a group?</div>
+<div class="para logical" id="subsec-groups-3">
+<div class="para">The group <span class="process-math">\(G\)</span> is a set paired with an operation (let’s say <span class="process-math">\(\ast\)</span>) that satisfies a short list of properties. The first two are familar to us.</div>
+<ol class="decimal">
+<li id="subsec-groups-3-3-1"><div class="para" id="subsec-groups-3-3-1-1">the <dfn class="terminology">closure property:</dfn> if <span class="process-math">\(a, b \in G\text{,}\)</span> then <span class="process-math">\(a \ast b \in G.\)</span>
+</div></li>
+<li id="subsec-groups-3-3-2"><div class="para" id="subsec-groups-3-3-2-1">the <dfn class="terminology">associative property:</dfn> for any <span class="process-math">\(a,b,c \in G\text{,}\)</span> <span class="process-math">\((a \ast b) \ast c = a \ast (b \ast c)\)</span>
+</div></li>
+</ol>
+</div>
+<div class="para" id="subsec-groups-4">To show the last two properties, let’s consider the two examples we discussed earlier. Let <span class="process-math">\(A\)</span> be paired with multiplication as earlier, and let <span class="process-math">\(B = \{0,1,2,3\}\)</span> be paired with addition defined by such: the token starting at square <span class="process-math">\(a\)</span> moving <span class="process-math">\(b\)</span> squares to the right will rest on square <span class="process-math">\(a + b = c\text{.}\)</span>
+</div>
+<section class="subsubsection" id="subsubsec-identity"><h4 class="heading hide-type">
+<span class="type">Subsubsection</span><span class="space"> </span><span class="codenumber">3.1.3.1</span><span class="space"> </span><span class="title">Identity Elements</span>
+</h4>
+<div class="para" id="subsubsec-identity-2">How is a number affected when multiplied by <span class="process-math">\(1\text{?}\)</span> What about when summed with <span class="process-math">\(0\text{?}\)</span>
+</div>
+<div class="para" id="subsubsec-identity-3">By using the Caylet Tables from earlier, we can see in set <span class="process-math">\(A\text{,}\)</span> there is an element, <span class="process-math">\(e\text{,}\)</span> so that for any other element <span class="process-math">\(a \in A\text{,}\)</span> <span class="process-math">\(a \cdot e = e \cdot a = a\text{.}\)</span> In other words, multiplying by <span class="process-math">\(e\)</span> changes nothing. An element like <span class="process-math">\(e\)</span> is known as the <dfn class="terminology">identity</dfn> of <span class="process-math">\(G\text{.}\)</span>
+</div>
+<details id="ques-identity1" class="question example-like born-hidden-knowl"><summary class="knowl__link"><h5 class="heading">
+<span class="type">Question</span><span class="space"> </span><span class="codenumber">3.1.4</span><span class="period">.</span>
+</h5></summary><article class="question example-like knowl__content"><div class="para" id="ques-identity1-1-1">What is the identity of the group <span class="process-math">\(A\)</span> with operation <span class="process-math">\(\cdot\text{?}\)</span>
+</div>
+<div class="solutions"><details id="ques-identity1-2" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period">.</span></summary><div class="solution solution-like knowl__content"><div class="para" id="ques-identity1-2-1">The identity is <span class="process-math">\(1\text{.}\)</span>
+</div></div></details></div></article></details><details id="ques-identity2" class="question example-like born-hidden-knowl"><summary class="knowl__link"><h5 class="heading">
+<span class="type">Question</span><span class="space"> </span><span class="codenumber">3.1.5</span><span class="period">.</span>
+</h5></summary><article class="question example-like knowl__content"><div class="para" id="ques-identity2-1-1">What is the identity of the group <span class="process-math">\(B\)</span> with operation <span class="process-math">\(+\text{?}\)</span>
+</div>
+<div class="solutions"><details id="ques-identity2-2" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period">.</span></summary><div class="solution solution-like knowl__content"><div class="para" id="ques-identity2-2-1">The identity is <span class="process-math">\(0\text{.}\)</span>
+</div></div></details></div></article></details><div class="para" id="subsubsec-identity-6">The third property of groups is that every group has an <dfn class="terminology">identity</dfn>. There is an element <span class="process-math">\(e\)</span> such for any element <span class="process-math">\(g \in G\text{,}\)</span> <span class="process-math">\(g \ast e = e\ast g = g\text{.}\)</span>
+</div></section><section class="subsubsection" id="subsubsec-inverse"><h4 class="heading hide-type">
+<span class="type">Subsubsection</span><span class="space"> </span><span class="codenumber">3.1.3.2</span><span class="space"> </span><span class="title">Inverse Elements</span>
+</h4>
+<div class="para" id="subsubsec-inverse-2">Consider the token game once again, and suppose we start on square <span class="process-math">\(0\)</span> and move <span class="process-math">\(3\)</span> spaces to right to end up on square <span class="process-math">\(3\text{.}\)</span> Can we make another move to end up back on square <span class="process-math">\(0\text{?}\)</span> In general, if we start on square <span class="process-math">\(0\)</span> and move <span class="process-math">\(b\)</span> squares to the right. We can only move right, but is it possible to keep moving right until we end up back on square <span class="process-math">\(0\text{?}\)</span>
+</div>
+<details id="ques-inverse1" class="question example-like born-hidden-knowl"><summary class="knowl__link"><h5 class="heading">
+<span class="type">Question</span><span class="space"> </span><span class="codenumber">3.1.6</span><span class="period">.</span>
+</h5></summary><article class="question example-like knowl__content"><div class="para" id="ques-inverse1-1-1">After moving <span class="process-math">\(a\)</span> squares, starting at square <span class="process-math">\(0\text{,}\)</span> determine how many squares you must traverse to get back to square <span class="process-math">\(0\)</span> for <span class="process-math">\(a \in \{0,1,2,3\}\text{.}\)</span>
+</div>
+<div class="solutions"><details id="ques-inverse1-2" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period">.</span></summary><div class="solution solution-like knowl__content"><div class="para" id="ques-inverse1-2-1">If <span class="process-math">\(a = 0\text{,}\)</span> we must move <span class="process-math">\(0\)</span> squares. If <span class="process-math">\(a = 1\text{,}\)</span> we must traverse <span class="process-math">\(3\)</span> squares to return to square <span class="process-math">\(0\text{.}\)</span> Similarly, we travel <span class="process-math">\(2\)</span> squares and <span class="process-math">\(1\)</span> square respectively for <span class="process-math">\(a = 2, 3\)</span> respectively.</div></div></details></div></article></details><div class="para" id="subsubsec-inverse-4">So for any square <span class="process-math">\(a\text{,}\)</span> there is a number of squares <span class="process-math">\(b\)</span> that results in landing on square <span class="process-math">\(0\text{.}\)</span> In other words, for any <span class="process-math">\(a \in B\text{,}\)</span> there is a <span class="process-math">\(b \in B\)</span> where <span class="process-math">\(a + b = 0\text{.}\)</span> In this case, we say <span class="process-math">\(b\)</span> is the <dfn class="terminology">inverse</dfn> of <span class="process-math">\(a\text{.}\)</span> Remember that <span class="process-math">\(0\)</span> serves a special role in <span class="process-math">\(B\text{:}\)</span> the identity.</div>
+<div class="para" id="subsubsec-inverse-5">The last property of group is the <dfn class="terminology">inverse property</dfn>. That is, for any <span class="process-math">\(g \in G\text{,}\)</span> there is an element <span class="process-math">\(h \in G\text{,}\)</span> where <span class="process-math">\(g \ast h = h \ast g = e\text{,}\)</span> where <span class="process-math">\(e\)</span> is the identity of <span class="process-math">\(G\text{.}\)</span> In other words, starting with any element, we can get back to the group’s identity through the inverse. We often denote the inverse of <span class="process-math">\(g\)</span> as <span class="process-math">\(g^{-1}\text{.}\)</span>
+</div>
+<details id="ques-inverse2" class="question example-like born-hidden-knowl"><summary class="knowl__link"><h5 class="heading">
+<span class="type">Question</span><span class="space"> </span><span class="codenumber">3.1.7</span><span class="period">.</span>
+</h5></summary><article class="question example-like knowl__content"><div class="para" id="ques-inverse2-1-1">Determine the inverses of the elements of <span class="process-math">\(A\text{.}\)</span>
+</div>
+<div class="solutions"><details id="ques-inverse2-2" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period">.</span></summary><div class="solution solution-like knowl__content"><div class="para" id="ques-inverse2-2-1">We know <span class="process-math">\(1 \cdot 1 = 1\text{,}\)</span> so <span class="process-math">\(1\)</span> is its own inverse. Also <span class="process-math">\(i \cdot -i = -i \cdot i = 1\text{,}\)</span> and so <span class="process-math">\(i\)</span> and <span class="process-math">\(-i\)</span> are inverses of each other. Lastly, <span class="process-math">\(-1 \cdot -1 = 1\text{,}\)</span> and so <span class="process-math">\(-1\)</span> is its own inverse.</div></div></details></div></article></details></section></section><section class="subsection" id="subsec-why"><h3 class="heading hide-type">
+<span class="type">Subsection</span><span class="space"> </span><span class="codenumber">3.1.4</span><span class="space"> </span><span class="title">Why do we think about groups?</span>
+</h3>
+<div class="para" id="subsec-why-2">If we can prove a statement about a generic group <span class="process-math">\(G\text{,}\)</span> then we know that statement will apply to any group we find! Knowing things about groups will help us find the familiar patterns in unfamiliar environments.</div>
+<div class="para" id="subsec-why-3">So proving a statement about a group <span class="process-math">\(G\)</span> proves statements in an many different contexts (sometimes an infinite number of contexts). Thinking in generalized terms is a powerful way to approach math, and mathematicians like to generalize for that very reason.</div>
+<div class="para" id="subsec-why-4">For example, here are some things we know about groups. <article class="theorem theorem-like" id="thm-identity"><h4 class="heading">
+<span class="type">Theorem</span><span class="space"> </span><span class="codenumber">3.1.8</span><span class="period">.</span>
+</h4>
+<div class="para logical" id="thm-identity-1-1">
+<div class="para">Let <span class="process-math">\(G\)</span> be a group. Then</div>
+<ol class="decimal">
+<li id="thm-identity-1-1-2-1"><div class="para" id="thm-identity-1-1-2-1-1">
+<span class="process-math">\(G\)</span> has exactly one identity.</div></li>
+<li id="thm-identity-1-1-2-2"><div class="para" id="thm-identity-1-1-2-2-1">for any <span class="process-math">\(a \in G\text{,}\)</span> <span class="process-math">\(a\)</span> has exactly one inverse.</div></li>
+<li id="thm-identity-1-1-2-3"><div class="para" id="thm-identity-1-1-2-3-1">for any <span class="process-math">\(a \in G\text{,}\)</span> <span class="process-math">\((a^{-1})^{-1} = a\text{.}\)</span>
+</div></li>
+<li id="thm-identity-1-1-2-4"><div class="para" id="thm-identity-1-1-2-4-1">for any <span class="process-math">\(a, b \in G\text{,}\)</span> <span class="process-math">\((ab)^{-1} = b^{-1}a^{-1}.\)</span>
+</div></li>
+</ol>
+</div></article>
+</div>
+<div class="para" id="subsec-why-5">You might know some groups already. Do you think the following sets are groups with the given operation?</div>
+<details id="ques-groups1" class="question example-like born-hidden-knowl"><summary class="knowl__link"><h4 class="heading">
+<span class="type">Question</span><span class="space"> </span><span class="codenumber">3.1.9</span><span class="period">.</span>
+</h4></summary><article class="question example-like knowl__content"><div class="para logical" id="ques-groups1-1-1">
+<div class="para">Is set <span class="process-math">\(A\)</span> with operation <span class="process-math">\(\ast\)</span> a group? If not, why? For our purposes, just think about the identity and inverses.</div>
+<ol class="decimal">
+<li id="ques-groups1-1-1-3-1"><div class="para" id="ques-groups1-1-1-3-1-1">
+<span class="process-math">\(A:\)</span> all integers; <span class="process-math">\(\ast:\)</span> addition</div></li>
+<li id="ques-groups1-1-1-3-2"><div class="para" id="ques-groups1-1-1-3-2-1">
+<span class="process-math">\(A:\)</span> all real numbers; <span class="process-math">\(\ast:\)</span> addition</div></li>
+<li id="ques-groups1-1-1-3-3"><div class="para" id="ques-groups1-1-1-3-3-1">
+<span class="process-math">\(A:\)</span> all real numbers; <span class="process-math">\(\ast:\)</span> multiplication</div></li>
+<li id="ques-groups1-1-1-3-4"><div class="para" id="ques-groups1-1-1-3-4-1">
+<span class="process-math">\(A:\)</span> all real numbers except <span class="process-math">\(0\text{;}\)</span> <span class="process-math">\(\ast:\)</span> multiplication</div></li>
+</ol>
+</div>
+<div class="solutions"><details id="ques-groups1-2" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period">.</span></summary><div class="solution solution-like knowl__content"><div class="para logical" id="ques-groups1-2-1"><ol class="decimal">
+<li id="ques-groups1-2-1-1-1">
+<div class="para" id="ques-groups1-2-1-1-1-1">
+<span class="process-math">\(A:\)</span> all integers; <span class="process-math">\(\ast:\)</span> addition</div>
+<div class="para" id="ques-groups1-2-1-1-1-2">Yes! The identity is <span class="process-math">\(0\text{,}\)</span> and the inverse of <span class="process-math">\(a\)</span> is <span class="process-math">\(-a\text{.}\)</span>
+</div>
+</li>
+<li id="ques-groups1-2-1-1-2">
+<div class="para" id="ques-groups1-2-1-1-2-1">
+<span class="process-math">\(A:\)</span> all real numbers; <span class="process-math">\(\ast:\)</span> addition</div>
+<div class="para" id="ques-groups1-2-1-1-2-2">Yes! The identity is <span class="process-math">\(0\text{,}\)</span> and the inverse of <span class="process-math">\(a\)</span> is <span class="process-math">\(-a\text{.}\)</span>
+</div>
+</li>
+<li id="ques-groups1-2-1-1-3">
+<div class="para" id="ques-groups1-2-1-1-3-1">
+<span class="process-math">\(A:\)</span> all real numbers; <span class="process-math">\(\ast:\)</span> multiplication</div>
+<div class="para" id="ques-groups1-2-1-1-3-2">No! :( The identity is <span class="process-math">\(1\text{,}\)</span> but <span class="process-math">\(0 \cdot a \neq 1\)</span> for any <span class="process-math">\(a\text{.}\)</span> So <span class="process-math">\(0\)</span> has no inverse.</div>
+</li>
+<li id="ques-groups1-2-1-1-4">
+<div class="para" id="ques-groups1-2-1-1-4-1">
+<span class="process-math">\(A:\)</span> all real numbers except <span class="process-math">\(0\text{;}\)</span> <span class="process-math">\(\ast:\)</span> multiplication</div>
+<div class="para" id="ques-groups1-2-1-1-4-2">Yes! The identity is <span class="process-math">\(1\text{,}\)</span> and the inverse of <span class="process-math">\(a\)</span> is <span class="process-math">\(1/a\text{.}\)</span> If <span class="process-math">\(0\)</span> is not in the picture, we can never obtain <span class="process-math">\(0\)</span> through multiplication.</div>
+</li>
+</ol></div></div></details></div></article></details></section><section class="subsection" id="subsec-dihedral"><h3 class="heading hide-type">
+<span class="type">Subsection</span><span class="space"> </span><span class="codenumber">3.1.5</span><span class="space"> </span><span class="title">A Group of Squares</span>
+</h3>
+<div class="para" id="subsec-dihedral-2">Let’s look at one last example of a group. Take a square with corners labelled <span class="process-math">\(a, b, c,d\)</span> (We would recommend cutting one out of paper), and we will say a "symmetry" of the square is an action in which we pick up the square, do something to it, and put it down again so that it takes up the same space it did before. For example, we can rotate the square <span class="process-math">\(90^{\circ}\text{,}\)</span> and it will rest on the exact same space where it started.</div>
+<div class="para" id="subsec-dihedral-3">There are eight symmetries of the square. Can you find them?</div>
+<details id="ques-dihedral1" class="question example-like born-hidden-knowl"><summary class="knowl__link"><h4 class="heading">
+<span class="type">Question</span><span class="space"> </span><span class="codenumber">3.1.10</span><span class="period">.</span>
+</h4></summary><article class="question example-like knowl__content"><div class="para" id="ques-dihedral1-1-1">What are the eight basic symmetries of the square?</div>
+<div class="solutions"><details id="ques-dihedral1-2" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period">.</span></summary><div class="solution solution-like knowl__content">
+<div class="para" id="ques-dihedral1-2-1">There are four rotations: rotating <span class="process-math">\(0^{\circ}\text{,}\)</span> <span class="process-math">\(90^{\circ}\text{,}\)</span> <span class="process-math">\(180^{\circ}\text{,}\)</span> <span class="process-math">\(270^{\circ}\text{.}\)</span>
+</div> <div class="para" id="ques-dihedral1-2-2">There are also four flips: flip along a horizontal axis, along a vertical axis, along a northwest diagonal, and along a northeast diagonal.</div>
+</div></details></div></article></details><div class="para" id="subsec-dihedral-5">Let’s call this set of symmetries <span class="process-math">\(D = \{I, R_1, R_2, R_3, F_h, F_v, F_{NW}, F_{NE}\}\text{.}\)</span> Here, we call a rotation of <span class="process-math">\(0^{\circ}\)</span> <span class="process-math">\(I\text{.}\)</span>
+</div>
+<div class="para" id="subsec-dihedral-6">FIGURE</div>
+<div class="para" id="subsec-dihedral-7">What if we did two of these symmetries? Do we get something new? For symmetries <span class="process-math">\(\alpha\)</span> and <span class="process-math">\(\beta\text{,}\)</span> the composition <span class="process-math">\(\alpha \circ \beta\)</span> is the result of first applying <span class="process-math">\(\beta\)</span> and then applying <span class="process-math">\(\alpha\text{.}\)</span>
+</div>
+<div class="para" id="subsec-dihedral-8">For example, <span class="process-math">\(R_1 \circ R_2\)</span> means we first rotate the square <span class="process-math">\(180^{\circ}\)</span> and then another <span class="process-math">\(90^{\circ}\text{.}\)</span> Is this a new symmetry? No... it’s just <span class="process-math">\(R_3\text{.}\)</span> Are any of them new?</div>
+<article class="activity project-like" id="act-dihedral1"><h4 class="heading">
+<span class="type">Activity</span><span class="space"> </span><span class="codenumber">3.1.3</span><span class="period">.</span>
+</h4>
+<div class="para" id="act-dihedral1-1-1">In groups, fill out a Cayley table for <span class="process-math">\(D\text{.}\)</span> Don’t assumer that <span class="process-math">\(\alpha \circ \beta =
+\beta \circ \alpha.\)</span> <a href="sec-groups.html#fig-dihedral1" class="xref" data-knowl="./knowl/xref/fig-dihedral1.html" data-reveal-label="Reveal" data-close-label="Close" title="Figure 3.1.12">Figure 3.1.12</a> shows a calculator for the symmetries of a squre. This may be useful! <figure class="table table-like" id="table-groups4"><figcaption><span class="type">Table</span><span class="space"> </span><span class="codenumber">3.1.11<span class="period">.</span></span><span class="space"> </span></figcaption><div class="tabular-box natural-width"><table class="tabular">
+<tr>
+<td class="l m b1 r1 l0 t0 lines"><span class="process-math">\(\circ\)</span></td>
+<td class="l m b1 r0 l0 t0 lines"><span class="process-math">\(I\)</span></td>
+<td class="l m b1 r0 l0 t0 lines"><span class="process-math">\(R_1\)</span></td>
+<td class="l m b1 r0 l0 t0 lines"><span class="process-math">\(R_2\)</span></td>
+<td class="l m b1 r0 l0 t0 lines"><span class="process-math">\(R_3\)</span></td>
+<td class="l m b1 r0 l0 t0 lines"><span class="process-math">\(F_h\)</span></td>
+<td class="l m b1 r0 l0 t0 lines"><span class="process-math">\(F_v\)</span></td>
+<td class="l m b1 r0 l0 t0 lines"><span class="process-math">\(F_{NW}\)</span></td>
+<td class="l m b1 r0 l0 t0 lines"><span class="process-math">\(F_{NE}\)</span></td>
+</tr>
+<tr>
+<td class="l m b1 r1 l0 t0 lines"><span class="process-math">\(\; I\)</span></td>
+<td class="l m b1 r0 l0 t0 lines"><span class="process-math">\(\)</span></td>
+<td class="l m b1 r0 l0 t0 lines"><span class="process-math">\(\)</span></td>
+<td class="l m b1 r0 l0 t0 lines"><span class="process-math">\(\)</span></td>
+<td class="l m b1 r0 l0 t0 lines"><span class="process-math">\(\)</span></td>
+<td class="l m b1 r0 l0 t0 lines"><span class="process-math">\(\)</span></td>
+<td class="l m b1 r0 l0 t0 lines"><span class="process-math">\(\)</span></td>
+<td class="l m b1 r0 l0 t0 lines"><span class="process-math">\(\)</span></td>
+<td class="l m b1 r0 l0 t0 lines"><span class="process-math">\(\)</span></td>
+</tr>
+<tr>
+<td class="l m b1 r1 l0 t0 lines"><span class="process-math">\(R_1\)</span></td>
+<td class="l m b1 r0 l0 t0 lines"><span class="process-math">\(\)</span></td>
+<td class="l m b1 r0 l0 t0 lines"><span class="process-math">\(\)</span></td>
+<td class="l m b1 r0 l0 t0 lines"><span class="process-math">\(\)</span></td>
+<td class="l m b1 r0 l0 t0 lines"><span class="process-math">\(\)</span></td>
+<td class="l m b1 r0 l0 t0 lines"><span class="process-math">\(\)</span></td>
+<td class="l m b1 r0 l0 t0 lines"><span class="process-math">\(\)</span></td>
+<td class="l m b1 r0 l0 t0 lines"><span class="process-math">\(\)</span></td>
+<td class="l m b1 r0 l0 t0 lines"><span class="process-math">\(\)</span></td>
+</tr>
+<tr>
+<td class="l m b1 r1 l0 t0 lines"><span class="process-math">\(R_2\)</span></td>
+<td class="l m b1 r0 l0 t0 lines"><span class="process-math">\(\)</span></td>
+<td class="l m b1 r0 l0 t0 lines"><span class="process-math">\(\)</span></td>
+<td class="l m b1 r0 l0 t0 lines"><span class="process-math">\(\)</span></td>
+<td class="l m b1 r0 l0 t0 lines"><span class="process-math">\(\)</span></td>
+<td class="l m b1 r0 l0 t0 lines"><span class="process-math">\(\)</span></td>
+<td class="l m b1 r0 l0 t0 lines"><span class="process-math">\(\)</span></td>
+<td class="l m b1 r0 l0 t0 lines"><span class="process-math">\(\)</span></td>
+<td class="l m b1 r0 l0 t0 lines"><span class="process-math">\(\)</span></td>
+</tr>
+<tr>
+<td class="l m b1 r1 l0 t0 lines"><span class="process-math">\(R_3\)</span></td>
+<td class="l m b1 r0 l0 t0 lines"><span class="process-math">\(\)</span></td>
+<td class="l m b1 r0 l0 t0 lines"><span class="process-math">\(\)</span></td>
+<td class="l m b1 r0 l0 t0 lines"><span class="process-math">\(\)</span></td>
+<td class="l m b1 r0 l0 t0 lines"><span class="process-math">\(\)</span></td>
+<td class="l m b1 r0 l0 t0 lines"><span class="process-math">\(\)</span></td>
+<td class="l m b1 r0 l0 t0 lines"><span class="process-math">\(\)</span></td>
+<td class="l m b1 r0 l0 t0 lines"><span class="process-math">\(\)</span></td>
+<td class="l m b1 r0 l0 t0 lines"><span class="process-math">\(\)</span></td>
+</tr>
+<tr>
+<td class="l m b1 r1 l0 t0 lines"><span class="process-math">\(F_h\)</span></td>
+<td class="l m b1 r0 l0 t0 lines"><span class="process-math">\(\)</span></td>
+<td class="l m b1 r0 l0 t0 lines"><span class="process-math">\(\)</span></td>
+<td class="l m b1 r0 l0 t0 lines"><span class="process-math">\(\)</span></td>
+<td class="l m b1 r0 l0 t0 lines"><span class="process-math">\(\)</span></td>
+<td class="l m b1 r0 l0 t0 lines"><span class="process-math">\(\)</span></td>
+<td class="l m b1 r0 l0 t0 lines"><span class="process-math">\(\)</span></td>
+<td class="l m b1 r0 l0 t0 lines"><span class="process-math">\(\)</span></td>
+<td class="l m b1 r0 l0 t0 lines"><span class="process-math">\(\)</span></td>
+</tr>
+<tr>
+<td class="l m b1 r1 l0 t0 lines"><span class="process-math">\(F_v\)</span></td>
+<td class="l m b1 r0 l0 t0 lines"><span class="process-math">\(\)</span></td>
+<td class="l m b1 r0 l0 t0 lines"><span class="process-math">\(\)</span></td>
+<td class="l m b1 r0 l0 t0 lines"><span class="process-math">\(\)</span></td>
+<td class="l m b1 r0 l0 t0 lines"><span class="process-math">\(\)</span></td>
+<td class="l m b1 r0 l0 t0 lines"><span class="process-math">\(\)</span></td>
+<td class="l m b1 r0 l0 t0 lines"><span class="process-math">\(\)</span></td>
+<td class="l m b1 r0 l0 t0 lines"><span class="process-math">\(\)</span></td>
+<td class="l m b1 r0 l0 t0 lines"><span class="process-math">\(\)</span></td>
+</tr>
+<tr>
+<td class="l m b1 r1 l0 t0 lines"><span class="process-math">\(F_{NW}\)</span></td>
+<td class="l m b1 r0 l0 t0 lines"><span class="process-math">\(\)</span></td>
+<td class="l m b1 r0 l0 t0 lines"><span class="process-math">\(\)</span></td>
+<td class="l m b1 r0 l0 t0 lines"><span class="process-math">\(\)</span></td>
+<td class="l m b1 r0 l0 t0 lines"><span class="process-math">\(\)</span></td>
+<td class="l m b1 r0 l0 t0 lines"><span class="process-math">\(\)</span></td>
+<td class="l m b1 r0 l0 t0 lines"><span class="process-math">\(\)</span></td>
+<td class="l m b1 r0 l0 t0 lines"><span class="process-math">\(\)</span></td>
+<td class="l m b1 r0 l0 t0 lines"><span class="process-math">\(\)</span></td>
+</tr>
+<tr>
+<td class="l m b1 r1 l0 t0 lines"><span class="process-math">\(F_{NE}\)</span></td>
+<td class="l m b1 r0 l0 t0 lines"><span class="process-math">\(\)</span></td>
+<td class="l m b1 r0 l0 t0 lines"><span class="process-math">\(\)</span></td>
+<td class="l m b1 r0 l0 t0 lines"><span class="process-math">\(\)</span></td>
+<td class="l m b1 r0 l0 t0 lines"><span class="process-math">\(\)</span></td>
+<td class="l m b1 r0 l0 t0 lines"><span class="process-math">\(\)</span></td>
+<td class="l m b1 r0 l0 t0 lines"><span class="process-math">\(\)</span></td>
+<td class="l m b1 r0 l0 t0 lines"><span class="process-math">\(\)</span></td>
+<td class="l m b1 r0 l0 t0 lines"><span class="process-math">\(\)</span></td>
+</tr>
+</table></div></figure>
+</div></article><figure class="figure figure-like" id="fig-dihedral1"><iframe src="https://www.geogebra.org/material/iframe/id/cynjrcfv/width/800/height/800/border/888888/smb/false/stb/false/stbh/false/ai/false/asb/false/sri/false/rc/false/ld/false/sdz/false/ctl/false" id="fig-dihedral1-2" width="600" height="600"></iframe><figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">3.1.12<span class="period">.</span></span><span class="space"> </span>Symmetries of a Square Calculator</figcaption></figure><div class="para" id="subsec-dihedral-11">So does <span class="process-math">\(D\)</span> with <span class="process-math">\(\circ\)</span> form a group? You just showed it is closed. We will tell you it is associative. Does <span class="process-math">\(D\)</span> have an identity? Yes, <span class="process-math">\(I\text{.}\)</span> Does <span class="process-math">\(D\)</span> have inverses?</div>
+<details id="ques-dihedral2" class="question example-like born-hidden-knowl"><summary class="knowl__link"><h4 class="heading">
+<span class="type">Question</span><span class="space"> </span><span class="codenumber">3.1.13</span><span class="period">.</span>
+</h4></summary><article class="question example-like knowl__content"><div class="para" id="ques-dihedral2-1-1">What are the inverses for elements of <span class="process-math">\(D\text{?}\)</span>
+</div></article></details></section></section></div>
+<div class="ptx-content-footer">
+<a class="previous-button button" href="ch-worldsofalgebra-title.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="top-button button" href="#" title="Top"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Top</span></a><a class="next-button button" href="backmatter.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a>
+</div></main>
+</div>
+<div id="ptx-page-footer" class="ptx-page-footer">
+<a class="pretext-link" href="https://pretextbook.org" title="PreTeXt"><div class="logo"><svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="338 3000 8772 6866"><g style="stroke-width:.025in; stroke:black; fill:none"><polyline points="472,3590 472,9732 " style="stroke:#000000;stroke-width:174; stroke-linejoin:miter; stroke-linecap:round; "></polyline><path style="stroke:#000000;stroke-width:126;stroke-linecap:butt;" d="M 4724,9448 A 4660 4660  0  0  1  8598  9259"></path><path style="stroke:#000000;stroke-width:174;stroke-linecap:butt;" d="M 4488,9685 A 4228 4228  0  0  0   472  9732"></path><path style="stroke:#000000;stroke-width:126;stroke-linecap:butt;" d="M 4724,3590 A 4241 4241  0  0  1  8598  3496"></path><path style="stroke:#000000;stroke-width:126;stroke-linecap:round;" d="M 850,3496  A 4241 4241  0  0  1  4724  3590"></path><path style="stroke:#000000;stroke-width:126;stroke-linecap:round;" d="M 850,9259  A 4507 4507  0  0  1  4724  9448"></path><polyline points="5385,4299 4062,8125" style="stroke:#000000;stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="8598,3496 8598,9259" style="stroke:#000000;stroke-width:126; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="850,3496 850,9259" style="stroke:#000000;stroke-width:126; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="4960,9685 4488,9685" style="stroke:#000000;stroke-width:174; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="3070,4582 1889,6141 3070,7700" style="stroke:#000000;stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="6418,4582 7600,6141 6418,7700" style="stroke:#000000;stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="8976,3590 8976,9732" style="stroke:#000000;stroke-width:174; stroke-linejoin:miter; stroke-linecap:round;"></polyline><path style="stroke:#000000;stroke-width:174;stroke-linecap:butt;" d="M 4960,9685 A 4228 4228  0  0  1  8976  9732"></path></g></svg></div></a><a class="runestone-link" href="https://runestone.academy" title="Runestone Academy"><img class="logo" src="https://runestone.academy/runestone/static/images/RAIcon_cropped.png"></a><a class="mathjax-link" href="https://www.mathjax.org" title="MathJax"><img class="logo" src="https://www.mathjax.org/badge/badge-square-2.png"></a>
+</div>
+</body>
+</html>

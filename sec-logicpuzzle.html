@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<!--********************************************-->
+<!--*       Generated from PreTeXt source      *-->
+<!--*                                          *-->
+<!--*         https://pretextbook.org          *-->
+<!--*                                          *-->
+<!--********************************************-->
+<html lang="en-US" dir="ltr">
+<head xmlns:og="http://ogp.me/ns#" xmlns:book="https://ogp.me/ns/book#">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Logically Speaking</title>
+<meta name="Keywords" content="Authored in PreTeXt">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta property="og:type" content="book">
+<meta property="book:title" content="Onboarding to Mathematics">
+<meta property="book:author" content="John Estes">
+<script src="https://sagecell.sagemath.org/static/embedded_sagecell.js"></script><script>
+var runestoneMathReady = new Promise((resolve) => window.rsMathReady = resolve);
+window.MathJax = {
+  "tex": {
+    "inlineMath": [
+      [
+        "\\(",
+        "\\)"
+      ]
+    ],
+    "tags": "none",
+    "tagSide": "right",
+    "tagIndent": ".8em",
+    "packages": {
+      "[+]": [
+        "base",
+        "extpfeil",
+        "ams",
+        "amscd",
+        "color",
+        "newcommand",
+        "knowl"
+      ]
+    }
+  },
+  "options": {
+    "ignoreHtmlClass": "tex2jax_ignore|ignore-math",
+    "processHtmlClass": "process-math",
+    "renderActions": {
+      "findScript": [
+        10,
+        function (doc) {
+            document.querySelectorAll('script[type^="math/tex"]').forEach(function(node) {
+                var display = !!node.type.match(/; *mode=display/);
+                var math = new doc.options.MathItem(node.textContent, doc.inputJax[0], display);
+                var text = document.createTextNode('');
+                node.parentNode.replaceChild(text, node);
+                math.start = {node: text, delim: '', n: 0};
+                math.end = {node: text, delim: '', n: 0};
+                doc.math.push(math);
+            });
+        },
+        ""
+      ]
+    }
+  },
+  "chtml": {
+    "scale": 0.98,
+    "mtextInheritFont": true
+  },
+  "loader": {
+    "load": [
+      "input/asciimath",
+      "[tex]/extpfeil",
+      "[tex]/amscd",
+      "[tex]/color",
+      "[tex]/newcommand",
+      "[pretext]/mathjaxknowl3.js"
+    ],
+    "paths": {
+      "pretext": "_static/pretext/js/lib"
+    }
+  },
+  "startup": {
+    pageReady() {
+      return MathJax.startup.defaultPageReady().then(function () {
+      console.log("in ready function");
+      rsMathReady();
+      }
+    )}
+  }
+};
+</script><script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/lunr.js/2.3.9/lunr.min.js" integrity="sha512-4xUl/d6D6THrAnXAwGajXkoWaeMNwEKK4iNfq5DotEbLPAfk6FSxSP3ydNxqDgCw1c/0Z1Jg6L8h2j+++9BZmg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script><script src="lunr-pretext-search-index.js" async=""></script><script src="_static/pretext/js/pretext_search.js"></script><link href="_static/pretext/css/pretext_search.css" rel="stylesheet" type="text/css">
+<script src="_static/pretext/js/lib/jquery.min.js"></script><script src="_static/pretext/js/lib/jquery.sticky.js"></script><script src="_static/pretext/js/lib/jquery.espy.min.js"></script><script src="_static/pretext/js/pretext.js"></script><script src="_static/pretext/js/pretext_add_on.js?x=1"></script><script src="_static/pretext/js/user_preferences.js"></script><script src="_static/pretext/js/lib/knowl.js"></script><!--knowl.js code controls Sage Cells within knowls--><script>sagecellEvalName='Evaluate (Sage)';
+</script><link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+<link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@400;700&amp;family=Noto+Serif:ital,wght@0,400;0,700;1,400;1,700&amp;family=Tinos:ital,wght@0,400;0,700;1,400;1,700&amp;display=swap" rel="stylesheet">
+<link href="https://fonts.cdnfonts.com/css/dejavu-serif" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Serif:opsz,wdth,wght@8..144,50..150,100..900&amp;display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wdth,wght@75..100,300..800&amp;display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200">
+<link href="_static/pretext/css/pretext.css" rel="stylesheet" type="text/css">
+<link href="_static/pretext/css/pretext_add_on.css" rel="stylesheet" type="text/css">
+<link href="_static/pretext/css/shell_default.css" rel="stylesheet" type="text/css">
+<link href="_static/pretext/css/banner_default.css" rel="stylesheet" type="text/css">
+<link href="_static/pretext/css/navbar_default.css" rel="stylesheet" type="text/css">
+<link href="_static/pretext/css/toc_default.css" rel="stylesheet" type="text/css">
+<link href="_static/pretext/css/knowls_default.css" rel="stylesheet" type="text/css">
+<link href="_static/pretext/css/style_default.css" rel="stylesheet" type="text/css">
+<link href="_static/pretext/css/colors_pastel_blue_orange.css" rel="stylesheet" type="text/css">
+<link href="_static/pretext/css/setcolors.css" rel="stylesheet" type="text/css">
+</head>
+<body id="changeme" class="pretext book ignore-math">
+<a class="assistive" href="#ptx-content">Skip to main content</a><header id="ptx-masthead" class="ptx-masthead"><div class="ptx-banner">
+<a id="logo-link" class="logo-link" target="_blank" href=""></a><div class="title-container">
+<h1 class="heading"><a href="my-great-book.html"><span class="title">Onboarding to Mathematics:</span> <span class="subtitle">A Quick Voyage through Undergrad Math</span></a></h1>
+<p class="byline">John Estes</p>
+</div>
+</div></header><nav id="ptx-navbar" class="ptx-navbar navbar"><button class="toc-toggle button" title="Contents"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5d2;</span><span class="name">Contents</span></button><div class="searchbox">
+<div class="searchwidget"><button id="searchbutton" class="searchbutton button" type="button" title="Search book"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe8b6;</span><span class="name">Search Book</span></button></div>
+<div id="searchresultsplaceholder" class="searchresultsplaceholder" style="display: none">
+<div class="search-results-controls">
+<input aria-label="Search term" id="ptxsearch" class="ptxsearch" type="text" name="terms" placeholder="Search term"><button title="Close search" id="closesearchresults" class="closesearchresults"><span class="material-symbols-outlined">close</span></button>
+</div>
+<h2 class="search-results-heading">Search Results: </h2>
+<div id="searchempty" class="searchempty"><span>No results.</span></div>
+<ol id="searchresults" class="searchresults"></ol>
+</div>
+</div>
+<span class="nav-other-controls"></span><span class="treebuttons"><a class="previous-button button" href="sec-career.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="up-button button" href="ch-gearup.html" title="Up"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Up</span></a><a class="next-button button" href="sec-graphtheory.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a></span></nav><div id="latex-macros" class="hidden-content process-math" style="display:none"><span class="process-math">\(\newcommand{\N}{\mathbb N} \newcommand{\Z}{\mathbb Z} \newcommand{\Q}{\mathbb Q} \newcommand{\R}{\mathbb R}
+\newcommand{\lt}{&lt;}
+\newcommand{\gt}{&gt;}
+\newcommand{\amp}{&amp;}
+\definecolor{fillinmathshade}{gray}{0.9}
+\newcommand{\fillinmath}[1]{\mathchoice{\colorbox{fillinmathshade}{$\displaystyle     \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\textstyle        \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\scriptstyle      \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\scriptscriptstyle\phantom{\,#1\,}$}}}
+\)</span></div>
+<div class="ptx-page">
+<div id="ptx-sidebar" class="ptx-sidebar"><nav id="ptx-toc" class="ptx-toc depth2"><ul class="structural contains-active toc-item-list">
+<li class="toc-item toc-frontmatter">
+<div class="toc-title-box"><a href="frontmatter.html" class="internal"><span class="title">Front Matter</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-colophon"><div class="toc-title-box"><a href="frontmatter-2.html" class="internal"><span class="title">Colophon</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="frontmatter-3.html" class="internal"><span class="codenumber">1</span> <span class="title">The Goal of Onboarding to Mathematics</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-chapter contains-active">
+<div class="toc-title-box"><a href="ch-gearup.html" class="internal"><span class="codenumber">1</span> <span class="title">Gearing up</span></a></div>
+<ul class="structural toc-item-list contains-active">
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-sets.html" class="internal"><span class="codenumber">1.1</span> <span class="title">Shopping Carts and Sets</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-sets.html#subsec-sets" class="internal"><span class="codenumber">1.1.1</span> <span class="title">Collections of Things</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-sets.html#subsec-emptyset" class="internal"><span class="codenumber">1.1.2</span> <span class="title">An empty cart</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-sets.html#subsec-venn" class="internal"><span class="codenumber">1.1.3</span> <span class="title">Venn Diagrams</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-sets.html#subsec-setact1" class="internal"><span class="codenumber">1.1.4</span> <span class="title">Set Activities</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-pascaltriangle.html" class="internal"><span class="codenumber">1.2</span> <span class="title">A Special Triangle</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-pascaltriangle.html#subsec-pascalconstruct" class="internal"><span class="codenumber">1.2.1</span> <span class="title">Constructing Pascal’s Triangle</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-pascaltriangle.html#sec-patterns" class="internal"><span class="codenumber">1.2.2</span> <span class="title">Patterns of Pacal’s Triangle</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-belhaven-math-intro.html" class="internal"><span class="codenumber">1.3</span> <span class="title">Introduction to Belhaven Mathematics</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="sec-belhaven-math-intro.html#subsec-community" class="internal"><span class="codenumber">1.3.1</span> <span class="title">Community</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec-belhaven-math-intro.html#subsubsec-mcsclub" class="internal"><span class="codenumber">1.3.1.1</span> <span class="title">MCS Club</span></a></div></li>
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec-belhaven-math-intro.html#subsubsec-social" class="internal"><span class="codenumber">1.3.1.2</span> <span class="title">STEM Events</span></a></div></li>
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec-belhaven-math-intro.html#subsubsec-communicate" class="internal"><span class="codenumber">1.3.1.3</span> <span class="title">Good Communication</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-belhaven-math-intro.html#subsec-makercampus" class="internal"><span class="codenumber">1.3.2</span> <span class="title">Belhaven Maker Campus</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-belhaven-math-intro.html#sec-belhaven-math-intro-10" class="internal"><span class="codenumber">1.3.3</span> <span class="title">Mathematical Research</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-belhaven-math-intro.html#sec-belhaven-math-intro-11" class="internal"><span class="codenumber">1.3.4</span> <span class="title">The Eyes of Faith Portfolio</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-belhaven-math-intro.html#sec-belhaven-math-intro-12" class="internal"><span class="codenumber">1.3.5</span> <span class="title">For Engineering Majors</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-belhaven-math-intro.html#sec-belhaven-math-intro-13" class="internal"><span class="codenumber">1.3.6</span> <span class="title">For Actuarial Science Majors</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-belhaven-math-intro.html#sec-belhaven-math-intro-14" class="internal"><span class="codenumber">1.3.7</span> <span class="title">Seminars</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-successfuls.html" class="internal"><span class="codenumber">1.4</span> <span class="title">How to be a successful math major</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-career.html" class="internal"><span class="codenumber">1.5</span> <span class="title">Careers in Mathematics</span></a></div></li>
+<li class="toc-item toc-section active">
+<div class="toc-title-box"><a href="sec-logicpuzzle.html" class="internal"><span class="codenumber">1.6</span> <span class="title">Logically Speaking</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-logicpuzzle.html#subsec-nonsensical" class="internal"><span class="codenumber">1.6.1</span> <span class="title">Gordentockles and Chimi</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-logicpuzzle.html#subsec-useoflogic" class="internal"><span class="codenumber">1.6.2</span> <span class="title">The Usefulness of Logic</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-logicpuzzle.html#subsec-contrapositives" class="internal"><span class="codenumber">1.6.3</span> <span class="title">Contrapositives</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-logicpuzzle.html#subsec-knights" class="internal"><span class="codenumber">1.6.4</span> <span class="title">Knights and Knaves</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-graphtheory.html" class="internal"><span class="codenumber">1.7</span> <span class="title">Connecting Dots</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-graphtheory.html#subsec-konigsburg" class="internal"><span class="codenumber">1.7.1</span> <span class="title">Touring the City of Konigsburg</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-graphtheory.html#subsec-connectivity" class="internal"><span class="codenumber">1.7.2</span> <span class="title">Connectivity</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-graphtheory.html#subsec-sixdegrees" class="internal"><span class="codenumber">1.7.3</span> <span class="title">Six Degrees of Separation</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-fourcolors.html" class="internal"><span class="codenumber">1.8</span> <span class="title">Coloring Graphs</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-fourcolors.html#subsec-colortrees" class="internal"><span class="codenumber">1.8.1</span> <span class="title">Coloring Trees</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-fourcolors.html#subsec-fourcolor2" class="internal"><span class="codenumber">1.8.2</span> <span class="title">What about Cycles?</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-fourcolors.html#subsec-fourcolors" class="internal"><span class="codenumber">1.8.3</span> <span class="title">Appel and Haken shook things up</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-history.html" class="internal"><span class="codenumber">1.9</span> <span class="title">A Little History</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-history.html#subsec-advancements" class="internal"><span class="codenumber">1.9.1</span> <span class="title">What we take for granted</span></a></div></li>
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="sec-history.html#subsec-egyptian" class="internal"><span class="codenumber">1.9.2</span> <span class="title">Thinking Differently</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec-history.html#subsubsec-egyptian" class="internal"><span class="codenumber">1.9.2.1</span> <span class="title">Egyptian Multiplication</span></a></div></li>
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec-history.html#subsubsec-babylon" class="internal"><span class="codenumber">1.9.2.2</span> <span class="title">Mathematics of Babylon</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-history.html#subsec-timeline" class="internal"><span class="codenumber">1.9.3</span> <span class="title">Mathigon’s Timeline of Mathematics</span></a></div></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="ch-worldofcalculus-title.html" class="internal"><span class="codenumber">2</span> <span class="title">The World of Calculus</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-harnessinf.html" class="internal"><span class="codenumber">2.1</span> <span class="title">Harnessing <span class="process-math">\(\infty\)</span></span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-harnessinf.html#subsec-infpredicatble" class="internal"><span class="codenumber">2.1.1</span> <span class="title">Not always unpredictable</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-harnessinf.html#subsec-movementonpaper" class="internal"><span class="codenumber">2.1.2</span> <span class="title">Movement On Paper</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-harnessinf.html#subsec-whatiscalculus" class="internal"><span class="codenumber">2.1.3</span> <span class="title">So what is Calculus?</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-harnessinf.html#subsec-recursive" class="internal"><span class="codenumber">2.1.4</span> <span class="title">Recursive Sequences</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-newtonleibniz.html" class="internal"><span class="codenumber">2.2</span> <span class="title">Newton vs Leibniz</span></a></div></li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-archimedes.html" class="internal"><span class="codenumber">2.3</span> <span class="title">Archimedes’ Great Idea</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-archimedes.html#subsec-archsyracuse" class="internal"><span class="codenumber">2.3.1</span> <span class="title">Archimedes of Syracuse</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-archimedes.html#subsec-weirdnumber" class="internal"><span class="codenumber">2.3.2</span> <span class="title">What is this weird number?</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-archimedes.html#subsec-archimedes" class="internal"><span class="codenumber">2.3.3</span> <span class="title">Archimedes’ Estimate</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-calcinmovies.html" class="internal"><span class="codenumber">2.4</span> <span class="title">Calculus in the Movies</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-calcinmovies.html#subsec-numberphileCal" class="internal"><span class="codenumber">2.4.1</span> <span class="title">Numberphile’s Math and Movies</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-ratesofchange.html" class="internal"><span class="codenumber">2.5</span> <span class="title">Rates of Change</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-ratesofchange.html#subsec-throwaball" class="internal"><span class="codenumber">2.5.1</span> <span class="title">Throwing a Ball</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-ratesofchange.html#subsec-derivatives" class="internal"><span class="codenumber">2.5.2</span> <span class="title">Derivatives and Instantaneous Rate of Change</span></a></div></li>
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="sec-ratesofchange.html#subsec-dapplications" class="internal"><span class="codenumber">2.5.3</span> <span class="title">Applications of Derivatives</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec-ratesofchange.html#subsubsec-appd1" class="internal"><span class="codenumber">2.5.3.1</span> <span class="title">More Rates of Change</span></a></div></li>
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec-ratesofchange.html#subsec-appd3" class="internal"><span class="codenumber">2.5.3.2</span> <span class="title">Highest and Lowest</span></a></div></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-surfaces.html" class="internal"><span class="codenumber">2.6</span> <span class="title">Surfaces</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-surfaces.html#subsec-contour" class="internal"><span class="codenumber">2.6.1</span> <span class="title">Contour Plots: Connecting 2D and 3D Shapes</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-surfaces.html#subsec-contour3d" class="internal"><span class="codenumber">2.6.2</span> <span class="title">Contour</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-surfaces.html#subsec-quartic" class="internal"><span class="codenumber">2.6.3</span> <span class="title">Quartic Surfaces</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-polarcoords.html" class="internal"><span class="codenumber">2.7</span> <span class="title">Polar Coordinates</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-polarcoords.html#subsec-convertingcoords" class="internal"><span class="codenumber">2.7.1</span> <span class="title">Converting Coordinates</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-polarcoords.html#subsec-polarfunctions" class="internal"><span class="codenumber">2.7.2</span> <span class="title">Polar Functions</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-polarcoords.html#subsec-polarcordsdesmos" class="internal"><span class="codenumber">2.7.3</span> <span class="title">Polar Coordinates in Desmos</span></a></div></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="ch-worldsofalgebra-title.html" class="internal"><span class="codenumber">3</span> <span class="title">Worlds of Algebra</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-groups.html" class="internal"><span class="codenumber">3.1</span> <span class="title">Algebra Shapes and Groups</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-groups.html#subsec-algebrapurpose" class="internal"><span class="codenumber">3.1.1</span> <span class="title">Algebra’s Goal</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-groups.html#subsec-modernalgebra" class="internal"><span class="codenumber">3.1.2</span> <span class="title">A Familiar Pattern</span></a></div></li>
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="sec-groups.html#subsec-groups" class="internal"><span class="codenumber">3.1.3</span> <span class="title">What is a Group?</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec-groups.html#subsubsec-identity" class="internal"><span class="codenumber">3.1.3.1</span> <span class="title">Identity Elements</span></a></div></li>
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec-groups.html#subsubsec-inverse" class="internal"><span class="codenumber">3.1.3.2</span> <span class="title">Inverse Elements</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-groups.html#subsec-why" class="internal"><span class="codenumber">3.1.4</span> <span class="title">Why do we think about groups?</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-groups.html#subsec-dihedral" class="internal"><span class="codenumber">3.1.5</span> <span class="title">A Group of Squares</span></a></div></li>
+</ul>
+</li></ul>
+</li>
+<li class="toc-item toc-backmatter"><div class="toc-title-box"><a href="backmatter.html" class="internal"><span class="title">Backmatter</span></a></div></li>
+</ul></nav></div>
+<main class="ptx-main"><div id="ptx-content" class="ptx-content"><section class="section" id="sec-logicpuzzle"><h2 class="heading hide-type">
+<span class="type">Section</span><span class="space"> </span><span class="codenumber">1.6</span><span class="space"> </span><span class="title">Logically Speaking</span>
+</h2>
+<div class="para" id="sec-logicpuzzle-2">Let’s assume that if gordentockles borg the headenvorsh, then the dezapatos changs the wungwing. Also, we all know that if the dezapatos changs the wungwing, then chimi dupas the mongo-gale. But does that means that if gordentockles borg the headenvorsh, then chimi dupas the mongo-gale?</div>
+<div class="para" id="sec-logicpuzzle-3">What? What was that?</div>
+<div class="para" id="sec-logicpuzzle-4">You have probably seen theorem statements in textbooks like the Mean Value Theorem below. If you are like me, then you probably skipped all of the words and jumped to the big equation. Right?</div>
+<article class="theorem theorem-like" id="thm-mvt"><h3 class="heading">
+<span class="type">Theorem</span><span class="space"> </span><span class="codenumber">1.6.1</span><span class="period">.</span><span class="space"> </span><span class="title">Mean Value Theorem.</span>
+</h3>
+<div class="para logical" id="thm-mvt-2-1">
+<div class="para">If <span class="process-math">\(f\)</span> is a function that is continuous on <span class="process-math">\([a,b]\)</span> and differentiable on <span class="process-math">\((a,b)\text{,}\)</span> then there is a number <span class="process-math">\(c\)</span> in <span class="process-math">\((a,b)\)</span> such that</div>
+<div class="displaymath process-math">
+\begin{equation*}
+f(b)-f(a) = m(b-a). 
+\end{equation*}
+</div>
+</div></article><div class="para" id="sec-logicpuzzle-6">It’s okay if you have no idea what any of that means. The Mean Value Theorem will have more meaning in Calculus. For now, just notice that <a href="sec-logicpuzzle.html#thm-mvt" class="xref" data-knowl="./knowl/xref/thm-mvt.html" data-reveal-label="Reveal" data-close-label="Close" title="Theorem 1.6.1: Mean Value Theorem">Theorem 1.6.1</a> has the form <dfn class="terminology">if</dfn> some stuff <dfn class="terminology">then</dfn> some more stuff.</div>
+<div class="para" id="sec-logicpuzzle-7">Actually, the nonsensical paragraph opening this session has several "<dfn class="terminology">if</dfn> some stuff <dfn class="terminology">then</dfn> some more stuff" statements. These type of statements are called <dfn class="terminology">conditional</dfn> statements, and we can represent them symbolically like <span class="process-math">\(p \rightarrow q\text{.}\)</span> We we know logically that <span class="process-math">\(p \rightarrow q \)</span> implies that if <span class="process-math">\(p\)</span> occurs, then <span class="process-math">\(q\)</span> will follow.</div>
+<section class="subsection" id="subsec-nonsensical"><h3 class="heading hide-type">
+<span class="type">Subsection</span><span class="space"> </span><span class="codenumber">1.6.1</span><span class="space"> </span><span class="title">Gordentockles and Chimi</span>
+</h3>
+<div class="para" id="subsec-nonsensical-2">Earlier we were asked whether we know for sure that if gordentockles borg the headenvorsh, then chimi dupas the mongo-gale. Let’s represent the statement "gordentockles borg the headenvorsh" with <span class="process-math">\(p\text{,}\)</span> the statement "the dezapatos changs the wungwing" with <span class="process-math">\(q\text{,}\)</span> and the statement "chimi dupas the mongo-gale" with <span class="process-math">\(r\text{.}\)</span>
+</div>
+<div class="para" id="subsec-nonsensical-3"></div>
+<details id="ques-gordentockles1" class="question example-like born-hidden-knowl"><summary class="knowl__link"><h4 class="heading">
+<span class="type">Question</span><span class="space"> </span><span class="codenumber">1.6.2</span><span class="period">.</span>
+</h4></summary><article class="question example-like knowl__content"><div class="para" id="ques-gordentockles1-1-1">How would we represent symbolically the statement "if gordentockles borg the headenvorsh, then the dezapatos changs the wungwing"?</div>
+<div class="solutions"><details id="ques-gordentockles1-2" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period">.</span></summary><div class="solution solution-like knowl__content"><div class="para" id="ques-gordentockles1-2-1">This is a conditional statement: <span class="process-math">\(p \rightarrow q \text{.}\)</span>
+</div></div></details></div></article></details><details id="ques-gordentockles2" class="question example-like born-hidden-knowl"><summary class="knowl__link"><h4 class="heading">
+<span class="type">Question</span><span class="space"> </span><span class="codenumber">1.6.3</span><span class="period">.</span>
+</h4></summary><article class="question example-like knowl__content"><div class="para" id="ques-gordentockles2-1-1">How would we represent symbolically the statement "if the dezapatos changs the wungwing, then the chimi dupas the mongo-gale"?</div>
+<div class="solutions"><details id="ques-gordentockles2-2" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period">.</span></summary><div class="solution solution-like knowl__content"><div class="para" id="ques-gordentockles2-2-1">This is a conditional statement: <span class="process-math">\(q \rightarrow r \text{.}\)</span>
+</div></div></details></div></article></details><div class="para" id="subsec-nonsensical-6">From <a href="sec-logicpuzzle.html#ques-gordentockles1" class="xref" data-knowl="./knowl/xref/ques-gordentockles1.html" data-reveal-label="Reveal" data-close-label="Close" title="Question 1.6.2">Question 1.6.2</a> and <a href="sec-logicpuzzle.html#ques-gordentockles2" class="xref" data-knowl="./knowl/xref/ques-gordentockles2.html" data-reveal-label="Reveal" data-close-label="Close" title="Question 1.6.3">Question 1.6.3</a>, we have two conditionals <span class="process-math">\(p \rightarrow q \)</span> and <span class="process-math">\(q \rightarrow r \text{.}\)</span> So if <span class="process-math">\(p\)</span> occurs, then <span class="process-math">\(q\)</span> occurs, and if <span class="process-math">\(q\)</span> occurs, then so does <span class="process-math">\(r\text{.}\)</span> So is it not true then, that if <span class="process-math">\(p\)</span> occurs, then <span class="process-math">\(r\)</span> occurs?</div>
+<details id="ques-gordentockles3" class="question example-like born-hidden-knowl"><summary class="knowl__link"><h4 class="heading">
+<span class="type">Question</span><span class="space"> </span><span class="codenumber">1.6.4</span><span class="period">.</span>
+</h4></summary><article class="question example-like knowl__content"><div class="para" id="ques-gordentockles3-1-1">What does <span class="process-math">\(p \rightarrow r\)</span> mean? And is it true based upon what we know?</div>
+<div class="solutions"><details id="ques-gordentockles3-2" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period">.</span></summary><div class="solution solution-like knowl__content"><div class="para" id="ques-gordentockles3-2-1">The conditional statement <span class="process-math">\(p \rightarrow r \)</span> reads as "if gordentockles borg the headenvorsh, then chimi dupas the mongo-gale", and it is true based upon what we know.</div></div></details></div></article></details></section><section class="subsection" id="subsec-useoflogic"><h3 class="heading hide-type">
+<span class="type">Subsection</span><span class="space"> </span><span class="codenumber">1.6.2</span><span class="space"> </span><span class="title">The Usefulness of Logic</span>
+</h3>
+<div class="para" id="subsec-useoflogic-2">Logic helps us safely traverse through mathematical statements. As we’ll see later, all proof writing depends on principles of logic, and having a good understanding of the basics of logic will help us make sense of things that are initially unintuitive.</div>
+<div class="para" id="subsec-useoflogic-3">The past few exercises showed a couple of things. Firstly, that we can follow the logic of an argument even if we’re not overly familiar with the contents of the article. Do we even know what a gordentockle is? Secondly, we arrived to some transitive form of conditionals. We decided that if <span class="process-math">\(p \rightarrow q \)</span> and <span class="process-math">\(q \rightarrow r \text{,}\)</span> then <span class="process-math">\(p \rightarrow r \text{.}\)</span> Logicians can string together simpler logic statements to arrive to new, more complicated statements.</div>
+<div class="para" id="subsec-useoflogic-4">Take a look at the tree REF below, in which each edge is a conditional statement.</div>
+<div class="para" id="subsec-useoflogic-5">FIGURE HERE OF LOGIC TREE</div>
+<div class="para" id="subsec-useoflogic-6"></div>
+<details id="ques-logic1" class="question example-like born-hidden-knowl"><summary class="knowl__link"><h4 class="heading">
+<span class="type">Question</span><span class="space"> </span><span class="codenumber">1.6.5</span><span class="period">.</span>
+</h4></summary><article class="question example-like knowl__content"><div class="para" id="ques-logic1-1-1">If <span class="process-math">\(e\)</span> is true, what else do we know for sure is true?</div>
+<div class="solutions"><details id="ques-logic1-2" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period">.</span></summary><div class="solution solution-like knowl__content"><div class="para" id="ques-logic1-2-1">We know <span class="process-math">\(e \rightarrow  i\)</span> and <span class="process-math">\(e\)</span> is true, so <span class="process-math">\(i\)</span> is true.</div></div></details></div></article></details><div class="para" id="subsec-useoflogic-8"></div>
+<details id="ques-logic2" class="question example-like born-hidden-knowl"><summary class="knowl__link"><h4 class="heading">
+<span class="type">Question</span><span class="space"> </span><span class="codenumber">1.6.6</span><span class="period">.</span>
+</h4></summary><article class="question example-like knowl__content"><div class="para" id="ques-logic2-1-1">Starting with <span class="process-math">\(a\text{,}\)</span> what things must be true to guarantee that <span class="process-math">\(h\)</span> is true?</div>
+<div class="solutions"><details id="ques-logic2-2" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period">.</span></summary><div class="solution solution-like knowl__content"><div class="para" id="ques-logic2-2-1">To guarantee that <span class="process-math">\(h\)</span> is true, we must have <span class="process-math">\(a, b, d\)</span> to be true as well. Note that we do not know if this is only reason <span class="process-math">\(h\)</span> is true or not, but the way we can guarantee it.</div></div></details></div></article></details><div class="para" id="subsec-useoflogic-10"></div>
+<details id="ques-logic3" class="question example-like born-hidden-knowl"><summary class="knowl__link"><h4 class="heading">
+<span class="type">Question</span><span class="space"> </span><span class="codenumber">1.6.7</span><span class="period">.</span>
+</h4></summary><article class="question example-like knowl__content"><div class="para" id="ques-logic3-1-1">Suppose <span class="process-math">\(c\)</span> is not true. What else do we know for sure is not true?</div>
+<div class="solutions"><details id="ques-logic3-2" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period">.</span></summary><div class="solution solution-like knowl__content"><div class="para" id="ques-logic3-2-1">It is tempting to say that <span class="process-math">\(e\)</span> and <span class="process-math">\(f\)</span> are not true, but we don’t know that actually! What we know is that <span class="process-math">\(b \rightarrow c \text{.}\)</span> So if <span class="process-math">\(b\)</span> is true and <span class="process-math">\(c\)</span> is false, then we have a contradiction. So if <span class="process-math">\(c\)</span> is false, then <span class="process-math">\(b\)</span> must be false.</div></div></details></div></article></details></section><section class="subsection" id="subsec-contrapositives"><h3 class="heading hide-type">
+<span class="type">Subsection</span><span class="space"> </span><span class="codenumber">1.6.3</span><span class="space"> </span><span class="title">Contrapositives</span>
+</h3>
+<div class="para" id="subsec-contrapositives-2">
+<a href="sec-logicpuzzle.html#ques-logic3" class="xref" data-knowl="./knowl/xref/ques-logic3.html" data-reveal-label="Reveal" data-close-label="Close" title="Question 1.6.7">Question 1.6.7</a> gave us a new rule of logic. Supposing <span class="process-math">\(p \rightarrow q \)</span> is true and <span class="process-math">\(q\)</span> is false, we now know that <span class="process-math">\(p\)</span> must be false. We’ll write <span class="process-math">\(\sim p \)</span> to mean "not <span class="process-math">\(p\)</span>", and so our new rule could be stated as <span class="process-math">\(\sim q \rightarrow \sim p \text{.}\)</span>
+</div>
+<div class="para" id="subsec-contrapositives-3">This new statement, <span class="process-math">\(\sim q \rightarrow \sim p \text{,}\)</span> is called the <dfn class="terminology">contrapositive</dfn>, and the conditional and the contrapostive are logically equivalent statments. This means, that if one is true, then they’re both true, and if one is false, they’re both false.</div>
+<div class="para" id="subsec-contrapositives-4">Contrapositives are very useful.</div>
+<details id="ques-contrapositive1" class="question example-like born-hidden-knowl"><summary class="knowl__link"><h4 class="heading">
+<span class="type">Question</span><span class="space"> </span><span class="codenumber">1.6.8</span><span class="period">.</span>
+</h4></summary><article class="question example-like knowl__content"><div class="para" id="ques-contrapositive1-1-1">What is the contrapostive of the statment "if the dezapatos changs the wungwing, then chimi dupas the mongo-gale"?</div>
+<div class="solutions"><details id="ques-contrapositive1-2" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period">.</span></summary><div class="solution solution-like knowl__content"><div class="para" id="ques-contrapositive1-2-1">If chimi does not dupas the mongo-gale, then the dezapatos does not chang the wungwing.</div></div></details></div></article></details><article class="activity project-like" id="act-contrapositive1"><h4 class="heading">
+<span class="type">Activity</span><span class="space"> </span><span class="codenumber">1.6.1</span><span class="period">.</span>
+</h4>
+<div class="para" id="act-contrapositive1-1-1">Make up three conditional "if-then" statements and write them down. Trade your conditionals with a classmate and write the contrapositive to your classmate’s conditional statements.</div></article></section><section class="subsection" id="subsec-knights"><h3 class="heading hide-type">
+<span class="type">Subsection</span><span class="space"> </span><span class="codenumber">1.6.4</span><span class="space"> </span><span class="title">Knights and Knaves</span>
+</h3>
+<div class="para" id="subsec-knights-2">Mathematician (and magician) Raymond Smullyan (1919-2017) famously wrote several books of logic puzzles. The puzzles have entertained and challenged people for decades. You can find a list of his works at the https://www.raymondsmullyan.com/bio/</div>
+<div class="para" id="subsec-knights-3">PIC HERE SMULLYAN OR AN ISLAND</div>
+<div class="para" id="subsec-knights-4">One set of his puzzles involve the reader (you) visiting an island in which there lives two types of people. Knights ALWAYS tell the truth, and Knaves ALWAY lie. In many of these puzzles, you engage in a brief discussion with two or more island inhabitants, and based upon their statements you are challenged with identifying what type of people each person is.</div>
+<div class="para" id="subsec-knights-5">Let’s try a few.</div>
+<details id="ques-smullyan1" class="question example-like born-hidden-knowl"><summary class="knowl__link"><h4 class="heading">
+<span class="type">Question</span><span class="space"> </span><span class="codenumber">1.6.9</span><span class="period">.</span><span class="space"> </span><span class="title">Knight and Knaves I.</span>
+</h4></summary><article class="question example-like knowl__content"><div class="para" id="ques-smullyan1-2-1">You encounter two island residents, <span class="process-math">\(A\)</span> and <span class="process-math">\(B\text{,}\)</span> each is either a knight or a knave. <span class="process-math">\(A\)</span> makes the following statement: "At least one of us is a knave." What are <span class="process-math">\(A\)</span> and <span class="process-math">\(B\text{?}\)</span>
+</div></article></details><details id="ques-smullyan2" class="question example-like born-hidden-knowl"><summary class="knowl__link"><h4 class="heading">
+<span class="type">Question</span><span class="space"> </span><span class="codenumber">1.6.10</span><span class="period">.</span><span class="space"> </span><span class="title">Knight and Knaves II.</span>
+</h4></summary><article class="question example-like knowl__content"><div class="para" id="ques-smullyan2-2-1">Suppose <span class="process-math">\(A\)</span> says, "Either I am a knave or <span class="process-math">\(B\)</span> is a knight." What are <span class="process-math">\(A\)</span> and <span class="process-math">\(B\text{?}\)</span>
+</div></article></details><details id="ques-smullyan3" class="question example-like born-hidden-knowl"><summary class="knowl__link"><h4 class="heading">
+<span class="type">Question</span><span class="space"> </span><span class="codenumber">1.6.11</span><span class="period">.</span><span class="space"> </span><span class="title">Knight and Knaves III.</span>
+</h4></summary><article class="question example-like knowl__content"><div class="para logical" id="ques-smullyan3-2-1">
+<div class="para">This time, you encounter three people <span class="process-math">\(A, B, C\text{,}\)</span> each of whom is either a knight or knave. <span class="process-math">\(A\)</span> and <span class="process-math">\(B\)</span> make the following statements:</div>
+<div class="displaymath process-math">
+\begin{equation*}
+A: \text{ All of us are knaves.}
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+B: \text{ Exactly one of us is a knight.}
+\end{equation*}
+</div>
+</div> <div class="para" id="ques-smullyan3-2-2">What are <span class="process-math">\(A, B\text{,}\)</span> and <span class="process-math">\(C\text{?}\)</span>
+</div></article></details><div class="para" id="subsec-knights-9">GITHUB LINK TO VIRTUAL QUESTIONS You can find more puzzles at https://dmackinnon1.github.io/logic.html.</div></section></section></div>
+<div class="ptx-content-footer">
+<a class="previous-button button" href="sec-career.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="top-button button" href="#" title="Top"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Top</span></a><a class="next-button button" href="sec-graphtheory.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a>
+</div></main>
+</div>
+<div id="ptx-page-footer" class="ptx-page-footer">
+<a class="pretext-link" href="https://pretextbook.org" title="PreTeXt"><div class="logo"><svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="338 3000 8772 6866"><g style="stroke-width:.025in; stroke:black; fill:none"><polyline points="472,3590 472,9732 " style="stroke:#000000;stroke-width:174; stroke-linejoin:miter; stroke-linecap:round; "></polyline><path style="stroke:#000000;stroke-width:126;stroke-linecap:butt;" d="M 4724,9448 A 4660 4660  0  0  1  8598  9259"></path><path style="stroke:#000000;stroke-width:174;stroke-linecap:butt;" d="M 4488,9685 A 4228 4228  0  0  0   472  9732"></path><path style="stroke:#000000;stroke-width:126;stroke-linecap:butt;" d="M 4724,3590 A 4241 4241  0  0  1  8598  3496"></path><path style="stroke:#000000;stroke-width:126;stroke-linecap:round;" d="M 850,3496  A 4241 4241  0  0  1  4724  3590"></path><path style="stroke:#000000;stroke-width:126;stroke-linecap:round;" d="M 850,9259  A 4507 4507  0  0  1  4724  9448"></path><polyline points="5385,4299 4062,8125" style="stroke:#000000;stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="8598,3496 8598,9259" style="stroke:#000000;stroke-width:126; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="850,3496 850,9259" style="stroke:#000000;stroke-width:126; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="4960,9685 4488,9685" style="stroke:#000000;stroke-width:174; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="3070,4582 1889,6141 3070,7700" style="stroke:#000000;stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="6418,4582 7600,6141 6418,7700" style="stroke:#000000;stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="8976,3590 8976,9732" style="stroke:#000000;stroke-width:174; stroke-linejoin:miter; stroke-linecap:round;"></polyline><path style="stroke:#000000;stroke-width:174;stroke-linecap:butt;" d="M 4960,9685 A 4228 4228  0  0  1  8976  9732"></path></g></svg></div></a><a class="runestone-link" href="https://runestone.academy" title="Runestone Academy"><img class="logo" src="https://runestone.academy/runestone/static/images/RAIcon_cropped.png"></a><a class="mathjax-link" href="https://www.mathjax.org" title="MathJax"><img class="logo" src="https://www.mathjax.org/badge/badge-square-2.png"></a>
+</div>
+</body>
+</html>
