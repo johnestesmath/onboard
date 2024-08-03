@@ -3,6 +3,10 @@
 <section xml:id="sec-pascaltriangle" xmlns:xi="http://www.w3.org/2001/XInclude">
   <title>A Special Triangle</title>
 
+  <figure> <!-- source: mathigon -->
+    <image xml:id="fig-pascaltriangle2" source="pascaltriangle2.png" width="80%" />
+  </figure>
+
   <p>
     You can find all sorts of interesting examples of surprising structures in the universe of mathematics. One such example is
    a very special triangle of numbers that's easy to construct and borderline ubiquitous in its applications.
@@ -12,54 +16,40 @@
     this new construction the "Staircase of Mount Meru". Persian mathematician, Omar Khayyam, discovered "Khauuam's Triangle" in the 11th century,
      and close to the same time, Chinese mathematician, Jin Xian, discovered "Yang Hui's Triangle".
       In the western world, this triangle is most commonly refered to as Pascal's Triangle, named after
-      french mathematician, Blaise Pascal, who discovered this triangle in the 17th century.
+      french mathematician, Blaise Pascal, who discovered this triangle in the 17th century. REFERENCE
      <!--REFERENCE: MATHIGON https://mathigon.org/course/sequences/pascals-triangle -->
   </p>
  
   <figure> <!-- source: mathigon -->
     <image xml:id="fig-pascaltriangle1" source="pascaltriangle.jpg" width="80%" />
+    <caption>The Pingata, Khauuman's Triangle, and Yang Hui's Triangle</caption>
   </figure>
 
   <subsection xml:id="subsec-pascalconstruct">
     <title>Constructing Pascal's Triangle</title>
     
-    <p> Now you're going to build Pascal's Triangle. The row is just a <m>1</m>, and the 
-    second row is composed of <m>1, 1</m>. The third row looks like <m>1, 2
-      , 1</m> like below. We'll call these rows row 0, row 1, and row 2.</p>
+    <p> Now we will follow the foot steps of giants. We can build Pascal's Triangle by listing out the rows. For the first row (row <m>0</m>), we just write <m>1</m>, and the 
+    second row is composed of <m>1, 1</m>. The third row (what we call row 2) consists of <m>1, 2
+      , 1</m> like below.</p>
 
-      <table>
-      <tabular>
-        <row>
-          <cell> </cell>
-          <cell></cell>
-          <cell><m>1</m></cell>
-        </row>
-        <row>
-          <cell></cell>
-          <cell><m>1</m></cell>
-          <cell></cell>
-          <cell><m>1</m></cell>
-          <cell></cell>
-        </row>
-        <row>
-          <cell><m>1</m></cell>
-          <cell><m></m></cell>
-          <cell><m>2</m></cell>
-          <cell></cell>
-          <cell><m>1</m></cell>
-        </row>
-      </tabular>
-    </table>
+      <figure> <!-- source: mathigon -->
+        <image xml:id="fig-pascaltriangle3" source="pascaltriangle3.png" width="20%" />
+      </figure>
+     
 
     <p>
-      Where did the <m>2</m> come from? We simply got it by
-      adding the two <m>1</m>'s above it in row 1. For the next row (row 3), we'd start with
-      <m>1</m>. Then we have the sum of the two numbers above our second number (<m>1 + 2</m>). Next is the sum (<m>2+1</m>),
-      and finally we end the row with 1. That is, row 3 is <m>1, 3, 3, 1</m>.
+      The pattern of Pascal's Triangle is not immediately obvious for us yet. The <m>2</m>
+      in row 2 comes from adding the two <m>1</m>'s above it in row 1. For the next row (row 3), we start with
+      <m>1</m>. The next entry consists of the sum of the two numbers above it (<m>1 + 2</m>). Next is the sum <m>2+1</m>,
+      and finally we end the row with <m>1</m>. That is, row 3 is <m>1, 3, 3, 1</m>.
     </p>
 
     <p>
       Then we just repeat this process.
+    </p>
+
+    <p>
+      
     </p>
 
     <question xml:id = "ques-pascal1">
@@ -85,15 +75,22 @@
       Fill out the first 8 rows of Pascal's Triangle.      
     </activity>
 
+  </subsection>
+
+    <subsection xml:id="sec-patterns">
+      <title>Patterns of Pacal's Triangle</title>
+      
     <p>
       Pascal's triangle has interested mathematicians for centuries, as it is filled
       with interesting patterns. 
     </p>
 
+    <p>
+      
+    </p>
+
     <question> 
       <title>Adding along a row</title>
-      
-      
       <statement>
         <p>
           Add entries of rows 0 through 4. What pattern do you notice?
@@ -109,8 +106,13 @@
     </question>
 
     <p> 
-      This is just one pattern of Pascal's triangle, but there are many more. TedEd hightlights
-      some of these patterns in this very visual video.
+      We just uncovered that the sum of entries along row <m>n</m> add up to <m>2^n</m>. 
+      This is just one pattern of Pascal's triangle, but there are many more. Wadji Mohamed Retemi expertly hightlights
+      some of these patterns we find in Pascal's triangle in this Ted Ed video.
+    </p>
+
+    <p>
+      
     </p>
 
 
@@ -126,6 +128,9 @@
   <question xml:id="ques-pascal2">
     <title>Binomial Expansion</title>
     
+    <p>
+      
+    </p>
     
     <statement>
       <p>
@@ -175,14 +180,5 @@
     
   </question>
 
-
-
-    
   </subsection>
-  
-
-  
-  
-
-
 </section>

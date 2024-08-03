@@ -3,7 +3,10 @@
 <section xml:id="sec-belhaven-math-intro">
   <title> Introduction to Belhaven Mathematics </title>
 
-  
+  <figure>
+    <image xml:id="fig-bustem" source="bu stem-color.png" width="80%" />
+  </figure>
+
 
   <p>
    Welcome to the Mathematics and Computer Science Department (MCS) at Belhaven University, one department under Belhaven's 
