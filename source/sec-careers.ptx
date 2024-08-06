@@ -91,4 +91,37 @@
       
     </question>
 
+    <subsection xml:id="subsec-gradschool">
+      <title>College after college</title>
+
+      <p>
+        Some of us are destined for more school than others. You might find yourself wanting more math than
+        what your undergrad experience can accommodate. It could be that you decide to earn a Master's or a PhD.
+      </p>
+
+      <p>
+        If you have any interest in graduate school, you'll want to make sure to build a resume of things
+        graudate programs look for.
+
+        <ol>
+          <li>
+            <p>
+              high GPA
+            </p>
+          </li>
+          <li>
+            <p>
+              interest in research (conferences, posters, thesis)
+            </p>
+          </li>
+          <li>
+            <p>
+              a Research Experience for Undergrads (REU) if possible.
+            </p>
+          </li>
+        </ol>
+      </p>
+      
+    </subsection>
+
 </section>
