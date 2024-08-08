@@ -3,17 +3,14 @@
 <section xml:id="sec-history" xmlns:xi="http://www.w3.org/2001/XInclude">
   <title>A Little History</title>
 
+
   <p> Mathematics is a permanent fixture in human development. We find evidence of mathematical thinking in
     our most ancient of civilizations, and yet all modern technological advancements rely of good mathematics.
     Mathematics is the foundational tool we use to turn creative ideas into reality. But the human stories of
     mathematics is an area worth studying as well.
  </p>
 
- <p>
-   INSERT PIC HERE
- </p>
-
-
+ 
  <p>
     Throughout your coursework, you will learn about the interesting figures of math history and some of the
     incredible (and sometimes unbelievable) tales they are a part of. There are stories of young genius, incredible
@@ -52,6 +49,13 @@
             geometry and algebra with a coordinate system we use in basic algebra today. This system is called
             "Cartesian coordiantes" after Descartes.
           </p>
+
+          <p>
+            <figure> <!-- source: https://en.wikipedia.org/wiki/Ren%C3%A9_Descartes -->
+              <image xml:id="fig-renedescartes" source="rene_descartes.jpg" width="70%" />
+              <caption>Portrait of Rene Descartes traditionally attributed to Frans Hals</caption>
+            </figure>
+           </p>
         </li>
       </ul>
    </p>
@@ -84,7 +88,7 @@
       
   
     <p>
-      For example, How would the Egyptians multiply 23 and 12? Their work all depends up powers of two.
+      For example, How would the Egyptians multiply 23 and 12? Their work all depends upon powers of two.
     </p>  
 
     <question xml:id="ques-powersoftwo">
@@ -183,7 +187,7 @@
     </question>
 
     <p>
-      This method is sometimes referred to as the "double method", because the algorithm involves
+      The Egyption multiplication algorithm is sometimes referred to as the "double method", because the algorithm involves
       doubling one of the factors repeatedly. Let's do this with the first factor, 23.
 
     </p>
@@ -453,7 +457,7 @@
     <p>
       Sexigesimal notation is particularly useful when dealing with fractions. For example, <m>1;30</m>
       is <m>1\cdot 60^0 + 30 \cdot 60^{-1} = 1 + \frac{1}{2}</m>, and by <m>0;30;24</m>, the Babylonians
-      mean <m>\frac{30}{60^1} + \frac{24}{60^2}</m>.
+      meant <m>\frac{30}{60^1} + \frac{24}{60^2}</m>.
     </p>
 
     <p>
@@ -509,10 +513,6 @@
     </statement>    
    </question>
 
-   <p>
-  
-   </p>
-
    <question xml:id="ques-timeline2">
     <statement>
       <p>
@@ -521,10 +521,7 @@
     </statement>
    </question>
 
-   <p>
-    
-   </p>
-
+ 
    <question xml:id="ques-timeline3">
     <statement>
       <p>

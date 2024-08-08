@@ -5,7 +5,7 @@
 
   <p> Consider the map  of the United States in figure \ref{map}. You are challenged to color the map with the rule that bordering states cannot have the same color. Overall this is pretty easy, BUT we also want to use the fewest colors possible. How many colors do you need to do this? </p>
 
-  <question xml:id="ques-fourcolor1">
+  <activity xml:id="ques-fourcolor1">
     <title>Color the map</title>
     
     
@@ -14,7 +14,7 @@
         Color the map in the fewest colors possible, where neighboring states do not share a color.
       </p>
     </statement>
-  </question>
+  </activity>
 
   <p>
     <figure> <!-- source: https://math.fandom.com/wiki/Egyptian_mathematics -->
@@ -44,6 +44,7 @@
     
   </question>
 
+  
   <p>
     In this context, if we treat each state as a vertex and shared borders
     as edges, then this map is just a graph. The challenge we gave to color the map
@@ -58,23 +59,22 @@
     <title>Coloring Trees</title>
     
     <p>
-      A graph is called a tree if it is connected and has no cycles. More precisely, there is a path
+      A graph is called a <term>tree</term> if it is connected and has no cycles. More precisely, there is a path
       between any two vertices... but only one path.
         </p>
 
-    <p>
-      TIKZ PIC OF A TREE
-    </p>
+        <figure> <!-- source: https://math.fandom.com/wiki/Egyptian_mathematics -->
+          <image xml:id="fig-trees" source="graphs-trees.png" width="80%" />
+          <caption>Some trees.</caption>
+        </figure>
    
 
-    <p>
-      
-    </p>
+    
 
     <question xml:id="ques-trees1">
       <statement>
         <p>
-          How many colors does the tree in TIKZ PIC require?
+          How many colors does the tree in <xref ref="fig-trees"/> require?
         </p>
       </statement>
 
@@ -85,10 +85,6 @@
       </solution>
       
     </question>
-
-    <p>
-      
-    </p>
 
     <question>
       <statement>
@@ -107,7 +103,8 @@
   <p>
     Maybe we can make a logical argument to show trees can be colored in two colors, though. Let's start
     with a vertex (call it <m>x</m>) and color it <m>1</m>. Also, we say a vertex is a <term>neighbor</term> 
-    of <m>x</m> (or <term>adjacent</term> to <m>x</m>) if it shares an edges with <m>x</m>. 
+    of <m>x</m> (or <term>adjacent</term> to <m>x</m>) if it shares an edges with <m>x</m>. Note that we often use numbers to represent colors so that we can easily refer to color 100, for example,
+    instead of trying to keep up with 100 different named colors. 
   </p>
 
   <question xml:id="ques-trees2">
@@ -116,6 +113,11 @@
         What color can we color the neighbors of <m>x</m>?
       </p>
     </statement>
+    <solution>
+      <p>
+        How about 2?
+      </p>
+    </solution>
   </question>
 
   <question xml:id="ques-trees3">
@@ -124,6 +126,12 @@
         What color can we color the neighbors of the neighbors of <m>x</m>?
       </p>
     </statement>
+    <solution>
+      <p>
+        Since this new vertex is not adjacent to <m>x</m> (otherwise the graph is not a tree), it could
+        be colored 1.
+      </p>
+    </solution>
   </question>
 
   <question xml:id="ques-trees4">
@@ -132,6 +140,11 @@
         What about the neighbors of the neighbors of the neighbors of <m>x</m>?
       </p>
     </statement>
+    <solution>
+      <p>
+        This sounds confusing. Is it possible that one these neighbors of neighbors of neighbors
+      </p>
+    </solution>
   </question>
 
   <p>
@@ -149,7 +162,7 @@
 
   <p>
     This argument only works, though, because we're talking about trees. If there is a 
-    cycle in our graph, then a vertex <m>v </m> may an even number of edges from <m>x</m> coming
+    cycle in our graph, then a vertex <m>v </m> may be an even number of edges from <m>x</m> coming
     from one direction and an odd number of edges from another direction. That can't happen in a tree.
   </p>
 
@@ -206,7 +219,7 @@
     <title>Appel and Haken shook things up</title>
 
     <p>
-      We'll now turn our attention to something similar to coloring the map of the US.
+      BORING!!! We'll now turn our attention to something similar to coloring the map of the US.
       Is it possible to draw a country with states that would require more than four colors? The answer is
       actually no!
     </p>
@@ -221,13 +234,13 @@
       Use the following video to answer the following questions.
     </p>
 
-    <p>
-      IMBED VIDEO https://www.youtube.com/watch?v=NgbK43jB4rQ
-    </p>
+   
+    <figure xml:id="vid-numberPhileFourColor">
+      <video youtube= "NgbK43jB4rQ"/>
+       <caption></caption>
+    </figure>
 
-    <p>
-      
-    </p>
+   
 
     <question>
       <statement>
@@ -237,9 +250,6 @@
       </statement>
     </question>
 
-    <p>
-      
-    </p>
 
     <question>
       <statement>
@@ -250,9 +260,6 @@
     </question>
 
 
-    <p>
-      
-    </p>
 
     <question>
       <statement>
@@ -262,9 +269,7 @@
       </statement>
     </question>
 
-    <p>
-      
-    </p>
+  
 
     <question>
       <statement>

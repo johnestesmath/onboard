@@ -126,13 +126,9 @@
       Take a look at the tree REF below, in which each edge is a conditional statement.
     </p>
 
-    <p>
-    FIGURE HERE OF LOGIC TREE  
-    </p>
-
-    <p>
-      
-    </p>
+    <figure> 
+      <image xml:id="fig-logictree" source="logic_tree.png" width="70%" />
+    </figure>
 
     <question xml:id="ques-logic1">
       <statement>
@@ -149,10 +145,6 @@
       
     </question>
 
-    <p>
-      
-    </p>
-
     <question xml:id="ques-logic2">
       <statement>
         <p>
@@ -168,10 +160,6 @@
       </solution>
       
     </question>
-
-    <p>
-      
-    </p>
 
     <question xml:id="ques-logic3">
       <statement>
@@ -242,6 +230,7 @@
     
   </subsection>
 
+ 
 
   <subsection xml:id="subsec-knights">
     <title>Knights and Knaves</title>
@@ -251,9 +240,10 @@
       people for decades. You can find a list of his works at the https://www.raymondsmullyan.com/bio/
     </p>
 
-    <p>
-      PIC HERE SMULLYAN OR AN ISLAND
-    </p>
+    <figure> 
+      <image xml:id="fig-smullyan" source="Smullyan.jpg" width="40%" />
+      <caption>Raymond Smullyan (1919-2017)</caption>
+    </figure>
 
     <p>
       One set of his puzzles involve the reader (you) visiting an island in which there lives
@@ -308,12 +298,41 @@
     </question>
 
     <p>
-      GITHUB LINK TO VIRTUAL QUESTIONS You can find more puzzles at 
-      https://dmackinnon1.github.io/logic.html.
+      You can more of Smullyan's logic puzzles on <url href="https://dmackinnon1.github.io/logic.html" visual="example.com">Dan Mackinnon's github page</url>.
     </p>
-    
 
   </subsection>
+
+    <subsection xml:id="subsec-SamuraiJack">
+      <title>Samurai Jack and the Wyrm</title>
+
+
+      <p>
+        In the early 2000's, the Cartoon Network hit, Samurai Jack explored a 
+        Smullyan-style logic puzzle. In the show, Jack is desparately trying to return to his proper time
+        in history hears a rumor of a two-headed wyrm with the power of time travel. </p>
+        <p>
+        The two heads of the wyrm tell him that one head only tells the truth and the other only tells lies (Sound
+        familiar?), and Jack has to determine which one is which. If he answers correctly, the truth telling head
+        will devour Jack, and that process will send Jack back to the past.
+      </p>
+  
+      <figure xml:id="vid-khanpascal">
+        <video youtube= "HBEEBXsFeRk"/>
+         <caption></caption>
+      </figure>
+  
+      <p>
+        SPOILER ALERT: Unfortunately for Jack, both heads lie, and the entire exercise
+        was just a trick. Don't worry, though, Jack escapes mostly in good health.
+      </p>
+     
+      
+    </subsection>
+
+    
+
+ 
 
 
 </section>
