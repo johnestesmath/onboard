@@ -136,11 +136,11 @@
       a tour that begins and ends with the same vertex. This type of tour is called an <term>eulerian circuit</term>.
      </p>
 
-    <p>
+    <!--<p>
       Euler's brilliance showed that by recognizing the only information needed for this problem was a marker for each piece of land
       and a way to their connections (the bridges), we can avoid being distracted by unnecessary information. We did not care about the 
       distance travelled, the water, etc. In fact, with Euler's strategy, we know exactly when, for any graph, you can find an eulerian circuit.
-    </p>
+    </p>-->
 
     <p>
       Let's take a tour on our new Königsburg graph, and each time we visit and each time we leave a vertex, we will give that vertex a point. For
@@ -262,18 +262,74 @@
       For example, if we delete one vertex from the first graph in <xref ref="fig-graphs-graphs2"/> (the edges
       adjacent to that vertex are also deleted), does our graph break into two separate pieces? No. It'll take more than
       one vertex, but it can be done with two vertices! In <xref ref="fig-graphs-deleted"/>, we deleted two vertices 
-      (indicated by the red open circles), and no the graph is broken up. We say it is <term>disconnected</term>.
+      (indicated by the red open circles), and now the graph is broken up. We say it is <term>disconnected</term>.
     </p>
 
     <figure> <!-- source: geogebra -->
       <image xml:id="fig-graphs-deleted" source="graphs-deleted.png" width="50%" />
     </figure>
 
+    <p>
+      There's a lot we could say about this situation. The two vertices we deleted are a <term>cut set</term>
+      of the graph, and the pieces are called <term>components</term>. After we delete our cut set, if <m>u</m> is in one component and 
+      <m>v</m> is another component, then our cut set is a <term><m>u-v</m> separating set</term>. In this graph, our
+      cut set had two vertices, so we say the graph is <m>2</m>-connected.
+    </p>
+
+    <definition xml:id="def-connectivity">
+      <statement>
+        <p>
+          In general, the graph <m>G</m> is <m>k</m>-connected if <m>G</m> has a cut set of <m>k</m> vertices.
+        </p>
+      </statement>
+    </definition>
+
+    <p>
+      So how connected are the graphs in <xref ref="fig-graphs-graphs2"/>?
+    </p>
+
+    <question xml:id="q-connectivity1">
+      <statement>
+        <p>
+          For each graph <m>G</m> in <xref ref="fig-graphs-graphs2"/>, what is the smallest value of <m>k</m>
+          such that <m>G</m> is <m>k</m>-connected?
+        </p>
+      </statement>
+      <solution>
+        <p>
+          The graph on the farthest left is <m>2</m>-connected.
+        </p>
+      </solution>
+      
+    </question>
+
+    <p>
+      Knowing how connected a graph is can tell us other things as well. For example,
+    </p>
+
+    <theorem xml:id="thm-kconnectedresult">
+      <statement>
+        <p>
+          If <m>G</m> is a <m>k</m>-connected graph, <m>k \geq 2</m>, then every <m>k</m> vertices of
+          <m>G</m> lie on a common cycle of <m>G</m>.
+        </p>
+      </statement>
+    </theorem>
+
+    <p>
+      Connectivity and cycles do not seem to be immediately related, but graph theorists have 
+      discovered that they are related concepts.
+    </p>
+    
     
   </subsection>
 
-  <subsection xml:id="subsec-sixdegrees">
-    <title>Six Degrees of Separation</title>
+  <subsection xml:id="subsec-mengers">
+    <title>Mengers Theorem</title>
+
+  <p>
+    
+  </p>
     
   </subsection>
 
