@@ -3,24 +3,31 @@
 <section xml:id="sec-graphtheory" xmlns:xi="http://www.w3.org/2001/XInclude">
   <title>Connecting Dots</title>
 
-  <p>
-    PIC
-  </p>
+  <figure> <!-- source: geogebra -->
+    <image xml:id="fig-graphs" source="graphs-graphHeader.png" width="90%" />
+  </figure>
+ 
 
   <p>Jane and her friend Julia were invited to a small get together at their
     friend Julio's place. When they arrive, they don't really know any of the other
   four people (other than Julio) who seem to know each other EXCEPT one of the four coincidentally
   is Jane's cousin, Elaine.  </p>
 
+  <figure> <!-- source: geogebra -->
+    <image xml:id="fig-graphs-party" source="graphs-party.png" width="60%" />
+    <caption>Julio's party</caption>
+  </figure>
+
   <p>
     This type situations happen all of the time. If you're sitting in a classroom, you're in a
     similar situation right now. When you are with a group of people, you are a part of a mathematical structure known as a <term>graph</term>.
-    Actually, any network (relationships, pipe systems, road maps, the internet, ...) can be represented as graphs.
+    Actually, any network (relationships, pipe systems, road maps, the internet, ...) can be represented as a graph.
   </p>
 
-  <p>
-    GRAPH PICS
-  </p>
+  <figure> <!-- source: geogebra -->
+    <image xml:id="fig-graphs-graphs" source="graphs-connectivity.png" width="90%" />
+    <caption>Various graphs</caption>
+  </figure>
 
   <p>
     We see graphs anytime we have a collection of items (We call them <term>vertices </term> or <term>nodes</term>.) and relationships
@@ -45,49 +52,223 @@
     <term>Drawing a Graph</term> 
     <statement>
       <p>
-        Draw the graph with <m>V = \{a,b,c,d,e,f,g,h\}</m> and
+        Draw the graph with vertex set <m>V = \{a,b,c,d,e,f,g,h\}</m> and
         edge set <m>E = \{ab, ac, ad, cd, de, eg, eh, fb, fc, hc\}</m>.
       </p>
     </statement>   
   </question>
 
+  <p>
+    Graph theorists study all sort aspects of graphs. We ask questions about the longest 
+    path of a graph, how easy is it to break up a graph with vertex or edge deletions, and if we can
+    draw a graph in the plane without crossing any edges (among many others).
+  </p>
+
+  <p>
+    We'll explore a few interesting graph theory questions here.
+  </p>
+
   <subsection xml:id="subsec-konigsburg">
-    <title>Touring the City of Konigsburg</title>
+    <title>Touring the City of Königsburg</title>
+   
+    <figure> <!-- source: KONIGSBUG PIC: By Bogdan Giuşcă - Public domain (PD),based on the image, CC BY-SA 3.0, https://commons.wikimedia.org/w/index.php?curid=112920 -->
+      <image xml:id="fig-konigsburg" source="konigsberg.png" width="90%" />
+    </figure>
 
     <p>
-      KONIGSBUG PIC: By Bogdan Giuşcă - Public domain (PD),based on the image, CC BY-SA 3.0, https://commons.wikimedia.org/w/index.php?curid=112920
+      If we happen to find ourselves in Königsburg Prussia in the 18th century, we would see a city layout similar to the one
+      in <xref ref="fig-konigsburg"/>. The Pregel river flowed through the middle of the city forming two
+      islands. The part we care about, though, is the seven highlighted bridges.
     </p>
 
     <p>
-      If we happen to find ourselves in Konigsburg Prussia in the 18th century, we would see a city layout similar to the one
-      in FIGURE. The Pregel river flowed through the middle of the city forming two
-      islands. The part we care about, though, is the seven bridges highlighted in FIGURE.
-    </p>
-
-    <p>
-      The incredibly brilliant mathematician, Leonhard Euler (1707-1783), proposed the now famous question:
-      Can someone take a tour of Konigsburg in which all seven bridges are crossed exactly one time, and
-      the tourist returns back to his or her starting position? If so, we'll call that a successful tour of Konigsburg.
+      Residents such as ourselves, as a game, would often attempt to tour the city with these rules: 
+      <ol>
+        <li>
+          <p>
+            You must cross each bridge (all 7) exactly one time (no more and no less).
+          </p>
+        </li>
+        <li>
+          <p>
+            You must end your tour exactly where you began.
+          </p>
+        </li>
+      </ol>
+      A tour that meets these requirements will be called a successful tour.
     </p>
 
     <activity>
       <statement>
         <p>
-          Can you find a successful tour of Konigsburg?
+          Can you find a successful tour of Königsburg?
         </p>
       </statement>
     </activity>
 
     <p>
+      This game peaked the interest of the incredibly brilliant mathematician, Leonhard Euler (1707-1783), and to 
+      solve this question Euler introduced the field of graph theory to the world. The Königsburg bridge problem is considered
+      the to be the first instance graph theory historically. Like Euler, we can picture Königsburg as a graph
+      by treating the bridges as edges and use vertices to represent each land mass. 
+       </p>
+
+     <question xml:id="q-konigsburg">
+      <statement>
+        <p>
+          Represent Königsburg with a graph.
+        </p>
+      </statement>
+      <solution>
+        <p>
+          <figure> <!-- source: geogebra -->
+            <image xml:id="fig-graphs-konigs" source="graphs-konigsberg.png" width="70%" />
+          </figure>
       
+        </p>
+      </solution>
+      
+     </question> 
+     
+     <p>
+      What do we mean by a "tour" on a graph? First, two edges are <term>incident</term> if they 
+      share a vertex. We can say a <term>tour</term> is a sequence of incident edges. We want to find
+      a tour that begins and ends with the same vertex. This type of tour is called an <term>eulerian circuit</term>.
+     </p>
+
+    <p>
+      Euler's brilliance showed that by recognizing the only information needed for this problem was a marker for each piece of land
+      and a way to their connections (the bridges), we can avoid being distracted by unnecessary information. We did not care about the 
+      distance travelled, the water, etc. In fact, with Euler's strategy, we know exactly when, for any graph, you can find an eulerian circuit.
     </p>
 
+    <p>
+      Let's take a tour on our new Königsburg graph, and each time we visit and each time we leave a vertex, we will give that vertex a point. For
+      example, if we start at vertex <m>v_1</m> and travel to <m>v_3</m> and then to <m>v_4</m>, then <m>v_1</m> and <m>v_4</m> have 
+      1 point each while <m>v_3</m> has 2 points.
+    </p>
 
-    
+    <figure> <!-- source: geogebra -->
+      <image xml:id="fig-graphs-konigscolor" source="graphs-konigsbergColor.png" width="70%" />
+    </figure>
+
+    <p>
+      As we keep touring through our graph, the points of a vertex tells us how many edges touching 
+      that vertex are a part of our tour.
+    </p>
+
+    <question xml:id="q-konigs2">
+      <title>One-point vertices</title>
+      <statement>
+        <p>
+          How can the vertex <m>v</m> have 1 point?
+        </p>
+      </statement>
+      <solution>
+        <p>
+          Either <m>v</m> is the beginning or ending of our tour (and not both).
+        </p>
+      </solution>
+      
+    </question>
+
+    <question xml:id="q-konigs3">
+      <title>Odd Points</title>      
+      <statement>
+        <p>
+          How can the vertex <m>v</m> have an odd number of points?
+        </p>
+      </statement>
+      <solution>
+        <p>
+          Our tour is currently resting at <m>v</m>, and <m>v</m> is not the first and last vertex of the tour. If the point value is more than 1, then
+          the tour has already arrived and left <m>v</m> at least once.
+        </p>
+      </solution>
+      
+    </question>
+
+    <question xml:id="q-konigs4">
+      <title>Even Points</title>
+      <statement>
+        <p>
+          How can the vertex <m>v</m> have an even number of points?
+        </p>
+      </statement>
+      <solution>
+        <p>
+          Our tour is resting at <m>v</m>. If the point value is more than 1, then
+          the tour has already arrived and left <m>v</m> at least once.
+        </p>
+      </solution>
+      
+    </question>
+
+    <p>
+      From questions <xref ref="q-konigs2"/>, <xref ref="q-konigs3"/>, and <xref ref="q-konigs4"/>, we see that
+      a vertex will only have an odd number of points (or adjacent to an odd number of edges in our tour) if that
+      vertex either starts or ends the tour... unless the tour ends where it started.
+    </p>
+
+    <p>
+      Remember that an eulerian circuit passes through EVERY edge and ends where it started. So can a vertex in
+      an eulerian circuit have an odd number of points? No. So if a graph has an eulerian circuit, then every vertex
+      is adjacent to an even number of vertices. We just drew up a sketch of a proof for the following theorem.
+    </p>
+
+    <theorem xml:id="thm-eulercircuit">
+      <statement>
+        <p>
+          A graph <m>G</m> has an eulerian circuit if and only if it has no vertex adjacent
+          to an odd number of edges.
+        </p>
+      </statement>
+    </theorem>
+
+    <p>
+      We finally see what Euler saw.
+    </p>
+
+    <question xml:id="q-kongigs6">
+      <statement>
+        <p>
+          So why does the Königsberg graph not have an eulerian circuit?
+        </p>
+      </statement>
+      <solution>
+        <p>
+          The Königsberg graph has several vertices adjacent to an odd number of edges.
+        </p>
+      </solution>
+      
+    </question>
+   
   </subsection>
 
   <subsection xml:id="subsec-connectivity">
     <title>Connectivity</title>
+
+    <p>
+      Let's look again at the graphs in <xref ref="fig-graphs-graphs"/>. This time we want to break down
+      our graphs by deleting vertices. In particular, we want to know how many vertices we have to delete
+      in order to break the graph into pieces.
+    </p>
+
+    <figure> <!-- source: geogebra -->
+      <image xml:id="fig-graphs-graphs2" source="graphs-connectivity.png" width="90%" />
+    </figure>
+
+    <p>
+      For example, if we delete one vertex from the first graph in <xref ref="fig-graphs-graphs2"/> (the edges
+      adjacent to that vertex are also deleted), does our graph break into two separate pieces? No. It'll take more than
+      one vertex, but it can be done with two vertices! In <xref ref="fig-graphs-deleted"/>, we deleted two vertices 
+      (indicated by the red open circles), and no the graph is broken up. We say it is <term>disconnected</term>.
+    </p>
+
+    <figure> <!-- source: geogebra -->
+      <image xml:id="fig-graphs-deleted" source="graphs-deleted.png" width="50%" />
+    </figure>
+
     
   </subsection>
 
