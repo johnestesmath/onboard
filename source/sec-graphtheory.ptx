@@ -339,10 +339,91 @@
 
   <activity xml:id="a-paths1">
     <p>
-      Can you find a path starting at <m>v_1</m> and ending at <m>v_5</m>?
+      From <xref ref="fig-graphs-xypath"/>, can you find a path starting at <m>v_1</m> and ending at <m>v_5</m>? Can you
+      find more than one?
+      </p>
+
+      <p>
+        Try this: after finding a <m>v_1</m>-<m>v_5</m> path, delete the vertices of the path from the graph (but not <m>v_1</m> and <m>v_5</m>). Then try to find another
+        <m>v_1</m>-<m>v_5</m> path and deleting those vertices as well. Repeat this process as much as possible. How many <m>v_1-v_5</m> paths
+        can you find in this way?
       </p>
   </activity>
-  
+
+  <p>
+    The paths you found in <xref ref="a-paths1"/> are called <term>internally disjoint paths</term> since they have no vertices in common other than their
+    endpoints. Did you find four internally disjoint paths in the graph in <xref ref="fig-graphs-xypath"/>? Good. For a graph <m>G</m> with nonadjacent vertices
+    <m>x</m> and <m>y</m>, is there a way we could count the number of <m>x</m>-<m>y</m> internally disjoint paths in <m>G</m>?
+  </p>
+
+  <p>
+  In <xref ref="a-paths1"/>, when we found our first <m>v_1</m>-<m>v_5</m> path, we deleted the internal vertices.   
+  </p>
+
+  <question xml:id="q-mengers1">
+    <statement>
+      <p>
+        After deleting those internal vertices, was the graph still connected?
+      </p>
+    </statement>
+    <solution>
+      <p>
+        No. If the graph was disconnected, then there would no more paths to find.
+      </p>
+    </solution>
+    
+  </question>
+
+  <question xml:id="q-mengers2">
+    <statement>
+      <p>
+        How many paths do we need to delete in order to separate <m>v_1</m> and <m>v_5</m>?
+      </p>
+    </statement>
+    <solution>
+      <p>
+        All four of them! Coincidence?
+      </p>
+    </solution>
+    
+  </question>
+
+  <p>
+    Does this give us some sort of link between <m>x</m>-<m>y</m> separating sets and the number of internally disjoint
+    <m>x</m>-<m>y</m> paths?
+  </p>
+
+  <question xml:id="q-mengers3">
+    <statement>
+      <p>
+        What is the size of the smallest <m>v_1</m>-<m>v_5</m> separating set in the graph in 
+        <xref ref="fig-graphs-xypath"/>?
+      </p>
+    </statement> 
+    <solution>
+      <p>
+        We need to delete four vertices. Note that <m>\{v_2, v_3, v_7, v_8\} </m> is a <m>v_1</m>-<m>v_5</m> separating set.
+      </p>
+    </solution>
+    
+  </question>
+
+  <p>
+    Woah. So we had four internally disjoint paths and a separating set cardinality four. This is not a coincidence. Let's take graph <m>G</m>
+    with nonadjacent vertices <m>x</m> and <m>y</m>, and let's call the 
+    number of internally <m>x</m>-<m>y</m> paths <m>p(x,y)</m>. Let's also let <m>c(x,y)</m> be the cardinality of a smallest
+    <m>x</m>-<m>y</m> separating set. Now we can show they are related.
+  </p>
+
+  <theorem xml:id="thm-mengers">
+    <title>Menger's Theorem</title>    
+    <statement>
+      <p>
+        Let <m>G</m> be a graph with nonadjacent vertices <m>x</m> and <m>y</m>. Then <m>p(x,y) = c(x,y)</m>.
+      </p>
+    </statement>
+  </theorem>
+   
     
   </subsection>
 
