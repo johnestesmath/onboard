@@ -412,21 +412,21 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "1.3",
   "title": "Introduction to Belhaven Mathematics",
-  "body": " Introduction to Belhaven Mathematics     Welcome to the Mathematics and Computer Science Department (MCS) at Belhaven University, one department under Belhaven's School of Science & Mathematics. We work hard to provide unique learning opportunities, to do a lot of math, and to have fun while we grow. Maybe we can best summarize what Belhaven MCS is about with the three crucial pillars of our identity:  Community,  Academic experiences,  Service.     Keep these pillars in mind Community. Academic experiences. Service.  We believe that our students reach their greatest potential by following these pillars, and we strive to incorporate these values throughout our curriculum.   Community      Do you want to get the most out of your college experience? We picked community as our first pillar for a reason. We want you to be a part of something special! While we provide opportunities for you, it's up to you to take advantage of them.  But we have a lot of opportunities for you to get involved quickly!   MCS Club  The student-led MCS Club.    STEM Events  The MCS Department and the School of Science and Mathematics  Homecoming  Instagram, Facebook  picnics and more things  STEM Seminar      Good Communication  Good communication is so undervalued. Go talk to your professors. At Belhaven, we want to know our students. Meet your classmates. They're going to help you through this next assignmnent.  Join the BelhavenSTEM Team. We post about upcoming events and have a channel specific to internships, scholarships, and research opportunities.     Belhaven Maker Campus        Your degree is measured in credit hours. You're taking classes ultimately to earn a degree. You'll also expect some grades in those classes. BUT let's be careful not to mistake grades and credit hours with actual learning. Our goal in the MCS Department is provide an environment of true learning. We want you to adapt a mentality of a continual learning: one who learns inside and outside of the classroom.  In addition to core classes such as Calculus, Linear Algebra, Discrete Mathematics, and Differential Equations, Belhaven's MCS department delivers a number curriculum add-ons. Let's take a look at what additional academic experiences we offer.   Mathematical Research  In MAT 391, 392, 491 and 492, students participate in the mathematical research process reviewing recent results of a select topic and attempting to further it. These students will present their findings as a poster and presentation at the Belhaven University Undergraduate Research Symposium (BUURS) and our sectional meetings of the MAA.    The Eyes of Faith Portfolio  What does the Bible say about mathematics? What does life as a Christian mathematician entail? What role does change and randomness play in God's creation? These are deep questions that we will ask ourselves during throughout our mathematics coursework at Belhaven.  The book Mathematics through the Eyes of Faith by Russell Howell and James Bradley approaches these questions in an intellectually honest manner . Students will use this text as a reference to write their own thoughts in their Eyes of Faith Portfolio , a collaboration of Eyes of Faith papers written over several courses covering chapter of our reference text.  The chapter breakdown follows curiously close to our major requirements and is summarized in the following table. (You might want to hang on to this one.)  Eyes of Faith Portfolio        Course  Course Name  Eyes Chapter    MAT 207  Calculus I   1. The Big Questions     MAT 208  Calculus II   2. The Historical Context     MAT 209  Calculus III   3. Infinity     MAT 210  Calculus IV   7. Beauty     MAT 303  Discrete Mathematics   6. Proof and Truth     MAT 304  Differential Equations   8. Effectiveness     MAT 305  Statistics and Probability   5. Chance     MAT 311  Linear Algebra   4. Dimension     MAT 410  Advanced Calculus   9. Epistemology     MAT 491  Intro to Math Research I   10. Ontology     MAT 492  Intro to Math Research II   11. An Apology         For Engineering Majors  In addition to academic experiences math majors experience, students in Belhaven's engineering partnership  learn AutoCAD in PHY 119 Intro to Engineering  interact with professional engineers from places like Yates construction, Raytheon, and Asset Engineering.  take site visits to Ole Miss, Mississippi State, and places like Nissan and the U.S. Army Corps of Engineers Research and Development Center (ERDC).      For Actuarial Science Majors  For those majoring in Actuarial Sciences (ASM), students will  learn statistical software such as R,  sit for the first actuarial exam, the Probability Exam (SOA Exam P).      Seminars  Several times a year, we bring in speakers to present topics not typically covered in a standard course. Attending these talks is a fantastic way to meet professionals who are doing what you hope to do one day and reinforces our pillars of community and academic experiences.  Just a few examples:  professors from other universities sharing their research  professional actuaries looking for interns  scientists from NASA, the Department of Wildlife and Fisheries, and the US Corps of Engineers  industry professionals in the fields of engineerng and computer science.     Young students often underestimate the power of good communication. The quicker you get comfortable with communicating with peers, professors, and advisors the better. In addition to email, most courses in the MCS utilize Microsoft Teams, a professional, team-building messaging app. The quickest and easiest way to support the Community pillar of the MCS Mission Statement is to simply download Teams, join our course's team (listed in the syllabus), join the BelhavenSTEM team, and turn on notifications in both!  "
+  "body": " Introduction to Belhaven Mathematics  Welcome to the Mathematics and Computer Science Department (MCS) at Belhaven University, one department under Belhaven's School of Science & Mathematics. We work hard to provide unique learning opportunities, to do a lot of math, and to have fun while we grow. Maybe we can best summarize what Belhaven MCS is about with the three crucial pillars of our identity:  Community,  Academic experiences,  Service.        Keep these pillars in mind Community. Academic experiences. Service.  We believe that our students reach their greatest potential by following these pillars, and we strive to incorporate these values throughout our curriculum.   Community     We are very proud of the community of students, faculty, and staff that we have in the Belhaven Math & Computer Science department, and we're excited about you joining us.  Do you want to get the most out of your college experience? We picked community as our first pillar for a reason. We want you to be a part of something special! Our most successful students at Belhaven are the ones who get involved early and often, and we encourage you to be an active part of our community.  And we have a lot of opportunities for you to get involved quickly!   MCS Club  The student-led Math & Computer Science Club gets together frequently to play games, eat some food, and sneak in some math and computer science. The MCS Club members help each other with resumes, projects, 3D printing, and more.     The MCS Club is unique in that it also serves as student chapters for both the MAA (Mathematical Association of America) and the ACM (Association of Computing & Machinery), so it's like two clubs in one. Club membership guarantees membership to one of these professional societies at a very discounted rate.     Do you want to join the MCS Club? Of course! Let your instructor know to get further details.    STEM Events  The MCS Department and the School of Science and Mathematics hosts a variety of events. It's important to join the larger science community at Belhaven. Usually food is involved too.  Be on the lookout for   Homecoming tailgating: Belhaven STEM puts on a spread for students and alumni before the football homecoming game.       FOOD: Lunch before finals, burgers at a picnic, cookies and donuts. We like to break bread with each other, and we hope you get involved.   Merch: We often order MCS or Belhaven STEM shirts, sweaters, hoodies, and such.   ScienceFest: Help us give back to the community by participating in ScienceFest, the largest science festival in the state. We help the Mississippi Children's Museum and Mississippi's Museum of Natural Science by showing math-based games (and other hands-on science experiments) to children of the Jackson metro.          Good Communication  Good communication is so undervalued. Go talk to your professors . At Belhaven, we want to know our students. Meet your classmates. They're going to help you through this next assignmnent.  Download the Microsoft Team app, and join the BelhavenSTEM Team. We post about upcoming events and have a channel specific to internships, scholarships, and research opportunities.     Academic Experiences  Your degree is measured in credit hours. You're taking classes ultimately to earn a degree. You'll also expect some grades in those classes. BUT let's be careful not to mistake grades and credit hours with actual learning. Our goal in the MCS Department is provide an environment of true learning. We want you to adapt a mentality of a continual learning: one who learns inside and outside of the classroom.  In addition to core classes such as Calculus, Linear Algebra, Discrete Mathematics, and Differential Equations, Belhaven's MCS department delivers a number of curriculum add-ons. Let's take a look at what additional academic experiences we offer.   STEM Seminar  Meet professional scientists and mathematicians who share about what they do, how they got there, and how you can too. This is a great way to find internships and jobs.       Mathematical Research  In MAT 391, 392, 491 and 492, students participate in the mathematical research process reviewing recent results of a select topic and attempting to further it. These students will present their findings as a poster and presentation at the Belhaven University Undergraduate Research Symposium (BUURS) and our sectional meetings of the MAA.           Belhaven Maker Campus  The Belhaven Maker Campus is a collaboration between Math & Computer Science and Art & Design featuring formative technologies such as 3D printers, CAD drawing systems, laser engraving, and more. We are a community of engineering students, artists, and mathematicians wanting to get our hands busy making things with technology.     Join the Maker Campus, and you can gain access to both of our campuses maker labs. Design your own creations and 3D print them! Customize your gear with laser etching or make custom stickers. There are a lot of possibilities, and the Maker Campus is designed to make your ideas a reality.          The Eyes of Faith Portfolio  What does the Bible say about mathematics? What does life as a Christian mathematician entail? What role does change and randomness play in God's creation? These are deep questions that we will ask ourselves during throughout our mathematics coursework at Belhaven.  The book Mathematics through the Eyes of Faith by Russell Howell and James Bradley approaches these questions in an intellectually honest manner . Students will use this text as a reference to write their own thoughts in their Eyes of Faith Portfolio , a collaboration of Eyes of Faith papers written over several courses covering chapter of our reference text.  The chapter breakdown follows curiously close to our major requirements and is summarized in the following table. (You might want to hang on to this one.)  Eyes of Faith Portfolio        Course  Course Name  Eyes Chapter    MAT 207  Calculus I   1. The Big Questions     MAT 208  Calculus II   2. The Historical Context     MAT 209  Calculus III   3. Infinity     MAT 210  Calculus IV   7. Beauty     MAT 303  Discrete Mathematics   6. Proof and Truth     MAT 304  Differential Equations   8. Effectiveness     MAT 305  Statistics and Probability   5. Chance     MAT 311  Linear Algebra   4. Dimension     MAT 410  Advanced Calculus   9. Epistemology     MAT 491  Intro to Math Research I   10. Ontology     MAT 492  Intro to Math Research II   11. An Apology         For Engineering Majors  In addition to academic experiences math majors experience, students in Belhaven's engineering partnership  learn AutoCAD in PHY 119 Intro to Engineering  interact with professional engineers from places like Yates construction, Raytheon, and Asset Engineering.  take site visits to Ole Miss, Mississippi State, and places like Nissan and the U.S. Army Corps of Engineers Research and Development Center (ERDC).         For Actuarial Science Majors  For those majoring in Actuarial Sciences (ASM), students will  learn statistical software such as R,  sit for the first actuarial exam, the Probability Exam (SOA Exam P).         Double Major and Minors  A mathematics major is very valuable, but pairing a math degree with another field will bring more opportunities than you might expect. We recommend either double-majoring or minoring in the following areas:   Computer Science    Chemistry or Physics    Business or Accounting    Tradigital Art     Besides these recommended degrees, we have had double majors in Dance, Theatre, Music, History, English, and so much more.   "
 },
 {
-  "id": "sec-belhaven-math-intro-2",
+  "id": "sec-belhaven-math-intro-2-2",
   "level": "2",
-  "url": "sec-belhaven-math-intro.html#sec-belhaven-math-intro-2",
+  "url": "sec-belhaven-math-intro.html#sec-belhaven-math-intro-2-2",
   "type": "Figure",
   "number": "1.3.1",
   "title": "",
   "body": "  "
 },
 {
-  "id": "sec-belhaven-math-intro-4",
+  "id": "sec-belhaven-math-intro-3",
   "level": "2",
-  "url": "sec-belhaven-math-intro.html#sec-belhaven-math-intro-4",
+  "url": "sec-belhaven-math-intro.html#sec-belhaven-math-intro-3",
   "type": "Remark",
   "number": "1.3.2",
   "title": "Keep these pillars in mind.",
@@ -439,21 +439,120 @@ var ptx_lunr_docs = [
   "type": "Figure",
   "number": "1.3.3",
   "title": "",
-  "body": "   "
+  "body": "  "
 },
 {
-  "id": "subsec-makercampus-3",
+  "id": "subsubsec-mcsclub-3",
   "level": "2",
-  "url": "sec-belhaven-math-intro.html#subsec-makercampus-3",
+  "url": "sec-belhaven-math-intro.html#subsubsec-mcsclub-3",
   "type": "Figure",
   "number": "1.3.4",
   "title": "",
   "body": "  "
 },
 {
-  "id": "sec-belhaven-math-intro-11-3",
+  "id": "subsubsec-mcsclub-5",
   "level": "2",
-  "url": "sec-belhaven-math-intro.html#sec-belhaven-math-intro-11-3",
+  "url": "sec-belhaven-math-intro.html#subsubsec-mcsclub-5",
+  "type": "Figure",
+  "number": "1.3.5",
+  "title": "",
+  "body": "  "
+},
+{
+  "id": "subsubsec-social-3-1-1-2",
+  "level": "2",
+  "url": "sec-belhaven-math-intro.html#subsubsec-social-3-1-1-2",
+  "type": "Figure",
+  "number": "1.3.6",
+  "title": "",
+  "body": "  "
+},
+{
+  "id": "subsubsec-social-3-1-4-2",
+  "level": "2",
+  "url": "sec-belhaven-math-intro.html#subsubsec-social-3-1-4-2",
+  "type": "Figure",
+  "number": "1.3.7",
+  "title": "",
+  "body": "  "
+},
+{
+  "id": "subsubsec-communicate-2",
+  "level": "2",
+  "url": "sec-belhaven-math-intro.html#subsubsec-communicate-2",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Go talk to your professors "
+},
+{
+  "id": "subsec-acexperiences-2",
+  "level": "2",
+  "url": "sec-belhaven-math-intro.html#subsec-acexperiences-2",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "BUT let's be careful not to mistake grades and credit hours with actual learning. "
+},
+{
+  "id": "subsubsec-seminar-3",
+  "level": "2",
+  "url": "sec-belhaven-math-intro.html#subsubsec-seminar-3",
+  "type": "Figure",
+  "number": "1.3.8",
+  "title": "",
+  "body": "  "
+},
+{
+  "id": "subsec-acexperiences-5-3",
+  "level": "2",
+  "url": "sec-belhaven-math-intro.html#subsec-acexperiences-5-3",
+  "type": "Figure",
+  "number": "1.3.9",
+  "title": "",
+  "body": "  "
+},
+{
+  "id": "subsec-acexperiences-5-4",
+  "level": "2",
+  "url": "sec-belhaven-math-intro.html#subsec-acexperiences-5-4",
+  "type": "Figure",
+  "number": "1.3.10",
+  "title": "",
+  "body": "  "
+},
+{
+  "id": "subsec-makercampus-3",
+  "level": "2",
+  "url": "sec-belhaven-math-intro.html#subsec-makercampus-3",
+  "type": "Figure",
+  "number": "1.3.11",
+  "title": "",
+  "body": "  "
+},
+{
+  "id": "subsec-makercampus-5",
+  "level": "2",
+  "url": "sec-belhaven-math-intro.html#subsec-makercampus-5",
+  "type": "Figure",
+  "number": "1.3.12",
+  "title": "",
+  "body": "  "
+},
+{
+  "id": "subsec-makercampus-6",
+  "level": "2",
+  "url": "sec-belhaven-math-intro.html#subsec-makercampus-6",
+  "type": "Figure",
+  "number": "1.3.13",
+  "title": "",
+  "body": "  "
+},
+{
+  "id": "sec-belhaven-math-intro-8-3",
+  "level": "2",
+  "url": "sec-belhaven-math-intro.html#sec-belhaven-math-intro-8-3",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
@@ -464,9 +563,27 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-belhaven-math-intro.html#table-eyes",
   "type": "Table",
-  "number": "1.3.5",
+  "number": "1.3.14",
   "title": "Eyes of Faith Portfolio",
   "body": " Eyes of Faith Portfolio        Course  Course Name  Eyes Chapter    MAT 207  Calculus I   1. The Big Questions     MAT 208  Calculus II   2. The Historical Context     MAT 209  Calculus III   3. Infinity     MAT 210  Calculus IV   7. Beauty     MAT 303  Discrete Mathematics   6. Proof and Truth     MAT 304  Differential Equations   8. Effectiveness     MAT 305  Statistics and Probability   5. Chance     MAT 311  Linear Algebra   4. Dimension     MAT 410  Advanced Calculus   9. Epistemology     MAT 491  Intro to Math Research I   10. Ontology     MAT 492  Intro to Math Research II   11. An Apology     "
+},
+{
+  "id": "sec-belhaven-math-intro-10",
+  "level": "2",
+  "url": "sec-belhaven-math-intro.html#sec-belhaven-math-intro-10",
+  "type": "Figure",
+  "number": "1.3.15",
+  "title": "",
+  "body": "  "
+},
+{
+  "id": "sec-belhaven-math-intro-11-3",
+  "level": "2",
+  "url": "sec-belhaven-math-intro.html#sec-belhaven-math-intro-11-3",
+  "type": "Figure",
+  "number": "1.3.16",
+  "title": "",
+  "body": "  "
 },
 {
   "id": "sec-successfuls",
@@ -475,16 +592,106 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "1.4",
   "title": "How to be a successful math major",
-  "body": " How to be a successful math major  Before going too far towards your degree in mathematics, it is worth spending time considering how to become a successful mathematics student. We will spend a few minutes now discussing a good strategy to making the most of your college tenure as a math student.  College is a unique time to invest wholeheartedly in yourself. It is an enormous opportunity to build your skills, make valuable connections, and lay a foundation for your future. Even as a freshman, having a good plan for approaching your studies will make your life much, much easier.  Let's get introspective for a moment. Ask yourself \"What can I do to be a successful math student?\" We can't provide a magic solution, and honestly everyone will have to answer this questions slightly differently. However, we can provide a few guiding points that may help you develop a strategy to do well in your mathematical coursework.   Past Experiences   Think about your past experiences in mathematics courses. When were you most successful? What practices helped you be successful?      "
+  "body": " How to be a successful math major  How do you succeed as a math student? What does success even look like for a mathematician?  College is a unique time to invest wholeheartedly in yourself. It is an enormous opportunity to build your skills, make valuable connections, and lay a foundation for your future. Even as a freshman, having a good plan for approaching your studies will make your life much, much easier.  Before going too far towards your degree in mathematics, it is worth spending time considering how to be a successful mathematics student. We will spend a few minutes now discussing a good strategy to making the most of your college tenure as a math student.   Math People   Think about people you know who are \"good\" at mathematics? What traits do they have that you feel made them \"good\" at mathematics?    Let's get introspective for a moment. What about yourself? At what moments do you feel you have been successful in mathematics?   Past Experiences   Think about your past experiences in mathematics courses. When were you most successful? What practices helped you be successful?     Tips for Success  Now let's look towards the future. Ask yourself \"What can I do to be a successful math student NOW?\" This is not always an easy question to answer, and honestly everyone will have to answer it differently. However, we can provide a few guiding points that may help you develop a strategy to do well in your mathematical coursework.     Be curious about things! It is very difficult to learn about things if you have no interest in them. We can practice curiosity (which leads to deeper learning) by simply asking \"why\" more often. Mathematics, especially, encourages us to wonder why things operate the way they do.     Don't just be a note taker! Notes can be helpful, but do not think writing down whatever is on the board is enough to have a good class. It is easy to take notes without thinking about what is actually happening in class.     Be alert in class. Come to class ready to be engaged. Ask questions. You paid for the time. Don't waste it!     Procrastination is NOT your friend. It is easy to push off an assignment here or there to another time. Somedays are about balancing competing priorities, but in the long run procrastination will only make things worse. Avoid avoiding when possible.     Consistent work leads to consistent success. Try to approach your school work like you would a workout routine. Lifting weights once a week helps some, but if you are serious about bulking up, then you know you need to hit the gym more frequently than once a week. Bring the same mindset, and with consistend work you will see gains in understanding and performance.    People associate good math-ing with intelligence. There is some truth to that, but there are things we can do to increase our level of success. While we cannot contral our intelligence, Work ethic is in your control.   What speaks to you?   After reviewing the previous points, what speaks to you? What can you do to prepare yourself to be a successful mathematics student?      Putting it into practice   If you are in a mathematics course this semester, make a plan to your approach to the course.  Ask yourself the following questions:   What can I do to engage in class?    Pick a regular time in the week reserved to work on homework. When will that be?    Who can I study with? When will I study?    Where is my instructor's office? When are their office hours?         Meeting Classmates  Find four classmates in your class that you have not met before. Ask them the following questions:   What is you name?    What is your major?    Where are you from?    What's one interesting fact about you?     Finish your introduction with each person by picking a unique codeword to share just between the two of you. Example: \"truncated\".    "
+},
+{
+  "id": "ques-mathpeople",
+  "level": "2",
+  "url": "sec-successfuls.html#ques-mathpeople",
+  "type": "Question",
+  "number": "1.4.1",
+  "title": "Math People.",
+  "body": " Math People   Think about people you know who are \"good\" at mathematics? What traits do they have that you feel made them \"good\" at mathematics?   "
 },
 {
   "id": "ques-mathpractices",
   "level": "2",
   "url": "sec-successfuls.html#ques-mathpractices",
   "type": "Question",
-  "number": "1.4.1",
+  "number": "1.4.2",
   "title": "Past Experiences.",
   "body": " Past Experiences   Think about your past experiences in mathematics courses. When were you most successful? What practices helped you be successful?   "
+},
+{
+  "id": "subsec-tips-3-1-1",
+  "level": "2",
+  "url": "sec-successfuls.html#subsec-tips-3-1-1",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Be curious about things! "
+},
+{
+  "id": "subsec-tips-3-2-1",
+  "level": "2",
+  "url": "sec-successfuls.html#subsec-tips-3-2-1",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Don't just be a note taker! "
+},
+{
+  "id": "subsec-tips-3-3-1",
+  "level": "2",
+  "url": "sec-successfuls.html#subsec-tips-3-3-1",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Be alert in class. "
+},
+{
+  "id": "subsec-tips-3-4-1",
+  "level": "2",
+  "url": "sec-successfuls.html#subsec-tips-3-4-1",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Procrastination is NOT your friend. "
+},
+{
+  "id": "subsec-tips-3-5-1",
+  "level": "2",
+  "url": "sec-successfuls.html#subsec-tips-3-5-1",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Consistent work leads to consistent success. "
+},
+{
+  "id": "subsec-tips-4",
+  "level": "2",
+  "url": "sec-successfuls.html#subsec-tips-4",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Work ethic "
+},
+{
+  "id": "q-whatcanyoudo",
+  "level": "2",
+  "url": "sec-successfuls.html#q-whatcanyoudo",
+  "type": "Question",
+  "number": "1.4.3",
+  "title": "What speaks to you?",
+  "body": " What speaks to you?   After reviewing the previous points, what speaks to you? What can you do to prepare yourself to be a successful mathematics student?   "
+},
+{
+  "id": "act-mathpractice",
+  "level": "2",
+  "url": "sec-successfuls.html#act-mathpractice",
+  "type": "Activity",
+  "number": "1.4.1",
+  "title": "",
+  "body": " If you are in a mathematics course this semester, make a plan to your approach to the course.  Ask yourself the following questions:   What can I do to engage in class?    Pick a regular time in the week reserved to work on homework. When will that be?    Who can I study with? When will I study?    Where is my instructor's office? When are their office hours?     "
+},
+{
+  "id": "a-classmates",
+  "level": "2",
+  "url": "sec-successfuls.html#a-classmates",
+  "type": "Activity",
+  "number": "1.4.2",
+  "title": "",
+  "body": " Meeting Classmates  Find four classmates in your class that you have not met before. Ask them the following questions:   What is you name?    What is your major?    Where are you from?    What's one interesting fact about you?     Finish your introduction with each person by picking a unique codeword to share just between the two of you. Example: \"truncated\".  "
 },
 {
   "id": "sec-career",
@@ -493,7 +700,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "1.5",
   "title": "Careers in Mathematics",
-  "body": " Careers in Mathematics  What can you do with your degree? What doors does a background in mathematics open? What is a mathematician? You can be a math teacher, but what if you're not interested in education as a career?  It's good to be thinking of life after college, even if you just started your college days. A little research into what career options are open to you will help set a vision for your future, and a vision for the future will provide a path of clear steps to get you there.  Remember:   There is no success without discipline.    There is no discipine without vision.     Also remember that a huge part of the college experience is exploring options and figuring out what path fits you best. Do not feel pressured to have everything figured out yet. Here we are simply showing what's out here.   What Careers are there?   Northwestern University compiled a list of careers using mathematics. Read through the article Best Math Careers.     Do any of these careers seem interesting to you?   What Careers are there?   Find three careers (one of them resulting directly from a mathematics degree) that you can follow with your degree. Be sure to include your sources.     Canvas Discussion   Locate the Canvas discussion post \"Mathematical Careers\", and share a resource highlighting one of the careers you found to be interesting.     Career Interest   Do any of the careers you mentioned or found in Canvas seem like a career you would like to pursue? Why or why not?     Steps Towards a Career   After reviewing several careers, choose one and describe steps you can take to obtain that position.    "
+  "body": " Careers in Mathematics  What can you do with your degree? What doors does a background in mathematics open? What is a mathematician? You can be a math teacher, but what if you're not interested in education as a career?  It's good to be thinking of life after college, even if you just started your college days. A little research into what career options are open to you will help set a vision for your future, and a vision for the future will provide a path of clear steps to get you there.  Remember:   There is no success without discipline.    There is no discipine without vision.     Also remember that a huge part of the college experience is exploring options and figuring out what path fits you best. Do not feel pressured to have everything figured out yet. Here we are simply showing what's out here.   What Careers are there?   Northwestern University compiled a list of careers using mathematics. Read through the article Best Math Careers.     Do any of these careers seem interesting to you?   What Careers are there?   Find three careers (one of them resulting directly from a mathematics degree) that you can follow with your degree. Be sure to include your sources.     Canvas Discussion   Locate the Canvas discussion post \"Mathematical Careers\", and share a resource highlighting one of the careers you found to be interesting.     Career Interest   Do any of the careers you mentioned or found in Canvas seem like a career you would like to pursue? Why or why not?     Steps Towards a Career   After reviewing several careers, choose one and describe steps you can take to obtain that position.     College after college  Some of us are destined for more school than others. You might find yourself wanting more math than what your undergrad experience can accommodate. It could be that you decide to earn a Master's or a PhD.  If you have any interest in graduate school, you'll want to make sure to build a resume of things graudate programs look for.   high GPA    interest in research (conferences, posters, thesis)    a Research Experience for Undergrads (REU) if possible.      "
 },
 {
   "id": "sec-career-4",
@@ -556,7 +763,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "1.6",
   "title": "Logically Speaking",
-  "body": " Logically Speaking  Let's assume that if gordentockles borg the headenvorsh, then the dezapatos changs the wungwing. Also, we all know that if the dezapatos changs the wungwing, then chimi dupas the mongo-gale. But does that means that if gordentockles borg the headenvorsh, then chimi dupas the mongo-gale?  What? What was that?  You have probably seen theorem statements in textbooks like the Mean Value Theorem below. If you are like me, then you probably skipped all of the words and jumped to the big equation. Right?   Mean Value Theorem   If is a function that is continuous on and differentiable on , then there is a number in such that     It's okay if you have no idea what any of that means. The Mean Value Theorem will have more meaning in Calculus. For now, just notice that has the form if some stuff then some more stuff.  Actually, the nonsensical paragraph opening this session has several \" if some stuff then some more stuff\" statements. These type of statements are called conditional statements, and we can represent them symbolically like . We we know logically that implies that if occurs, then will follow.   Gordentockles and Chimi  Earlier we were asked whether we know for sure that if gordentockles borg the headenvorsh, then chimi dupas the mongo-gale. Let's represent the statement \"gordentockles borg the headenvorsh\" with , the statement \"the dezapatos changs the wungwing\" with , and the statement \"chimi dupas the mongo-gale\" with .      How would we represent symbolically the statement \"if gordentockles borg the headenvorsh, then the dezapatos changs the wungwing\"?    This is a conditional statement: .      How would we represent symbolically the statement \"if the dezapatos changs the wungwing, then the chimi dupas the mongo-gale\"?    This is a conditional statement: .    From and , we have two conditionals and . So if occurs, then occurs, and if occurs, then so does . So is it not true then, that if occurs, then occurs?    What does mean? And is it true based upon what we know?    The conditional statement reads as \"if gordentockles borg the headenvorsh, then chimi dupas the mongo-gale\", and it is true based upon what we know.      The Usefulness of Logic  Logic helps us safely traverse through mathematical statements. As we'll see later, all proof writing depends on principles of logic, and having a good understanding of the basics of logic will help us make sense of things that are initially unintuitive.  The past few exercises showed a couple of things. Firstly, that we can follow the logic of an argument even if we're not overly familiar with the contents of the article. Do we even know what a gordentockle is? Secondly, we arrived to some transitive form of conditionals. We decided that if and , then . Logicians can string together simpler logic statements to arrive to new, more complicated statements.  Take a look at the tree REF below, in which each edge is a conditional statement.  FIGURE HERE OF LOGIC TREE      If is true, what else do we know for sure is true?    We know and is true, so is true.        Starting with , what things must be true to guarantee that is true?    To guarantee that is true, we must have to be true as well. Note that we do not know if this is only reason is true or not, but the way we can guarantee it.        Suppose is not true. What else do we know for sure is not true?    It is tempting to say that and are not true, but we don't know that actually! What we know is that . So if is true and is false, then we have a contradiction. So if is false, then must be false.      Contrapositives   gave us a new rule of logic. Supposing is true and is false, we now know that must be false. We'll write to mean \"not \", and so our new rule could be stated as .  This new statement, , is called the contrapositive , and the conditional and the contrapostive are logically equivalent statments. This means, that if one is true, then they're both true, and if one is false, they're both false.  Contrapositives are very useful.    What is the contrapostive of the statment \"if the dezapatos changs the wungwing, then chimi dupas the mongo-gale\"?    If chimi does not dupas the mongo-gale, then the dezapatos does not chang the wungwing.      Make up three conditional \"if-then\" statements and write them down. Trade your conditionals with a classmate and write the contrapositive to your classmate's conditional statements.      Knights and Knaves  Mathematician (and magician) Raymond Smullyan (1919-2017) famously wrote several books of logic puzzles. The puzzles have entertained and challenged people for decades. You can find a list of his works at the https:\/\/www.raymondsmullyan.com\/bio\/  PIC HERE SMULLYAN OR AN ISLAND  One set of his puzzles involve the reader (you) visiting an island in which there lives two types of people. Knights ALWAYS tell the truth, and Knaves ALWAY lie. In many of these puzzles, you engage in a brief discussion with two or more island inhabitants, and based upon their statements you are challenged with identifying what type of people each person is.  Let's try a few.   Knight and Knaves I   You encounter two island residents, and , each is either a knight or a knave. makes the following statement: \"At least one of us is a knave.\" What are and ?     Knight and Knaves II   Suppose says, \"Either I am a knave or is a knight.\" What are and ?     Knight and Knaves III   This time, you encounter three people , each of whom is either a knight or knave. and make the following statements:    What are , and ?    GITHUB LINK TO VIRTUAL QUESTIONS You can find more puzzles at https:\/\/dmackinnon1.github.io\/logic.html.   "
+  "body": " Logically Speaking  Let's assume that if gordentockles borg the headenvorsh, then the dezapatos changs the wungwing. Also, we all know that if the dezapatos changs the wungwing, then chimi dupas the mongo-gale. But does that means that if gordentockles borg the headenvorsh, then chimi dupas the mongo-gale?  What? What was that?  You have probably seen theorem statements in textbooks like the Mean Value Theorem below. If you are like me, then you probably skipped all of the words and jumped to the big equation. Right?   Mean Value Theorem   If is a function that is continuous on and differentiable on , then there is a number in such that     It's okay if you have no idea what any of that means. The Mean Value Theorem will have more meaning in Calculus. For now, just notice that has the form if some stuff then some more stuff.  Actually, the nonsensical paragraph opening this session has several \" if some stuff then some more stuff\" statements. These type of statements are called conditional statements, and we can represent them symbolically like . We we know logically that implies that if occurs, then will follow.   Gordentockles and Chimi  Earlier we were asked whether we know for sure that if gordentockles borg the headenvorsh, then chimi dupas the mongo-gale. Let's represent the statement \"gordentockles borg the headenvorsh\" with , the statement \"the dezapatos changs the wungwing\" with , and the statement \"chimi dupas the mongo-gale\" with .      How would we represent symbolically the statement \"if gordentockles borg the headenvorsh, then the dezapatos changs the wungwing\"?    This is a conditional statement: .      How would we represent symbolically the statement \"if the dezapatos changs the wungwing, then the chimi dupas the mongo-gale\"?    This is a conditional statement: .    From and , we have two conditionals and . So if occurs, then occurs, and if occurs, then so does . So is it not true then, that if occurs, then occurs?    What does mean? And is it true based upon what we know?    The conditional statement reads as \"if gordentockles borg the headenvorsh, then chimi dupas the mongo-gale\", and it is true based upon what we know.      The Usefulness of Logic  Logic helps us safely traverse through mathematical statements. As we'll see later, all proof writing depends on principles of logic, and having a good understanding of the basics of logic will help us make sense of things that are initially unintuitive.  The past few exercises showed a couple of things. Firstly, that we can follow the logic of an argument even if we're not overly familiar with the contents of the article. Do we even know what a gordentockle is? Secondly, we arrived to some transitive form of conditionals. We decided that if and , then . Logicians can string together simpler logic statements to arrive to new, more complicated statements.  Take a look at the tree REF below, in which each edge is a conditional statement.       If is true, what else do we know for sure is true?    We know and is true, so is true.      Starting with , what things must be true to guarantee that is true?    To guarantee that is true, we must have to be true as well. Note that we do not know if this is only reason is true or not, but the way we can guarantee it.      Suppose is not true. What else do we know for sure is not true?    It is tempting to say that and are not true, but we don't know that actually! What we know is that . So if is true and is false, then we have a contradiction. So if is false, then must be false.      Contrapositives   gave us a new rule of logic. Supposing is true and is false, we now know that must be false. We'll write to mean \"not \", and so our new rule could be stated as .  This new statement, , is called the contrapositive , and the conditional and the contrapostive are logically equivalent statments. This means, that if one is true, then they're both true, and if one is false, they're both false.  Contrapositives are very useful.    What is the contrapostive of the statment \"if the dezapatos changs the wungwing, then chimi dupas the mongo-gale\"?    If chimi does not dupas the mongo-gale, then the dezapatos does not chang the wungwing.      Make up three conditional \"if-then\" statements and write them down. Trade your conditionals with a classmate and write the contrapositive to your classmate's conditional statements.      Knights and Knaves  Mathematician (and magician) Raymond Smullyan (1919-2017) famously wrote several books of logic puzzles. The puzzles have entertained and challenged people for decades. You can find a list of his works at the https:\/\/www.raymondsmullyan.com\/bio\/    Raymond Smullyan (1919-2017)   One set of his puzzles involve the reader (you) visiting an island in which there lives two types of people. Knights ALWAYS tell the truth, and Knaves ALWAY lie. In many of these puzzles, you engage in a brief discussion with two or more island inhabitants, and based upon their statements you are challenged with identifying what type of people each person is.  Let's try a few.   Knight and Knaves I   You encounter two island residents, and , each is either a knight or a knave. makes the following statement: \"At least one of us is a knave.\" What are and ?     Knight and Knaves II   Suppose says, \"Either I am a knave or is a knight.\" What are and ?     Knight and Knaves III   This time, you encounter three people , each of whom is either a knight or knave. and make the following statements:    What are , and ?    You can more of Smullyan's logic puzzles on Dan Mackinnon's github page .    Samurai Jack and the Wyrm  In the early 2000's, the Cartoon Network hit, Samurai Jack explored a Smullyan-style logic puzzle. In the show, Jack is desparately trying to return to his proper time in history hears a rumor of a two-headed wyrm with the power of time travel.  The two heads of the wyrm tell him that one head only tells the truth and the other only tells lies (Sound familiar?), and Jack has to determine which one is which. If he answers correctly, the truth telling head will devour Jack, and that process will send Jack back to the past.      SPOILER ALERT: Unfortunately for Jack, both heads lie, and the entire exercise was just a trick. Don't worry, though, Jack escapes mostly in good health.   "
 },
 {
   "id": "thm-mvt",
@@ -613,11 +820,20 @@ var ptx_lunr_docs = [
   "body": "  What does mean? And is it true based upon what we know?    The conditional statement reads as \"if gordentockles borg the headenvorsh, then chimi dupas the mongo-gale\", and it is true based upon what we know.   "
 },
 {
+  "id": "subsec-useoflogic-5",
+  "level": "2",
+  "url": "sec-logicpuzzle.html#subsec-useoflogic-5",
+  "type": "Figure",
+  "number": "1.6.5",
+  "title": "",
+  "body": "  "
+},
+{
   "id": "ques-logic1",
   "level": "2",
   "url": "sec-logicpuzzle.html#ques-logic1",
   "type": "Question",
-  "number": "1.6.5",
+  "number": "1.6.6",
   "title": "",
   "body": "  If is true, what else do we know for sure is true?    We know and is true, so is true.   "
 },
@@ -626,7 +842,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-logicpuzzle.html#ques-logic2",
   "type": "Question",
-  "number": "1.6.6",
+  "number": "1.6.7",
   "title": "",
   "body": "  Starting with , what things must be true to guarantee that is true?    To guarantee that is true, we must have to be true as well. Note that we do not know if this is only reason is true or not, but the way we can guarantee it.   "
 },
@@ -635,7 +851,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-logicpuzzle.html#ques-logic3",
   "type": "Question",
-  "number": "1.6.7",
+  "number": "1.6.8",
   "title": "",
   "body": "  Suppose is not true. What else do we know for sure is not true?    It is tempting to say that and are not true, but we don't know that actually! What we know is that . So if is true and is false, then we have a contradiction. So if is false, then must be false.   "
 },
@@ -653,7 +869,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-logicpuzzle.html#ques-contrapositive1",
   "type": "Question",
-  "number": "1.6.8",
+  "number": "1.6.9",
   "title": "",
   "body": "  What is the contrapostive of the statment \"if the dezapatos changs the wungwing, then chimi dupas the mongo-gale\"?    If chimi does not dupas the mongo-gale, then the dezapatos does not chang the wungwing.   "
 },
@@ -667,11 +883,20 @@ var ptx_lunr_docs = [
   "body": "  Make up three conditional \"if-then\" statements and write them down. Trade your conditionals with a classmate and write the contrapositive to your classmate's conditional statements.   "
 },
 {
+  "id": "subsec-knights-3",
+  "level": "2",
+  "url": "sec-logicpuzzle.html#subsec-knights-3",
+  "type": "Figure",
+  "number": "1.6.10",
+  "title": "",
+  "body": "  Raymond Smullyan (1919-2017)  "
+},
+{
   "id": "ques-smullyan1",
   "level": "2",
   "url": "sec-logicpuzzle.html#ques-smullyan1",
   "type": "Question",
-  "number": "1.6.9",
+  "number": "1.6.11",
   "title": "Knight and Knaves I.",
   "body": " Knight and Knaves I   You encounter two island residents, and , each is either a knight or a knave. makes the following statement: \"At least one of us is a knave.\" What are and ?   "
 },
@@ -680,7 +905,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-logicpuzzle.html#ques-smullyan2",
   "type": "Question",
-  "number": "1.6.10",
+  "number": "1.6.12",
   "title": "Knight and Knaves II.",
   "body": " Knight and Knaves II   Suppose says, \"Either I am a knave or is a knight.\" What are and ?   "
 },
@@ -689,9 +914,18 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-logicpuzzle.html#ques-smullyan3",
   "type": "Question",
-  "number": "1.6.11",
+  "number": "1.6.13",
   "title": "Knight and Knaves III.",
   "body": " Knight and Knaves III   This time, you encounter three people , each of whom is either a knight or knave. and make the following statements:    What are , and ?   "
+},
+{
+  "id": "vid-khanpascal",
+  "level": "2",
+  "url": "sec-logicpuzzle.html#vid-khanpascal",
+  "type": "Figure",
+  "number": "1.6.14",
+  "title": "",
+  "body": "   "
 },
 {
   "id": "sec-graphtheory",
@@ -700,12 +934,30 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "1.7",
   "title": "Connecting Dots",
-  "body": " Connecting Dots  PIC  Jane and her friend Julia were invited to a small get together at their friend Julio's place. When they arrive, they don't really know any of the other four people (other than Julio) who seem to know each other EXCEPT one of the four coincidentally is Jane's cousin, Elaine.  This type situations happen all of the time. If you're sitting in a classroom, you're in a similar situation right now. When you are with a group of people, you are a part of a mathematical structure known as a graph . Actually, any network (relationships, pipe systems, road maps, the internet, ) can be represented as graphs.  GRAPH PICS  We see graphs anytime we have a collection of items (We call them vertices or nodes .) and relationships between those items (We call the relationships edges .). In fact, it is by the vertices and edges that we define a graph.    A graph G is a pair of two sets and , where is the set of vertices and is the set of edges on .       Drawing a Graph   Draw the graph with and edge set .     Touring the City of Konigsburg  KONIGSBUG PIC: By Bogdan Giuşcă - Public domain (PD),based on the image, CC BY-SA 3.0, https:\/\/commons.wikimedia.org\/w\/index.php?curid=112920  If we happen to find ourselves in Konigsburg Prussia in the 18th century, we would see a city layout similar to the one in FIGURE. The Pregel river flowed through the middle of the city forming two islands. The part we care about, though, is the seven bridges highlighted in FIGURE.  The incredibly brilliant mathematician, Leonhard Euler (1707-1783), proposed the now famous question: Can someone take a tour of Konigsburg in which all seven bridges are crossed exactly one time, and the tourist returns back to his or her starting position? If so, we'll call that a successful tour of Konigsburg.    Can you find a successful tour of Konigsburg?        Connectivity    Six Degrees of Separation   "
+  "body": " Connecting Dots      Jane and her friend Julia were invited to a small get together at their friend Julio's place. When they arrive, they don't really know any of the other four people (other than Julio) who seem to know each other EXCEPT one of the four coincidentally is Jane's cousin, Elaine.     Julio's party   This type situations happen all of the time. If you're sitting in a classroom, you're in a similar situation right now. When you are with a group of people, you are a part of a mathematical structure known as a graph . Actually, any network (relationships, pipe systems, road maps, the internet, ...) can be represented as a graph.     Various graphs   We see graphs anytime we have a collection of items (We call them vertices or nodes .) and relationships between those items (We call the relationships edges .). In fact, it is by the vertices and edges that we define a graph.    A graph G is a pair of two sets and , where is the set of vertices and is the set of edges on .       Drawing a Graph   Draw the graph with vertex set and edge set .    Graph theorists study all sort aspects of graphs. We ask questions about the longest path of a graph, how easy is it to break up a graph with vertex or edge deletions, and if we can draw a graph in the plane without crossing any edges (among many others).  We'll explore a few interesting graph theory questions here.   Touring the City of Königsburg      If we happen to find ourselves in Königsburg Prussia in the 18th century, we would see a city layout similar to the one in . The Pregel river flowed through the middle of the city forming two islands. The part we care about, though, is the seven highlighted bridges.  Residents such as ourselves, as a game, would often attempt to tour the city with these rules:   You must cross each bridge (all 7) exactly one time (no more and no less).    You must end your tour exactly where you began.   A tour that meets these requirements will be called a successful tour.    Can you find a successful tour of Königsburg?    This game peaked the interest of the incredibly brilliant mathematician, Leonhard Euler (1707-1783), and to solve this question Euler introduced the field of graph theory to the world. The Königsburg bridge problem is considered the to be the first instance graph theory historically. Like Euler, we can picture Königsburg as a graph by treating the bridges as edges and use vertices to represent each land mass.    Represent Königsburg with a graph.            What do we mean by a \"tour\" on a graph? First, two edges are incident if they share a vertex. We can say a tour is a sequence of incident edges. We want to find a tour that begins and ends with the same vertex. This type of tour is called an eulerian circuit .   Let's take a tour on our new Königsburg graph, and each time we visit and each time we leave a vertex, we will give that vertex a point. For example, if we start at vertex and travel to and then to , then and have 1 point each while has 2 points.      As we keep touring through our graph, the points of a vertex tells us how many edges touching that vertex are a part of our tour.   One-point vertices   How can the vertex have 1 point?    Either is the beginning or ending of our tour (and not both).     Odd Points   How can the vertex have an odd number of points?    Our tour is currently resting at , and is not the first and last vertex of the tour. If the point value is more than 1, then the tour has already arrived and left at least once.     Even Points   How can the vertex have an even number of points?    Our tour is resting at . If the point value is more than 1, then the tour has already arrived and left at least once.    From questions , , and , we see that a vertex will only have an odd number of points (or adjacent to an odd number of edges in our tour) if that vertex either starts or ends the tour... unless the tour ends where it started.  Remember that an eulerian circuit passes through EVERY edge and ends where it started. So can a vertex in an eulerian circuit have an odd number of points? No. So if a graph has an eulerian circuit, then every vertex is adjacent to an even number of vertices. We just drew up a sketch of a proof for the following theorem.    A graph has an eulerian circuit if and only if it has no vertex adjacent to an odd number of edges.    We finally see what Euler saw.    So why does the Königsberg graph not have an eulerian circuit?    The Königsberg graph has several vertices adjacent to an odd number of edges.      Connectivity  Let's look again at the graphs in . This time we want to break down our graphs by deleting vertices. In particular, we want to know how many vertices we have to delete in order to break the graph into pieces.      For example, if we delete one vertex from the first graph in (the edges adjacent to that vertex are also deleted), does our graph break into two separate pieces? No. It'll take more than one vertex, but it can be done with two vertices! In , we deleted two vertices (indicated by the red open circles), and now the graph is broken up. We say it is disconnected .      There's a lot we could say about this situation. The two vertices we deleted are a cut set of the graph, and the pieces are called components . After we delete our cut set, if is in one component and is another component, then our cut set is a separating set . In this graph, our cut set had two vertices, so we say the graph is -connected.    In general, the graph is -connected if has a cut set of vertices.    So how connected are the graphs in ?    For each graph in , what is the smallest value of such that is -connected?    The graph on the farthest left is -connected.    Knowing how connected a graph is can tell us other things as well. For example,    If is a -connected graph, , then every vertices of lie on a common cycle of .    Connectivity and cycles do not seem to be immediately related, but graph theorists have discovered that they are related concepts.    Different Paths  Let's play one more walking game. This time we'll look at paths in a graph. A path is like a tour except now vertices can be revisted. So a path is a tour with unique vertices and edges.       From , can you find a path starting at and ending at ? Can you find more than one?  Try this: after finding a - path, delete the vertices of the path from the graph (but not and ). Then try to find another - path and deleting those vertices as well. Repeat this process as much as possible. How many paths can you find in this way?   The paths you found in are called internally disjoint paths since they have no vertices in common other than their endpoints. Did you find four internally disjoint paths in the graph in ? Good. For a graph with nonadjacent vertices and , is there a way we could count the number of - internally disjoint paths in ?  In , when we found our first - path, we deleted the internal vertices.    After deleting those internal vertices, was the graph still connected?    No. If the graph was disconnected, then there would no more paths to find.      How many paths do we need to delete in order to separate and ?    All four of them! Coincidence?    Does this give us some sort of link between - separating sets and the number of internally disjoint - paths?    What is the size of the smallest - separating set in the graph in ?    We need to delete four vertices. Note that is a - separating set.    Woah. So we had four internally disjoint paths and a separating set cardinality four. This is not a coincidence. Let's take graph with nonadjacent vertices and , and let's call the number of internally - paths . Let's also let be the cardinality of a smallest - separating set. Now we can show they are related.   Menger's Theorem   Let be a graph with nonadjacent vertices and . Then .     "
+},
+{
+  "id": "sec-graphtheory-2",
+  "level": "2",
+  "url": "sec-graphtheory.html#sec-graphtheory-2",
+  "type": "Figure",
+  "number": "1.7.1",
+  "title": "",
+  "body": "   "
 },
 {
   "id": "sec-graphtheory-4",
   "level": "2",
   "url": "sec-graphtheory.html#sec-graphtheory-4",
+  "type": "Figure",
+  "number": "1.7.2",
+  "title": "",
+  "body": "   Julio's party  "
+},
+{
+  "id": "sec-graphtheory-5",
+  "level": "2",
+  "url": "sec-graphtheory.html#sec-graphtheory-5",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
@@ -715,6 +967,15 @@ var ptx_lunr_docs = [
   "id": "sec-graphtheory-6",
   "level": "2",
   "url": "sec-graphtheory.html#sec-graphtheory-6",
+  "type": "Figure",
+  "number": "1.7.3",
+  "title": "",
+  "body": "   Various graphs  "
+},
+{
+  "id": "sec-graphtheory-7",
+  "level": "2",
+  "url": "sec-graphtheory.html#sec-graphtheory-7",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
@@ -725,7 +986,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-graphtheory.html#def-graph",
   "type": "Definition",
-  "number": "1.7.1",
+  "number": "1.7.4",
   "title": "",
   "body": "  A graph G is a pair of two sets and , where is the set of vertices and is the set of edges on .   "
 },
@@ -734,9 +995,18 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-graphtheory.html#ques-graphs1",
   "type": "Question",
-  "number": "1.7.2",
+  "number": "1.7.5",
   "title": "",
-  "body": " Drawing a Graph   Draw the graph with and edge set .   "
+  "body": " Drawing a Graph   Draw the graph with vertex set and edge set .   "
+},
+{
+  "id": "subsec-konigsburg-2",
+  "level": "2",
+  "url": "sec-graphtheory.html#subsec-konigsburg-2",
+  "type": "Figure",
+  "number": "1.7.6",
+  "title": "",
+  "body": "   "
 },
 {
   "id": "subsec-konigsburg-5",
@@ -745,7 +1015,214 @@ var ptx_lunr_docs = [
   "type": "Activity",
   "number": "1.7.1",
   "title": "",
-  "body": "  Can you find a successful tour of Konigsburg?   "
+  "body": "  Can you find a successful tour of Königsburg?   "
+},
+{
+  "id": "q-konigsburg",
+  "level": "2",
+  "url": "sec-graphtheory.html#q-konigsburg",
+  "type": "Question",
+  "number": "1.7.7",
+  "title": "",
+  "body": "  Represent Königsburg with a graph.           "
+},
+{
+  "id": "subsec-konigsburg-8",
+  "level": "2",
+  "url": "sec-graphtheory.html#subsec-konigsburg-8",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "incident tour eulerian circuit "
+},
+{
+  "id": "subsec-konigsburg-10",
+  "level": "2",
+  "url": "sec-graphtheory.html#subsec-konigsburg-10",
+  "type": "Figure",
+  "number": "1.7.9",
+  "title": "",
+  "body": "   "
+},
+{
+  "id": "q-konigs2",
+  "level": "2",
+  "url": "sec-graphtheory.html#q-konigs2",
+  "type": "Question",
+  "number": "1.7.10",
+  "title": "One-point vertices.",
+  "body": " One-point vertices   How can the vertex have 1 point?    Either is the beginning or ending of our tour (and not both).   "
+},
+{
+  "id": "q-konigs3",
+  "level": "2",
+  "url": "sec-graphtheory.html#q-konigs3",
+  "type": "Question",
+  "number": "1.7.11",
+  "title": "Odd Points.",
+  "body": " Odd Points   How can the vertex have an odd number of points?    Our tour is currently resting at , and is not the first and last vertex of the tour. If the point value is more than 1, then the tour has already arrived and left at least once.   "
+},
+{
+  "id": "q-konigs4",
+  "level": "2",
+  "url": "sec-graphtheory.html#q-konigs4",
+  "type": "Question",
+  "number": "1.7.12",
+  "title": "Even Points.",
+  "body": " Even Points   How can the vertex have an even number of points?    Our tour is resting at . If the point value is more than 1, then the tour has already arrived and left at least once.   "
+},
+{
+  "id": "thm-eulercircuit",
+  "level": "2",
+  "url": "sec-graphtheory.html#thm-eulercircuit",
+  "type": "Theorem",
+  "number": "1.7.13",
+  "title": "",
+  "body": "  A graph has an eulerian circuit if and only if it has no vertex adjacent to an odd number of edges.   "
+},
+{
+  "id": "q-kongigs6",
+  "level": "2",
+  "url": "sec-graphtheory.html#q-kongigs6",
+  "type": "Question",
+  "number": "1.7.14",
+  "title": "",
+  "body": "  So why does the Königsberg graph not have an eulerian circuit?    The Königsberg graph has several vertices adjacent to an odd number of edges.   "
+},
+{
+  "id": "subsec-connectivity-3",
+  "level": "2",
+  "url": "sec-graphtheory.html#subsec-connectivity-3",
+  "type": "Figure",
+  "number": "1.7.15",
+  "title": "",
+  "body": "   "
+},
+{
+  "id": "subsec-connectivity-4",
+  "level": "2",
+  "url": "sec-graphtheory.html#subsec-connectivity-4",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "disconnected "
+},
+{
+  "id": "subsec-connectivity-5",
+  "level": "2",
+  "url": "sec-graphtheory.html#subsec-connectivity-5",
+  "type": "Figure",
+  "number": "1.7.16",
+  "title": "",
+  "body": "   "
+},
+{
+  "id": "subsec-connectivity-6",
+  "level": "2",
+  "url": "sec-graphtheory.html#subsec-connectivity-6",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "cut set components separating set "
+},
+{
+  "id": "def-connectivity",
+  "level": "2",
+  "url": "sec-graphtheory.html#def-connectivity",
+  "type": "Definition",
+  "number": "1.7.17",
+  "title": "",
+  "body": "  In general, the graph is -connected if has a cut set of vertices.   "
+},
+{
+  "id": "q-connectivity1",
+  "level": "2",
+  "url": "sec-graphtheory.html#q-connectivity1",
+  "type": "Question",
+  "number": "1.7.18",
+  "title": "",
+  "body": "  For each graph in , what is the smallest value of such that is -connected?    The graph on the farthest left is -connected.   "
+},
+{
+  "id": "thm-kconnectedresult",
+  "level": "2",
+  "url": "sec-graphtheory.html#thm-kconnectedresult",
+  "type": "Theorem",
+  "number": "1.7.19",
+  "title": "",
+  "body": "  If is a -connected graph, , then every vertices of lie on a common cycle of .   "
+},
+{
+  "id": "subsec-mengers-2",
+  "level": "2",
+  "url": "sec-graphtheory.html#subsec-mengers-2",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "paths path "
+},
+{
+  "id": "subsec-mengers-3",
+  "level": "2",
+  "url": "sec-graphtheory.html#subsec-mengers-3",
+  "type": "Figure",
+  "number": "1.7.20",
+  "title": "",
+  "body": "   "
+},
+{
+  "id": "a-paths1",
+  "level": "2",
+  "url": "sec-graphtheory.html#a-paths1",
+  "type": "Activity",
+  "number": "1.7.2",
+  "title": "",
+  "body": " From , can you find a path starting at and ending at ? Can you find more than one?  Try this: after finding a - path, delete the vertices of the path from the graph (but not and ). Then try to find another - path and deleting those vertices as well. Repeat this process as much as possible. How many paths can you find in this way?  "
+},
+{
+  "id": "subsec-mengers-5",
+  "level": "2",
+  "url": "sec-graphtheory.html#subsec-mengers-5",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "internally disjoint paths "
+},
+{
+  "id": "q-mengers1",
+  "level": "2",
+  "url": "sec-graphtheory.html#q-mengers1",
+  "type": "Question",
+  "number": "1.7.21",
+  "title": "",
+  "body": "  After deleting those internal vertices, was the graph still connected?    No. If the graph was disconnected, then there would no more paths to find.   "
+},
+{
+  "id": "q-mengers2",
+  "level": "2",
+  "url": "sec-graphtheory.html#q-mengers2",
+  "type": "Question",
+  "number": "1.7.22",
+  "title": "",
+  "body": "  How many paths do we need to delete in order to separate and ?    All four of them! Coincidence?   "
+},
+{
+  "id": "q-mengers3",
+  "level": "2",
+  "url": "sec-graphtheory.html#q-mengers3",
+  "type": "Question",
+  "number": "1.7.23",
+  "title": "",
+  "body": "  What is the size of the smallest - separating set in the graph in ?    We need to delete four vertices. Note that is a - separating set.   "
+},
+{
+  "id": "thm-mengers",
+  "level": "2",
+  "url": "sec-graphtheory.html#thm-mengers",
+  "type": "Theorem",
+  "number": "1.7.24",
+  "title": "Menger’s Theorem.",
+  "body": " Menger's Theorem   Let be a graph with nonadjacent vertices and . Then .   "
 },
 {
   "id": "sec-fourcolors",
@@ -754,13 +1231,13 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "1.8",
   "title": "Coloring Graphs",
-  "body": " Coloring Graphs  Consider the map of the United States in figure \\ref{map}. You are challenged to color the map with the rule that bordering states cannot have the same color. Overall this is pretty easy, BUT we also want to use the fewest colors possible. How many colors do you need to do this?   Color the map   Color the map in the fewest colors possible, where neighboring states do not share a color.             How many colors?   So how many colors did it take to color your map?    The minimum number of colors is .    In this context, if we treat each state as a vertex and shared borders as edges, then this map is just a graph. The challenge we gave to color the map then is really a challenge to color a graph with this rule: if two vertices share an edge, those vertices must be different colors.  Finding the minimum colors to color a graph is a common graph theory question.   Coloring Trees  A graph is called a tree if it is connected and has no cycles. More precisely, there is a path between any two vertices... but only one path.  TIKZ PIC OF A TREE      How many colors does the tree in TIKZ PIC require?    Only two!        Draw three of your own trees on at least vertices. How many colors do your new trees require?    Do you we know how many colors any tree will require now? Is it possible that all trees can be colored in two colors? Based on our examples, we want to say \"yes\", but a few examples is not enough to say for sure in the world of mathematics.  Maybe we can make a logical argument to show trees can be colored in two colors, though. Let's start with a vertex (call it ) and color it . Also, we say a vertex is a neighbor of (or adjacent to ) if it shares an edges with .    What color can we color the neighbors of ?      What color can we color the neighbors of the neighbors of ?      What about the neighbors of the neighbors of the neighbors of ?    Okay, maybe we have found a pattern.    What color can we color a vertex that is an odd number of edges away from ? what about a vertex an even number of edges from ?    This argument only works, though, because we're talking about trees. If there is a cycle in our graph, then a vertex may an even number of edges from coming from one direction and an odd number of edges from another direction. That can't happen in a tree.  Awesome. So trees can be colored in two colors.    What about Cycles?  So we know trees can be colored in two colors, and our argument really needed the fact the trees do not have cycles. So what about cycles? Can a cycle be colored in two colors?     Coloring cycles   Draw four cycles on vertices for different values of (I recommend consecutive values of ) and color their vertices.        Give a hypothesis on the number of colors a cycle on vertices requires to be colored.    After observing several cycles, we conclude that if is even, the cycle requires two colors. However, if is odd, the cycle requires three colors.      Appel and Haken shook things up  We'll now turn our attention to something similar to coloring the map of the US. Is it possible to draw a country with states that would require more than four colors? The answer is actually no!  In 1976, Appel and Haken proved their famous Four Color Theorem, but this result brought a good bit of controversy. Numberphile's fantastic video belows covers the controversy surrounding the Four Color Theorem.  Use the following video to answer the following questions.  IMBED VIDEO https:\/\/www.youtube.com\/watch?v=NgbK43jB4rQ      When phrasing the question in terms of graph theory. How do we represent countries?        What is the benefit of phrasing the Four Color Theorem as a graph theory problem?        Give a brief explanation of the argument that map needs no more than seven colors.        Why was Appel and Haken’s proof controversial?     "
+  "body": " Coloring Graphs  Consider the map of the United States in figure \\ref{map}. You are challenged to color the map with the rule that bordering states cannot have the same color. Overall this is pretty easy, BUT we also want to use the fewest colors possible. How many colors do you need to do this?   Color the map   Color the map in the fewest colors possible, where neighboring states do not share a color.             How many colors?   So how many colors did it take to color your map?    The minimum number of colors is .    In this context, if we treat each state as a vertex and shared borders as edges, then this map is just a graph. The challenge we gave to color the map then is really a challenge to color a graph with this rule: if two vertices share an edge, those vertices must be different colors.  Finding the minimum colors to color a graph is a common graph theory question.   Coloring Trees  A graph is called a tree if it is connected and has no cycles. More precisely, there is a path between any two vertices... but only one path.     Some trees.     How many colors does the tree in require?    Only two!      Draw three of your own trees on at least vertices. How many colors do your new trees require?    Do you we know how many colors any tree will require now? Is it possible that all trees can be colored in two colors? Based on our examples, we want to say \"yes\", but a few examples is not enough to say for sure in the world of mathematics.  Maybe we can make a logical argument to show trees can be colored in two colors, though. Let's start with a vertex (call it ) and color it . Also, we say a vertex is a neighbor of (or adjacent to ) if it shares an edges with . Note that we often use numbers to represent colors so that we can easily refer to color 100, for example, instead of trying to keep up with 100 different named colors.    What color can we color the neighbors of ?    How about 2?      What color can we color the neighbors of the neighbors of ?    Since this new vertex is not adjacent to (otherwise the graph is not a tree), it could be colored 1.      What about the neighbors of the neighbors of the neighbors of ?    This sounds confusing. Is it possible that one these neighbors of neighbors of neighbors    Okay, maybe we have found a pattern.    What color can we color a vertex that is an odd number of edges away from ? what about a vertex an even number of edges from ?    This argument only works, though, because we're talking about trees. If there is a cycle in our graph, then a vertex may be an even number of edges from coming from one direction and an odd number of edges from another direction. That can't happen in a tree.  Awesome. So trees can be colored in two colors.    What about Cycles?  So we know trees can be colored in two colors, and our argument really needed the fact the trees do not have cycles. So what about cycles? Can a cycle be colored in two colors?     Coloring cycles   Draw four cycles on vertices for different values of (I recommend consecutive values of ) and color their vertices.        Give a hypothesis on the number of colors a cycle on vertices requires to be colored.    After observing several cycles, we conclude that if is even, the cycle requires two colors. However, if is odd, the cycle requires three colors.      Appel and Haken shook things up  BORING!!! We'll now turn our attention to something similar to coloring the map of the US. Is it possible to draw a country with states that would require more than four colors? The answer is actually no!  In 1976, Appel and Haken proved their famous Four Color Theorem, but this result brought a good bit of controversy. Numberphile's fantastic video belows covers the controversy surrounding the Four Color Theorem.  Use the following video to answer the following questions.        When phrasing the question in terms of graph theory. How do we represent countries?      What is the benefit of phrasing the Four Color Theorem as a graph theory problem?      Give a brief explanation of the argument that map needs no more than seven colors.      Why was Appel and Haken’s proof controversial?     "
 },
 {
   "id": "ques-fourcolor1",
   "level": "2",
   "url": "sec-fourcolors.html#ques-fourcolor1",
-  "type": "Question",
+  "type": "Activity",
   "number": "1.8.1",
   "title": "Color the map.",
   "body": " Color the map   Color the map in the fewest colors possible, where neighboring states do not share a color.   "
@@ -770,7 +1247,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-fourcolors.html#sec-fourcolors-4-1",
   "type": "Figure",
-  "number": "1.8.2",
+  "number": "1.8.1",
   "title": "",
   "body": "   "
 },
@@ -779,9 +1256,27 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-fourcolors.html#ques-fourcolor2",
   "type": "Question",
-  "number": "1.8.3",
+  "number": "1.8.2",
   "title": "How many colors?",
   "body": " How many colors?   So how many colors did it take to color your map?    The minimum number of colors is .   "
+},
+{
+  "id": "subsec-colortrees-2",
+  "level": "2",
+  "url": "sec-fourcolors.html#subsec-colortrees-2",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "tree "
+},
+{
+  "id": "subsec-colortrees-3",
+  "level": "2",
+  "url": "sec-fourcolors.html#subsec-colortrees-3",
+  "type": "Figure",
+  "number": "1.8.3",
+  "title": "",
+  "body": "   Some trees.  "
 },
 {
   "id": "ques-trees1",
@@ -790,21 +1285,21 @@ var ptx_lunr_docs = [
   "type": "Question",
   "number": "1.8.4",
   "title": "",
-  "body": "  How many colors does the tree in TIKZ PIC require?    Only two!   "
+  "body": "  How many colors does the tree in require?    Only two!   "
 },
 {
-  "id": "subsec-colortrees-7",
+  "id": "subsec-colortrees-5",
   "level": "2",
-  "url": "sec-fourcolors.html#subsec-colortrees-7",
+  "url": "sec-fourcolors.html#subsec-colortrees-5",
   "type": "Question",
   "number": "1.8.5",
   "title": "",
   "body": "  Draw three of your own trees on at least vertices. How many colors do your new trees require?   "
 },
 {
-  "id": "subsec-colortrees-9",
+  "id": "subsec-colortrees-7",
   "level": "2",
-  "url": "sec-fourcolors.html#subsec-colortrees-9",
+  "url": "sec-fourcolors.html#subsec-colortrees-7",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
@@ -817,7 +1312,7 @@ var ptx_lunr_docs = [
   "type": "Question",
   "number": "1.8.6",
   "title": "",
-  "body": "  What color can we color the neighbors of ?   "
+  "body": "  What color can we color the neighbors of ?    How about 2?   "
 },
 {
   "id": "ques-trees3",
@@ -826,7 +1321,7 @@ var ptx_lunr_docs = [
   "type": "Question",
   "number": "1.8.7",
   "title": "",
-  "body": "  What color can we color the neighbors of the neighbors of ?   "
+  "body": "  What color can we color the neighbors of the neighbors of ?    Since this new vertex is not adjacent to (otherwise the graph is not a tree), it could be colored 1.   "
 },
 {
   "id": "ques-trees4",
@@ -835,7 +1330,7 @@ var ptx_lunr_docs = [
   "type": "Question",
   "number": "1.8.8",
   "title": "",
-  "body": "  What about the neighbors of the neighbors of the neighbors of ?   "
+  "body": "  What about the neighbors of the neighbors of the neighbors of ?    This sounds confusing. Is it possible that one these neighbors of neighbors of neighbors   "
 },
 {
   "id": "ques-trees5",
@@ -851,7 +1346,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-fourcolors.html#ques-cycles1",
   "type": "Activity",
-  "number": "1.8.1",
+  "number": "1.8.2",
   "title": "Coloring cycles.",
   "body": " Coloring cycles   Draw four cycles on vertices for different values of (I recommend consecutive values of ) and color their vertices.   "
 },
@@ -865,38 +1360,47 @@ var ptx_lunr_docs = [
   "body": "  Give a hypothesis on the number of colors a cycle on vertices requires to be colored.    After observing several cycles, we conclude that if is even, the cycle requires two colors. However, if is odd, the cycle requires three colors.   "
 },
 {
+  "id": "vid-numberPhileFourColor",
+  "level": "2",
+  "url": "sec-fourcolors.html#vid-numberPhileFourColor",
+  "type": "Figure",
+  "number": "1.8.11",
+  "title": "",
+  "body": "   "
+},
+{
+  "id": "subsec-fourcolors-6",
+  "level": "2",
+  "url": "sec-fourcolors.html#subsec-fourcolors-6",
+  "type": "Question",
+  "number": "1.8.12",
+  "title": "",
+  "body": "  When phrasing the question in terms of graph theory. How do we represent countries?   "
+},
+{
   "id": "subsec-fourcolors-7",
   "level": "2",
   "url": "sec-fourcolors.html#subsec-fourcolors-7",
   "type": "Question",
-  "number": "1.8.11",
+  "number": "1.8.13",
   "title": "",
-  "body": "  When phrasing the question in terms of graph theory. How do we represent countries?   "
+  "body": "  What is the benefit of phrasing the Four Color Theorem as a graph theory problem?   "
+},
+{
+  "id": "subsec-fourcolors-8",
+  "level": "2",
+  "url": "sec-fourcolors.html#subsec-fourcolors-8",
+  "type": "Question",
+  "number": "1.8.14",
+  "title": "",
+  "body": "  Give a brief explanation of the argument that map needs no more than seven colors.   "
 },
 {
   "id": "subsec-fourcolors-9",
   "level": "2",
   "url": "sec-fourcolors.html#subsec-fourcolors-9",
   "type": "Question",
-  "number": "1.8.12",
-  "title": "",
-  "body": "  What is the benefit of phrasing the Four Color Theorem as a graph theory problem?   "
-},
-{
-  "id": "subsec-fourcolors-11",
-  "level": "2",
-  "url": "sec-fourcolors.html#subsec-fourcolors-11",
-  "type": "Question",
-  "number": "1.8.13",
-  "title": "",
-  "body": "  Give a brief explanation of the argument that map needs no more than seven colors.   "
-},
-{
-  "id": "subsec-fourcolors-13",
-  "level": "2",
-  "url": "sec-fourcolors.html#subsec-fourcolors-13",
-  "type": "Question",
-  "number": "1.8.14",
+  "number": "1.8.15",
   "title": "",
   "body": "  Why was Appel and Haken’s proof controversial?   "
 },
@@ -907,14 +1411,23 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "1.9",
   "title": "A Little History",
-  "body": " A Little History  Mathematics is a permanent fixture in human development. We find evidence of mathematical thinking in our most ancient of civilizations, and yet all modern technological advancements rely of good mathematics. Mathematics is the foundational tool we use to turn creative ideas into reality. But the human stories of mathematics is an area worth studying as well.  INSERT PIC HERE  Throughout your coursework, you will learn about the interesting figures of math history and some of the incredible (and sometimes unbelievable) tales they are a part of. There are stories of young genius, incredible risks, underdogs, and duels. You will hear about mathematical giants from all over the world and how their contributions are still valuable to us today. Math history is rich and immensely interesting.   What we take for granted  We learn about rationals, primes, and equations by the time we get to middle school, but so many of these ideas were unknown for generations. We take so much of our foundational mathematics for granted, but behind a lot of these concepts are moments of ingenious insight.  For example,   Our numerals are referred as \"Hindu-Arabic numerals\" invented by Indian mathematicians between the first and fourth centuries.     The discovery of irrational numbers threw the Pythagoreans into an existential crisis in the 4th century.    In the 17th century, mathematicians and philosophers Rene Descarte and Piere de Fermat independently connected geometry and algebra with a coordinate system we use in basic algebra today. This system is called \"Cartesian coordiantes\" after Descartes.       Thinking Differently  Studying math history also helps us see how culture impacts the way we think about things... even objective ideas such as mathematics. We can see that ancient cultures sometimes approached their problems from a perspective we might find unusual.   Egyptian Multiplication      One of two surviving Egyptian mathematical papyri: The Rhind Papyrus    Ancient Egyptians were excellent at calculations, with applications in areas of economics, land area, and volumes of solids. They developed algorithms to help perform complicated calculations with high accuracy. We will look at their alogrithm for multiplying two integers.  For example, How would the Egyptians multiply 23 and 12? Their work all depends up powers of two.   Writing out Powers of 2   Fill out the following tables with powers of two.      Powers of 2      value                                     value     1     2     4     8     16        This method is sometimes referred to as the \"double method\", because the algorithm involves doubling one of the factors repeatedly. Let's do this with the first factor, 23.   Double 23   Fill out the third column of the table by repeatedly doubling 23.               1  23     2       4       8       16                       1  23     2  46     4  92     8  184     16  368        Now we need to write our other factor as a sum of powers of two. For example, .   Powers of 2 to get 12   Write 12 as a sum of powers of 2.         We determined earlier that , and we just need to add the corresponding rows from .                 1  23       2  46       4  92       8  184        16  368           Our Final Calculation   Add up the appropriate multiples of to calculate .    From , we see the entries in rows corredsponding to and are and . So we conclude that .       Another Multiplication Question   Multiply as would the Egyptians.      Mathematics of Babylon  Unfortunately, due to the again of papyrus, we have few resources to pull from regarding Egyptian mathematics. However, the Babylonians baked their writings in cuneiform on clay tablets. This more durable writing system has provided us with a lot of information regarding Babylonian mathematics dating back to 1700 BC.      The Babylonian cuneiform tablet: Plimpton 322    Babylon made a lot of advancement in mathematics with knowledge of cubic equations and Pythagoras' namesake, the Pythagorean Theorem (about 1000 years before Pythagoras), but we will just focus on the Babylonian number system.  Babylonians tracked numbers in base-60 (sexigesimal). Though that may sound odd, we still use sexigesimal systems when thinking about time (60 seconds to a minute) and angle measure ( in a circle).  So what does sexigesimal notation look like? Think about typing on a microwave. After a second, what does that microwave read? Not , right? The microwave knows that minute means seconds, and so after a second, we see .  Similarly, the Babylonian would write for what we mean by . We would read a number like base-60 as base-10.   Sexigesimal Practice   Convert into base-10.         Sexigesimal notation is particularly useful when dealing with fractions. For example, is , and by , the Babylonians mean .  To calculate , Babylonians would first find and then multiply it by . For example, is found first by finding and then multiply the result by to get     We finish our calculation by recognizing .   Practicing with Sexigesimal Fractions  Represent as a sexigesimal fraction.      Mathigon's Timeline of Mathematics       Mathigon has currated an interactive map of significant mathematical moments. We will now reference their timeline to answer the following questions.  Visit Mathigon's Timeline of Mathematics .    Find a mathematician from Asia. What contribution did he or she make?        Find a mathematician listed between 1600 and 1800 Asia. What contribution did he or she make?        Find a mathematician listed between te 20th and 21st. What contribution did he or she make?     "
+  "body": " A Little History  Mathematics is a permanent fixture in human development. We find evidence of mathematical thinking in our most ancient of civilizations, and yet all modern technological advancements rely of good mathematics. Mathematics is the foundational tool we use to turn creative ideas into reality. But the human stories of mathematics is an area worth studying as well.  Throughout your coursework, you will learn about the interesting figures of math history and some of the incredible (and sometimes unbelievable) tales they are a part of. There are stories of young genius, incredible risks, underdogs, and duels. You will hear about mathematical giants from all over the world and how their contributions are still valuable to us today. Math history is rich and immensely interesting.   What we take for granted  We learn about rationals, primes, and equations by the time we get to middle school, but so many of these ideas were unknown for generations. We take so much of our foundational mathematics for granted, but behind a lot of these concepts are moments of ingenious insight.  For example,   Our numerals are referred as \"Hindu-Arabic numerals\" invented by Indian mathematicians between the first and fourth centuries.     The discovery of irrational numbers threw the Pythagoreans into an existential crisis in the 4th century.    In the 17th century, mathematicians and philosophers Rene Descarte and Piere de Fermat independently connected geometry and algebra with a coordinate system we use in basic algebra today. This system is called \"Cartesian coordiantes\" after Descartes.      Portrait of Rene Descartes traditionally attributed to Frans Hals         Thinking Differently  Studying math history also helps us see how culture impacts the way we think about things... even objective ideas such as mathematics. We can see that ancient cultures sometimes approached their problems from a perspective we might find unusual.   Egyptian Multiplication      One of two surviving Egyptian mathematical papyri: The Rhind Papyrus    Ancient Egyptians were excellent at calculations, with applications in areas of economics, land area, and volumes of solids. They developed algorithms to help perform complicated calculations with high accuracy. We will look at their alogrithm for multiplying two integers.  For example, How would the Egyptians multiply 23 and 12? Their work all depends upon powers of two.   Writing out Powers of 2   Fill out the following tables with powers of two.      Powers of 2      value                                     value     1     2     4     8     16        The Egyption multiplication algorithm is sometimes referred to as the \"double method\", because the algorithm involves doubling one of the factors repeatedly. Let's do this with the first factor, 23.   Double 23   Fill out the third column of the table by repeatedly doubling 23.               1  23     2       4       8       16                       1  23     2  46     4  92     8  184     16  368        Now we need to write our other factor as a sum of powers of two. For example, .   Powers of 2 to get 12   Write 12 as a sum of powers of 2.         We determined earlier that , and we just need to add the corresponding rows from .                 1  23       2  46       4  92       8  184        16  368           Our Final Calculation   Add up the appropriate multiples of to calculate .    From , we see the entries in rows corredsponding to and are and . So we conclude that .       Another Multiplication Question   Multiply as would the Egyptians.      Mathematics of Babylon  Unfortunately, due to the again of papyrus, we have few resources to pull from regarding Egyptian mathematics. However, the Babylonians baked their writings in cuneiform on clay tablets. This more durable writing system has provided us with a lot of information regarding Babylonian mathematics dating back to 1700 BC.      The Babylonian cuneiform tablet: Plimpton 322    Babylon made a lot of advancement in mathematics with knowledge of cubic equations and Pythagoras' namesake, the Pythagorean Theorem (about 1000 years before Pythagoras), but we will just focus on the Babylonian number system.  Babylonians tracked numbers in base-60 (sexigesimal). Though that may sound odd, we still use sexigesimal systems when thinking about time (60 seconds to a minute) and angle measure ( in a circle).  So what does sexigesimal notation look like? Think about typing on a microwave. After a second, what does that microwave read? Not , right? The microwave knows that minute means seconds, and so after a second, we see .  Similarly, the Babylonian would write for what we mean by . We would read a number like base-60 as base-10.   Sexigesimal Practice   Convert into base-10.         Sexigesimal notation is particularly useful when dealing with fractions. For example, is , and by , the Babylonians meant .  To calculate , Babylonians would first find and then multiply it by . For example, is found first by finding and then multiply the result by to get     We finish our calculation by recognizing .   Practicing with Sexigesimal Fractions  Represent as a sexigesimal fraction.      Mathigon's Timeline of Mathematics       Mathigon has currated an interactive map of significant mathematical moments. We will now reference their timeline to answer the following questions.  Visit Mathigon's Timeline of Mathematics .    Find a mathematician from Asia. What contribution did he or she make?      Find a mathematician listed between 1600 and 1800 Asia. What contribution did he or she make?      Find a mathematician listed between te 20th and 21st. What contribution did he or she make?     "
+},
+{
+  "id": "subsec-advancements-3-1-3-2-1",
+  "level": "2",
+  "url": "sec-history.html#subsec-advancements-3-1-3-2-1",
+  "type": "Figure",
+  "number": "1.9.1",
+  "title": "",
+  "body": "   Portrait of Rene Descartes traditionally attributed to Frans Hals  "
 },
 {
   "id": "subsubsec-egyptian-2-1",
   "level": "2",
   "url": "sec-history.html#subsubsec-egyptian-2-1",
   "type": "Figure",
-  "number": "1.9.1",
+  "number": "1.9.2",
   "title": "",
   "body": "   One of two surviving Egyptian mathematical papyri: The Rhind Papyrus  "
 },
@@ -923,7 +1436,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-history.html#ques-powersoftwo",
   "type": "Question",
-  "number": "1.9.2",
+  "number": "1.9.3",
   "title": "Writing out Powers of 2.",
   "body": " Writing out Powers of 2   Fill out the following tables with powers of two.      Powers of 2      value                                     value     1     2     4     8     16       "
 },
@@ -932,7 +1445,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-history.html#ques-twos1",
   "type": "Question",
-  "number": "1.9.5",
+  "number": "1.9.6",
   "title": "Double 23.",
   "body": " Double 23   Fill out the third column of the table by repeatedly doubling 23.               1  23     2       4       8       16                       1  23     2  46     4  92     8  184     16  368       "
 },
@@ -941,7 +1454,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-history.html#ques-twos2",
   "type": "Question",
-  "number": "1.9.8",
+  "number": "1.9.9",
   "title": "Powers of 2 to get 12.",
   "body": " Powers of 2 to get 12   Write 12 as a sum of powers of 2.        "
 },
@@ -950,7 +1463,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-history.html#table23arrows",
   "type": "Table",
-  "number": "1.9.9",
+  "number": "1.9.10",
   "title": "",
   "body": "               1  23       2  46       4  92       8  184        16  368      "
 },
@@ -959,7 +1472,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-history.html#ques-twos3",
   "type": "Question",
-  "number": "1.9.10",
+  "number": "1.9.11",
   "title": "Our Final Calculation.",
   "body": " Our Final Calculation   Add up the appropriate multiples of to calculate .    From , we see the entries in rows corredsponding to and are and . So we conclude that .   "
 },
@@ -968,7 +1481,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-history.html#ques-egyptmult2",
   "type": "Question",
-  "number": "1.9.11",
+  "number": "1.9.12",
   "title": "Another Multiplication Question.",
   "body": " Another Multiplication Question   Multiply as would the Egyptians.   "
 },
@@ -977,7 +1490,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-history.html#subsubsec-babylon-3-1",
   "type": "Figure",
-  "number": "1.9.12",
+  "number": "1.9.13",
   "title": "",
   "body": "   The Babylonian cuneiform tablet: Plimpton 322  "
 },
@@ -986,7 +1499,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-history.html#ques-baby1",
   "type": "Question",
-  "number": "1.9.13",
+  "number": "1.9.14",
   "title": "Sexigesimal Practice.",
   "body": " Sexigesimal Practice   Convert into base-10.        "
 },
@@ -995,7 +1508,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-history.html#ques-baby2",
   "type": "Question",
-  "number": "1.9.14",
+  "number": "1.9.15",
   "title": "Practicing with Sexigesimal Fractions.",
   "body": " Practicing with Sexigesimal Fractions  Represent as a sexigesimal fraction.  "
 },
@@ -1004,7 +1517,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-history.html#subsec-timeline-2",
   "type": "Figure",
-  "number": "1.9.15",
+  "number": "1.9.16",
   "title": "",
   "body": "   "
 },
@@ -1013,7 +1526,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-history.html#ques-timeline1",
   "type": "Question",
-  "number": "1.9.16",
+  "number": "1.9.17",
   "title": "",
   "body": "  Find a mathematician from Asia. What contribution did he or she make?   "
 },
@@ -1022,7 +1535,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-history.html#ques-timeline2",
   "type": "Question",
-  "number": "1.9.17",
+  "number": "1.9.18",
   "title": "",
   "body": "  Find a mathematician listed between 1600 and 1800 Asia. What contribution did he or she make?   "
 },
@@ -1031,7 +1544,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-history.html#ques-timeline3",
   "type": "Question",
-  "number": "1.9.18",
+  "number": "1.9.19",
   "title": "",
   "body": "  Find a mathematician listed between te 20th and 21st. What contribution did he or she make?   "
 },
