@@ -325,11 +325,24 @@
   </subsection>
 
   <subsection xml:id="subsec-mengers">
-    <title>Mengers Theorem</title>
+    <title>Different Paths</title>
 
   <p>
-    
+    Let's play one more walking game. This time we'll look at <term>paths</term> in a graph. A
+    path is like a tour except now vertices can be revisted. So a <term>path</term> is a tour
+    with unique vertices and edges.
   </p>
+
+  <figure> <!-- source: geogebra -->
+    <image xml:id="fig-graphs-xypath" source="graphs-xypath.png" width="50%" />
+  </figure>
+
+  <activity xml:id="a-paths1">
+    <p>
+      Can you find a path starting at <m>v_1</m> and ending at <m>v_5</m>?
+      </p>
+  </activity>
+  
     
   </subsection>
 
