@@ -280,4 +280,13 @@
     </question>
   </subsection>
 
+  <p>
+    Quanta Magazine also has a great video covering the Four Color Theorem. 
+  </p>
+  
+  <figure xml:id="vid-quatnaFourColor">
+    <video youtube= "h7kqlYUV1l8"/>
+     <caption></caption>
+  </figure>
+
 </section>
