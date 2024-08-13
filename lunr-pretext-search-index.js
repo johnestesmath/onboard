@@ -64,353 +64,11 @@ var ptx_lunr_docs = [
   "body": "Best practices for this course are just showing up with a good attitude and having a curiosity about math topics. "
 },
 {
-  "id": "sec-sets",
-  "level": "1",
-  "url": "sec-sets.html",
-  "type": "Section",
-  "number": "1.1",
-  "title": "Shopping Carts and Sets",
-  "body": " Shopping Carts and Sets  Sunday afternoon at the local supermarket is a bustling place. Shoppers cut each other off for the last jar of salsa with a smile and a 'pardon me'. Amid the somewhat friendly and mostly competitive crowd, long-time friends Yuri and Kalo bump into each other in front of the cauliflower. It's always a bit awkward looking into someone else's shopping cart (feels like a violation of privacy, right?), but Yuri couldn't help but notice that there was some overlap.  \"Hey, I like rice cakes, too. Look!\" exclaimed Yuri holding up a bag of rice cakes from his cart.   Anyway... the two carts looked like this:     Yuri's cart  Kalo's cart    rice cakes  rice cakes    cauliflower  cauliflower    halibut  tuna    coffee creamer  crab legs    spicy ramen  spicy ramen    cilantro  parsley    yellow onion  purple onion    corn chips  cookies    salami  bagels    eggs  salami      cream cheese      Collections of Things  There's some mathematics going on here. Anytime we find a collection of items (like a shopping cart) we have a mathematical object called a set.  A set is simply a collection of objects that we refer to as elements .  Let's call the set of Yuri's cart , written as { rice cakes, cauliflower, halibut, coffee creamer, spicy ramen, cilantro, yellow onion, corn chips, salami, eggs } . Similarly {rice cakes, cauliflower, tuna, crab legs, spicy ramen, parsley, purple onion, cookies, bagels, salami, and cream cheese} is the set representing Kalo's cart. So halibut is an element of (written as halibet ), and tuna .  We could make a list of the items that both Yuri and Kalo have in their carts, and this overlap between their two carts represents the \"intersection of Y and K\", denoted .  In general for sets and , the intersection of and  , , is the set of elements in both sets.    Intesection of and , .       Yuri and Kalo's intersection   What does contain?     = {rice cakes, cauliflower, spicy ramen, salami}    Another friend interrupts Yuri and Kalo's meeting. JACOBI greets them both as they unapologetically rifle through his cart.  JACOBI's cart is represented by the set {spicy ramen, cilantro, corn chips, and eggs}. Yuri can't help notice that everything in is also in . In this case, we say that is a subset of , denoted or .    A set is a subset of if for any element , we know also that .      A subset of , .      Subsets of Dairy   Let be the set of all dairy items. Find a subset of that is also a subset of .    The subset we're looking for must be a set of dairy items in Kalo's cart: , for example.  That is, {cream cheese}.     Is the intersection a subset?   Is a subset of ?    Yes! Any element in is also an element of .    Unbeknownst to Kalo, Kalo's wife MARNIE is also in the grocery store with {cauliflower, macaroni, purple onion, water, bacon}. When Kalo and MARNIE bump into each other, they decide to finish their shopping and to consolidate their items to one cart. Kalo reshelves the cauliflower and purple onion, though, since MARNIE already has those items in her cart. This new cart is known as the \"union of K and M\", .    In general, for sets and , the union of and , , is the collection of elements that are in either set (or both).      Union of and , .      Question of union   What is ?     Another question of union   What is ?     More complicated sets   What about ?      An empty cart  After Kalo and Marnie consolidate their carts, somebody snags Kalo's now empty cart. This makes Kalo consider how an empty cart relates to sets.      Can a set have 0 elements?    Definitely!    Actually, that empty cart is symbolic of a very important set. The empty set is the set with no elements. We denote it as .      Give an example of two sets, and for which .    There are millions of examples. For example, let be the set of all species of turtles and be the set of flying creatures. Come up with your on example.      Venn Diagrams  A common way to picture sets and how they interact is with overlapping circles. You have already seen a few such images in this section. We call these figures Venn diagrams, named after mathematician John Venn (1834-1923), and they help us quickly recognize how given sets are related.  For example, consider the sets , , and . Are sets such as or obvious? The Venn diagram makes these relationships obvious.         Use the Venn diagram to provide .    We can see .    It's also fairly common to find Venn diagram memes. You should do a quick internet search to see for yourself.       How about we look at sets of actors from popular movie franchises?      More sets later Remember that our goal is to introduce you to topics you'll cover in more detail later. There are other set operations that we won't cover here. You'll see these in classes like Discrete Mathematics, Modern Algebra, and many others.    Set Activities   You will now be human Venn diagrams (This works best in an open area).    Teams give an elt in called out sets like A UNION B INTERSECT C, etc.    "
-},
-{
-  "id": "sec-sets-5",
-  "level": "2",
-  "url": "sec-sets.html#sec-sets-5",
-  "type": "Table",
-  "number": "1.1.1",
-  "title": "",
-  "body": "   Yuri's cart  Kalo's cart    rice cakes  rice cakes    cauliflower  cauliflower    halibut  tuna    coffee creamer  crab legs    spicy ramen  spicy ramen    cilantro  parsley    yellow onion  purple onion    corn chips  cookies    salami  bagels    eggs  salami      cream cheese    "
-},
-{
-  "id": "subsec-sets-3",
-  "level": "2",
-  "url": "sec-sets.html#subsec-sets-3",
-  "type": "Definition",
-  "number": "1.1.2",
-  "title": "",
-  "body": "A set is simply a collection of objects that we refer to as elements . "
-},
-{
-  "id": "subsec-sets-6",
-  "level": "2",
-  "url": "sec-sets.html#subsec-sets-6",
-  "type": "Definition",
-  "number": "1.1.3",
-  "title": "",
-  "body": "In general for sets and , the intersection of and  , , is the set of elements in both sets. "
-},
-{
-  "id": "subsec-sets-7",
-  "level": "2",
-  "url": "sec-sets.html#subsec-sets-7",
-  "type": "Figure",
-  "number": "1.1.4",
-  "title": "",
-  "body": "  Intesection of and , .  "
-},
-{
-  "id": "q-setintersect",
-  "level": "2",
-  "url": "sec-sets.html#q-setintersect",
-  "type": "Question",
-  "number": "1.1.5",
-  "title": "Yuri and Kalo’s intersection.",
-  "body": " Yuri and Kalo's intersection   What does contain?     = {rice cakes, cauliflower, spicy ramen, salami}   "
-},
-{
-  "id": "def-",
-  "level": "2",
-  "url": "sec-sets.html#def-",
-  "type": "Definition",
-  "number": "1.1.6",
-  "title": "",
-  "body": "  A set is a subset of if for any element , we know also that .   "
-},
-{
-  "id": "subsec-sets-13",
-  "level": "2",
-  "url": "sec-sets.html#subsec-sets-13",
-  "type": "Figure",
-  "number": "1.1.7",
-  "title": "",
-  "body": "  A subset of , .  "
-},
-{
-  "id": "q-setsubset",
-  "level": "2",
-  "url": "sec-sets.html#q-setsubset",
-  "type": "Question",
-  "number": "1.1.8",
-  "title": "Subsets of Dairy.",
-  "body": " Subsets of Dairy   Let be the set of all dairy items. Find a subset of that is also a subset of .    The subset we're looking for must be a set of dairy items in Kalo's cart: , for example.  That is, {cream cheese}.   "
-},
-{
-  "id": "q-setsubsetintersect",
-  "level": "2",
-  "url": "sec-sets.html#q-setsubsetintersect",
-  "type": "Question",
-  "number": "1.1.9",
-  "title": "Is the intersection a subset?",
-  "body": " Is the intersection a subset?   Is a subset of ?    Yes! Any element in is also an element of .   "
-},
-{
-  "id": "def-union",
-  "level": "2",
-  "url": "sec-sets.html#def-union",
-  "type": "Definition",
-  "number": "1.1.10",
-  "title": "",
-  "body": "  In general, for sets and , the union of and , , is the collection of elements that are in either set (or both).   "
-},
-{
-  "id": "subsec-sets-19",
-  "level": "2",
-  "url": "sec-sets.html#subsec-sets-19",
-  "type": "Figure",
-  "number": "1.1.11",
-  "title": "",
-  "body": "  Union of and , .  "
-},
-{
-  "id": "q-union1",
-  "level": "2",
-  "url": "sec-sets.html#q-union1",
-  "type": "Question",
-  "number": "1.1.12",
-  "title": "Question of union.",
-  "body": " Question of union   What is ?   "
-},
-{
-  "id": "q-union2",
-  "level": "2",
-  "url": "sec-sets.html#q-union2",
-  "type": "Question",
-  "number": "1.1.13",
-  "title": "Another question of union.",
-  "body": " Another question of union   What is ?   "
-},
-{
-  "id": "q-union3",
-  "level": "2",
-  "url": "sec-sets.html#q-union3",
-  "type": "Question",
-  "number": "1.1.14",
-  "title": "More complicated sets.",
-  "body": " More complicated sets   What about ?   "
-},
-{
-  "id": "q-emptyset",
-  "level": "2",
-  "url": "sec-sets.html#q-emptyset",
-  "type": "Question",
-  "number": "1.1.15",
-  "title": "",
-  "body": "  Can a set have 0 elements?    Definitely!   "
-},
-{
-  "id": "subsec-emptyset-5",
-  "level": "2",
-  "url": "sec-sets.html#subsec-emptyset-5",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
-  "title": "",
-  "body": "empty set "
-},
-{
-  "id": "q-emptyinter",
-  "level": "2",
-  "url": "sec-sets.html#q-emptyinter",
-  "type": "Question",
-  "number": "1.1.16",
-  "title": "",
-  "body": "  Give an example of two sets, and for which .    There are millions of examples. For example, let be the set of all species of turtles and be the set of flying creatures. Come up with your on example.   "
-},
-{
-  "id": "subsec-venn-4",
-  "level": "2",
-  "url": "sec-sets.html#subsec-venn-4",
-  "type": "Figure",
-  "number": "1.1.17",
-  "title": "",
-  "body": "  "
-},
-{
-  "id": "q-venn1",
-  "level": "2",
-  "url": "sec-sets.html#q-venn1",
-  "type": "Question",
-  "number": "1.1.18",
-  "title": "",
-  "body": "  Use the Venn diagram to provide .    We can see .   "
-},
-{
-  "id": "subsec-venn-8",
-  "level": "2",
-  "url": "sec-sets.html#subsec-venn-8",
-  "type": "Figure",
-  "number": "1.1.19",
-  "title": "",
-  "body": "  "
-},
-{
-  "id": "subsec-venn-11",
-  "level": "2",
-  "url": "sec-sets.html#subsec-venn-11",
-  "type": "Figure",
-  "number": "1.1.20",
-  "title": "",
-  "body": "  "
-},
-{
-  "id": "subsec-venn-12",
-  "level": "2",
-  "url": "sec-sets.html#subsec-venn-12",
-  "type": "Remark",
-  "number": "1.1.21",
-  "title": "More sets later.",
-  "body": " More sets later Remember that our goal is to introduce you to topics you'll cover in more detail later. There are other set operations that we won't cover here. You'll see these in classes like Discrete Mathematics, Modern Algebra, and many others. "
-},
-{
-  "id": "act-set1",
-  "level": "2",
-  "url": "sec-sets.html#act-set1",
-  "type": "Activity",
-  "number": "1.1.1",
-  "title": "",
-  "body": " You will now be human Venn diagrams (This works best in an open area).  "
-},
-{
-  "id": "act-set2",
-  "level": "2",
-  "url": "sec-sets.html#act-set2",
-  "type": "Activity",
-  "number": "1.1.2",
-  "title": "",
-  "body": " Teams give an elt in called out sets like A UNION B INTERSECT C, etc.  "
-},
-{
-  "id": "sec-pascaltriangle",
-  "level": "1",
-  "url": "sec-pascaltriangle.html",
-  "type": "Section",
-  "number": "1.2",
-  "title": "A Special Triangle",
-  "body": " A Special Triangle      You can find all sorts of interesting examples of surprising structures in the universe of mathematics. One such example is a very special triangle of numbers that's easy to construct and borderline ubiquitous in its applications.  This triangle goes by many names and was discovered by several cultures in history. In 450 BC, Indian mathematician, Pingata, called this new construction the \"Staircase of Mount Meru\". Persian mathematician, Omar Khayyam, discovered \"Khauuam's Triangle\" in the 11th century, and close to the same time, Chinese mathematician, Jin Xian, discovered \"Yang Hui's Triangle\". In the western world, this triangle is most commonly refered to as Pascal's Triangle, named after french mathematician, Blaise Pascal, who discovered this triangle in the 17th century. REFERENCE      The Pingata, Khauuman's Triangle, and Yang Hui's Triangle    Constructing Pascal's Triangle  Now we will follow the foot steps of giants. We can build Pascal's Triangle by listing out the rows. For the first row (row ), we just write , and the second row is composed of . The third row (what we call row 2) consists of like below.      The pattern of Pascal's Triangle is not immediately obvious for us yet. The in row 2 comes from adding the two 's above it in row 1. For the next row (row 3), we start with . The next entry consists of the sum of the two numbers above it ( ). Next is the sum , and finally we end the row with . That is, row 3 is .  Then we just repeat this process.     Row 4   Fill out row 4 of Pascal's Triangle.    Following the same process, row 4 has entries or .      Fill out the first 8 rows of Pascal's Triangle.    Patterns of Pacal's Triangle  Pascal's triangle has interested mathematicians for centuries, as it is filled with interesting patterns.     Adding along a row   Add entries of rows 0 through 4. What pattern do you notice?    The sume of entries of rows 0 through 4 are respectively. These looks like powers of .    We just uncovered that the sum of entries along row add up to . This is just one pattern of Pascal's triangle, but there are many more. Wadji Mohamed Retemi expertly hightlights some of these patterns we find in Pascal's triangle in this Ted Ed video.        Use TedEd's video and Pascal's Triangle to answer the following.   Binomial Expansion     Use Pascal's Triangle to expand the binomial      Powers of 11   Use Pascal's Triangle to find      Counting Apples   There are apples on a counter. In how many ways could we select of them? Use Pascal's Triangle to decide.     Triangular Numbers   List out of the first 6 triangular numbers.     Tetrahedral Numbers   What is the 5th tetrahedral number?     "
-},
-{
-  "id": "sec-pascaltriangle-2",
-  "level": "2",
-  "url": "sec-pascaltriangle.html#sec-pascaltriangle-2",
-  "type": "Figure",
-  "number": "1.2.1",
-  "title": "",
-  "body": "   "
-},
-{
-  "id": "sec-pascaltriangle-5",
-  "level": "2",
-  "url": "sec-pascaltriangle.html#sec-pascaltriangle-5",
-  "type": "Figure",
-  "number": "1.2.2",
-  "title": "",
-  "body": "   The Pingata, Khauuman's Triangle, and Yang Hui's Triangle  "
-},
-{
-  "id": "subsec-pascalconstruct-3",
-  "level": "2",
-  "url": "sec-pascaltriangle.html#subsec-pascalconstruct-3",
-  "type": "Figure",
-  "number": "1.2.3",
-  "title": "",
-  "body": "   "
-},
-{
-  "id": "ques-pascal1",
-  "level": "2",
-  "url": "sec-pascaltriangle.html#ques-pascal1",
-  "type": "Question",
-  "number": "1.2.4",
-  "title": "Row 4.",
-  "body": " Row 4   Fill out row 4 of Pascal's Triangle.    Following the same process, row 4 has entries or .   "
-},
-{
-  "id": "act-pascal1",
-  "level": "2",
-  "url": "sec-pascaltriangle.html#act-pascal1",
-  "type": "Activity",
-  "number": "1.2.1",
-  "title": "",
-  "body": "Fill out the first 8 rows of Pascal's Triangle. "
-},
-{
-  "id": "sec-patterns-4",
-  "level": "2",
-  "url": "sec-pascaltriangle.html#sec-patterns-4",
-  "type": "Question",
-  "number": "1.2.5",
-  "title": "Adding along a row.",
-  "body": " Adding along a row   Add entries of rows 0 through 4. What pattern do you notice?    The sume of entries of rows 0 through 4 are respectively. These looks like powers of .   "
-},
-{
-  "id": "vid-khanpascal",
-  "level": "2",
-  "url": "sec-pascaltriangle.html#vid-khanpascal",
-  "type": "Figure",
-  "number": "1.2.6",
-  "title": "",
-  "body": "   "
-},
-{
-  "id": "ques-pascal2",
-  "level": "2",
-  "url": "sec-pascaltriangle.html#ques-pascal2",
-  "type": "Question",
-  "number": "1.2.7",
-  "title": "Binomial Expansion.",
-  "body": " Binomial Expansion     Use Pascal's Triangle to expand the binomial    "
-},
-{
-  "id": "ques-pascal3",
-  "level": "2",
-  "url": "sec-pascaltriangle.html#ques-pascal3",
-  "type": "Question",
-  "number": "1.2.8",
-  "title": "Powers of 11.",
-  "body": " Powers of 11   Use Pascal's Triangle to find    "
-},
-{
-  "id": "ques-pascal4",
-  "level": "2",
-  "url": "sec-pascaltriangle.html#ques-pascal4",
-  "type": "Question",
-  "number": "1.2.9",
-  "title": "Counting Apples.",
-  "body": " Counting Apples   There are apples on a counter. In how many ways could we select of them? Use Pascal's Triangle to decide.   "
-},
-{
-  "id": "ques-pascal5",
-  "level": "2",
-  "url": "sec-pascaltriangle.html#ques-pascal5",
-  "type": "Question",
-  "number": "1.2.10",
-  "title": "Triangular Numbers.",
-  "body": " Triangular Numbers   List out of the first 6 triangular numbers.   "
-},
-{
-  "id": "ques-pascal6",
-  "level": "2",
-  "url": "sec-pascaltriangle.html#ques-pascal6",
-  "type": "Question",
-  "number": "1.2.11",
-  "title": "Tetrahedral Numbers.",
-  "body": " Tetrahedral Numbers   What is the 5th tetrahedral number?   "
-},
-{
   "id": "sec-belhaven-math-intro",
   "level": "1",
   "url": "sec-belhaven-math-intro.html",
   "type": "Section",
-  "number": "1.3",
+  "number": "1.1",
   "title": "Introduction to Belhaven Mathematics",
   "body": " Introduction to Belhaven Mathematics  Welcome to the Mathematics and Computer Science Department (MCS) at Belhaven University, one department under Belhaven's School of Science & Mathematics. We work hard to provide unique learning opportunities, to do a lot of math, and to have fun while we grow. Maybe we can best summarize what Belhaven MCS is about with the three crucial pillars of our identity:  Community,  Academic experiences,  Service.        Keep these pillars in mind Community. Academic experiences. Service.  We believe that our students reach their greatest potential by following these pillars, and we strive to incorporate these values throughout our curriculum.   Community     We are very proud of the community of students, faculty, and staff that we have in the Belhaven Math & Computer Science department, and we're excited about you joining us.  Do you want to get the most out of your college experience? We picked community as our first pillar for a reason. We want you to be a part of something special! Our most successful students at Belhaven are the ones who get involved early and often, and we encourage you to be an active part of our community.  And we have a lot of opportunities for you to get involved quickly!   MCS Club  The student-led Math & Computer Science Club gets together frequently to play games, eat some food, and sneak in some math and computer science. The MCS Club members help each other with resumes, projects, 3D printing, and more.     The MCS Club is unique in that it also serves as student chapters for both the MAA (Mathematical Association of America) and the ACM (Association of Computing & Machinery), so it's like two clubs in one. Club membership guarantees membership to one of these professional societies at a very discounted rate.     Do you want to join the MCS Club? Of course! Let your instructor know to get further details.    STEM Events  The MCS Department and the School of Science and Mathematics hosts a variety of events. It's important to join the larger science community at Belhaven. Usually food is involved too.  Be on the lookout for   Homecoming tailgating: Belhaven STEM puts on a spread for students and alumni before the football homecoming game.       FOOD: Lunch before finals, burgers at a picnic, cookies and donuts. We like to break bread with each other, and we hope you get involved.   Merch: We often order MCS or Belhaven STEM shirts, sweaters, hoodies, and such.   ScienceFest: Help us give back to the community by participating in ScienceFest, the largest science festival in the state. We help the Mississippi Children's Museum and Mississippi's Museum of Natural Science by showing math-based games (and other hands-on science experiments) to children of the Jackson metro.          Good Communication  Good communication is so undervalued. Go talk to your professors . At Belhaven, we want to know our students. Meet your classmates. They're going to help you through this next assignmnent.  Download the Microsoft Team app, and join the BelhavenSTEM Team. We post about upcoming events and have a channel specific to internships, scholarships, and research opportunities.     Academic Experiences  Your degree is measured in credit hours. You're taking classes ultimately to earn a degree. You'll also expect some grades in those classes. BUT let's be careful not to mistake grades and credit hours with actual learning. Our goal in the MCS Department is provide an environment of true learning. We want you to adapt a mentality of a continual learning: one who learns inside and outside of the classroom.  In addition to core classes such as Calculus, Linear Algebra, Discrete Mathematics, and Differential Equations, Belhaven's MCS department delivers a number of curriculum add-ons. Let's take a look at what additional academic experiences we offer.   STEM Seminar  Meet professional scientists and mathematicians who share about what they do, how they got there, and how you can too. This is a great way to find internships and jobs.       Mathematical Research  In MAT 391, 392, 491 and 492, students participate in the mathematical research process reviewing recent results of a select topic and attempting to further it. These students will present their findings as a poster and presentation at the Belhaven University Undergraduate Research Symposium (BUURS) and our sectional meetings of the MAA.           Belhaven Maker Campus  The Belhaven Maker Campus is a collaboration between Math & Computer Science and Art & Design featuring formative technologies such as 3D printers, CAD drawing systems, laser engraving, and more. We are a community of engineering students, artists, and mathematicians wanting to get our hands busy making things with technology.     Join the Maker Campus, and you can gain access to both of our campuses maker labs. Design your own creations and 3D print them! Customize your gear with laser etching or make custom stickers. There are a lot of possibilities, and the Maker Campus is designed to make your ideas a reality.          The Eyes of Faith Portfolio  What does the Bible say about mathematics? What does life as a Christian mathematician entail? What role does change and randomness play in God's creation? These are deep questions that we will ask ourselves during throughout our mathematics coursework at Belhaven.  The book Mathematics through the Eyes of Faith by Russell Howell and James Bradley approaches these questions in an intellectually honest manner . Students will use this text as a reference to write their own thoughts in their Eyes of Faith Portfolio , a collaboration of Eyes of Faith papers written over several courses covering chapter of our reference text.  The chapter breakdown follows curiously close to our major requirements and is summarized in the following table. (You might want to hang on to this one.)  Eyes of Faith Portfolio        Course  Course Name  Eyes Chapter    MAT 207  Calculus I   1. The Big Questions     MAT 208  Calculus II   2. The Historical Context     MAT 209  Calculus III   3. Infinity     MAT 210  Calculus IV   7. Beauty     MAT 303  Discrete Mathematics   6. Proof and Truth     MAT 304  Differential Equations   8. Effectiveness     MAT 305  Statistics and Probability   5. Chance     MAT 311  Linear Algebra   4. Dimension     MAT 410  Advanced Calculus   9. Epistemology     MAT 491  Intro to Math Research I   10. Ontology     MAT 492  Intro to Math Research II   11. An Apology         For Engineering Majors  In addition to academic experiences math majors experience, students in Belhaven's engineering partnership  learn AutoCAD in PHY 119 Intro to Engineering  interact with professional engineers from places like Yates construction, Raytheon, and Asset Engineering.  take site visits to Ole Miss, Mississippi State, and places like Nissan and the U.S. Army Corps of Engineers Research and Development Center (ERDC).         For Actuarial Science Majors  For those majoring in Actuarial Sciences (ASM), students will  learn statistical software such as R,  sit for the first actuarial exam, the Probability Exam (SOA Exam P).         Double Major and Minors  A mathematics major is very valuable, but pairing a math degree with another field will bring more opportunities than you might expect. We recommend either double-majoring or minoring in the following areas:   Computer Science    Chemistry or Physics    Business or Accounting    Tradigital Art     Besides these recommended degrees, we have had double majors in Dance, Theatre, Music, History, English, and so much more.   "
 },
@@ -419,7 +77,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-belhaven-math-intro.html#sec-belhaven-math-intro-2-2",
   "type": "Figure",
-  "number": "1.3.1",
+  "number": "1.1.1",
   "title": "",
   "body": "  "
 },
@@ -428,7 +86,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-belhaven-math-intro.html#sec-belhaven-math-intro-3",
   "type": "Remark",
-  "number": "1.3.2",
+  "number": "1.1.2",
   "title": "Keep these pillars in mind.",
   "body": " Keep these pillars in mind Community. Academic experiences. Service. "
 },
@@ -437,7 +95,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-belhaven-math-intro.html#subsec-community-2",
   "type": "Figure",
-  "number": "1.3.3",
+  "number": "1.1.3",
   "title": "",
   "body": "  "
 },
@@ -446,7 +104,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-belhaven-math-intro.html#subsubsec-mcsclub-3",
   "type": "Figure",
-  "number": "1.3.4",
+  "number": "1.1.4",
   "title": "",
   "body": "  "
 },
@@ -455,7 +113,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-belhaven-math-intro.html#subsubsec-mcsclub-5",
   "type": "Figure",
-  "number": "1.3.5",
+  "number": "1.1.5",
   "title": "",
   "body": "  "
 },
@@ -464,7 +122,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-belhaven-math-intro.html#subsubsec-social-3-1-1-2",
   "type": "Figure",
-  "number": "1.3.6",
+  "number": "1.1.6",
   "title": "",
   "body": "  "
 },
@@ -473,7 +131,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-belhaven-math-intro.html#subsubsec-social-3-1-4-2",
   "type": "Figure",
-  "number": "1.3.7",
+  "number": "1.1.7",
   "title": "",
   "body": "  "
 },
@@ -500,7 +158,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-belhaven-math-intro.html#subsubsec-seminar-3",
   "type": "Figure",
-  "number": "1.3.8",
+  "number": "1.1.8",
   "title": "",
   "body": "  "
 },
@@ -509,7 +167,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-belhaven-math-intro.html#subsec-acexperiences-5-3",
   "type": "Figure",
-  "number": "1.3.9",
+  "number": "1.1.9",
   "title": "",
   "body": "  "
 },
@@ -518,7 +176,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-belhaven-math-intro.html#subsec-acexperiences-5-4",
   "type": "Figure",
-  "number": "1.3.10",
+  "number": "1.1.10",
   "title": "",
   "body": "  "
 },
@@ -527,7 +185,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-belhaven-math-intro.html#subsec-makercampus-3",
   "type": "Figure",
-  "number": "1.3.11",
+  "number": "1.1.11",
   "title": "",
   "body": "  "
 },
@@ -536,7 +194,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-belhaven-math-intro.html#subsec-makercampus-5",
   "type": "Figure",
-  "number": "1.3.12",
+  "number": "1.1.12",
   "title": "",
   "body": "  "
 },
@@ -545,7 +203,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-belhaven-math-intro.html#subsec-makercampus-6",
   "type": "Figure",
-  "number": "1.3.13",
+  "number": "1.1.13",
   "title": "",
   "body": "  "
 },
@@ -563,7 +221,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-belhaven-math-intro.html#table-eyes",
   "type": "Table",
-  "number": "1.3.14",
+  "number": "1.1.14",
   "title": "Eyes of Faith Portfolio",
   "body": " Eyes of Faith Portfolio        Course  Course Name  Eyes Chapter    MAT 207  Calculus I   1. The Big Questions     MAT 208  Calculus II   2. The Historical Context     MAT 209  Calculus III   3. Infinity     MAT 210  Calculus IV   7. Beauty     MAT 303  Discrete Mathematics   6. Proof and Truth     MAT 304  Differential Equations   8. Effectiveness     MAT 305  Statistics and Probability   5. Chance     MAT 311  Linear Algebra   4. Dimension     MAT 410  Advanced Calculus   9. Epistemology     MAT 491  Intro to Math Research I   10. Ontology     MAT 492  Intro to Math Research II   11. An Apology     "
 },
@@ -572,7 +230,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-belhaven-math-intro.html#sec-belhaven-math-intro-10",
   "type": "Figure",
-  "number": "1.3.15",
+  "number": "1.1.15",
   "title": "",
   "body": "  "
 },
@@ -581,7 +239,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-belhaven-math-intro.html#sec-belhaven-math-intro-11-3",
   "type": "Figure",
-  "number": "1.3.16",
+  "number": "1.1.16",
   "title": "",
   "body": "  "
 },
@@ -590,7 +248,7 @@ var ptx_lunr_docs = [
   "level": "1",
   "url": "sec-successfuls.html",
   "type": "Section",
-  "number": "1.4",
+  "number": "1.2",
   "title": "How to be a successful math major",
   "body": " How to be a successful math major  How do you succeed as a math student? What does success even look like for a mathematician?  College is a unique time to invest wholeheartedly in yourself. It is an enormous opportunity to build your skills, make valuable connections, and lay a foundation for your future. Even as a freshman, having a good plan for approaching your studies will make your life much, much easier.  Before going too far towards your degree in mathematics, it is worth spending time considering how to be a successful mathematics student. We will spend a few minutes now discussing a good strategy to making the most of your college tenure as a math student.   Math People   Think about people you know who are \"good\" at mathematics? What traits do they have that you feel made them \"good\" at mathematics?    Let's get introspective for a moment. What about yourself? At what moments do you feel you have been successful in mathematics?   Past Experiences   Think about your past experiences in mathematics courses. When were you most successful? What practices helped you be successful?     Tips for Success  Now let's look towards the future. Ask yourself \"What can I do to be a successful math student NOW?\" This is not always an easy question to answer, and honestly everyone will have to answer it differently. However, we can provide a few guiding points that may help you develop a strategy to do well in your mathematical coursework.     Be curious about things! It is very difficult to learn about things if you have no interest in them. We can practice curiosity (which leads to deeper learning) by simply asking \"why\" more often. Mathematics, especially, encourages us to wonder why things operate the way they do.     Don't just be a note taker! Notes can be helpful, but do not think writing down whatever is on the board is enough to have a good class. It is easy to take notes without thinking about what is actually happening in class.     Be alert in class. Come to class ready to be engaged. Ask questions. You paid for the time. Don't waste it!     Procrastination is NOT your friend. It is easy to push off an assignment here or there to another time. Somedays are about balancing competing priorities, but in the long run procrastination will only make things worse. Avoid avoiding when possible.     Consistent work leads to consistent success. Try to approach your school work like you would a workout routine. Lifting weights once a week helps some, but if you are serious about bulking up, then you know you need to hit the gym more frequently than once a week. Bring the same mindset, and with consistend work you will see gains in understanding and performance.    People associate good math-ing with intelligence. There is some truth to that, but there are things we can do to increase our level of success. While we cannot contral our intelligence, Work ethic is in your control.   What speaks to you?   After reviewing the previous points, what speaks to you? What can you do to prepare yourself to be a successful mathematics student?      Putting it into practice   If you are in a mathematics course this semester, make a plan to your approach to the course.  Ask yourself the following questions:   What can I do to engage in class?    Pick a regular time in the week reserved to work on homework. When will that be?    Who can I study with? When will I study?    Where is my instructor's office? When are their office hours?         Meeting Classmates  Find four classmates in your class that you have not met before. Ask them the following questions:   What is you name?    What is your major?    Where are you from?    What's one interesting fact about you?     Finish your introduction with each person by picking a unique codeword to share just between the two of you. Example: \"truncated\".    "
 },
@@ -599,7 +257,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-successfuls.html#ques-mathpeople",
   "type": "Question",
-  "number": "1.4.1",
+  "number": "1.2.1",
   "title": "Math People.",
   "body": " Math People   Think about people you know who are \"good\" at mathematics? What traits do they have that you feel made them \"good\" at mathematics?   "
 },
@@ -608,7 +266,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-successfuls.html#ques-mathpractices",
   "type": "Question",
-  "number": "1.4.2",
+  "number": "1.2.2",
   "title": "Past Experiences.",
   "body": " Past Experiences   Think about your past experiences in mathematics courses. When were you most successful? What practices helped you be successful?   "
 },
@@ -671,7 +329,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-successfuls.html#q-whatcanyoudo",
   "type": "Question",
-  "number": "1.4.3",
+  "number": "1.2.3",
   "title": "What speaks to you?",
   "body": " What speaks to you?   After reviewing the previous points, what speaks to you? What can you do to prepare yourself to be a successful mathematics student?   "
 },
@@ -680,7 +338,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-successfuls.html#act-mathpractice",
   "type": "Activity",
-  "number": "1.4.1",
+  "number": "1.2.1",
   "title": "",
   "body": " If you are in a mathematics course this semester, make a plan to your approach to the course.  Ask yourself the following questions:   What can I do to engage in class?    Pick a regular time in the week reserved to work on homework. When will that be?    Who can I study with? When will I study?    Where is my instructor's office? When are their office hours?     "
 },
@@ -689,7 +347,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-successfuls.html#a-classmates",
   "type": "Activity",
-  "number": "1.4.2",
+  "number": "1.2.2",
   "title": "",
   "body": " Meeting Classmates  Find four classmates in your class that you have not met before. Ask them the following questions:   What is you name?    What is your major?    Where are you from?    What's one interesting fact about you?     Finish your introduction with each person by picking a unique codeword to share just between the two of you. Example: \"truncated\".  "
 },
@@ -698,7 +356,7 @@ var ptx_lunr_docs = [
   "level": "1",
   "url": "sec-career.html",
   "type": "Section",
-  "number": "1.5",
+  "number": "1.3",
   "title": "Careers in Mathematics",
   "body": " Careers in Mathematics  What can you do with your degree? What doors does a background in mathematics open? What is a mathematician? You can be a math teacher, but what if you're not interested in education as a career?  It's good to be thinking of life after college, even if you just started your college days. A little research into what career options are open to you will help set a vision for your future, and a vision for the future will provide a path of clear steps to get you there.  Remember:   There is no success without discipline.    There is no discipine without vision.     Also remember that a huge part of the college experience is exploring options and figuring out what path fits you best. Do not feel pressured to have everything figured out yet. Here we are simply showing what's out here.   What Careers are there?   Northwestern University compiled a list of careers using mathematics. Read through the article Best Math Careers.     Do any of these careers seem interesting to you?   What Careers are there?   Find three careers (one of them resulting directly from a mathematics degree) that you can follow with your degree. Be sure to include your sources.     Canvas Discussion   Locate the Canvas discussion post \"Mathematical Careers\", and share a resource highlighting one of the careers you found to be interesting.     Career Interest   Do any of the careers you mentioned or found in Canvas seem like a career you would like to pursue? Why or why not?     Steps Towards a Career   After reviewing several careers, choose one and describe steps you can take to obtain that position.     College after college  Some of us are destined for more school than others. You might find yourself wanting more math than what your undergrad experience can accommodate. It could be that you decide to earn a Master's or a PhD.  If you have any interest in graduate school, you'll want to make sure to build a resume of things graudate programs look for.   high GPA    interest in research (conferences, posters, thesis)    a Research Experience for Undergrads (REU) if possible.      "
 },
@@ -707,7 +365,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-career.html#sec-career-4",
   "type": "Remark",
-  "number": "1.5.1",
+  "number": "1.3.1",
   "title": "",
   "body": "Remember:   There is no success without discipline.    There is no discipine without vision.    "
 },
@@ -716,7 +374,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-career.html#act-careers",
   "type": "Activity",
-  "number": "1.5.1",
+  "number": "1.3.1",
   "title": "What Careers are there?",
   "body": " What Careers are there?   Northwestern University compiled a list of careers using mathematics. Read through the article Best Math Careers.    "
 },
@@ -725,7 +383,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-career.html#three-careers",
   "type": "Question",
-  "number": "1.5.2",
+  "number": "1.3.2",
   "title": "What Careers are there?",
   "body": " What Careers are there?   Find three careers (one of them resulting directly from a mathematics degree) that you can follow with your degree. Be sure to include your sources.   "
 },
@@ -734,7 +392,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-career.html#canvas-careers",
   "type": "Question",
-  "number": "1.5.3",
+  "number": "1.3.3",
   "title": "Canvas Discussion.",
   "body": " Canvas Discussion   Locate the Canvas discussion post \"Mathematical Careers\", and share a resource highlighting one of the careers you found to be interesting.   "
 },
@@ -743,7 +401,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-career.html#career-interest",
   "type": "Question",
-  "number": "1.5.4",
+  "number": "1.3.4",
   "title": "Career Interest.",
   "body": " Career Interest   Do any of the careers you mentioned or found in Canvas seem like a career you would like to pursue? Why or why not?   "
 },
@@ -752,9 +410,351 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-career.html#ques-steps",
   "type": "Question",
-  "number": "1.5.5",
+  "number": "1.3.5",
   "title": "Steps Towards a Career.",
   "body": " Steps Towards a Career   After reviewing several careers, choose one and describe steps you can take to obtain that position.   "
+},
+{
+  "id": "sec-sets",
+  "level": "1",
+  "url": "sec-sets.html",
+  "type": "Section",
+  "number": "1.4",
+  "title": "Shopping Carts and Sets",
+  "body": " Shopping Carts and Sets  Sunday afternoon at the local supermarket is a bustling place. Shoppers cut each other off for the last jar of salsa with a smile and a 'pardon me'. Amid the somewhat friendly and mostly competitive crowd, long-time friends Yuri and Kalo bump into each other in front of the cauliflower. It's always a bit awkward looking into someone else's shopping cart (feels like a violation of privacy, right?), but Yuri couldn't help but notice that there was some overlap.  \"Hey, I like rice cakes, too. Look!\" exclaimed Yuri holding up a bag of rice cakes from his cart.   Anyway... the two carts looked like this:     Yuri's cart  Kalo's cart    rice cakes  rice cakes    cauliflower  cauliflower    halibut  tuna    coffee creamer  crab legs    spicy ramen  spicy ramen    cilantro  parsley    yellow onion  purple onion    corn chips  cookies    salami  bagels    eggs  salami      cream cheese      Collections of Things  There's some mathematics going on here. Anytime we find a collection of items (like a shopping cart) we have a mathematical object called a set.  A set is simply a collection of objects that we refer to as elements .  Let's call the set of Yuri's cart , written as { rice cakes, cauliflower, halibut, coffee creamer, spicy ramen, cilantro, yellow onion, corn chips, salami, eggs } . Similarly {rice cakes, cauliflower, tuna, crab legs, spicy ramen, parsley, purple onion, cookies, bagels, salami, and cream cheese} is the set representing Kalo's cart. So halibut is an element of (written as halibet ), and tuna .  We could make a list of the items that both Yuri and Kalo have in their carts, and this overlap between their two carts represents the \"intersection of Y and K\", denoted .  In general for sets and , the intersection of and  , , is the set of elements in both sets.    Intesection of and , .       Yuri and Kalo's intersection   What does contain?     = {rice cakes, cauliflower, spicy ramen, salami}    Another friend interrupts Yuri and Kalo's meeting. JACOBI greets them both as they unapologetically rifle through his cart.  JACOBI's cart is represented by the set {spicy ramen, cilantro, corn chips, and eggs}. Yuri can't help notice that everything in is also in . In this case, we say that is a subset of , denoted or .    A set is a subset of if for any element , we know also that .      A subset of , .      Subsets of Dairy   Let be the set of all dairy items. Find a subset of that is also a subset of .    The subset we're looking for must be a set of dairy items in Kalo's cart: , for example.  That is, {cream cheese}.     Is the intersection a subset?   Is a subset of ?    Yes! Any element in is also an element of .    Unbeknownst to Kalo, Kalo's wife MARNIE is also in the grocery store with {cauliflower, macaroni, purple onion, water, bacon}. When Kalo and MARNIE bump into each other, they decide to finish their shopping and to consolidate their items to one cart. Kalo reshelves the cauliflower and purple onion, though, since MARNIE already has those items in her cart. This new cart is known as the \"union of K and M\", .    In general, for sets and , the union of and , , is the collection of elements that are in either set (or both).      Union of and , .      Question of union   What is ?     Another question of union   What is ?     More complicated sets   What about ?      An empty cart  After Kalo and Marnie consolidate their carts, somebody snags Kalo's now empty cart. This makes Kalo consider how an empty cart relates to sets.      Can a set have 0 elements?    Definitely!    Actually, that empty cart is symbolic of a very important set. The empty set is the set with no elements. We denote it as .      Give an example of two sets, and for which .    There are millions of examples. For example, let be the set of all species of turtles and be the set of flying creatures. Come up with your on example.      Venn Diagrams  A common way to picture sets and how they interact is with overlapping circles. You have already seen a few such images in this section. We call these figures Venn diagrams, named after mathematician John Venn (1834-1923), and they help us quickly recognize how given sets are related.  For example, consider the sets , , and . Are sets such as or obvious? The Venn diagram makes these relationships obvious.         Use the Venn diagram to provide .    We can see .    It's also fairly common to find Venn diagram memes. You should do a quick internet search to see for yourself.       How about we look at sets of actors from popular movie franchises?      More sets later Remember that our goal is to introduce you to topics you'll cover in more detail later. There are other set operations that we won't cover here. You'll see these in classes like Discrete Mathematics, Modern Algebra, and many others.    Set Activities   You will now be human Venn diagrams (This works best in an open area).    Teams give an elt in called out sets like A UNION B INTERSECT C, etc.    "
+},
+{
+  "id": "sec-sets-5",
+  "level": "2",
+  "url": "sec-sets.html#sec-sets-5",
+  "type": "Table",
+  "number": "1.4.1",
+  "title": "",
+  "body": "   Yuri's cart  Kalo's cart    rice cakes  rice cakes    cauliflower  cauliflower    halibut  tuna    coffee creamer  crab legs    spicy ramen  spicy ramen    cilantro  parsley    yellow onion  purple onion    corn chips  cookies    salami  bagels    eggs  salami      cream cheese    "
+},
+{
+  "id": "subsec-sets-3",
+  "level": "2",
+  "url": "sec-sets.html#subsec-sets-3",
+  "type": "Definition",
+  "number": "1.4.2",
+  "title": "",
+  "body": "A set is simply a collection of objects that we refer to as elements . "
+},
+{
+  "id": "subsec-sets-6",
+  "level": "2",
+  "url": "sec-sets.html#subsec-sets-6",
+  "type": "Definition",
+  "number": "1.4.3",
+  "title": "",
+  "body": "In general for sets and , the intersection of and  , , is the set of elements in both sets. "
+},
+{
+  "id": "subsec-sets-7",
+  "level": "2",
+  "url": "sec-sets.html#subsec-sets-7",
+  "type": "Figure",
+  "number": "1.4.4",
+  "title": "",
+  "body": "  Intesection of and , .  "
+},
+{
+  "id": "q-setintersect",
+  "level": "2",
+  "url": "sec-sets.html#q-setintersect",
+  "type": "Question",
+  "number": "1.4.5",
+  "title": "Yuri and Kalo’s intersection.",
+  "body": " Yuri and Kalo's intersection   What does contain?     = {rice cakes, cauliflower, spicy ramen, salami}   "
+},
+{
+  "id": "def-",
+  "level": "2",
+  "url": "sec-sets.html#def-",
+  "type": "Definition",
+  "number": "1.4.6",
+  "title": "",
+  "body": "  A set is a subset of if for any element , we know also that .   "
+},
+{
+  "id": "subsec-sets-13",
+  "level": "2",
+  "url": "sec-sets.html#subsec-sets-13",
+  "type": "Figure",
+  "number": "1.4.7",
+  "title": "",
+  "body": "  A subset of , .  "
+},
+{
+  "id": "q-setsubset",
+  "level": "2",
+  "url": "sec-sets.html#q-setsubset",
+  "type": "Question",
+  "number": "1.4.8",
+  "title": "Subsets of Dairy.",
+  "body": " Subsets of Dairy   Let be the set of all dairy items. Find a subset of that is also a subset of .    The subset we're looking for must be a set of dairy items in Kalo's cart: , for example.  That is, {cream cheese}.   "
+},
+{
+  "id": "q-setsubsetintersect",
+  "level": "2",
+  "url": "sec-sets.html#q-setsubsetintersect",
+  "type": "Question",
+  "number": "1.4.9",
+  "title": "Is the intersection a subset?",
+  "body": " Is the intersection a subset?   Is a subset of ?    Yes! Any element in is also an element of .   "
+},
+{
+  "id": "def-union",
+  "level": "2",
+  "url": "sec-sets.html#def-union",
+  "type": "Definition",
+  "number": "1.4.10",
+  "title": "",
+  "body": "  In general, for sets and , the union of and , , is the collection of elements that are in either set (or both).   "
+},
+{
+  "id": "subsec-sets-19",
+  "level": "2",
+  "url": "sec-sets.html#subsec-sets-19",
+  "type": "Figure",
+  "number": "1.4.11",
+  "title": "",
+  "body": "  Union of and , .  "
+},
+{
+  "id": "q-union1",
+  "level": "2",
+  "url": "sec-sets.html#q-union1",
+  "type": "Question",
+  "number": "1.4.12",
+  "title": "Question of union.",
+  "body": " Question of union   What is ?   "
+},
+{
+  "id": "q-union2",
+  "level": "2",
+  "url": "sec-sets.html#q-union2",
+  "type": "Question",
+  "number": "1.4.13",
+  "title": "Another question of union.",
+  "body": " Another question of union   What is ?   "
+},
+{
+  "id": "q-union3",
+  "level": "2",
+  "url": "sec-sets.html#q-union3",
+  "type": "Question",
+  "number": "1.4.14",
+  "title": "More complicated sets.",
+  "body": " More complicated sets   What about ?   "
+},
+{
+  "id": "q-emptyset",
+  "level": "2",
+  "url": "sec-sets.html#q-emptyset",
+  "type": "Question",
+  "number": "1.4.15",
+  "title": "",
+  "body": "  Can a set have 0 elements?    Definitely!   "
+},
+{
+  "id": "subsec-emptyset-5",
+  "level": "2",
+  "url": "sec-sets.html#subsec-emptyset-5",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "empty set "
+},
+{
+  "id": "q-emptyinter",
+  "level": "2",
+  "url": "sec-sets.html#q-emptyinter",
+  "type": "Question",
+  "number": "1.4.16",
+  "title": "",
+  "body": "  Give an example of two sets, and for which .    There are millions of examples. For example, let be the set of all species of turtles and be the set of flying creatures. Come up with your on example.   "
+},
+{
+  "id": "subsec-venn-4",
+  "level": "2",
+  "url": "sec-sets.html#subsec-venn-4",
+  "type": "Figure",
+  "number": "1.4.17",
+  "title": "",
+  "body": "  "
+},
+{
+  "id": "q-venn1",
+  "level": "2",
+  "url": "sec-sets.html#q-venn1",
+  "type": "Question",
+  "number": "1.4.18",
+  "title": "",
+  "body": "  Use the Venn diagram to provide .    We can see .   "
+},
+{
+  "id": "subsec-venn-8",
+  "level": "2",
+  "url": "sec-sets.html#subsec-venn-8",
+  "type": "Figure",
+  "number": "1.4.19",
+  "title": "",
+  "body": "  "
+},
+{
+  "id": "subsec-venn-11",
+  "level": "2",
+  "url": "sec-sets.html#subsec-venn-11",
+  "type": "Figure",
+  "number": "1.4.20",
+  "title": "",
+  "body": "  "
+},
+{
+  "id": "subsec-venn-12",
+  "level": "2",
+  "url": "sec-sets.html#subsec-venn-12",
+  "type": "Remark",
+  "number": "1.4.21",
+  "title": "More sets later.",
+  "body": " More sets later Remember that our goal is to introduce you to topics you'll cover in more detail later. There are other set operations that we won't cover here. You'll see these in classes like Discrete Mathematics, Modern Algebra, and many others. "
+},
+{
+  "id": "act-set1",
+  "level": "2",
+  "url": "sec-sets.html#act-set1",
+  "type": "Activity",
+  "number": "1.4.1",
+  "title": "",
+  "body": " You will now be human Venn diagrams (This works best in an open area).  "
+},
+{
+  "id": "act-set2",
+  "level": "2",
+  "url": "sec-sets.html#act-set2",
+  "type": "Activity",
+  "number": "1.4.2",
+  "title": "",
+  "body": " Teams give an elt in called out sets like A UNION B INTERSECT C, etc.  "
+},
+{
+  "id": "sec-pascaltriangle",
+  "level": "1",
+  "url": "sec-pascaltriangle.html",
+  "type": "Section",
+  "number": "1.5",
+  "title": "A Special Triangle",
+  "body": " A Special Triangle      You can find all sorts of interesting examples of surprising structures in the universe of mathematics. One such example is a very special triangle of numbers that's easy to construct and borderline ubiquitous in its applications.  This triangle goes by many names and was discovered by several cultures in history. In 450 BC, Indian mathematician, Pingata, called this new construction the \"Staircase of Mount Meru\". Persian mathematician, Omar Khayyam, discovered \"Khauuam's Triangle\" in the 11th century, and close to the same time, Chinese mathematician, Jin Xian, discovered \"Yang Hui's Triangle\". In the western world, this triangle is most commonly refered to as Pascal's Triangle, named after french mathematician, Blaise Pascal, who discovered this triangle in the 17th century. REFERENCE      The Pingata, Khauuman's Triangle, and Yang Hui's Triangle    Constructing Pascal's Triangle  Now we will follow the foot steps of giants. We can build Pascal's Triangle by listing out the rows. For the first row (row ), we just write , and the second row is composed of . The third row (what we call row 2) consists of like below.      The pattern of Pascal's Triangle is not immediately obvious for us yet. The in row 2 comes from adding the two 's above it in row 1. For the next row (row 3), we start with . The next entry consists of the sum of the two numbers above it ( ). Next is the sum , and finally we end the row with . That is, row 3 is .  Then we just repeat this process.     Row 4   Fill out row 4 of Pascal's Triangle.    Following the same process, row 4 has entries or .      Fill out the first 8 rows of Pascal's Triangle.    Patterns of Pacal's Triangle  Pascal's triangle has interested mathematicians for centuries, as it is filled with interesting patterns.     Adding along a row   Add entries of rows 0 through 4. What pattern do you notice?    The sume of entries of rows 0 through 4 are respectively. These looks like powers of .    We just uncovered that the sum of entries along row add up to . This is just one pattern of Pascal's triangle, but there are many more. Wadji Mohamed Retemi expertly hightlights some of these patterns we find in Pascal's triangle in this Ted Ed video.        Use TedEd's video and Pascal's Triangle to answer the following.   Binomial Expansion     Use Pascal's Triangle to expand the binomial      Powers of 11   Use Pascal's Triangle to find      Counting Apples   There are apples on a counter. In how many ways could we select of them? Use Pascal's Triangle to decide.     Triangular Numbers   List out of the first 6 triangular numbers.     Tetrahedral Numbers   What is the 5th tetrahedral number?     "
+},
+{
+  "id": "sec-pascaltriangle-2",
+  "level": "2",
+  "url": "sec-pascaltriangle.html#sec-pascaltriangle-2",
+  "type": "Figure",
+  "number": "1.5.1",
+  "title": "",
+  "body": "   "
+},
+{
+  "id": "sec-pascaltriangle-5",
+  "level": "2",
+  "url": "sec-pascaltriangle.html#sec-pascaltriangle-5",
+  "type": "Figure",
+  "number": "1.5.2",
+  "title": "",
+  "body": "   The Pingata, Khauuman's Triangle, and Yang Hui's Triangle  "
+},
+{
+  "id": "subsec-pascalconstruct-3",
+  "level": "2",
+  "url": "sec-pascaltriangle.html#subsec-pascalconstruct-3",
+  "type": "Figure",
+  "number": "1.5.3",
+  "title": "",
+  "body": "   "
+},
+{
+  "id": "ques-pascal1",
+  "level": "2",
+  "url": "sec-pascaltriangle.html#ques-pascal1",
+  "type": "Question",
+  "number": "1.5.4",
+  "title": "Row 4.",
+  "body": " Row 4   Fill out row 4 of Pascal's Triangle.    Following the same process, row 4 has entries or .   "
+},
+{
+  "id": "act-pascal1",
+  "level": "2",
+  "url": "sec-pascaltriangle.html#act-pascal1",
+  "type": "Activity",
+  "number": "1.5.1",
+  "title": "",
+  "body": "Fill out the first 8 rows of Pascal's Triangle. "
+},
+{
+  "id": "sec-patterns-4",
+  "level": "2",
+  "url": "sec-pascaltriangle.html#sec-patterns-4",
+  "type": "Question",
+  "number": "1.5.5",
+  "title": "Adding along a row.",
+  "body": " Adding along a row   Add entries of rows 0 through 4. What pattern do you notice?    The sume of entries of rows 0 through 4 are respectively. These looks like powers of .   "
+},
+{
+  "id": "vid-khanpascal",
+  "level": "2",
+  "url": "sec-pascaltriangle.html#vid-khanpascal",
+  "type": "Figure",
+  "number": "1.5.6",
+  "title": "",
+  "body": "   "
+},
+{
+  "id": "ques-pascal2",
+  "level": "2",
+  "url": "sec-pascaltriangle.html#ques-pascal2",
+  "type": "Question",
+  "number": "1.5.7",
+  "title": "Binomial Expansion.",
+  "body": " Binomial Expansion     Use Pascal's Triangle to expand the binomial    "
+},
+{
+  "id": "ques-pascal3",
+  "level": "2",
+  "url": "sec-pascaltriangle.html#ques-pascal3",
+  "type": "Question",
+  "number": "1.5.8",
+  "title": "Powers of 11.",
+  "body": " Powers of 11   Use Pascal's Triangle to find    "
+},
+{
+  "id": "ques-pascal4",
+  "level": "2",
+  "url": "sec-pascaltriangle.html#ques-pascal4",
+  "type": "Question",
+  "number": "1.5.9",
+  "title": "Counting Apples.",
+  "body": " Counting Apples   There are apples on a counter. In how many ways could we select of them? Use Pascal's Triangle to decide.   "
+},
+{
+  "id": "ques-pascal5",
+  "level": "2",
+  "url": "sec-pascaltriangle.html#ques-pascal5",
+  "type": "Question",
+  "number": "1.5.10",
+  "title": "Triangular Numbers.",
+  "body": " Triangular Numbers   List out of the first 6 triangular numbers.   "
+},
+{
+  "id": "ques-pascal6",
+  "level": "2",
+  "url": "sec-pascaltriangle.html#ques-pascal6",
+  "type": "Question",
+  "number": "1.5.11",
+  "title": "Tetrahedral Numbers.",
+  "body": " Tetrahedral Numbers   What is the 5th tetrahedral number?   "
 },
 {
   "id": "sec-logicpuzzle",
