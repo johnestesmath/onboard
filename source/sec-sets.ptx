@@ -396,15 +396,69 @@ known as the "union of K and M", <m>K \cup M </m>. </p>
     <title>Set Activities</title>
 
     <activity xml:id="act-set1">
+      <title>Human Venn Diagrams</title>
       <p>
-        You will now be human Venn diagrams (This works best in an open area).
+        Your class will now be a human Venn diagram (This works best in an open area). Each of you will
+        receive an idex card. On your index card, write (1) an integer, (2) a color, and (3) an animal. 
       </p>
+
+      <p>
+        For example, your card may include
+        <ol>
+          <li>
+            <p>
+              73
+            </p>
+          </li>
+          <li>
+            <p>
+              tangerine
+            </p>
+          </li>
+          <li>
+            <p>
+              pangolin.
+            </p>
+          </li>
+        </ol>
+      </p>
+
+      <p>
+        Your instructor will designate one part of the room (or area) for set <m>A</m>, another for
+        set <m>B</m>, and a third area for set <m>C</m>. </p>
+      <p>
+        Now for the game. Your instructor will call out (or write on the board) what the three
+        sets represent. At that point, you must move to the location on the Venn diagram that fits your card.
+      </p>
+
+      <p>
+        For example, suppose your instructor calls out (or writes) "<m>A</m> is the set even integers, <m>B</m> is 
+        the set of warm colors (yellows, oranges, reds), and <m>C</m> is the set of predatory animals. Compare those
+        sets to your card. It appears <m>C</m> is the only set you are a part of, so move on to that section of the Venn
+        diagram. The quicker, the better.
+      </p>
+
+      <figure>
+        <image xml:id="fig-actsets" source="sets-activity1.png" width="80%" />
+      </figure>
       
+      <p>
+        Play a few rounds.
+      </p>
     </activity>
 
     <activity xml:id="act-set2">
+      <title>Crafting Sets</title>
+      
       <p>
-        Teams give an elt in called out sets like A UNION B INTERSECT C, etc.
+        For this activity, the class will be divided groups. The instructor will give either an element or a set of elements as well as
+        a set operator (either union or intersection). The group is challenged to find two sets whose union or intersection (whichever is 
+        specified) is the given element or subset.
+      </p>
+
+      <p>
+        For example, suppose your instructor says "<m>\{3,5,6,9,10,12,15,\ldots \}</m> \text{ and } <m>\cup</m>". Your
+        group could let <m>A = \{\text{ multiples of }3\}</m> and <m>B = \{\text{ multiples of }5\}</m> since <m>A \cup B = \{3,5,6,9,10,12,15,\ldots \}</m>.
       </p>
     </activity>
 
