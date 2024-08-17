@@ -3,6 +3,154 @@
 <section xml:id="sec-newtonleibniz" xmlns:xi="http://www.w3.org/2001/XInclude">
   <title>Newton vs Leibniz</title>
 
-  <p> Text of section. </p>
+  <p> Calculus is arguably the greatest human discovery of all time. With calculus, we have
+    significantly increased our understanding of classical physics, electromagnetism, 
+    population dynamics, and astronomy. Every text message you send was made possible
+    through calculus. Every time you take a Tylenol, pump your car breaks, or listen to the radio, you
+    are expierencing gifts of calculus. Applications of calculus
+    affect our daily lives in profound ways.</p>
+
+    <p>
+      The calculus we have today packaged in nice textbooks is due to the hard work and 
+      incredible insight of a lot of incredibly impressive people. Famous mathematicians like
+      Fermat, Descartes, and Archimedes all laid groundwork for modern calculus, but the lion's share
+      of the credit often goes to two giants in the mathematical world: Sir Isaac Newton and Gottfried Leibniz.
+    </p>
+
+    <p>
+      And the story of Newton and Leibniz is not without controversy.
+    </p>
+
+    <subsection xml:id="subsec-Newton">
+      <title>Newton</title>
+
+      <p>
+        Considered to be one of the three greatest mathematical minds of all time, Sir Isaac Newton (1643-1727)
+        expressed a generational talent for science and mathematics. He is referred to as a 
+        "supreme genius" and was England's champion of science.
+      </p>
+
+      <p> <!--source: https://sirisaacnewton.info/isaac-newtons-discoveries-and-inventions/#mostfamous-->
+        Newton is accredited with 
+        <ol>
+          <li>
+            <p>
+              discovering the three laws of motion
+            </p>
+          </li>
+          <li>
+            <p>
+              discovered gravitational force, validating Kepler's laws of planetary motion AND the Copernican model
+              of the solar system.
+            </p>
+          </li>
+          <li>
+            <p>
+              the potent mathematical tool known as calculus.
+            </p>
+          </li>
+        </ol>
+      </p>
+
+      <question xml:id='q-newton2'>
+        <title>More Contributions</title>
+        <statement>
+          <p>
+            Find another contribution to science and mathematics attributed to Newton.
+          </p>
+        </statement>
+        <solution>
+          <p>
+            There are several. One example of Newton's contributions is in the area of optics.
+          </p>
+        </solution>
+        
+        
+        
+       </question>
+
+      <figure xml:id="fig-newton"> <!--By Godfrey Kneller - File:Portrait of Sir Isaac Newton, 1689.jpg from https://exhibitions.lib.cam.ac.uk/linesofthought/artifacts, Public Domain, https://commons.wikimedia.org/w/index.php?curid=132521185-->
+        <image xml:id="fig-newtonimage" source="newton.jpg" width="50%" />
+        <caption>Sir Isaac Newton (1643-1727)</caption>
+      </figure>
+
+      <p>
+        
+      </p>
+
+      <question xml:id="q-newton1">
+        <title>Newton's Inventions</title>
+        <statement>
+          <p>
+            Newton also is known for several inventions. Do a quick internet search to list two of them.
+          </p>
+        </statement>    
+        <solution>
+          <p>
+            We'll give one: the reflecting telescope.
+          </p>
+        </solution>
+        
+      </question>
+      
+    </subsection>
+
+    <subsection xml:id="subsec-leibniz">
+      <title>Leibniz</title>
+
+      <p>
+        Just because you're not a generational super genius like Isaac Newton does not
+        mean that you cannot make significant contributions to the scientific community. During the
+        time of Newton, German mathematician Gottfried Wilhelm Leibniz (1646-1716), also developed
+        calculus. More than that, Leibniz is known for his contributions to philosophy, ethics, politics,
+        and library organizational systems. 
+       </p>
+
+       <!--By Christoph Bernhard Francke - Herzog Anton Ulrich-Museum, online, Public Domain, https://commons.wikimedia.org/w/index.php?curid=53159699-->
+       <figure xml:id="fig-leibniz"> <!--By Godfrey Kneller - File:Portrait of Sir Isaac Newton, 1689.jpg from https://exhibitions.lib.cam.ac.uk/linesofthought/artifacts, Public Domain, https://commons.wikimedia.org/w/index.php?curid=132521185-->
+        <image xml:id="fig-leibnizimage" source="leibniz.jpg" width="50%" />
+        <caption>Gottfried Leibniz (1646-1716)</caption>
+      </figure>
+
+       <p>
+        Actually, Leibniz also developed today's standard notation for derivatives and integrals, and his 
+        approach to the subject more closely resembles what we do today over Newton's calculus.
+       </p>
+
+       <p>
+        Not only that, Leibniz developed our understanding of base-2 number systems: binary. At the
+        machine level, computers operate through binary mathematics. We can thank Leibniz for that.
+       </p>
+      
+    </subsection>
+ 
+  
+    <subsection>
+    <title>The Calculus Controversy </title>
+
+    <p>
+      Who should get credit for the discovery of modern calculus? You might think it would be easy to share 
+      credit, but that is not the way European nations thought of things in the 17th century. Calculus'
+      discovery became a huge source of conflict, and this conflict quickly pitted Newton and
+      Leibniz against each other.
+    </p>
+
+    <p>
+      Gotthegist's YouTube video, "The Calculus Controversy", tells this story well. Watch the video and
+      answer the following questions.
+    </p>
+
+  <figure xml:id="vid-newtonvleibniz">
+    <video youtube="axZTv5YJssA"/>
+     <caption></caption>
+  </figure>
+
+
+</subsection>
+
+<p>Maybe mention Stephen Strogatz's Infinite Powers</p>
+
+
+
 
 </section>

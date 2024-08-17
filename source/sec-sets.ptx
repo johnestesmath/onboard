@@ -439,7 +439,7 @@ known as the "union of K and M", <m>K \cup M </m>. </p>
       </p>
 
       <figure>
-        <image xml:id="fig-actsets" source="sets-activity1.png" width="80%" />
+        <image xml:id="fig-actsets" source="set-activity1.png" width="80%" />
       </figure>
       
       <p>
@@ -457,7 +457,7 @@ known as the "union of K and M", <m>K \cup M </m>. </p>
       </p>
 
       <p>
-        For example, suppose your instructor says "<m>\{3,5,6,9,10,12,15,\ldots \}</m> \text{ and } <m>\cup</m>". Your
+        For example, suppose your instructor says "<m>\{3,5,6,9,10,12,15,\ldots \}</m> and <m>\cup</m>". Your
         group could let <m>A = \{\text{ multiples of }3\}</m> and <m>B = \{\text{ multiples of }5\}</m> since <m>A \cup B = \{3,5,6,9,10,12,15,\ldots \}</m>.
       </p>
     </activity>
