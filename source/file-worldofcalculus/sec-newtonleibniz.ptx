@@ -13,7 +13,7 @@
     <p>
       The calculus we have today packaged in nice textbooks is due to the hard work and 
       incredible insight of a lot of incredibly impressive people. Famous mathematicians like
-      Fermat, Descartes, and Archimedes all laid groundwork for modern calculus, but the lion's share
+      Fermat, Descartes, and Archimedes all laid ground work for modern calculus, but the lion's share
       of the credit often goes to two giants in the mathematical world: Sir Isaac Newton and Gottfried Leibniz.
     </p>
 
@@ -50,6 +50,10 @@
             </p>
           </li>
         </ol>
+      </p>
+
+      <p>
+        
       </p>
 
       <question xml:id='q-newton2'>
@@ -144,11 +148,60 @@
     <video youtube="axZTv5YJssA"/>
      <caption></caption>
   </figure>
+  
+  <question xml:id="q-nvl1">
+    <statement>
+      <p>
+        What did Newton call his version of calculus?
+      </p>
+    </statement>
+  </question>
+  <question xml:id="q-nvl2">
+    <statement>
+      <p>
+        What notation did Leibniz introduce?
+      </p>
+    </statement>
+  </question>
+  <question xml:id="q-nvl3">
+    <statement>
+      <p>
+        When did Leibniz publish his calculus? What about Newton?
+      </p>
+    </statement>
+  </question>
+  <question xml:id="q-nvl4">
+    <statement>
+      <p>
+        What is an infinitesmal?
+      </p>
+    </statement>
+  </question>
+  <question xml:id="q-nvl5">
+    <statement>
+      <p>
+        Who ran a smear campaign in the quest to get credit for campus? Was
+        it successful?
+      </p>
+    </statement>
+  </question>
+  <question xml:id="q-nvl6">
+    <statement>
+      <p>
+        What brand of calculus has stuck around?
+      </p>
+    </statement>
+  </question>
+
+  <p>
+    Thankfully, the world has mostly moved on from the drama of the origins of
+    calculus. We can simply enjoy the fruit of their labor. Regardless of the story,
+    we should be thankful that Newton and Leibniz both get credit today.
+  </p>
 
 
 </subsection>
 
-<p>Maybe mention Stephen Strogatz's Infinite Powers</p>
 
 
 
