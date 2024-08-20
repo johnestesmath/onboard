@@ -30,8 +30,15 @@ Can't we do this forever?</p>
 </p>
 
 <p>
-    HILBERT HOTEL VIDEO
+  Imagine a hotel with an infinite number of rooms that are all booked. This
+  example is called <term>Hilbert's Hotel</term> and is a great example to show that
+  <m>\infty</m> does not behave with arithmetic like we typically like.
 </p>
+
+<figure xml:id="vid-hilbert">
+  <video youtube="faQBrAQ87l4"/>
+   <caption></caption>
+</figure>
 
 <question xml:id ="hilberhotel1">
     <statement>
@@ -200,17 +207,9 @@ Can't we do this forever?</p>
         Actually, a graph would make these trends obvious.
     </p>
 
-    <figure xml:id="fig-plot1">
-      <caption></caption>
-      <image xml:id="sageplot-recsquare" width="50%">
-        <shortdescription>(for accessibility)</shortdescription>
-        <sageplot>
-          f(x) = 1/x
-          plot(f, (x, 0, 2), color='blue', thickness=3)
-          </sageplot>
-      </image>
-    </figure>
-
+    <figure>
+      <image xml:id="fig-infgraph1" source="infgraph1.png" width="70%" />
+  </figure>
     
 </subsection>
 
@@ -258,6 +257,9 @@ Can't we do this forever?</p>
     The first should be familiar to us.
   </p>
 
+  <subsubsection xml:id="subsubsec-limits">
+    <title>Limits of Functions</title>
+
     <question xml:id="ques-limits1">
       <title>Limit of Functions</title>
       <p>
@@ -267,7 +269,11 @@ Can't we do this forever?</p>
       </p>
       
     </question>
+    
+  </subsubsection>
 
+  <subsubsection xml:id="subsubsec-geometric">
+    <title>Geometric Series</title>
     <p>
       Earlier, we added <m>1 + -1 + \ldots</m> an infinite number of times. Can we actually
       add an infinite amount of numbers and get a finite answer? Calculus says, "Yes! It is
@@ -321,6 +327,21 @@ Can't we do this forever?</p>
         </p>
       </solution>
     </question>
+  </subsubsection>
+
+  <remark>
+    <p>An infinite number of mathematicians enter a bar. The first mathematician says, "I'll take a drink." The
+    second says, "I'll have half of what he has." The next says, "I will have half of what he (the 2nd mathematician) has."
+    </p>
+    
+    <p>
+      After the fourth mathematician continues this pattern, the bar tender shouts "HERE!", slams down two drinks on the bar,
+      and walks away.
+    </p>
+    
+
+  </remark>
+    
 
     <p>
       Let's look at one more example.
@@ -372,6 +393,10 @@ Can't we do this forever?</p>
   <p>
     If these two facts are true, then the <term>Monotone Convergence Theorem</term> guarantees the recursive sequence has
     a limit. 
+  </p>
+
+  <p>
+    To save us some trouble, we'll use Sage to calculate a few terms of our sequence.
   </p>
 
   <sage>
@@ -451,7 +476,8 @@ Can't we do this forever?</p>
 
   <p>
     We know that <m>\displaystyle \lim_{n\rightarrow \infty}(a_n) = a</m>, and so that
-    also means that <m>\displaystyle \lim_{n\rightarrow \infty}(a_{n-1}) = a</m>. So
+    also means that <m>\displaystyle \lim_{n\rightarrow \infty}(a_{n-1}) = a</m> (How would the
+    very first term really affect what the sequence approaches towards <m>\infty</m>?). So
     <md>
       <mrow> a \amp = \displaystyle \lim_{n\rightarrow \infty}(a_n) </mrow>
       <mrow> \amp = \displaystyle \lim_{n \rightarrow \infty} \dfrac{4a_{n-1}}{3a_{n-1}+3} </mrow>
