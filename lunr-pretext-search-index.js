@@ -421,7 +421,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "1.4",
   "title": "Shopping Carts and Sets",
-  "body": " Shopping Carts and Sets  Sunday afternoon at the local supermarket is a bustling place. Shoppers cut each other off for the last jar of salsa with a smile and a 'pardon me'. Amid the somewhat friendly and mostly competitive crowd, long-time friends Yuri and Kalo bump into each other in front of the cauliflower. It's always a bit awkward looking into someone else's shopping cart (feels like a violation of privacy, right?), but Yuri couldn't help but notice that there was some overlap.  \"Hey, I like rice cakes, too. Look!\" exclaimed Yuri holding up a bag of rice cakes from his cart.   Anyway... the two carts looked like this:     Yuri's cart  Kalo's cart    rice cakes  rice cakes    cauliflower  cauliflower    halibut  tuna    coffee creamer  crab legs    spicy ramen  spicy ramen    cilantro  parsley    yellow onion  purple onion    corn chips  cookies    salami  bagels    eggs  salami      cream cheese      Collections of Things  There's some mathematics going on here. Anytime we find a collection of items (like a shopping cart) we have a mathematical object called a set.  A set is simply a collection of objects that we refer to as elements .  Let's call the set of Yuri's cart , written as { rice cakes, cauliflower, halibut, coffee creamer, spicy ramen, cilantro, yellow onion, corn chips, salami, eggs } . Similarly {rice cakes, cauliflower, tuna, crab legs, spicy ramen, parsley, purple onion, cookies, bagels, salami, and cream cheese} is the set representing Kalo's cart. So halibut is an element of (written as halibet ), and tuna .  We could make a list of the items that both Yuri and Kalo have in their carts, and this overlap between their two carts represents the \"intersection of Y and K\", denoted .  In general for sets and , the intersection of and  , , is the set of elements in both sets.    Intesection of and , .       Yuri and Kalo's intersection   What does contain?     = {rice cakes, cauliflower, spicy ramen, salami}    Another friend interrupts Yuri and Kalo's meeting. JACOBI greets them both as they unapologetically rifle through his cart.  JACOBI's cart is represented by the set {spicy ramen, cilantro, corn chips, and eggs}. Yuri can't help notice that everything in is also in . In this case, we say that is a subset of , denoted or .    A set is a subset of if for any element , we know also that .      A subset of , .      Subsets of Dairy   Let be the set of all dairy items. Find a subset of that is also a subset of .    The subset we're looking for must be a set of dairy items in Kalo's cart: , for example.  That is, {cream cheese}.     Is the intersection a subset?   Is a subset of ?    Yes! Any element in is also an element of .    Unbeknownst to Kalo, Kalo's wife MARNIE is also in the grocery store with {cauliflower, macaroni, purple onion, water, bacon}. When Kalo and MARNIE bump into each other, they decide to finish their shopping and to consolidate their items to one cart. Kalo reshelves the cauliflower and purple onion, though, since MARNIE already has those items in her cart. This new cart is known as the \"union of K and M\", .    In general, for sets and , the union of and , , is the collection of elements that are in either set (or both).      Union of and , .      Question of union   What is ?     Another question of union   What is ?     More complicated sets   What about ?      An empty cart  After Kalo and Marnie consolidate their carts, somebody snags Kalo's now empty cart. This makes Kalo consider how an empty cart relates to sets.      Can a set have 0 elements?    Definitely!    Actually, that empty cart is symbolic of a very important set. The empty set is the set with no elements. We denote it as .      Give an example of two sets, and for which .    There are millions of examples. For example, let be the set of all species of turtles and be the set of flying creatures. Come up with your on example.      Venn Diagrams  A common way to picture sets and how they interact is with overlapping circles. You have already seen a few such images in this section. We call these figures Venn diagrams, named after mathematician John Venn (1834-1923), and they help us quickly recognize how given sets are related.  For example, consider the sets , , and . Are sets such as or obvious? The Venn diagram makes these relationships obvious.         Use the Venn diagram to provide .    We can see .    It's also fairly common to find Venn diagram memes. You should do a quick internet search to see for yourself.       How about we look at sets of actors from popular movie franchises?      More sets later Remember that our goal is to introduce you to topics you'll cover in more detail later. There are other set operations that we won't cover here. You'll see these in classes like Discrete Mathematics, Modern Algebra, and many others.    Set Activities   Human Venn Diagrams  Your class will now be a human Venn diagram (This works best in an open area). Each of you will receive an idex card. On your index card, write (1) an integer, (2) a color, and (3) an animal.  For example, your card may include   73    tangerine    pangolin.     Your instructor will designate one part of the room (or area) for set , another for set , and a third area for set .  Now for the game. Your instructor will call out (or write on the board) what the three sets represent. At that point, you must move to the location on the Venn diagram that fits your card.  For example, suppose your instructor calls out (or writes) \" is the set even integers, is the set of warm colors (yellows, oranges, reds), and is the set of predatory animals. Compare those sets to your card. It appears is the only set you are a part of, so move on to that section of the Venn diagram. The quicker, the better.     Play a few rounds.    Crafting Sets  For this activity, the class will be divided groups. The instructor will give either an element or a set of elements as well as a set operator (either union or intersection). The group is challenged to find two sets whose union or intersection (whichever is specified) is the given element or subset.  For example, suppose your instructor says \" \\text{ and } \". Your group could let and since .    "
+  "body": " Shopping Carts and Sets  Sunday afternoon at the local supermarket is a bustling place. Shoppers cut each other off for the last jar of salsa with a smile and a 'pardon me'. Amid the somewhat friendly and mostly competitive crowd, long-time friends Yuri and Kalo bump into each other in front of the cauliflower. It's always a bit awkward looking into someone else's shopping cart (feels like a violation of privacy, right?), but Yuri couldn't help but notice that there was some overlap.  \"Hey, I like rice cakes, too. Look!\" exclaimed Yuri holding up a bag of rice cakes from his cart.   Anyway... the two carts looked like this:     Yuri's cart  Kalo's cart    rice cakes  rice cakes    cauliflower  cauliflower    halibut  tuna    coffee creamer  crab legs    spicy ramen  spicy ramen    cilantro  parsley    yellow onion  purple onion    corn chips  cookies    salami  bagels    eggs  salami      cream cheese      Collections of Things  There's some mathematics going on here. Anytime we find a collection of items (like a shopping cart) we have a mathematical object called a set.  A set is simply a collection of objects that we refer to as elements .  Let's call the set of Yuri's cart , written as { rice cakes, cauliflower, halibut, coffee creamer, spicy ramen, cilantro, yellow onion, corn chips, salami, eggs } . Similarly {rice cakes, cauliflower, tuna, crab legs, spicy ramen, parsley, purple onion, cookies, bagels, salami, and cream cheese} is the set representing Kalo's cart. So halibut is an element of (written as halibet ), and tuna .  We could make a list of the items that both Yuri and Kalo have in their carts, and this overlap between their two carts represents the \"intersection of Y and K\", denoted .  In general for sets and , the intersection of and  , , is the set of elements in both sets.    Intesection of and , .       Yuri and Kalo's intersection   What does contain?     = {rice cakes, cauliflower, spicy ramen, salami}    Another friend interrupts Yuri and Kalo's meeting. JACOBI greets them both as they unapologetically rifle through his cart.  JACOBI's cart is represented by the set {spicy ramen, cilantro, corn chips, and eggs}. Yuri can't help notice that everything in is also in . In this case, we say that is a subset of , denoted or .    A set is a subset of if for any element , we know also that .      A subset of , .      Subsets of Dairy   Let be the set of all dairy items. Find a subset of that is also a subset of .    The subset we're looking for must be a set of dairy items in Kalo's cart: , for example.  That is, {cream cheese}.     Is the intersection a subset?   Is a subset of ?    Yes! Any element in is also an element of .    Unbeknownst to Kalo, Kalo's wife MARNIE is also in the grocery store with {cauliflower, macaroni, purple onion, water, bacon}. When Kalo and MARNIE bump into each other, they decide to finish their shopping and to consolidate their items to one cart. Kalo reshelves the cauliflower and purple onion, though, since MARNIE already has those items in her cart. This new cart is known as the \"union of K and M\", .    In general, for sets and , the union of and , , is the collection of elements that are in either set (or both).      Union of and , .      Question of union   What is ?     Another question of union   What is ?     More complicated sets   What about ?      An empty cart  After Kalo and Marnie consolidate their carts, somebody snags Kalo's now empty cart. This makes Kalo consider how an empty cart relates to sets.      Can a set have 0 elements?    Definitely!    Actually, that empty cart is symbolic of a very important set. The empty set is the set with no elements. We denote it as .      Give an example of two sets, and for which .    There are millions of examples. For example, let be the set of all species of turtles and be the set of flying creatures. Come up with your on example.      Venn Diagrams  A common way to picture sets and how they interact is with overlapping circles. You have already seen a few such images in this section. We call these figures Venn diagrams, named after mathematician John Venn (1834-1923), and they help us quickly recognize how given sets are related.  For example, consider the sets , , and . Are sets such as or obvious? The Venn diagram makes these relationships obvious.         Use the Venn diagram to provide .    We can see .    It's also fairly common to find Venn diagram memes. You should do a quick internet search to see for yourself.       How about we look at sets of actors from popular movie franchises?      More sets later Remember that our goal is to introduce you to topics you'll cover in more detail later. There are other set operations that we won't cover here. You'll see these in classes like Discrete Mathematics, Modern Algebra, and many others.    Set Activities   Human Venn Diagrams  Your class will now be a human Venn diagram (This works best in an open area). Each of you will receive an idex card. On your index card, write (1) an integer, (2) a color, and (3) an animal.  For example, your card may include   73    tangerine    pangolin.     Your instructor will designate one part of the room (or area) for set , another for set , and a third area for set .  Now for the game. Your instructor will call out (or write on the board) what the three sets represent. At that point, you must move to the location on the Venn diagram that fits your card.  For example, suppose your instructor calls out (or writes) \" is the set even integers, is the set of warm colors (yellows, oranges, reds), and is the set of predatory animals. Compare those sets to your card. It appears is the only set you are a part of, so move on to that section of the Venn diagram. The quicker, the better.     Play a few rounds.    Crafting Sets  For this activity, the class will be divided groups. The instructor will give either an element or a set of elements as well as a set operator (either union or intersection). The group is challenged to find two sets whose union or intersection (whichever is specified) is the given element or subset.  For example, suppose your instructor says \" and \". Your group could let and since .    "
 },
 {
   "id": "sec-sets-5",
@@ -637,7 +637,7 @@ var ptx_lunr_docs = [
   "type": "Activity",
   "number": "1.4.2",
   "title": "Crafting Sets.",
-  "body": " Crafting Sets  For this activity, the class will be divided groups. The instructor will give either an element or a set of elements as well as a set operator (either union or intersection). The group is challenged to find two sets whose union or intersection (whichever is specified) is the given element or subset.  For example, suppose your instructor says \" \\text{ and } \". Your group could let and since .  "
+  "body": " Crafting Sets  For this activity, the class will be divided groups. The instructor will give either an element or a set of elements as well as a set operator (either union or intersection). The group is challenged to find two sets whose union or intersection (whichever is specified) is the given element or subset.  For example, suppose your instructor says \" and \". Your group could let and since .  "
 },
 {
   "id": "sec-pascaltriangle",
@@ -1564,14 +1564,32 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "2.1",
   "title": "Harnessing <span class=\"process-math\">\\(\\infty\\)<\/span>",
-  "body": " Harnessing  \"What is the largest number you can think of?\" Hopefully, you see that is a question with no real answer. Maybe the closest we can come to answering that question is even though we know is not a number.  In fact, is a weird creature. It breaks some of our number-intuition. It feels like just does not behave. For example, can we add an infinite number of numbers and get something finite? We'll see that you can sometimes. Some of our normal addition rules act differently when is involved. For example, can help us show that ? Let's start with , and we know that Can't we do this forever?     This is a problem! Apparently, the associate law of addition doesn't play well with . You'll discuss this example in greater detail in a later course, but this is enough to show that can be very unusual.  HILBERT HOTEL VIDEO    In Hilbert's hotel, how do we accommodate a new customer if all rooms are booked?      In Hilbert's hotel, how do we accommodate new customers if all rooms are booked?      In Hilbert's hotel, how do we accommodate an infinite new customers if all rooms are booked?    Rules like sound impossible, until we consider the strange creature we call .   Not always unpredictable  However, is not completely unpredictable in all cases. Actually, we should say that a pattern trending towards infinity is sometimes predictable.  For example, consider the function . What happens as the variable gets larger and larger (trends towards ).    Fill out the following table and make a decision about what happens to as trends towards .                                                          What's your decision?    So it seems as gets closer to , gets closer to 0. Let's try something else. This time, let's let get close to .    Fill out the following table and make a decision about what happens to as trends towards .                                                          What's your decision?    This time, seems to get larger and larger. We could say that as trends towards (at least from the positive side of the number line), trends towards .  Actually, a graph would make these trends obvious.     (for accessibility)       Movement On Paper  Trends like the ones we looked at in and are examples of limits , a foundational tool in the study of Calculus. We would write the conclusions from the past activities like We'll save defining limits clearly for your other coursework, but we can think about limits intuitively.  Firstly, we can think of limits as a way to introduce motion on paper. We \"watched\" the behavior of as \"moved\" towards . There are other examples in which we allow the number rectangles or the number of sides or the number terms and so on extend towards . The limit is similar to the play button on a YouTube video. When you see , you can just imagine some sort of movement or change on your paper.  Secondly, the limit is the tool that allows us to tame ... Well, not \"tame\" , but we can utilize with a limit to accomplish some incredible things. We don't tame the Mississippi River, but it is an enormous resource!    So what is Calculus?  So what is calculus exactly? Calculus is a multifaceted branch of mathematics that serves as the bedrock of an enormous number of applications in a a huge variety of fields. However, common to all of the underlying ideas of calculus is harnessing through limits to do something.  Let's look at some examples of how, in some cases, we can predict the infinite. The first should be familiar to us.   Limit of Functions  Use a table to evaluate (By , we mean we approach from the left side of the number line. Try using numbers like and so on.)   Earlier, we added an infinite number of times. Can we actually add an infinite amount of numbers and get a finite answer? Calculus says, \"Yes! It is possible.\"  A geometric series is a summation of the powers of a number . So it looks like For a lot of numbers, this sum gets larger and larger, but if , the sum will equal . This should surprise you in some way. We can add up an infinite number of numbers and actually calculate the result with a nice, clean formula!   Finding Geometric Series   Calculuate the geometric series corresponding to :     The value of in this case is , which is less than , so our formula applies.     All of that adds up to ? Wow. What about if we let ?   Another Geometric Series   Calculuate the geometric series corresponding to :     Like , , so     Let's look at one more example.    Recursive Sequences  A sequence , , is just an infinite list of terms. A familiar example would be , the sequence of natural numbers. A sequence is different than a set in that the order of the terms matters. So is the term in the sequence . Make sense? The terms in a sequence typically are defined by a rule. For example, if , then   A sequence is a recursive sequence if the rule for involves earlier terms in the sequence. For example, suppose and, after the first term, . Then and so on.   Recursive Terms   What is in our recursive sequence?    The big question is whether this recurvise sequence, like the function and the geometric series we saw earlier, has a limit? The answer is \"yes\", but how would we find it?  If you take an analysis course (Maybe Advanced Calculus or Intro to Real Analysis), you will see questions like this, and to find a limit of our recursive sequence you would have to prove two important pieces of information. First, the terms in our sequence either need to get progessively smaller or larger with each sequential term, and secondly all of the terms must be smaller than some number and larger than another number (That is, for each term .).  If these two facts are true, then the Monotone Convergence Theorem guarantees the recursive sequence has a limit.     Use the Sage cell to make a hypothesis about if either is (1) increasing or decreasing and (2) bound above or below by a number.    It looks like is (1) decreasing and (2) bound above by 1 and below by 0. However, this is just a hypothesis.      Does the recursive sequence defined by and satisfy the conditions of the Monotone Convergence Theorem? (See the solution.)    Yes, it does, but proving that is beyond the scope of what we're doing here. It can be a little complicated.    In mathematics, it's not a good idea to take things for granted, but for the purpose of illustration, suppose we have shown that is decreasing (getting smaller with each term) and always larger than . That means that our sequence does have a limit. Let's call this mysterious limit point , and here's how we find what is.  We know that , and so that also means that . So   All of that to say that our limit satisfies the equation     Find the limit point of our sequence by solving the equation     This is just algebra at this point. So either or , but we already know that so .    This is a complicated example, but we are highlighting how even though can act strangely, we can use it to answer complicated quesetions... like how this sequence will trend towards !   "
+  "body": " Harnessing  \"What is the largest number you can think of?\" Hopefully, you see that is a question with no real answer. Maybe the closest we can come to answering that question is even though we know is not a number.  In fact, is a weird creature. It breaks some of our number-intuition. It feels like just does not behave. For example, can we add an infinite number of numbers and get something finite? We'll see that you can sometimes. Some of our normal addition rules act differently when is involved. For example, can help us show that ? Let's start with , and we know that Can't we do this forever?     This is a problem! Apparently, the associate law of addition doesn't play well with . You'll discuss this example in greater detail in a later course, but this is enough to show that can be very unusual.  Imagine a hotel with an infinite number of rooms that are all booked. This example is called Hilbert's Hotel and is a great example to show that does not behave with arithmetic like we typically like.        In Hilbert's hotel, how do we accommodate a new customer if all rooms are booked?      In Hilbert's hotel, how do we accommodate new customers if all rooms are booked?      In Hilbert's hotel, how do we accommodate an infinite new customers if all rooms are booked?    Rules like sound impossible, until we consider the strange creature we call .   Not always unpredictable  However, is not completely unpredictable in all cases. Actually, we should say that a pattern trending towards infinity is sometimes predictable.  For example, consider the function . What happens as the variable gets larger and larger (trends towards ).    Fill out the following table and make a decision about what happens to as trends towards .                                                          What's your decision?    So it seems as gets closer to , gets closer to 0. Let's try something else. This time, let's let get close to .    Fill out the following table and make a decision about what happens to as trends towards .                                                          What's your decision?    This time, seems to get larger and larger. We could say that as trends towards (at least from the positive side of the number line), trends towards .  Actually, a graph would make these trends obvious.       Movement On Paper  Trends like the ones we looked at in and are examples of limits , a foundational tool in the study of Calculus. We would write the conclusions from the past activities like We'll save defining limits clearly for your other coursework, but we can think about limits intuitively.  Firstly, we can think of limits as a way to introduce motion on paper. We \"watched\" the behavior of as \"moved\" towards . There are other examples in which we allow the number rectangles or the number of sides or the number terms and so on extend towards . The limit is similar to the play button on a YouTube video. When you see , you can just imagine some sort of movement or change on your paper.  Secondly, the limit is the tool that allows us to tame ... Well, not \"tame\" , but we can utilize with a limit to accomplish some incredible things. We don't tame the Mississippi River, but it is an enormous resource!    So what is Calculus?  So what is calculus exactly? Calculus is a multifaceted branch of mathematics that serves as the bedrock of an enormous number of applications in a a huge variety of fields. However, common to all of the underlying ideas of calculus is harnessing through limits to do something.  Let's look at some examples of how, in some cases, we can predict the infinite. The first should be familiar to us.   Limits of Functions   Limit of Functions  Use a table to evaluate (By , we mean we approach from the left side of the number line. Try using numbers like and so on.)     Geometric Series  Earlier, we added an infinite number of times. Can we actually add an infinite amount of numbers and get a finite answer? Calculus says, \"Yes! It is possible.\"  A geometric series is a summation of the powers of a number . So it looks like For a lot of numbers, this sum gets larger and larger, but if , the sum will equal . This should surprise you in some way. We can add up an infinite number of numbers and actually calculate the result with a nice, clean formula!   Finding Geometric Series   Calculuate the geometric series corresponding to :     The value of in this case is , which is less than , so our formula applies.     All of that adds up to ? Wow. What about if we let ?   Another Geometric Series   Calculuate the geometric series corresponding to :     Like , , so       An infinite number of mathematicians enter a bar. The first mathematician says, \"I'll take a drink.\" The second says, \"I'll have half of what he has.\" The next says, \"I will have half of what he (the 2nd mathematician) has.\"  After the fourth mathematician continues this pattern, the bar tender shouts \"HERE!\", slams down two drinks on the bar, and walks away.   Let's look at one more example.    Recursive Sequences  A sequence , , is just an infinite list of terms. A familiar example would be , the sequence of natural numbers. A sequence is different than a set in that the order of the terms matters. So is the term in the sequence . Make sense? The terms in a sequence typically are defined by a rule. For example, if , then   A sequence is a recursive sequence if the rule for involves earlier terms in the sequence. For example, suppose and, after the first term, . Then and so on.   Recursive Terms   What is in our recursive sequence?    The big question is whether this recurvise sequence, like the function and the geometric series we saw earlier, has a limit? The answer is \"yes\", but how would we find it?  If you take an analysis course (Maybe Advanced Calculus or Intro to Real Analysis), you will see questions like this, and to find a limit of our recursive sequence you would have to prove two important pieces of information. First, the terms in our sequence either need to get progessively smaller or larger with each sequential term, and secondly all of the terms must be smaller than some number and larger than another number (That is, for each term .).  If these two facts are true, then the Monotone Convergence Theorem guarantees the recursive sequence has a limit.  To save us some trouble, we'll use Sage to calculate a few terms of our sequence.     Use the Sage cell to make a hypothesis about if either is (1) increasing or decreasing and (2) bound above or below by a number.    It looks like is (1) decreasing and (2) bound above by 1 and below by 0. However, this is just a hypothesis.      Does the recursive sequence defined by and satisfy the conditions of the Monotone Convergence Theorem? (See the solution.)    Yes, it does, but proving that is beyond the scope of what we're doing here. It can be a little complicated.    In mathematics, it's not a good idea to take things for granted, but for the purpose of illustration, suppose we have shown that is decreasing (getting smaller with each term) and always larger than . That means that our sequence does have a limit. Let's call this mysterious limit point , and here's how we find what is.  We know that , and so that also means that (How would the very first term really affect what the sequence approaches towards ?). So   All of that to say that our limit satisfies the equation     Find the limit point of our sequence by solving the equation     This is just algebra at this point. So either or , but we already know that so .    This is a complicated example, but we are highlighting how even though can act strangely, we can use it to answer complicated quesetions... like how this sequence will trend towards !   "
+},
+{
+  "id": "sec-harnessinf-6",
+  "level": "2",
+  "url": "sec-harnessinf.html#sec-harnessinf-6",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Hilbert's Hotel "
+},
+{
+  "id": "vid-hilbert",
+  "level": "2",
+  "url": "sec-harnessinf.html#vid-hilbert",
+  "type": "Figure",
+  "number": "2.1.1",
+  "title": "",
+  "body": "   "
 },
 {
   "id": "hilberhotel1",
   "level": "2",
   "url": "sec-harnessinf.html#hilberhotel1",
   "type": "Question",
-  "number": "2.1.1",
+  "number": "2.1.2",
   "title": "",
   "body": "  In Hilbert's hotel, how do we accommodate a new customer if all rooms are booked?   "
 },
@@ -1580,7 +1598,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-harnessinf.html#hilberhotel2",
   "type": "Question",
-  "number": "2.1.2",
+  "number": "2.1.3",
   "title": "",
   "body": "  In Hilbert's hotel, how do we accommodate new customers if all rooms are booked?   "
 },
@@ -1589,7 +1607,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-harnessinf.html#hilberhotel3",
   "type": "Question",
-  "number": "2.1.3",
+  "number": "2.1.4",
   "title": "",
   "body": "  In Hilbert's hotel, how do we accommodate an infinite new customers if all rooms are booked?   "
 },
@@ -1612,13 +1630,13 @@ var ptx_lunr_docs = [
   "body": "  Fill out the following table and make a decision about what happens to as trends towards .                                                          What's your decision?   "
 },
 {
-  "id": "fig-plot1",
+  "id": "subsec-infpredicatble-9",
   "level": "2",
-  "url": "sec-harnessinf.html#fig-plot1",
+  "url": "sec-harnessinf.html#subsec-infpredicatble-9",
   "type": "Figure",
-  "number": "2.1.6",
+  "number": "2.1.7",
   "title": "",
-  "body": "   (for accessibility)    "
+  "body": "  "
 },
 {
   "id": "subsec-movementonpaper-2",
@@ -1634,14 +1652,14 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-harnessinf.html#ques-limits1",
   "type": "Question",
-  "number": "2.1.7",
+  "number": "2.1.8",
   "title": "Limit of Functions.",
   "body": " Limit of Functions  Use a table to evaluate (By , we mean we approach from the left side of the number line. Try using numbers like and so on.)  "
 },
 {
-  "id": "subsec-whatiscalculus-6",
+  "id": "subsubsec-geometric-3",
   "level": "2",
-  "url": "sec-harnessinf.html#subsec-whatiscalculus-6",
+  "url": "sec-harnessinf.html#subsubsec-geometric-3",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
@@ -1652,7 +1670,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-harnessinf.html#ques-limits2",
   "type": "Question",
-  "number": "2.1.8",
+  "number": "2.1.9",
   "title": "Finding Geometric Series.",
   "body": " Finding Geometric Series   Calculuate the geometric series corresponding to :     The value of in this case is , which is less than , so our formula applies.    "
 },
@@ -1661,9 +1679,18 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-harnessinf.html#ques-limits3",
   "type": "Question",
-  "number": "2.1.9",
+  "number": "2.1.10",
   "title": "Another Geometric Series.",
   "body": " Another Geometric Series   Calculuate the geometric series corresponding to :     Like , , so    "
+},
+{
+  "id": "subsec-whatiscalculus-6",
+  "level": "2",
+  "url": "sec-harnessinf.html#subsec-whatiscalculus-6",
+  "type": "Remark",
+  "number": "2.1.11",
+  "title": "",
+  "body": " An infinite number of mathematicians enter a bar. The first mathematician says, \"I'll take a drink.\" The second says, \"I'll have half of what he has.\" The next says, \"I will have half of what he (the 2nd mathematician) has.\"  After the fourth mathematician continues this pattern, the bar tender shouts \"HERE!\", slams down two drinks on the bar, and walks away.  "
 },
 {
   "id": "subsec-recursive-2",
@@ -1688,7 +1715,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-harnessinf.html#ques-recursive1",
   "type": "Question",
-  "number": "2.1.10",
+  "number": "2.1.12",
   "title": "Recursive Terms.",
   "body": " Recursive Terms   What is in our recursive sequence?   "
 },
@@ -1715,7 +1742,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-harnessinf.html#ques-mct1",
   "type": "Question",
-  "number": "2.1.11",
+  "number": "2.1.13",
   "title": "",
   "body": "  Use the Sage cell to make a hypothesis about if either is (1) increasing or decreasing and (2) bound above or below by a number.    It looks like is (1) decreasing and (2) bound above by 1 and below by 0. However, this is just a hypothesis.   "
 },
@@ -1724,7 +1751,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-harnessinf.html#ques-mct2",
   "type": "Question",
-  "number": "2.1.12",
+  "number": "2.1.14",
   "title": "",
   "body": "  Does the recursive sequence defined by and satisfy the conditions of the Monotone Convergence Theorem? (See the solution.)    Yes, it does, but proving that is beyond the scope of what we're doing here. It can be a little complicated.   "
 },
@@ -1733,7 +1760,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-harnessinf.html#ques-mct3",
   "type": "Question",
-  "number": "2.1.13",
+  "number": "2.1.15",
   "title": "",
   "body": "  Find the limit point of our sequence by solving the equation     This is just algebra at this point. So either or , but we already know that so .   "
 },
@@ -1744,7 +1771,106 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "2.2",
   "title": "Newton vs Leibniz",
-  "body": " Newton vs Leibniz  Text of section.  "
+  "body": " Newton vs Leibniz  Calculus is arguably the greatest human discovery of all time. With calculus, we have significantly increased our understanding of classical physics, electromagnetism, population dynamics, and astronomy. Every text message you send was made possible through calculus. Every time you take a Tylenol, pump your car breaks, or listen to the radio, you are expierencing gifts of calculus. Applications of calculus affect our daily lives in profound ways.  The calculus we have today packaged in nice textbooks is due to the hard work and incredible insight of a lot of incredibly impressive people. Famous mathematicians like Fermat, Descartes, and Archimedes all laid ground work for modern calculus, but the lion's share of the credit often goes to two giants in the mathematical world: Sir Isaac Newton and Gottfried Leibniz.  And the story of Newton and Leibniz is not without controversy.   Newton  Considered to be one of the three greatest mathematical minds of all time, Sir Isaac Newton (1643-1727) expressed a generational talent for science and mathematics. He is referred to as a \"supreme genius\" and was England's champion of science.   Newton is accredited with   discovering the three laws of motion    discovered gravitational force, validating Kepler's laws of planetary motion AND the Copernican model of the solar system.    the potent mathematical tool known as calculus.        More Contributions   Find another contribution to science and mathematics attributed to Newton.    There are several. One example of Newton's contributions is in the area of optics.       Sir Isaac Newton (1643-1727)      Newton's Inventions   Newton also is known for several inventions. Do a quick internet search to list two of them.    We'll give one: the reflecting telescope.      Leibniz  Just because you're not a generational super genius like Isaac Newton does not mean that you cannot make significant contributions to the scientific community. During the time of Newton, German mathematician Gottfried Wilhelm Leibniz (1646-1716), also developed calculus. More than that, Leibniz is known for his contributions to philosophy, ethics, politics, and library organizational systems.      Gottfried Leibniz (1646-1716)   Actually, Leibniz also developed today's standard notation for derivatives and integrals, and his approach to the subject more closely resembles what we do today over Newton's calculus.  Not only that, Leibniz developed our understanding of base-2 number systems: binary. At the machine level, computers operate through binary mathematics. We can thank Leibniz for that.    The Calculus Controversy  Who should get credit for the discovery of modern calculus? You might think it would be easy to share credit, but that is not the way European nations thought of things in the 17th century. Calculus' discovery became a huge source of conflict, and this conflict quickly pitted Newton and Leibniz against each other.  Gotthegist's YouTube video, \"The Calculus Controversy\", tells this story well. Watch the video and answer the following questions.        What did Newton call his version of calculus?      What notation did Leibniz introduce?      When did Leibniz publish his calculus? What about Newton?      What is an infinitesmal?      Who ran a smear campaign in the quest to get credit for campus? Was it successful?      What brand of calculus has stuck around?    Thankfully, the world has mostly moved on from the drama of the origins of calculus. We can simply enjoy the fruit of their labor. Regardless of the story, we should be thankful that Newton and Leibniz both get credit today.   "
+},
+{
+  "id": "q-newton2",
+  "level": "2",
+  "url": "sec-newtonleibniz.html#q-newton2",
+  "type": "Question",
+  "number": "2.2.1",
+  "title": "More Contributions.",
+  "body": " More Contributions   Find another contribution to science and mathematics attributed to Newton.    There are several. One example of Newton's contributions is in the area of optics.   "
+},
+{
+  "id": "fig-newton",
+  "level": "2",
+  "url": "sec-newtonleibniz.html#fig-newton",
+  "type": "Figure",
+  "number": "2.2.2",
+  "title": "",
+  "body": "   Sir Isaac Newton (1643-1727)  "
+},
+{
+  "id": "q-newton1",
+  "level": "2",
+  "url": "sec-newtonleibniz.html#q-newton1",
+  "type": "Question",
+  "number": "2.2.3",
+  "title": "Newton’s Inventions.",
+  "body": " Newton's Inventions   Newton also is known for several inventions. Do a quick internet search to list two of them.    We'll give one: the reflecting telescope.   "
+},
+{
+  "id": "fig-leibniz",
+  "level": "2",
+  "url": "sec-newtonleibniz.html#fig-leibniz",
+  "type": "Figure",
+  "number": "2.2.4",
+  "title": "",
+  "body": "   Gottfried Leibniz (1646-1716)  "
+},
+{
+  "id": "vid-newtonvleibniz",
+  "level": "2",
+  "url": "sec-newtonleibniz.html#vid-newtonvleibniz",
+  "type": "Figure",
+  "number": "2.2.5",
+  "title": "",
+  "body": "   "
+},
+{
+  "id": "q-nvl1",
+  "level": "2",
+  "url": "sec-newtonleibniz.html#q-nvl1",
+  "type": "Question",
+  "number": "2.2.6",
+  "title": "",
+  "body": "  What did Newton call his version of calculus?   "
+},
+{
+  "id": "q-nvl2",
+  "level": "2",
+  "url": "sec-newtonleibniz.html#q-nvl2",
+  "type": "Question",
+  "number": "2.2.7",
+  "title": "",
+  "body": "  What notation did Leibniz introduce?   "
+},
+{
+  "id": "q-nvl3",
+  "level": "2",
+  "url": "sec-newtonleibniz.html#q-nvl3",
+  "type": "Question",
+  "number": "2.2.8",
+  "title": "",
+  "body": "  When did Leibniz publish his calculus? What about Newton?   "
+},
+{
+  "id": "q-nvl4",
+  "level": "2",
+  "url": "sec-newtonleibniz.html#q-nvl4",
+  "type": "Question",
+  "number": "2.2.9",
+  "title": "",
+  "body": "  What is an infinitesmal?   "
+},
+{
+  "id": "q-nvl5",
+  "level": "2",
+  "url": "sec-newtonleibniz.html#q-nvl5",
+  "type": "Question",
+  "number": "2.2.10",
+  "title": "",
+  "body": "  Who ran a smear campaign in the quest to get credit for campus? Was it successful?   "
+},
+{
+  "id": "q-nvl6",
+  "level": "2",
+  "url": "sec-newtonleibniz.html#q-nvl6",
+  "type": "Question",
+  "number": "2.2.11",
+  "title": "",
+  "body": "  What brand of calculus has stuck around?   "
 },
 {
   "id": "sec-archimedes",
