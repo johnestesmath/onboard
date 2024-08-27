@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-biggestprime" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>The Biggest Prime</title>
+
+  <p>
+    The MAA has several publications spanning all sorts of mathematical topics. Some journals,
+    such as Math Magazine, feature peer-reviewed articles. 
+    Math Horizons, though, is an undergraduate magazine published by the MAA. According to the MAA, "Math Horizons is a vibrant and accessible 
+    forum for practitioners, students, educators, and enthusiasts of mathematics, dedicated to exploring the folklore, characters, and 
+    current happenings in mathematical culture." NEEDS some writing. 
+  </p>
+
+    <figure>
+        <image xml:id="fig-horizons" source="mathhorizons.jpg" width="70%" />
+      </figure>
+    
+  
+  <activity xml:id="act-readbiggestprime">
+    <p>
+      In 2020, Horizons featured an article by Scott Williams, <url href="https://digitaleditions.sheridan.com/publication/?m=53548&amp;i=685648&amp;p=4&amp;ver=html5">"How Big is the 'Biggest' Prime?".</url> 
+    Read this article to answer the following questions.</p>    
+  </activity>
+
+  
+</section>

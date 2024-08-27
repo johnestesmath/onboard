@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-pipe-algebra" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Pipe Algebra</title>
+
+  <p> If you were born sometime after the mid-80's, chances are you have played a
+    popular game featuring a pair of Italian plumbers. Something about pipes.</p>
+
+  <p>
+    Imagine a pipe network like the one in <xref ref="fig-pipes1"/>. In this figure,
+    we mark the volume of water moving across these pipes over a given period of time (we call that
+    the <term>flow rate</term>) as well as the direction of flow
+    along the pipes. As you can see, we can measure the 
+    flow rate on some of the pipes, but not all of them. But we would really like 
+    to know the how much water is passing through all of them.
+  </p>
+
+  <figure>
+    <image xml:id="fig-pipes1" source="alg-pipes1.png" width="70%" />
+  </figure>
+
+  <p>
+    At each intersection point, you might notice there are some pipes flowing
+    into that point and others flowing out. Actually, that observation might
+    give us some insight.
+  </p>
+
+  <question xml:id="q-kirchoff">
+    <statement>
+        <p>
+         Suppose we know that 100 cubic meters of water is flowing into
+         one intersection point. How much water is flowing out of that intersection point?
+        </p>
+    </statement>
+    <solution>
+        <p>
+          The water can't stay at the intersection point, so 100 cubic meters is flowing
+          out from that point.  
+        </p>
+    </solution>
+  </question>
+
+  <p>
+    We now know that at a given intersection point, the total that flows into the intersection
+    is the same as the total flow that flows out from that intersection point. This introduces
+    an equation! This principle is referred to <term>Kirchoff's Law of Flow</term>.
+  </p>
+
+  <p>
+    So our question is, "What possible values along the pipes marked <m>x_1</m> 
+    through <m>x_6</m> satisfy Kirchoff's Law of Flow?" If we can answer this question, then
+    we will know all of the flowrates along our pipe system.
+  </p>
+
+</section>

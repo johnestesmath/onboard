@@ -4,8 +4,11 @@
   <title>Worlds of Algebra</title>
 
   <introduction>
-    <p> Text before the first section. </p>
+    <p> Algebra </p>
   </introduction>
+
+   <!-- include sections -->
+   <xi:include href="file-worldsofalgebra/sec-pipealgebra.ptx" />
 
   <!-- include sections -->
   <xi:include href="file-worldsofalgebra/sec-groups.ptx" />

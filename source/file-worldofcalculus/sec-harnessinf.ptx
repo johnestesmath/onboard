@@ -209,7 +209,8 @@ Can't we do this forever?</p>
 
     <figure>
       <image xml:id="fig-infgraph1" source="infgraph1.png" width="70%" />
-  </figure>
+      <caption>The graph of <m>f(x) = 1/x</m>.</caption>
+    </figure>
     
 </subsection>
 
