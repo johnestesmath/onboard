@@ -4,23 +4,105 @@
   <title>The Biggest Prime</title>
 
   <p>
-    The MAA has several publications spanning all sorts of mathematical topics. Some journals,
-    such as Math Magazine, feature peer-reviewed articles. 
-    Math Horizons, though, is an undergraduate magazine published by the MAA. According to the MAA, "Math Horizons is a vibrant and accessible 
-    forum for practitioners, students, educators, and enthusiasts of mathematics, dedicated to exploring the folklore, characters, and 
-    current happenings in mathematical culture." NEEDS some writing. 
+    What's the largest number you can think of? Can you ever really answer that question?
+    Maybe not truthfully, but maybe we can ask about certain types of numbers. 
+
   </p>
 
-    <figure>
-        <image xml:id="fig-horizons" source="mathhorizons.jpg" width="70%" />
-      </figure>
+  <p>
+    What about primes? Is there a biggest prime? Euclid, in 300 BC, told answered
+    this question with "no". He showed us that there an infinite number of primes. But
+    surely there is a largest prime that we know of... right?
+  </p>
+
+  <question xml:id="q-largeprime">
+    <statement>
+      <p>
+        Without consulting any references, what's the largest prime number you can think of?
+      </p>
+    </statement>
+    
+  </question>
+
+  <p>
+    But what about all of humanity? What is the largest prime that we know of?
+  </p>
     
   
   <activity xml:id="act-readbiggestprime">
     <p>
-      In 2020, Horizons featured an article by Scott Williams, <url href="https://digitaleditions.sheridan.com/publication/?m=53548&amp;i=685648&amp;p=4&amp;ver=html5">"How Big is the 'Biggest' Prime?".</url> 
-    Read this article to answer the following questions.</p>    
+      In 2020, the MAA magazine, Math Horizons, featured an article by Scott Williams, <url href="https://digitaleditions.sheridan.com/publication/?m=53548&amp;i=685648&amp;p=4&amp;ver=html5">"How Big is the 'Biggest' Prime?".</url> 
+    Read this article to answer the following questions.</p> 
+    
+    
+    <question xml:id="q-largest">
+      What was the largest known prime number as of 2020?
+    </question>
+
+    <question xml:id="q-mersenne">
+      What are Mersenne primes?      
+    </question>
+    
+    <question xml:id="q-mesenneorganization"> 
+      What organization is in search of Mersenne primes? 
+      How many have been discovered since the search began in 1996?
+    </question>
+
+    <question xml:id="q-otherprimes">
+      What are some other categories of prime numbers other than Mersenne primes?
+    </question>
+
+    <question xml:id="q-lego">
+      What size LEGO brick would be required to span the 
+      observable universe? How does this compare with the largest known prime number?
+    </question>
+
+    <question xml:id="q-scales">
+      What other scales of measurement does the article use to put in perspective how large the largest known prime number is?
+    </question>
   </activity>
+
+  <p>
+    Research into primes is on-going. Have we made any progress since the writing of this article?
+  </p>
+
+  <question xml:id="q-largestprime">
+    <statement>
+      <p>
+        Do a quick online search to find what the largest known prime number is as of today.
+      </p>
+    </statement>
+    
+  </question>
+
+  <subsection xml:id="subsec-mathhorizons">
+    <title>Math Horizons</title>
+    
+    <p>
+      The MAA oversees several publications spanning a variety mathematical topics inteded for a variety
+      of audiences. Some journals, such as Math Magazine and the College Mathematics Journal, feature peer-reviewed research articles
+      with novel results in mathematics.
+    </p>
+    <p> 
+      Math Horizons, though, is inteded for an undergraduate audience. Math Horizons feature
+      accessible, engaging, and fun articles about mathematical topics. According to the MAA, "Math Horizons is a vibrant and accessible 
+      forum for practitioners, students, educators, and enthusiasts of mathematics, dedicated to exploring the folklore, characters, and 
+      current happenings in mathematical culture." 
+    </p>
+  
+      <figure>
+          <image xml:id="fig-horizons" source="mathhorizons.jpg" width="70%" />
+        </figure>
+
+    <p>
+      If you are a member of the MAA, then you have access to Math Horizons! Check out more of Math Horizons
+    <url href="https://maa.org/math-horizons/">here.</url>
+    </p>
+  </subsection>
+
+  
+
+  
 
   
 </section>
