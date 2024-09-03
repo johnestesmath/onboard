@@ -24,6 +24,7 @@
   <xi:include href="sec-pascaltriangle.ptx" />
   
   <xi:include href="sec-logicpuzzle.ptx" />
+  <xi:include href="sec-arguments.ptx" />
  <xi:include href="sec-graphtheory.ptx" /> 
   <xi:include href="sec-fourcolors.ptx" /> 
  <xi:include href="sec-history.ptx" /> 

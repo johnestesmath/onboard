@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-arguments" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Good Arguments</title>
+
+  <p> The political scene of ancient Greece was pretty wild. City-states separated
+    by Greece's rough terrain of mountains and the Mediterranean competed for power, and
+    the wealthy and influential in each city wrestled for political influence for control
+    of their community. Democracy allowed the people to decide on leadership and policy, and
+    so rhetoric became the tool of competition among those seeking power.  </p>
+
+    <p>
+      This may be hard to believe, but sometimes politicians try to convince their audience 
+     about taking a position with bad improper tactics. We would say that in these instances they make a
+     flawed argument. Circa 300 BC, as the Greek politicians scrambled for influence, the great philosopher Aristotle 
+     began developing a system to analyze arguments. This system became what we know as "classical logic", and because of his work, 
+     Aristotle is known as the father of logic.
+
+     <figure>
+      <image xml:id="fig-aristotle" source="aristotle.jpg" width="60%" />
+    </figure>
+    </p>
+
+    <p>
+      To know how to analyze arguments, we should define what an argument is. An <term>argument</term> is simply a sequence
+      of logical statements. The <term>conclusion</term> is the ending statement of the argument, and a <term>premise</term> is
+      a logical statement used to support the conclusion.
+    </p>
+    <p> So an argument is a sequence of statements? Obviously we can make nonsensical sequences of statements, so how do we know
+      if an argument is a good one or not? 
+       An argument is <term>valid</term> if the conclusion is logically supported
+    </p>
+    <p>
+      Good understanding of logic can help us determine whether a given argument is valid or not.
+      We already looked at some basic logic principles in <xref ref="sec-logicpuzzle"/>, namely the 
+      conditional <m>p \rightarrow q</m> and the contrapositive <m> \sim q \rightarrow \sim p</m>.
+    </p>
+
+</section>
