@@ -928,11 +928,173 @@ var ptx_lunr_docs = [
   "body": "   "
 },
 {
+  "id": "sec-arguments",
+  "level": "1",
+  "url": "sec-arguments.html",
+  "type": "Section",
+  "number": "1.7",
+  "title": "Good Arguments",
+  "body": " Good Arguments  The political scene of ancient Greece was pretty wild. City-states separated by Greece's rough terrain of mountains and the Mediterranean competed for power, and the wealthy and influential in each city wrestled for political influence for control of their community. Democracy allowed the people to decide on leadership and policy, and so rhetoric became the tool of competition among those seeking power.  This may be hard to believe, but sometimes politicians try to convince their audience to take a position with improper tactics. We would say that in these instances they make a flawed argument. Circa 300 BC, as the Greek politicians scrambled for influence, the great philosopher Aristotle began developing a system to analyze arguments. This system became what we know as \"classical logic\", and because of his work, Aristotle (382-322 BC)is known as the father of logic.   Aristotle    To know how to analyze arguments, we should define what an argument is. An argument is simply a sequence of logical statements. The conclusion of an arugment is the ending statement of the argument, and a premise is a logical statement used to support the conclusion.  For example: All cheaters sit in the back row. Monty sits in the back row. Therefore, Monty is a cheater.    Without any knowledge of how to validate an argument, do you think the previous argument is a valid one?    So an argument is a sequence of statements? Obviously we can make nonsensical sequences of statements, so how do we know if an argument is a good one or not? We say an argument is valid if the conclusion is logically supported by its premises, so the argument from is not valid since non-cheaters could sit in the back row.   Common Arguments  So how do we determine an argument to be valid? With logic.  Good understanding of logic can help us determine whether a given argument is valid or not. We already looked at some basic logic principles in , namely the conditional and the contrapositive . These two statements provide the framework of the two most basic, valid arguments.   Modus Ponens  The modus ponens argument (translated from \"affirming mode\") consists of three parts             Therefore, .     The modus ponens argument is simply saying, \"if happens, then so does and happens (or is true). Therefore, happens as well (or is also true)\". This is definitely a valid argument.   Modus Ponens  For example: All men are mortal. Socrates is a man. Therefore Socrates is mortal.    Modus Ponens   Craft a modus ponens argument of your own.      Modus Tollens  Like modus ponens, the modus tollens argument (translated from \"method of denying\") consists of three parts             Therefore, .     The modus tollens argument makes use of the contrapositive. It's saying, \"if happens, then so does and does not happen (or is false). Therefore, does not happen (or is also false)\". This is also a valid argument.   Modus Tollens  For example: If it's a bird, then it lays eggs. It does not lay eggs. Therefore, it's not a bird.    Modus Tollens   Craft a modus tollens argument of your own.       Common Errors  What about this example? If it's a bird, then it lays eggs. It lays eggs. Therefore, it's a bird. Is this a valid argument?   Converse Errors  Nah. This is not a valid argument.  We just made converse error , and invalide argument of the form        q    Therefore, .     But we can think of several instances in which this is not a valid argument.   Eggs and Birds?   We incorrectly concluded that since it lays eggs, it's a bird. Give an example where this is false.    Sadly, converse errors are used all the time! Feel empowered to recognize them and point them out!    Inverse Errors  What about this example? If the boy rides his skateboard wrecklessly, then he will break his arm. He did not ride his skateboard wrecklessly. Therefore, he did not break his arm.  There's more than one way to break an arm, right?  We just made an inverse error with this invalid argument form                   Remember, that an argument is valid if its conclusion is supported by its premises. The conclusion is not supported logically by the other premises.     More Arguments  Determine if the following are valid arguments or not.    All cheaters sit in the back row. Monty sits in the back row. Therefore, Monty is a cheater.      All freshman must take writing. Caroline is a freshman. Therefore, Caroline must take writing.      All honest people pay their taxes. Darth is not honest. Therefore, Darth does not pay his taxes.      If an infinite series converges, then its terms go to 0. The terms of the infinite series do not go to 0. The infinite series does not converge.     "
+},
+{
+  "id": "sec-arguments-3-1",
+  "level": "2",
+  "url": "sec-arguments.html#sec-arguments-3-1",
+  "type": "Figure",
+  "number": "1.7.1",
+  "title": "",
+  "body": "  Aristotle  "
+},
+{
+  "id": "sec-arguments-4",
+  "level": "2",
+  "url": "sec-arguments.html#sec-arguments-4",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "argument conclusion premise "
+},
+{
+  "id": "q-validarg1",
+  "level": "2",
+  "url": "sec-arguments.html#q-validarg1",
+  "type": "Question",
+  "number": "1.7.2",
+  "title": "",
+  "body": "  Without any knowledge of how to validate an argument, do you think the previous argument is a valid one?   "
+},
+{
+  "id": "sec-arguments-7",
+  "level": "2",
+  "url": "sec-arguments.html#sec-arguments-7",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "valid "
+},
+{
+  "id": "subsubsec-modusponens-2",
+  "level": "2",
+  "url": "sec-arguments.html#subsubsec-modusponens-2",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "modus ponens "
+},
+{
+  "id": "ex-modusponens",
+  "level": "2",
+  "url": "sec-arguments.html#ex-modusponens",
+  "type": "Example",
+  "number": "1.7.3",
+  "title": "Modus Ponens.",
+  "body": " Modus Ponens  For example: All men are mortal. Socrates is a man. Therefore Socrates is mortal.  "
+},
+{
+  "id": "q-modusponens1",
+  "level": "2",
+  "url": "sec-arguments.html#q-modusponens1",
+  "type": "Question",
+  "number": "1.7.4",
+  "title": "Modus Ponens.",
+  "body": " Modus Ponens   Craft a modus ponens argument of your own.   "
+},
+{
+  "id": "subsubsec-modustollens-2",
+  "level": "2",
+  "url": "sec-arguments.html#subsubsec-modustollens-2",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "modus tollens "
+},
+{
+  "id": "ex-modustullens",
+  "level": "2",
+  "url": "sec-arguments.html#ex-modustullens",
+  "type": "Example",
+  "number": "1.7.5",
+  "title": "Modus Tollens.",
+  "body": " Modus Tollens  For example: If it's a bird, then it lays eggs. It does not lay eggs. Therefore, it's not a bird.  "
+},
+{
+  "id": "q-modustullens1",
+  "level": "2",
+  "url": "sec-arguments.html#q-modustullens1",
+  "type": "Question",
+  "number": "1.7.6",
+  "title": "Modus Tollens.",
+  "body": " Modus Tollens   Craft a modus tollens argument of your own.   "
+},
+{
+  "id": "subsubsec-converseerrors-3",
+  "level": "2",
+  "url": "sec-arguments.html#subsubsec-converseerrors-3",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "converse error "
+},
+{
+  "id": "q-converseerror1",
+  "level": "2",
+  "url": "sec-arguments.html#q-converseerror1",
+  "type": "Question",
+  "number": "1.7.7",
+  "title": "Eggs and Birds?",
+  "body": " Eggs and Birds?   We incorrectly concluded that since it lays eggs, it's a bird. Give an example where this is false.   "
+},
+{
+  "id": "subsubsec-inverse-4",
+  "level": "2",
+  "url": "sec-arguments.html#subsubsec-inverse-4",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "inverse error "
+},
+{
+  "id": "q-args1",
+  "level": "2",
+  "url": "sec-arguments.html#q-args1",
+  "type": "Question",
+  "number": "1.7.8",
+  "title": "",
+  "body": "  All cheaters sit in the back row. Monty sits in the back row. Therefore, Monty is a cheater.   "
+},
+{
+  "id": "q-args2",
+  "level": "2",
+  "url": "sec-arguments.html#q-args2",
+  "type": "Question",
+  "number": "1.7.9",
+  "title": "",
+  "body": "  All freshman must take writing. Caroline is a freshman. Therefore, Caroline must take writing.   "
+},
+{
+  "id": "q-args3",
+  "level": "2",
+  "url": "sec-arguments.html#q-args3",
+  "type": "Question",
+  "number": "1.7.10",
+  "title": "",
+  "body": "  All honest people pay their taxes. Darth is not honest. Therefore, Darth does not pay his taxes.   "
+},
+{
+  "id": "q-args4",
+  "level": "2",
+  "url": "sec-arguments.html#q-args4",
+  "type": "Question",
+  "number": "1.7.11",
+  "title": "",
+  "body": "  If an infinite series converges, then its terms go to 0. The terms of the infinite series do not go to 0. The infinite series does not converge.   "
+},
+{
   "id": "sec-graphtheory",
   "level": "1",
   "url": "sec-graphtheory.html",
   "type": "Section",
-  "number": "1.7",
+  "number": "1.8",
   "title": "Connecting Dots",
   "body": " Connecting Dots      Jane and her friend Julia were invited to a small get together at their friend Julio's place. When they arrive, they don't really know any of the other four people (other than Julio) who seem to know each other EXCEPT one of the four coincidentally is Jane's cousin, Elaine.     Julio's party   This type situations happen all of the time. If you're sitting in a classroom, you're in a similar situation right now. When you are with a group of people, you are a part of a mathematical structure known as a graph . Actually, any network (relationships, pipe systems, road maps, the internet, ...) can be represented as a graph.     Various graphs   We see graphs anytime we have a collection of items (We call them vertices or nodes .) and relationships between those items (We call the relationships edges .). In fact, it is by the vertices and edges that we define a graph.    A graph G is a pair of two sets and , where is the set of vertices and is the set of edges on .       Drawing a Graph   Draw the graph with vertex set and edge set .    Graph theorists study all sort aspects of graphs. We ask questions about the longest path of a graph, how easy is it to break up a graph with vertex or edge deletions, and if we can draw a graph in the plane without crossing any edges (among many others).  We'll explore a few interesting graph theory questions here.   Touring the City of Königsburg      If we happen to find ourselves in Königsburg Prussia in the 18th century, we would see a city layout similar to the one in . The Pregel river flowed through the middle of the city forming two islands. The part we care about, though, is the seven highlighted bridges.  Residents such as ourselves, as a game, would often attempt to tour the city with these rules:   You must cross each bridge (all 7) exactly one time (no more and no less).    You must end your tour exactly where you began.   A tour that meets these requirements will be called a successful tour.    Can you find a successful tour of Königsburg?    This game peaked the interest of the incredibly brilliant mathematician, Leonhard Euler (1707-1783), and to solve this question Euler introduced the field of graph theory to the world. The Königsburg bridge problem is considered the to be the first instance graph theory historically. Like Euler, we can picture Königsburg as a graph by treating the bridges as edges and use vertices to represent each land mass.    Represent Königsburg with a graph.            What do we mean by a \"tour\" on a graph? First, two edges are incident if they share a vertex. We can say a tour is a sequence of incident edges. We want to find a tour that begins and ends with the same vertex. This type of tour is called an eulerian circuit .   Let's take a tour on our new Königsburg graph, and each time we visit and each time we leave a vertex, we will give that vertex a point. For example, if we start at vertex and travel to and then to , then and have 1 point each while has 2 points.      As we keep touring through our graph, the points of a vertex tells us how many edges touching that vertex are a part of our tour.   One-point vertices   How can the vertex have 1 point?    Either is the beginning or ending of our tour (and not both).     Odd Points   How can the vertex have an odd number of points?    Our tour is currently resting at , and is not the first and last vertex of the tour. If the point value is more than 1, then the tour has already arrived and left at least once.     Even Points   How can the vertex have an even number of points?    Our tour is resting at . If the point value is more than 1, then the tour has already arrived and left at least once.    From questions , , and , we see that a vertex will only have an odd number of points (or adjacent to an odd number of edges in our tour) if that vertex either starts or ends the tour... unless the tour ends where it started.  Remember that an eulerian circuit passes through EVERY edge and ends where it started. So can a vertex in an eulerian circuit have an odd number of points? No. So if a graph has an eulerian circuit, then every vertex is adjacent to an even number of vertices. We just drew up a sketch of a proof for the following theorem.    A graph has an eulerian circuit if and only if it has no vertex adjacent to an odd number of edges.    We finally see what Euler saw.    So why does the Königsberg graph not have an eulerian circuit?    The Königsberg graph has several vertices adjacent to an odd number of edges.      Connectivity  Let's look again at the graphs in . This time we want to break down our graphs by deleting vertices. In particular, we want to know how many vertices we have to delete in order to break the graph into pieces.      For example, if we delete one vertex from the first graph in (the edges adjacent to that vertex are also deleted), does our graph break into two separate pieces? No. It'll take more than one vertex, but it can be done with two vertices! In , we deleted two vertices (indicated by the red open circles), and now the graph is broken up. We say it is disconnected .      There's a lot we could say about this situation. The two vertices we deleted are a cut set of the graph, and the pieces are called components . After we delete our cut set, if is in one component and is another component, then our cut set is a separating set . In this graph, our cut set had two vertices, so we say the graph is -connected.    In general, the graph is -connected if has a cut set of vertices.    So how connected are the graphs in ?    For each graph in , what is the smallest value of such that is -connected?    The graph on the farthest left is -connected.    Knowing how connected a graph is can tell us other things as well. For example,    If is a -connected graph, , then every vertices of lie on a common cycle of .    Connectivity and cycles do not seem to be immediately related, but graph theorists have discovered that they are related concepts.    Different Paths  Let's play one more walking game. This time we'll look at paths in a graph. A path is like a tour except now vertices can be revisted. So a path is a tour with unique vertices and edges.       From , can you find a path starting at and ending at ? Can you find more than one?  Try this: after finding a - path, delete the vertices of the path from the graph (but not and ). Then try to find another - path and deleting those vertices as well. Repeat this process as much as possible. How many paths can you find in this way?   The paths you found in are called internally disjoint paths since they have no vertices in common other than their endpoints. Did you find four internally disjoint paths in the graph in ? Good. For a graph with nonadjacent vertices and , is there a way we could count the number of - internally disjoint paths in ?  In , when we found our first - path, we deleted the internal vertices.    After deleting those internal vertices, was the graph still connected?    No. If the graph was disconnected, then there would no more paths to find.      How many paths do we need to delete in order to separate and ?    All four of them! Coincidence?    Does this give us some sort of link between - separating sets and the number of internally disjoint - paths?    What is the size of the smallest - separating set in the graph in ?    We need to delete four vertices. Note that is a - separating set.    Woah. So we had four internally disjoint paths and a separating set cardinality four. This is not a coincidence. Let's take graph with nonadjacent vertices and , and let's call the number of internally - paths . Let's also let be the cardinality of a smallest - separating set. Now we can show they are related.   Menger's Theorem   Let be a graph with nonadjacent vertices and . Then .     "
 },
@@ -941,7 +1103,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-graphtheory.html#sec-graphtheory-2",
   "type": "Figure",
-  "number": "1.7.1",
+  "number": "1.8.1",
   "title": "",
   "body": "   "
 },
@@ -950,7 +1112,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-graphtheory.html#sec-graphtheory-4",
   "type": "Figure",
-  "number": "1.7.2",
+  "number": "1.8.2",
   "title": "",
   "body": "   Julio's party  "
 },
@@ -968,7 +1130,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-graphtheory.html#sec-graphtheory-6",
   "type": "Figure",
-  "number": "1.7.3",
+  "number": "1.8.3",
   "title": "",
   "body": "   Various graphs  "
 },
@@ -986,7 +1148,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-graphtheory.html#def-graph",
   "type": "Definition",
-  "number": "1.7.4",
+  "number": "1.8.4",
   "title": "",
   "body": "  A graph G is a pair of two sets and , where is the set of vertices and is the set of edges on .   "
 },
@@ -995,7 +1157,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-graphtheory.html#ques-graphs1",
   "type": "Question",
-  "number": "1.7.5",
+  "number": "1.8.5",
   "title": "",
   "body": " Drawing a Graph   Draw the graph with vertex set and edge set .   "
 },
@@ -1004,7 +1166,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-graphtheory.html#subsec-konigsburg-2",
   "type": "Figure",
-  "number": "1.7.6",
+  "number": "1.8.6",
   "title": "",
   "body": "   "
 },
@@ -1013,7 +1175,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-graphtheory.html#subsec-konigsburg-5",
   "type": "Activity",
-  "number": "1.7.1",
+  "number": "1.8.1",
   "title": "",
   "body": "  Can you find a successful tour of Königsburg?   "
 },
@@ -1022,7 +1184,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-graphtheory.html#q-konigsburg",
   "type": "Question",
-  "number": "1.7.7",
+  "number": "1.8.7",
   "title": "",
   "body": "  Represent Königsburg with a graph.           "
 },
@@ -1040,7 +1202,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-graphtheory.html#subsec-konigsburg-10",
   "type": "Figure",
-  "number": "1.7.9",
+  "number": "1.8.9",
   "title": "",
   "body": "   "
 },
@@ -1049,7 +1211,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-graphtheory.html#q-konigs2",
   "type": "Question",
-  "number": "1.7.10",
+  "number": "1.8.10",
   "title": "One-point vertices.",
   "body": " One-point vertices   How can the vertex have 1 point?    Either is the beginning or ending of our tour (and not both).   "
 },
@@ -1058,7 +1220,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-graphtheory.html#q-konigs3",
   "type": "Question",
-  "number": "1.7.11",
+  "number": "1.8.11",
   "title": "Odd Points.",
   "body": " Odd Points   How can the vertex have an odd number of points?    Our tour is currently resting at , and is not the first and last vertex of the tour. If the point value is more than 1, then the tour has already arrived and left at least once.   "
 },
@@ -1067,7 +1229,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-graphtheory.html#q-konigs4",
   "type": "Question",
-  "number": "1.7.12",
+  "number": "1.8.12",
   "title": "Even Points.",
   "body": " Even Points   How can the vertex have an even number of points?    Our tour is resting at . If the point value is more than 1, then the tour has already arrived and left at least once.   "
 },
@@ -1076,7 +1238,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-graphtheory.html#thm-eulercircuit",
   "type": "Theorem",
-  "number": "1.7.13",
+  "number": "1.8.13",
   "title": "",
   "body": "  A graph has an eulerian circuit if and only if it has no vertex adjacent to an odd number of edges.   "
 },
@@ -1085,7 +1247,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-graphtheory.html#q-kongigs6",
   "type": "Question",
-  "number": "1.7.14",
+  "number": "1.8.14",
   "title": "",
   "body": "  So why does the Königsberg graph not have an eulerian circuit?    The Königsberg graph has several vertices adjacent to an odd number of edges.   "
 },
@@ -1094,7 +1256,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-graphtheory.html#subsec-connectivity-3",
   "type": "Figure",
-  "number": "1.7.15",
+  "number": "1.8.15",
   "title": "",
   "body": "   "
 },
@@ -1112,7 +1274,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-graphtheory.html#subsec-connectivity-5",
   "type": "Figure",
-  "number": "1.7.16",
+  "number": "1.8.16",
   "title": "",
   "body": "   "
 },
@@ -1130,7 +1292,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-graphtheory.html#def-connectivity",
   "type": "Definition",
-  "number": "1.7.17",
+  "number": "1.8.17",
   "title": "",
   "body": "  In general, the graph is -connected if has a cut set of vertices.   "
 },
@@ -1139,7 +1301,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-graphtheory.html#q-connectivity1",
   "type": "Question",
-  "number": "1.7.18",
+  "number": "1.8.18",
   "title": "",
   "body": "  For each graph in , what is the smallest value of such that is -connected?    The graph on the farthest left is -connected.   "
 },
@@ -1148,7 +1310,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-graphtheory.html#thm-kconnectedresult",
   "type": "Theorem",
-  "number": "1.7.19",
+  "number": "1.8.19",
   "title": "",
   "body": "  If is a -connected graph, , then every vertices of lie on a common cycle of .   "
 },
@@ -1166,7 +1328,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-graphtheory.html#subsec-mengers-3",
   "type": "Figure",
-  "number": "1.7.20",
+  "number": "1.8.20",
   "title": "",
   "body": "   "
 },
@@ -1175,7 +1337,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-graphtheory.html#a-paths1",
   "type": "Activity",
-  "number": "1.7.2",
+  "number": "1.8.2",
   "title": "",
   "body": " From , can you find a path starting at and ending at ? Can you find more than one?  Try this: after finding a - path, delete the vertices of the path from the graph (but not and ). Then try to find another - path and deleting those vertices as well. Repeat this process as much as possible. How many paths can you find in this way?  "
 },
@@ -1193,7 +1355,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-graphtheory.html#q-mengers1",
   "type": "Question",
-  "number": "1.7.21",
+  "number": "1.8.21",
   "title": "",
   "body": "  After deleting those internal vertices, was the graph still connected?    No. If the graph was disconnected, then there would no more paths to find.   "
 },
@@ -1202,7 +1364,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-graphtheory.html#q-mengers2",
   "type": "Question",
-  "number": "1.7.22",
+  "number": "1.8.22",
   "title": "",
   "body": "  How many paths do we need to delete in order to separate and ?    All four of them! Coincidence?   "
 },
@@ -1211,7 +1373,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-graphtheory.html#q-mengers3",
   "type": "Question",
-  "number": "1.7.23",
+  "number": "1.8.23",
   "title": "",
   "body": "  What is the size of the smallest - separating set in the graph in ?    We need to delete four vertices. Note that is a - separating set.   "
 },
@@ -1220,7 +1382,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-graphtheory.html#thm-mengers",
   "type": "Theorem",
-  "number": "1.7.24",
+  "number": "1.8.24",
   "title": "Menger’s Theorem.",
   "body": " Menger's Theorem   Let be a graph with nonadjacent vertices and . Then .   "
 },
@@ -1229,7 +1391,7 @@ var ptx_lunr_docs = [
   "level": "1",
   "url": "sec-fourcolors.html",
   "type": "Section",
-  "number": "1.8",
+  "number": "1.9",
   "title": "Coloring Graphs",
   "body": " Coloring Graphs  Consider the map of the United States in figure \\ref{map}. You are challenged to color the map with the rule that bordering states cannot have the same color. Overall this is pretty easy, BUT we also want to use the fewest colors possible. How many colors do you need to do this?   Color the map   Color the map in the fewest colors possible, where neighboring states do not share a color.             How many colors?   So how many colors did it take to color your map?    The minimum number of colors is .    In this context, if we treat each state as a vertex and shared borders as edges, then this map is just a graph. The challenge we gave to color the map then is really a challenge to color a graph with this rule: if two vertices share an edge, those vertices must be different colors.  Finding the minimum colors to color a graph is a common graph theory question.   Coloring Trees  A graph is called a tree if it is connected and has no cycles. More precisely, there is a path between any two vertices... but only one path.     Some trees.     How many colors does the tree in require?    Only two!      Draw three of your own trees on at least vertices. How many colors do your new trees require?    Do you we know how many colors any tree will require now? Is it possible that all trees can be colored in two colors? Based on our examples, we want to say \"yes\", but a few examples is not enough to say for sure in the world of mathematics.  Maybe we can make a logical argument to show trees can be colored in two colors, though. Let's start with a vertex (call it ) and color it . Also, we say a vertex is a neighbor of (or adjacent to ) if it shares an edges with . Note that we often use numbers to represent colors so that we can easily refer to color 100, for example, instead of trying to keep up with 100 different named colors.    What color can we color the neighbors of ?    How about 2?      What color can we color the neighbors of the neighbors of ?    Since this new vertex is not adjacent to (otherwise the graph is not a tree), it could be colored 1.      What about the neighbors of the neighbors of the neighbors of ?    This sounds confusing. Is it possible that one these neighbors of neighbors of neighbors    Okay, maybe we have found a pattern.    What color can we color a vertex that is an odd number of edges away from ? what about a vertex an even number of edges from ?    This argument only works, though, because we're talking about trees. If there is a cycle in our graph, then a vertex may be an even number of edges from coming from one direction and an odd number of edges from another direction. That can't happen in a tree.  Awesome. So trees can be colored in two colors.    What about Cycles?  So we know trees can be colored in two colors, and our argument really needed the fact the trees do not have cycles. So what about cycles? Can a cycle be colored in two colors?     Coloring cycles   Draw four cycles on vertices for different values of (I recommend consecutive values of ) and color their vertices.        Give a hypothesis on the number of colors a cycle on vertices requires to be colored.    After observing several cycles, we conclude that if is even, the cycle requires two colors. However, if is odd, the cycle requires three colors.      Appel and Haken shook things up  BORING!!! We'll now turn our attention to something similar to coloring the map of the US. Is it possible to draw a country with states that would require more than four colors? The answer is actually no!  In 1976, Appel and Haken proved their famous Four Color Theorem, but this result brought a good bit of controversy. Numberphile's fantastic video belows covers the controversy surrounding the Four Color Theorem.  Use the following video to answer the following questions.        When phrasing the question in terms of graph theory. How do we represent countries?      What is the benefit of phrasing the Four Color Theorem as a graph theory problem?      Give a brief explanation of the argument that map needs no more than seven colors.      Why was Appel and Haken’s proof controversial?     Quanta Magazine also has a great video covering the Four Color Theorem.      "
 },
@@ -1238,7 +1400,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-fourcolors.html#ques-fourcolor1",
   "type": "Activity",
-  "number": "1.8.1",
+  "number": "1.9.1",
   "title": "Color the map.",
   "body": " Color the map   Color the map in the fewest colors possible, where neighboring states do not share a color.   "
 },
@@ -1247,7 +1409,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-fourcolors.html#sec-fourcolors-4-1",
   "type": "Figure",
-  "number": "1.8.1",
+  "number": "1.9.1",
   "title": "",
   "body": "   "
 },
@@ -1256,7 +1418,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-fourcolors.html#ques-fourcolor2",
   "type": "Question",
-  "number": "1.8.2",
+  "number": "1.9.2",
   "title": "How many colors?",
   "body": " How many colors?   So how many colors did it take to color your map?    The minimum number of colors is .   "
 },
@@ -1274,7 +1436,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-fourcolors.html#subsec-colortrees-3",
   "type": "Figure",
-  "number": "1.8.3",
+  "number": "1.9.3",
   "title": "",
   "body": "   Some trees.  "
 },
@@ -1283,7 +1445,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-fourcolors.html#ques-trees1",
   "type": "Question",
-  "number": "1.8.4",
+  "number": "1.9.4",
   "title": "",
   "body": "  How many colors does the tree in require?    Only two!   "
 },
@@ -1292,7 +1454,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-fourcolors.html#subsec-colortrees-5",
   "type": "Question",
-  "number": "1.8.5",
+  "number": "1.9.5",
   "title": "",
   "body": "  Draw three of your own trees on at least vertices. How many colors do your new trees require?   "
 },
@@ -1310,7 +1472,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-fourcolors.html#ques-trees2",
   "type": "Question",
-  "number": "1.8.6",
+  "number": "1.9.6",
   "title": "",
   "body": "  What color can we color the neighbors of ?    How about 2?   "
 },
@@ -1319,7 +1481,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-fourcolors.html#ques-trees3",
   "type": "Question",
-  "number": "1.8.7",
+  "number": "1.9.7",
   "title": "",
   "body": "  What color can we color the neighbors of the neighbors of ?    Since this new vertex is not adjacent to (otherwise the graph is not a tree), it could be colored 1.   "
 },
@@ -1328,7 +1490,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-fourcolors.html#ques-trees4",
   "type": "Question",
-  "number": "1.8.8",
+  "number": "1.9.8",
   "title": "",
   "body": "  What about the neighbors of the neighbors of the neighbors of ?    This sounds confusing. Is it possible that one these neighbors of neighbors of neighbors   "
 },
@@ -1337,7 +1499,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-fourcolors.html#ques-trees5",
   "type": "Question",
-  "number": "1.8.9",
+  "number": "1.9.9",
   "title": "",
   "body": "  What color can we color a vertex that is an odd number of edges away from ? what about a vertex an even number of edges from ?   "
 },
@@ -1346,7 +1508,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-fourcolors.html#ques-cycles1",
   "type": "Activity",
-  "number": "1.8.2",
+  "number": "1.9.2",
   "title": "Coloring cycles.",
   "body": " Coloring cycles   Draw four cycles on vertices for different values of (I recommend consecutive values of ) and color their vertices.   "
 },
@@ -1355,7 +1517,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-fourcolors.html#ques-cycles2",
   "type": "Question",
-  "number": "1.8.10",
+  "number": "1.9.10",
   "title": "",
   "body": "  Give a hypothesis on the number of colors a cycle on vertices requires to be colored.    After observing several cycles, we conclude that if is even, the cycle requires two colors. However, if is odd, the cycle requires three colors.   "
 },
@@ -1364,7 +1526,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-fourcolors.html#vid-numberPhileFourColor",
   "type": "Figure",
-  "number": "1.8.11",
+  "number": "1.9.11",
   "title": "",
   "body": "   "
 },
@@ -1373,7 +1535,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-fourcolors.html#subsec-fourcolors-6",
   "type": "Question",
-  "number": "1.8.12",
+  "number": "1.9.12",
   "title": "",
   "body": "  When phrasing the question in terms of graph theory. How do we represent countries?   "
 },
@@ -1382,7 +1544,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-fourcolors.html#subsec-fourcolors-7",
   "type": "Question",
-  "number": "1.8.13",
+  "number": "1.9.13",
   "title": "",
   "body": "  What is the benefit of phrasing the Four Color Theorem as a graph theory problem?   "
 },
@@ -1391,7 +1553,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-fourcolors.html#subsec-fourcolors-8",
   "type": "Question",
-  "number": "1.8.14",
+  "number": "1.9.14",
   "title": "",
   "body": "  Give a brief explanation of the argument that map needs no more than seven colors.   "
 },
@@ -1400,7 +1562,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-fourcolors.html#subsec-fourcolors-9",
   "type": "Question",
-  "number": "1.8.15",
+  "number": "1.9.15",
   "title": "",
   "body": "  Why was Appel and Haken’s proof controversial?   "
 },
@@ -1409,7 +1571,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-fourcolors.html#vid-quatnaFourColor",
   "type": "Figure",
-  "number": "1.8.16",
+  "number": "1.9.16",
   "title": "",
   "body": "   "
 },
@@ -1418,7 +1580,7 @@ var ptx_lunr_docs = [
   "level": "1",
   "url": "sec-history.html",
   "type": "Section",
-  "number": "1.9",
+  "number": "1.10",
   "title": "A Little History",
   "body": " A Little History  Mathematics is a permanent fixture in human development. We find evidence of mathematical thinking in our most ancient of civilizations, and yet all modern technological advancements rely of good mathematics. Mathematics is the foundational tool we use to turn creative ideas into reality. But the human stories of mathematics is an area worth studying as well.  Throughout your coursework, you will learn about the interesting figures of math history and some of the incredible (and sometimes unbelievable) tales they are a part of. There are stories of young genius, incredible risks, underdogs, and duels. You will hear about mathematical giants from all over the world and how their contributions are still valuable to us today. Math history is rich and immensely interesting.   What we take for granted  We learn about rationals, primes, and equations by the time we get to middle school, but so many of these ideas were unknown for generations. We take so much of our foundational mathematics for granted, but behind a lot of these concepts are moments of ingenious insight.  For example,   Our numerals are referred as \"Hindu-Arabic numerals\" invented by Indian mathematicians between the first and fourth centuries.     The discovery of irrational numbers threw the Pythagoreans into an existential crisis in the 4th century.    In the 17th century, mathematicians and philosophers Rene Descarte and Piere de Fermat independently connected geometry and algebra with a coordinate system we use in basic algebra today. This system is called \"Cartesian coordiantes\" after Descartes.      Portrait of Rene Descartes traditionally attributed to Frans Hals         Thinking Differently  Studying math history also helps us see how culture impacts the way we think about things... even objective ideas such as mathematics. We can see that ancient cultures sometimes approached their problems from a perspective we might find unusual.   Egyptian Multiplication      One of two surviving Egyptian mathematical papyri: The Rhind Papyrus    Ancient Egyptians were excellent at calculations, with applications in areas of economics, land area, and volumes of solids. They developed algorithms to help perform complicated calculations with high accuracy. We will look at their alogrithm for multiplying two integers.  For example, How would the Egyptians multiply 23 and 12? Their work all depends upon powers of two.   Writing out Powers of 2   Fill out the following tables with powers of two.      Powers of 2      value                                     value     1     2     4     8     16        The Egyption multiplication algorithm is sometimes referred to as the \"double method\", because the algorithm involves doubling one of the factors repeatedly. Let's do this with the first factor, 23.   Double 23   Fill out the third column of the table by repeatedly doubling 23.               1  23     2       4       8       16                       1  23     2  46     4  92     8  184     16  368        Now we need to write our other factor as a sum of powers of two. For example, .   Powers of 2 to get 12   Write 12 as a sum of powers of 2.         We determined earlier that , and we just need to add the corresponding rows from .                 1  23       2  46       4  92       8  184        16  368           Our Final Calculation   Add up the appropriate multiples of to calculate .    From , we see the entries in rows corredsponding to and are and . So we conclude that .       Another Multiplication Question   Multiply as would the Egyptians.      Mathematics of Babylon  Unfortunately, due to the again of papyrus, we have few resources to pull from regarding Egyptian mathematics. However, the Babylonians baked their writings in cuneiform on clay tablets. This more durable writing system has provided us with a lot of information regarding Babylonian mathematics dating back to 1700 BC.      The Babylonian cuneiform tablet: Plimpton 322    Babylon made a lot of advancement in mathematics with knowledge of cubic equations and Pythagoras' namesake, the Pythagorean Theorem (about 1000 years before Pythagoras), but we will just focus on the Babylonian number system.  Babylonians tracked numbers in base-60 (sexigesimal). Though that may sound odd, we still use sexigesimal systems when thinking about time (60 seconds to a minute) and angle measure ( in a circle).  So what does sexigesimal notation look like? Think about typing on a microwave. After a second, what does that microwave read? Not , right? The microwave knows that minute means seconds, and so after a second, we see .  Similarly, the Babylonian would write for what we mean by . We would read a number like base-60 as base-10.   Sexigesimal Practice   Convert into base-10.         Sexigesimal notation is particularly useful when dealing with fractions. For example, is , and by , the Babylonians meant .  To calculate , Babylonians would first find and then multiply it by . For example, is found first by finding and then multiply the result by to get     We finish our calculation by recognizing .   Practicing with Sexigesimal Fractions  Represent as a sexigesimal fraction.      Mathigon's Timeline of Mathematics       Mathigon has currated an interactive map of significant mathematical moments. We will now reference their timeline to answer the following questions.  Visit Mathigon's Timeline of Mathematics .    Find a mathematician from Asia. What contribution did he or she make?      Find a mathematician listed between 1600 and 1800 Asia. What contribution did he or she make?      Find a mathematician listed between te 20th and 21st. What contribution did he or she make?     "
 },
@@ -1427,7 +1589,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-history.html#subsec-advancements-3-1-3-2-1",
   "type": "Figure",
-  "number": "1.9.1",
+  "number": "1.10.1",
   "title": "",
   "body": "   Portrait of Rene Descartes traditionally attributed to Frans Hals  "
 },
@@ -1436,7 +1598,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-history.html#subsubsec-egyptian-2-1",
   "type": "Figure",
-  "number": "1.9.2",
+  "number": "1.10.2",
   "title": "",
   "body": "   One of two surviving Egyptian mathematical papyri: The Rhind Papyrus  "
 },
@@ -1445,7 +1607,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-history.html#ques-powersoftwo",
   "type": "Question",
-  "number": "1.9.3",
+  "number": "1.10.3",
   "title": "Writing out Powers of 2.",
   "body": " Writing out Powers of 2   Fill out the following tables with powers of two.      Powers of 2      value                                     value     1     2     4     8     16       "
 },
@@ -1454,7 +1616,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-history.html#ques-twos1",
   "type": "Question",
-  "number": "1.9.6",
+  "number": "1.10.6",
   "title": "Double 23.",
   "body": " Double 23   Fill out the third column of the table by repeatedly doubling 23.               1  23     2       4       8       16                       1  23     2  46     4  92     8  184     16  368       "
 },
@@ -1463,7 +1625,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-history.html#ques-twos2",
   "type": "Question",
-  "number": "1.9.9",
+  "number": "1.10.9",
   "title": "Powers of 2 to get 12.",
   "body": " Powers of 2 to get 12   Write 12 as a sum of powers of 2.        "
 },
@@ -1472,7 +1634,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-history.html#table23arrows",
   "type": "Table",
-  "number": "1.9.10",
+  "number": "1.10.10",
   "title": "",
   "body": "               1  23       2  46       4  92       8  184        16  368      "
 },
@@ -1481,7 +1643,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-history.html#ques-twos3",
   "type": "Question",
-  "number": "1.9.11",
+  "number": "1.10.11",
   "title": "Our Final Calculation.",
   "body": " Our Final Calculation   Add up the appropriate multiples of to calculate .    From , we see the entries in rows corredsponding to and are and . So we conclude that .   "
 },
@@ -1490,7 +1652,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-history.html#ques-egyptmult2",
   "type": "Question",
-  "number": "1.9.12",
+  "number": "1.10.12",
   "title": "Another Multiplication Question.",
   "body": " Another Multiplication Question   Multiply as would the Egyptians.   "
 },
@@ -1499,7 +1661,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-history.html#subsubsec-babylon-3-1",
   "type": "Figure",
-  "number": "1.9.13",
+  "number": "1.10.13",
   "title": "",
   "body": "   The Babylonian cuneiform tablet: Plimpton 322  "
 },
@@ -1508,7 +1670,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-history.html#ques-baby1",
   "type": "Question",
-  "number": "1.9.14",
+  "number": "1.10.14",
   "title": "Sexigesimal Practice.",
   "body": " Sexigesimal Practice   Convert into base-10.        "
 },
@@ -1517,7 +1679,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-history.html#ques-baby2",
   "type": "Question",
-  "number": "1.9.15",
+  "number": "1.10.15",
   "title": "Practicing with Sexigesimal Fractions.",
   "body": " Practicing with Sexigesimal Fractions  Represent as a sexigesimal fraction.  "
 },
@@ -1526,7 +1688,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-history.html#subsec-timeline-2",
   "type": "Figure",
-  "number": "1.9.16",
+  "number": "1.10.16",
   "title": "",
   "body": "   "
 },
@@ -1535,7 +1697,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-history.html#ques-timeline1",
   "type": "Question",
-  "number": "1.9.17",
+  "number": "1.10.17",
   "title": "",
   "body": "  Find a mathematician from Asia. What contribution did he or she make?   "
 },
@@ -1544,7 +1706,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-history.html#ques-timeline2",
   "type": "Question",
-  "number": "1.9.18",
+  "number": "1.10.18",
   "title": "",
   "body": "  Find a mathematician listed between 1600 and 1800 Asia. What contribution did he or she make?   "
 },
@@ -1553,7 +1715,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-history.html#ques-timeline3",
   "type": "Question",
-  "number": "1.9.19",
+  "number": "1.10.19",
   "title": "",
   "body": "  Find a mathematician listed between te 20th and 21st. What contribution did he or she make?   "
 },
@@ -1564,7 +1726,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "2.1",
   "title": "Harnessing <span class=\"process-math\">\\(\\infty\\)<\/span>",
-  "body": " Harnessing  \"What is the largest number you can think of?\" Hopefully, you see that is a question with no real answer. Maybe the closest we can come to answering that question is even though we know is not a number.  In fact, is a weird creature. It breaks some of our number-intuition. It feels like just does not behave. For example, can we add an infinite number of numbers and get something finite? We'll see that you can sometimes. Some of our normal addition rules act differently when is involved. For example, can help us show that ? Let's start with , and we know that Can't we do this forever?     This is a problem! Apparently, the associate law of addition doesn't play well with . You'll discuss this example in greater detail in a later course, but this is enough to show that can be very unusual.  Imagine a hotel with an infinite number of rooms that are all booked. This example is called Hilbert's Hotel and is a great example to show that does not behave with arithmetic like we typically like.        In Hilbert's hotel, how do we accommodate a new customer if all rooms are booked?      In Hilbert's hotel, how do we accommodate new customers if all rooms are booked?      In Hilbert's hotel, how do we accommodate an infinite new customers if all rooms are booked?    Rules like sound impossible, until we consider the strange creature we call .   Not always unpredictable  However, is not completely unpredictable in all cases. Actually, we should say that a pattern trending towards infinity is sometimes predictable.  For example, consider the function . What happens as the variable gets larger and larger (trends towards ).    Fill out the following table and make a decision about what happens to as trends towards .                                                          What's your decision?    So it seems as gets closer to , gets closer to 0. Let's try something else. This time, let's let get close to .    Fill out the following table and make a decision about what happens to as trends towards .                                                          What's your decision?    This time, seems to get larger and larger. We could say that as trends towards (at least from the positive side of the number line), trends towards .  Actually, a graph would make these trends obvious.       Movement On Paper  Trends like the ones we looked at in and are examples of limits , a foundational tool in the study of Calculus. We would write the conclusions from the past activities like We'll save defining limits clearly for your other coursework, but we can think about limits intuitively.  Firstly, we can think of limits as a way to introduce motion on paper. We \"watched\" the behavior of as \"moved\" towards . There are other examples in which we allow the number rectangles or the number of sides or the number terms and so on extend towards . The limit is similar to the play button on a YouTube video. When you see , you can just imagine some sort of movement or change on your paper.  Secondly, the limit is the tool that allows us to tame ... Well, not \"tame\" , but we can utilize with a limit to accomplish some incredible things. We don't tame the Mississippi River, but it is an enormous resource!    So what is Calculus?  So what is calculus exactly? Calculus is a multifaceted branch of mathematics that serves as the bedrock of an enormous number of applications in a a huge variety of fields. However, common to all of the underlying ideas of calculus is harnessing through limits to do something.  Let's look at some examples of how, in some cases, we can predict the infinite. The first should be familiar to us.   Limits of Functions   Limit of Functions  Use a table to evaluate (By , we mean we approach from the left side of the number line. Try using numbers like and so on.)     Geometric Series  Earlier, we added an infinite number of times. Can we actually add an infinite amount of numbers and get a finite answer? Calculus says, \"Yes! It is possible.\"  A geometric series is a summation of the powers of a number . So it looks like For a lot of numbers, this sum gets larger and larger, but if , the sum will equal . This should surprise you in some way. We can add up an infinite number of numbers and actually calculate the result with a nice, clean formula!   Finding Geometric Series   Calculuate the geometric series corresponding to :     The value of in this case is , which is less than , so our formula applies.     All of that adds up to ? Wow. What about if we let ?   Another Geometric Series   Calculuate the geometric series corresponding to :     Like , , so       An infinite number of mathematicians enter a bar. The first mathematician says, \"I'll take a drink.\" The second says, \"I'll have half of what he has.\" The next says, \"I will have half of what he (the 2nd mathematician) has.\"  After the fourth mathematician continues this pattern, the bar tender shouts \"HERE!\", slams down two drinks on the bar, and walks away.   Let's look at one more example.    Recursive Sequences  A sequence , , is just an infinite list of terms. A familiar example would be , the sequence of natural numbers. A sequence is different than a set in that the order of the terms matters. So is the term in the sequence . Make sense? The terms in a sequence typically are defined by a rule. For example, if , then   A sequence is a recursive sequence if the rule for involves earlier terms in the sequence. For example, suppose and, after the first term, . Then and so on.   Recursive Terms   What is in our recursive sequence?    The big question is whether this recurvise sequence, like the function and the geometric series we saw earlier, has a limit? The answer is \"yes\", but how would we find it?  If you take an analysis course (Maybe Advanced Calculus or Intro to Real Analysis), you will see questions like this, and to find a limit of our recursive sequence you would have to prove two important pieces of information. First, the terms in our sequence either need to get progessively smaller or larger with each sequential term, and secondly all of the terms must be smaller than some number and larger than another number (That is, for each term .).  If these two facts are true, then the Monotone Convergence Theorem guarantees the recursive sequence has a limit.  To save us some trouble, we'll use Sage to calculate a few terms of our sequence.     Use the Sage cell to make a hypothesis about if either is (1) increasing or decreasing and (2) bound above or below by a number.    It looks like is (1) decreasing and (2) bound above by 1 and below by 0. However, this is just a hypothesis.      Does the recursive sequence defined by and satisfy the conditions of the Monotone Convergence Theorem? (See the solution.)    Yes, it does, but proving that is beyond the scope of what we're doing here. It can be a little complicated.    In mathematics, it's not a good idea to take things for granted, but for the purpose of illustration, suppose we have shown that is decreasing (getting smaller with each term) and always larger than . That means that our sequence does have a limit. Let's call this mysterious limit point , and here's how we find what is.  We know that , and so that also means that (How would the very first term really affect what the sequence approaches towards ?). So   All of that to say that our limit satisfies the equation     Find the limit point of our sequence by solving the equation     This is just algebra at this point. So either or , but we already know that so .    This is a complicated example, but we are highlighting how even though can act strangely, we can use it to answer complicated quesetions... like how this sequence will trend towards !   "
+  "body": " Harnessing  \"What is the largest number you can think of?\" Hopefully, you see that is a question with no real answer. Maybe the closest we can come to answering that question is even though we know is not a number.  In fact, is a weird creature. It breaks some of our number-intuition. It feels like just does not behave. For example, can we add an infinite number of numbers and get something finite? We'll see that you can sometimes. Some of our normal addition rules act differently when is involved. For example, can help us show that ? Let's start with , and we know that Can't we do this forever?     This is a problem! Apparently, the associate law of addition doesn't play well with . You'll discuss this example in greater detail in a later course, but this is enough to show that can be very unusual.  Imagine a hotel with an infinite number of rooms that are all booked. This example is called Hilbert's Hotel and is a great example to show that does not behave with arithmetic like we typically like.        In Hilbert's hotel, how do we accommodate a new customer if all rooms are booked?      In Hilbert's hotel, how do we accommodate new customers if all rooms are booked?      In Hilbert's hotel, how do we accommodate an infinite new customers if all rooms are booked?    Rules like sound impossible, until we consider the strange creature we call .   Not always unpredictable  However, is not completely unpredictable in all cases. Actually, we should say that a pattern trending towards infinity is sometimes predictable.  For example, consider the function . What happens as the variable gets larger and larger (trends towards ).    Fill out the following table and make a decision about what happens to as trends towards .                                                          What's your decision?    So it seems as gets closer to , gets closer to 0. Let's try something else. This time, let's let get close to .    Fill out the following table and make a decision about what happens to as trends towards .                                                          What's your decision?    This time, seems to get larger and larger. We could say that as trends towards (at least from the positive side of the number line), trends towards .  Actually, a graph would make these trends obvious.    The graph of .     Movement On Paper  Trends like the ones we looked at in and are examples of limits , a foundational tool in the study of Calculus. We would write the conclusions from the past activities like We'll save defining limits clearly for your other coursework, but we can think about limits intuitively.  Firstly, we can think of limits as a way to introduce motion on paper. We \"watched\" the behavior of as \"moved\" towards . There are other examples in which we allow the number rectangles or the number of sides or the number terms and so on extend towards . The limit is similar to the play button on a YouTube video. When you see , you can just imagine some sort of movement or change on your paper.  Secondly, the limit is the tool that allows us to tame ... Well, not \"tame\" , but we can utilize with a limit to accomplish some incredible things. We don't tame the Mississippi River, but it is an enormous resource!    So what is Calculus?  So what is calculus exactly? Calculus is a multifaceted branch of mathematics that serves as the bedrock of an enormous number of applications in a a huge variety of fields. However, common to all of the underlying ideas of calculus is harnessing through limits to do something.  Let's look at some examples of how, in some cases, we can predict the infinite. The first should be familiar to us.   Limits of Functions   Limit of Functions  Use a table to evaluate (By , we mean we approach from the left side of the number line. Try using numbers like and so on.)     Geometric Series  Earlier, we added an infinite number of times. Can we actually add an infinite amount of numbers and get a finite answer? Calculus says, \"Yes! It is possible.\"  A geometric series is a summation of the powers of a number . So it looks like For a lot of numbers, this sum gets larger and larger, but if , the sum will equal . This should surprise you in some way. We can add up an infinite number of numbers and actually calculate the result with a nice, clean formula!   Finding Geometric Series   Calculuate the geometric series corresponding to :     The value of in this case is , which is less than , so our formula applies.     All of that adds up to ? Wow. What about if we let ?   Another Geometric Series   Calculuate the geometric series corresponding to :     Like , , so       An infinite number of mathematicians enter a bar. The first mathematician says, \"I'll take a drink.\" The second says, \"I'll have half of what he has.\" The next says, \"I will have half of what he (the 2nd mathematician) has.\"  After the fourth mathematician continues this pattern, the bar tender shouts \"HERE!\", slams down two drinks on the bar, and walks away.   Let's look at one more example.    Recursive Sequences  A sequence , , is just an infinite list of terms. A familiar example would be , the sequence of natural numbers. A sequence is different than a set in that the order of the terms matters. So is the term in the sequence . Make sense? The terms in a sequence typically are defined by a rule. For example, if , then   A sequence is a recursive sequence if the rule for involves earlier terms in the sequence. For example, suppose and, after the first term, . Then and so on.   Recursive Terms   What is in our recursive sequence?    The big question is whether this recurvise sequence, like the function and the geometric series we saw earlier, has a limit? The answer is \"yes\", but how would we find it?  If you take an analysis course (Maybe Advanced Calculus or Intro to Real Analysis), you will see questions like this, and to find a limit of our recursive sequence you would have to prove two important pieces of information. First, the terms in our sequence either need to get progessively smaller or larger with each sequential term, and secondly all of the terms must be smaller than some number and larger than another number (That is, for each term .).  If these two facts are true, then the Monotone Convergence Theorem guarantees the recursive sequence has a limit.  To save us some trouble, we'll use Sage to calculate a few terms of our sequence.     Use the Sage cell to make a hypothesis about if either is (1) increasing or decreasing and (2) bound above or below by a number.    It looks like is (1) decreasing and (2) bound above by 1 and below by 0. However, this is just a hypothesis.      Does the recursive sequence defined by and satisfy the conditions of the Monotone Convergence Theorem? (See the solution.)    Yes, it does, but proving that is beyond the scope of what we're doing here. It can be a little complicated.    In mathematics, it's not a good idea to take things for granted, but for the purpose of illustration, suppose we have shown that is decreasing (getting smaller with each term) and always larger than . That means that our sequence does have a limit. Let's call this mysterious limit point , and here's how we find what is.  We know that , and so that also means that (How would the very first term really affect what the sequence approaches towards ?). So   All of that to say that our limit satisfies the equation     Find the limit point of our sequence by solving the equation     This is just algebra at this point. So either or , but we already know that so .    This is a complicated example, but we are highlighting how even though can act strangely, we can use it to answer complicated quesetions... like how this sequence will trend towards !   "
 },
 {
   "id": "sec-harnessinf-6",
@@ -1636,7 +1798,7 @@ var ptx_lunr_docs = [
   "type": "Figure",
   "number": "2.1.7",
   "title": "",
-  "body": "  "
+  "body": "  The graph of .  "
 },
 {
   "id": "subsec-movementonpaper-2",
@@ -2377,11 +2539,56 @@ var ptx_lunr_docs = [
   "body": " Showing Off Polar Plots  In a small group, make a Desmos plot of polar plot (or plots) to share with the class. The class will vote, and the winning group will be the \"Polar Royals\".     "
 },
 {
+  "id": "sec-pipe-algebra",
+  "level": "1",
+  "url": "sec-pipe-algebra.html",
+  "type": "Section",
+  "number": "3.1",
+  "title": "Pipe Algebra",
+  "body": " Pipe Algebra  If you were born sometime after the mid-80's, chances are you have played a popular game featuring a pair of Italian plumbers. Something about pipes.  Imagine a pipe network like the one in . In this figure, we mark the volume of water moving across these pipes over a given period of time (we call that the flow rate ) as well as the direction of flow along the pipes. As you can see, we can measure the flow rate on some of the pipes, but not all of them. But we would really like to know the how much water is passing through all of them.     At each intersection point, you might notice there are some pipes flowing into that point and others flowing out. Actually, that observation might give us some insight.    Suppose we know that 100 cubic meters of water is flowing into one intersection point. How much water is flowing out of that intersection point?    The water can't stay at the intersection point, so 100 cubic meters is flowing out from that point.    We now know that at a given intersection point, the total that flows into the intersection is the same as the total flow that flows out from that intersection point. This introduces an equation! This principle is referred to Kirchoff's Law of Flow .  So our question is, \"What possible values along the pipes marked through satisfy Kirchoff's Law of Flow?\" If we can answer this question, then we will know all of the flowrates along our pipe system.  "
+},
+{
+  "id": "sec-pipe-algebra-3",
+  "level": "2",
+  "url": "sec-pipe-algebra.html#sec-pipe-algebra-3",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "flow rate "
+},
+{
+  "id": "sec-pipe-algebra-4",
+  "level": "2",
+  "url": "sec-pipe-algebra.html#sec-pipe-algebra-4",
+  "type": "Figure",
+  "number": "3.1.1",
+  "title": "",
+  "body": "  "
+},
+{
+  "id": "q-kirchoff",
+  "level": "2",
+  "url": "sec-pipe-algebra.html#q-kirchoff",
+  "type": "Question",
+  "number": "3.1.2",
+  "title": "",
+  "body": "  Suppose we know that 100 cubic meters of water is flowing into one intersection point. How much water is flowing out of that intersection point?    The water can't stay at the intersection point, so 100 cubic meters is flowing out from that point.   "
+},
+{
+  "id": "sec-pipe-algebra-7",
+  "level": "2",
+  "url": "sec-pipe-algebra.html#sec-pipe-algebra-7",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Kirchoff's Law of Flow "
+},
+{
   "id": "sec-groups",
   "level": "1",
   "url": "sec-groups.html",
   "type": "Section",
-  "number": "3.1",
+  "number": "3.2",
   "title": "Algebra Shapes and Groups",
   "body": " Algebra Shapes and Groups  Imagine a game board with four squares (like a chessboard) labelled through , and one token placed on a square. This is a rather simple game, all we can do is move the token to the right, and if the token moves off the board, it goes back to spot .  We can map out all possible moves of this game with a simple chart. We'll write to mean the token starts in slot and travels moves to the right.    Fill out the chart of all possible moves of the token on a chessboard.                                                                        This game is rather boring... is it even a game? But it illustrates how we can uncover the underlying structure mathematically of something.   Algebra's Goal  If we ever make contact with an extraterrestrial society, how could we ever hope to communicate with them? We think that mathematics is our best chance of communicating with intelligent life. We are pretty confident that if they have the means to send and receive messages, they will have an understanding of mathematics.  But what does their alien math look like? We would be very suprised to find the Mean Value Theorem or the Four Color Theorem in their writings, right? At least with the same phrasing we use, BUT we would not be surprised if they had their own versions of these results.  Modern algebra seeks to explore \"deeper\" structures of mathematical systems, so that we can recognize familiar math in unfamiliar environments. Can we find the big picture patterns of mathematics? That is our goal with higher algebra.    A Familiar Pattern  Let's find another underlying structure. Define the set where , and consider multiplication in this set. We should point out that if we multiply two things in , the result is also in , and this property is called closure . As an example,     Fill out the multiplication table for set                                                                         Do you notice any similarities between and ? Tables like these are called Cayley Tables , and one use of Cayley Tables is highlighting patterns. Even though we have different contexts, different sets, and even different operations, in some way they are the same thing.   Underlying Cayley Table     Algebraists can show that the context of the token on the chessboard and the multiplicative powers of are, in fact, the same. What we mean, actually, is that they operate the same way. We say they are isomorphic (meaning \"same shape\"), and in an algebra course we can prove these things are isomorphic.    What is a Group?  Both of the previous examples are examles of one of the simplest algebraic structures: the group . We have found two groups, so far, and highlighted that they are isomorphic, but what exactly is a group?  The group is a set paired with an operation (let's say ) that satisfies a short list of properties. The first two are familar to us.   the closure property: if , then     the associative property: for any ,      To show the last two properties, let's consider the two examples we discussed earlier. Let be paired with multiplication as earlier, and let be paired with addition defined by such: the token starting at square moving squares to the right will rest on square .   Identity Elements  How is a number affected when multiplied by ? What about when summed with ?  By using the Caylet Tables from earlier, we can see in set , there is an element, , so that for any other element , . In other words, multiplying by changes nothing. An element like is known as the identity of .    What is the identity of the group with operation ?    The identity is .      What is the identity of the group with operation ?    The identity is .    The third property of groups is that every group has an identity . There is an element such for any element , .    Inverse Elements  Consider the token game once again, and suppose we start on square and move spaces to right to end up on square . Can we make another move to end up back on square ? In general, if we start on square and move squares to the right. We can only move right, but is it possible to keep moving right until we end up back on square ?    After moving squares, starting at square , determine how many squares you must traverse to get back to square for .    If , we must move squares. If , we must traverse squares to return to square . Similarly, we travel squares and square respectively for respectively.    So for any square , there is a number of squares that results in landing on square . In other words, for any , there is a where . In this case, we say is the inverse of . Remember that serves a special role in : the identity.  The last property of group is the inverse property . That is, for any , there is an element , where , where is the identity of . In other words, starting with any element, we can get back to the group's identity through the inverse. We often denote the inverse of as .    Determine the inverses of the elements of .    We know , so is its own inverse. Also , and so and are inverses of each other. Lastly, , and so is its own inverse.       Why do we think about groups?  If we can prove a statement about a generic group , then we know that statement will apply to any group we find! Knowing things about groups will help us find the familiar patterns in unfamiliar environments.  So proving a statement about a group proves statements in an many different contexts (sometimes an infinite number of contexts). Thinking in generalized terms is a powerful way to approach math, and mathematicians like to generalize for that very reason.  For example, here are some things we know about groups.   Let be a group. Then    has exactly one identity.    for any , has exactly one inverse.    for any , .    for any ,         You might know some groups already. Do you think the following sets are groups with the given operation?    Is set with operation a group? If not, why? For our purposes, just think about the identity and inverses.    all integers; addition     all real numbers; addition     all real numbers; multiplication     all real numbers except ; multiplication           all integers; addition  Yes! The identity is , and the inverse of is .     all real numbers; addition  Yes! The identity is , and the inverse of is .     all real numbers; multiplication  No! :( The identity is , but for any . So has no inverse.     all real numbers except ; multiplication  Yes! The identity is , and the inverse of is . If is not in the picture, we can never obtain through multiplication.         A Group of Squares  Let's look at one last example of a group. Take a square with corners labelled (We would recommend cutting one out of paper), and we will say a \"symmetry\" of the square is an action in which we pick up the square, do something to it, and put it down again so that it takes up the same space it did before. For example, we can rotate the square , and it will rest on the exact same space where it started.  There are eight symmetries of the square. Can you find them?    What are the eight basic symmetries of the square?    There are four rotations: rotating , , , .  There are also four flips: flip along a horizontal axis, along a vertical axis, along a northwest diagonal, and along a northeast diagonal.    Let's call this set of symmetries . Here, we call a rotation of  .  FIGURE  What if we did two of these symmetries? Do we get something new? For symmetries and , the composition is the result of first applying and then applying .  For example, means we first rotate the square and then another . Is this a new symmetry? No... it's just . Are any of them new?    In groups, fill out a Cayley table for . Don't assumer that  shows a calculator for the symmetries of a squre. This may be useful!                                                                                                                                                                                                     Symmetries of a Square Calculator    So does with form a group? You just showed it is closed. We will tell you it is associative. Does have an identity? Yes, . Does have inverses?    What are the inverses for elements of ?     "
 },
@@ -2390,7 +2597,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-groups.html#act-goups2",
   "type": "Activity",
-  "number": "3.1.1",
+  "number": "3.2.1",
   "title": "",
   "body": "  Fill out the chart of all possible moves of the token on a chessboard.                                                                       "
 },
@@ -2408,7 +2615,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-groups.html#act-groups1",
   "type": "Activity",
-  "number": "3.1.2",
+  "number": "3.2.2",
   "title": "",
   "body": "  Fill out the multiplication table for set                                                                        "
 },
@@ -2426,7 +2633,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-groups.html#fig-isomorphism",
   "type": "Figure",
-  "number": "3.1.3",
+  "number": "3.2.3",
   "title": "",
   "body": " Underlying Cayley Table    "
 },
@@ -2471,7 +2678,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-groups.html#ques-identity1",
   "type": "Question",
-  "number": "3.1.4",
+  "number": "3.2.4",
   "title": "",
   "body": "  What is the identity of the group with operation ?    The identity is .   "
 },
@@ -2480,7 +2687,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-groups.html#ques-identity2",
   "type": "Question",
-  "number": "3.1.5",
+  "number": "3.2.5",
   "title": "",
   "body": "  What is the identity of the group with operation ?    The identity is .   "
 },
@@ -2498,7 +2705,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-groups.html#ques-inverse1",
   "type": "Question",
-  "number": "3.1.6",
+  "number": "3.2.6",
   "title": "",
   "body": "  After moving squares, starting at square , determine how many squares you must traverse to get back to square for .    If , we must move squares. If , we must traverse squares to return to square . Similarly, we travel squares and square respectively for respectively.   "
 },
@@ -2525,7 +2732,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-groups.html#ques-inverse2",
   "type": "Question",
-  "number": "3.1.7",
+  "number": "3.2.7",
   "title": "",
   "body": "  Determine the inverses of the elements of .    We know , so is its own inverse. Also , and so and are inverses of each other. Lastly, , and so is its own inverse.   "
 },
@@ -2534,7 +2741,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-groups.html#thm-identity",
   "type": "Theorem",
-  "number": "3.1.8",
+  "number": "3.2.8",
   "title": "",
   "body": "  Let be a group. Then    has exactly one identity.    for any , has exactly one inverse.    for any , .    for any ,       "
 },
@@ -2543,7 +2750,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-groups.html#ques-groups1",
   "type": "Question",
-  "number": "3.1.9",
+  "number": "3.2.9",
   "title": "",
   "body": "  Is set with operation a group? If not, why? For our purposes, just think about the identity and inverses.    all integers; addition     all real numbers; addition     all real numbers; multiplication     all real numbers except ; multiplication           all integers; addition  Yes! The identity is , and the inverse of is .     all real numbers; addition  Yes! The identity is , and the inverse of is .     all real numbers; multiplication  No! :( The identity is , but for any . So has no inverse.     all real numbers except ; multiplication  Yes! The identity is , and the inverse of is . If is not in the picture, we can never obtain through multiplication.      "
 },
@@ -2552,7 +2759,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-groups.html#ques-dihedral1",
   "type": "Question",
-  "number": "3.1.10",
+  "number": "3.2.10",
   "title": "",
   "body": "  What are the eight basic symmetries of the square?    There are four rotations: rotating , , , .  There are also four flips: flip along a horizontal axis, along a vertical axis, along a northwest diagonal, and along a northeast diagonal.   "
 },
@@ -2561,7 +2768,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-groups.html#act-dihedral1",
   "type": "Activity",
-  "number": "3.1.3",
+  "number": "3.2.3",
   "title": "",
   "body": "  In groups, fill out a Cayley table for . Don't assumer that  shows a calculator for the symmetries of a squre. This may be useful!                                                                                                                                                                                                   "
 },
@@ -2570,7 +2777,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-groups.html#fig-dihedral1",
   "type": "Figure",
-  "number": "3.1.12",
+  "number": "3.2.12",
   "title": "",
   "body": " Symmetries of a Square Calculator   "
 },
@@ -2579,9 +2786,54 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-groups.html#ques-dihedral2",
   "type": "Question",
-  "number": "3.1.13",
+  "number": "3.2.13",
   "title": "",
   "body": "  What are the inverses for elements of ?   "
+},
+{
+  "id": "sec-biggestprime",
+  "level": "1",
+  "url": "sec-biggestprime.html",
+  "type": "Section",
+  "number": "4.1",
+  "title": "The Biggest Prime",
+  "body": " The Biggest Prime  What's the largest number you can think of? Can you ever really answer that question? Maybe not truthfully, but maybe we can ask about certain types of numbers.  What about primes? Is there a biggest prime? Euclid, in 300 BC, told answered this question with \"no\". He showed us that there an infinite number of primes. But surely there is a largest prime that we know of... right?    Without consulting any references, what's the largest prime number you can think of?    But what about all of humanity? What is the largest prime that we know of?   In 2020, the MAA magazine, Math Horizons, featured an article by Scott Williams, \"How Big is the 'Biggest' Prime?\". Read this article to answer the following questions.  What was the largest known prime number as of 2020?  What are Mersenne primes?  What organization is in search of Mersenne primes? How many have been discovered since the search began in 1996?  What are some other categories of prime numbers other than Mersenne primes?  What size LEGO brick would be required to span the observable universe? How does this compare with the largest known prime number?  What other scales of measurement does the article use to put in perspective how large the largest known prime number is?   Research into primes is on-going. Have we made any progress since the writing of this article?    Do a quick online search to find what the largest known prime number is as of today.     Math Horizons  The MAA oversees several publications spanning a variety mathematical topics inteded for a variety of audiences. Some journals, such as Math Magazine and the College Mathematics Journal, feature peer-reviewed research articles with novel results in mathematics.  Math Horizons, though, is inteded for an undergraduate audience. Math Horizons feature accessible, engaging, and fun articles about mathematical topics. According to the MAA, \"Math Horizons is a vibrant and accessible forum for practitioners, students, educators, and enthusiasts of mathematics, dedicated to exploring the folklore, characters, and current happenings in mathematical culture.\"     If you are a member of the MAA, then you have access to Math Horizons! Check out more of Math Horizons here.    "
+},
+{
+  "id": "q-largeprime",
+  "level": "2",
+  "url": "sec-biggestprime.html#q-largeprime",
+  "type": "Question",
+  "number": "4.1.1",
+  "title": "",
+  "body": "  Without consulting any references, what's the largest prime number you can think of?   "
+},
+{
+  "id": "act-readbiggestprime",
+  "level": "2",
+  "url": "sec-biggestprime.html#act-readbiggestprime",
+  "type": "Activity",
+  "number": "4.1.1",
+  "title": "",
+  "body": " In 2020, the MAA magazine, Math Horizons, featured an article by Scott Williams, \"How Big is the 'Biggest' Prime?\". Read this article to answer the following questions.  What was the largest known prime number as of 2020?  What are Mersenne primes?  What organization is in search of Mersenne primes? How many have been discovered since the search began in 1996?  What are some other categories of prime numbers other than Mersenne primes?  What size LEGO brick would be required to span the observable universe? How does this compare with the largest known prime number?  What other scales of measurement does the article use to put in perspective how large the largest known prime number is?  "
+},
+{
+  "id": "q-largestprime",
+  "level": "2",
+  "url": "sec-biggestprime.html#q-largestprime",
+  "type": "Question",
+  "number": "4.1.8",
+  "title": "",
+  "body": "  Do a quick online search to find what the largest known prime number is as of today.   "
+},
+{
+  "id": "subsec-mathhorizons-4",
+  "level": "2",
+  "url": "sec-biggestprime.html#subsec-mathhorizons-4",
+  "type": "Figure",
+  "number": "4.1.9",
+  "title": "",
+  "body": "  "
 },
 {
   "id": "backmatter-2",
