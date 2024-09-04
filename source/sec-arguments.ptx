@@ -149,7 +149,7 @@
         </example>
 
         <question xml:id="q-modustullens1">
-          <title>Modus Tollenss</title>
+          <title>Modus Tollens</title>
             <statement>
               <p>
                 Craft a modus tollens argument of your own.
@@ -207,9 +207,7 @@
               where this is false.
             </p>
           </statement>
-          
-          
-          
+  
         </question>
 
         <p>
