@@ -11,29 +11,303 @@
 
     <p>
       This may be hard to believe, but sometimes politicians try to convince their audience 
-     about taking a position with bad improper tactics. We would say that in these instances they make a
+     to take a position with improper tactics. We would say that in these instances they make a
      flawed argument. Circa 300 BC, as the Greek politicians scrambled for influence, the great philosopher Aristotle 
      began developing a system to analyze arguments. This system became what we know as "classical logic", and because of his work, 
-     Aristotle is known as the father of logic.
+     Aristotle (382-322 BC)is known as the father of logic.
 
      <figure>
       <image xml:id="fig-aristotle" source="aristotle.jpg" width="60%" />
+      <caption>Aristotle</caption>
     </figure>
     </p>
 
     <p>
       To know how to analyze arguments, we should define what an argument is. An <term>argument</term> is simply a sequence
-      of logical statements. The <term>conclusion</term> is the ending statement of the argument, and a <term>premise</term> is
+      of logical statements. The <term>conclusion</term> of an arugment is the ending statement of the argument, and a <term>premise</term> is
       a logical statement used to support the conclusion.
     </p>
-    <p> So an argument is a sequence of statements? Obviously we can make nonsensical sequences of statements, so how do we know
-      if an argument is a good one or not? 
-       An argument is <term>valid</term> if the conclusion is logically supported
-    </p>
+
     <p>
-      Good understanding of logic can help us determine whether a given argument is valid or not.
-      We already looked at some basic logic principles in <xref ref="sec-logicpuzzle"/>, namely the 
-      conditional <m>p \rightarrow q</m> and the contrapositive <m> \sim q \rightarrow \sim p</m>.
+      For example: All cheaters sit in the back row. Monty sits in the back row. Therefore, Monty is a cheater.
     </p>
 
+    <question xml:id="q-validarg1">
+      <statement>
+        <p>
+          Without any knowledge of how to validate an argument, do you think the previous argument is
+          a valid one?
+        </p>
+      </statement>
+    </question>
+    <p> So an argument is a sequence of statements? Obviously we can make nonsensical sequences of statements, so how do we know
+      if an argument is a good one or not? 
+      We say an argument is <term>valid</term> if the conclusion is logically supported by its premises, so the argument
+      from <xref ref="q-validarg1"/> is not valid since non-cheaters could sit in the back row.
+    </p>
+
+    <subsection xml:id="subsec-commonarguments">
+      <title>Common Arguments</title>
+
+      <p>
+        So how do we determine an argument to be valid? With logic.
+      </p>
+
+      <p>
+        Good understanding of logic can help us determine whether a given argument is valid or not.
+        We already looked at some basic logic principles in <xref ref="sec-logicpuzzle"/>, namely the 
+        conditional <m>p \rightarrow q</m> and the contrapositive <m> \sim q \rightarrow \sim p</m>. These two 
+        statements provide the framework of the two most basic, valid arguments.
+      </p>
+
+      <subsubsection xml:id="subsubsec-modusponens">
+        <title>Modus Ponens</title>
+
+        <p>
+          The <term>modus ponens</term> argument (translated from "affirming mode") consists of three parts
+          <ol>
+            <li>
+              <p>
+                <m>p \rightarrow q</m>
+              </p>
+            </li>
+            <li>
+              <p>
+                <m>p</m>
+              </p>
+            </li>
+            <li>
+              <p>
+                Therefore, <m>q</m>.
+              </p>
+            </li>
+          </ol>
+        </p>
+        
+        <p>
+          The modus ponens argument is simply saying, "if <m>p</m> happens, then so does <m>q</m> and <m>p</m> happens (or is true). Therefore,
+          <m>q</m> happens as well (or is also true)". This is definitely a valid argument.
+        </p>
+
+        <example xml:id="ex-modusponens">
+          <title>Modus Ponens</title>
+           
+          <p>
+            For example: All men are mortal. Socrates is a man. Therefore Socrates is mortal.
+          </p>
+          
+        </example>
+
+        <question xml:id="q-modusponens1">
+          <title>Modus Ponens</title>
+            <statement>
+              <p>
+                Craft a modus ponens argument of your own.
+              </p>
+            </statement>          
+        </question>
+
+
+      </subsubsection>
+
+      <subsubsection xml:id="subsubsec-modustollens">
+        <title>Modus Tollens</title>
+
+        <p>
+          Like modus ponens, the <term>modus tollens</term> argument (translated from "method of denying") consists of three parts
+          <ol>
+            <li>
+              <p>
+                <m>p \rightarrow q</m>
+              </p>
+            </li>
+            <li>
+              <p>
+                <m>\sim q</m>
+              </p>
+            </li>
+            <li>
+              <p>
+                Therefore, <m>\sim p</m>.
+              </p>
+            </li>
+          </ol>
+        </p>
+        
+        <p>
+          The modus tollens argument makes use of the contrapositive. It's saying, "if <m>p</m> happens, then so does <m>q</m> and <m>q</m> does not happen (or is false). Therefore,
+          <m>p</m> does not happen (or is also false)". This is also a valid argument.
+        </p>
+
+        <example xml:id="ex-modustullens">
+          <title>Modus Tollens</title>
+           
+          <p>
+            For example: If it's a bird, then it lays eggs. It does not lay eggs. Therefore, it's not a bird.
+          </p>
+          
+        </example>
+
+        <question xml:id="q-modustullens1">
+          <title>Modus Tollenss</title>
+            <statement>
+              <p>
+                Craft a modus tollens argument of your own.
+              </p>
+            </statement>          
+        </question>
+      </subsubsection>
+
+    </subsection>
+
+      <subsection xml:id="subsubsec-commonerrors">
+        <title>Common Errors</title>
+
+        <p>
+          What about this example? If it's a bird, then it lays eggs. It lays eggs. Therefore, it's a bird. Is this a valid argument?
+        </p>
+
+        <subsubsection xml:id="subsubsec-converseerrors">
+          <title>Converse Errors</title>
+          
+        <p>
+          Nah. This is not a valid argument. 
+        </p>
+
+        <p>
+          We just made <term>converse error</term>, and invalide argument of the form 
+          <ol>
+            <li>
+              <p>
+                <m>p \rightarrow q</m>
+              </p>
+            </li>
+            <li>
+              <p>
+                q
+              </p>
+            </li>
+            <li>
+              <p>
+                Therefore, <m>p</m>.
+              </p>
+            </li>
+          </ol>
+        </p>
+
+        <p>
+         But we can think of several instances in which this is not a valid argument.
+        </p>
+
+        <question xml:id="q-converseerror1">
+          <title>Eggs and Birds?</title>
+          <statement>
+            <p>
+              We incorrectly concluded that since it lays eggs, it's a bird. Give an example
+              where this is false.
+            </p>
+          </statement>
+          
+          
+          
+        </question>
+
+        <p>
+          Sadly, converse errors are used all the time! Feel empowered to recognize them and point them out!
+        </p>
+
+      </subsubsection>
+        
+        <subsubsection xml:id="subsubsec-inverse">
+          <title>Inverse Errors</title>
+
+          <p>
+            What about this example? If the boy rides his skateboard wrecklessly, then he will break his arm. 
+            He did not ride his skateboard wrecklessly. Therefore, he did not break his arm.
+          </p>
+
+          <p>
+            There's more than one way to break an arm, right?
+          </p>
+
+          <p>
+            We just made an <term>inverse error</term> with this invalid argument form
+            <ol>
+              <li>
+                <p>
+                  <m>p \rightarrow q </m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>\sim p</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>\sim q.</m>
+                </p>
+              </li>
+            </ol>
+          </p>
+
+          <p>
+            Remember, that an argument is valid if its conclusion is supported by its premises. The conclusion
+            <m>\sim q</m> is not supported logically by the other premises.
+          </p>
+          
+        </subsubsection>
+      
+  
+      
+    </subsection>
+
+    <subsection xml:id="subsec-arguments">
+      <title>More Arguments</title>
+
+      <p>
+        Determine if the following are valid arguments or not.
+      </p>
+
+      <question xml:id="q-args1">
+        <statement>
+          <p>
+            All cheaters sit in the back row. Monty sits in the back row. Therefore, Monty is a cheater.
+          </p>
+        </statement>
+        
+      </question>
+
+      <question xml:id="q-args2">
+        <statement>
+          <p>
+            All freshman must take writing. Caroline is a freshman. Therefore, Caroline must take writing.
+          </p>
+        </statement>
+        
+      </question>
+
+      <question xml:id="q-args3">
+        <statement>
+          <p>
+            All honest people pay their taxes. Darth is not honest. Therefore, Darth does not pay his taxes.
+          </p>
+        </statement>
+        
+      </question>
+
+      <question xml:id="q-args4">
+        <statement>
+          <p>
+            If an infinite series converges, then its terms go to 0. The terms of the infinite series <m>\sum_{n=1}^{\infty} \dfrac{n}{n+1}</m> do not go to 0.
+            The infinite series <m>\sum_{n=1}^{\infty} \dfrac{n}{n+1}</m> does not converge.
+          </p>
+        </statement>
+        
+      </question>
+      
+    </subsection>
+
+
+    
 </section>
